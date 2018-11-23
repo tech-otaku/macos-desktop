@@ -45,7 +45,7 @@
 #   lastrow[0] = row id of the row in the `data` table with the highest row id
 #   lastrow[1] = row id of the row in the `preferences` table with the highest row id
 
-    db=$HOME/Library/Application\ Support/Dock/desktoppicture.db
+    db=${HOME}/Library/Application\ Support/Dock/desktoppicture.db
 
 
 
@@ -113,7 +113,6 @@
 
 
 # We've got this far, let's close System Preferences – if open – before continuing.
-    #osascript -e 'tell app "System Preferences" to quit'
     killall System\ Preferences > /dev/null 2>&1    # Write STDOUT and STDERR to /dev/null to supress messages if process isn't running
 
 
@@ -218,5 +217,4 @@
     killall Dock
 
 # Restore the user's ~/.sqliterc configuration file (if) renamed earlier in this script.
-
     restore_sqliterc
