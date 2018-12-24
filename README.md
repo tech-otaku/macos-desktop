@@ -4,7 +4,7 @@
 Set a user's Desktop image in macOS Mojave 10.14 from the command line. See [Limitations](#limitations)
 
 ## Background
-An explanation for why this script does what it does can be found at [Setting the Desktop Image in Macos Mojave From the Command Line](https://www.tech-otaku.com/mac/setting-desktop-image-macos-mojave-from-command-line)
+An explanation for why this script does what it does can be found at [Setting the Desktop Image in macOS Mojave From the Command Line](https://www.tech-otaku.com/mac/setting-desktop-image-macos-mojave-from-command-line)
 
 ## Usage
 `[bash] /path/to/set-desktop-mojave.sh <desktop image>`
