@@ -147,9 +147,11 @@
                 mv "$db" $HOME/Library/Application\ Support/Dock/backup/desktoppicture-$(date '+%H-%M-%S').db     # rename the current database [backup/desktoppicture-hh-mm-ss.db] first
                 killall Dock    # As desktoppicture.db no longer exists, this creates a new one with default values
                 echo "The Desktop image has been set to the default."
+                restore_sqliterc
                 exit 0
             else
                 echo "ERROR: The 'default' option is only appropriate when the database is $HOME/Library/Application Support/Dock/desktoppicture.db"
+                restore_sqliterc
                 exit 1
             fi
             ;;
