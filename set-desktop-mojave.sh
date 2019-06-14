@@ -65,9 +65,9 @@
 # USAGE CHECKS
 #
 
-# Exit with error if OS version is not 10.14
-    if [ $(system_profiler SPSoftwareDataType | awk '/System Version/ {print $4}' | cut -d . -f 2) -ne 14 ]; then
-        echo "ERROR: For use with macOS Mojave 10.14.x only."
+# Exit with error if OS version is not 10.14 or later
+    if [ $(system_profiler SPSoftwareDataType | awk '/System Version/ {print $4}' | cut -d . -f 2) -lt 14 ]; then
+        echo "ERROR: For use with macOS Mojave 10.14.x and later."
         restore_sqliterc
         exit 1
     fi
