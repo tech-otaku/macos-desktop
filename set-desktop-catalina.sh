@@ -6,7 +6,7 @@
 # URL: https://github.com/tech-otaku/macos-desktop.git
 # README: https://github.com/tech-otaku/macos-desktop/blob/master/README.md
 
-# USAGE: [bash] /path/to/set-desktop-mojave.sh <desktop image>
+# USAGE: [bash] /path/to/set-desktop-catalina.sh <desktop image>
 
     # Where <desktop image> can be...
         # HEIF (.heic) images
@@ -22,7 +22,7 @@
         # Other
             # default = set the database [$db] to the default
 
-# EXAMPLE: [bash] /path/to/set-desktop-mojave.sh light
+# EXAMPLE: [bash] /path/to/set-desktop-catalina.sh light
 
 
 
