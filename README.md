@@ -14,7 +14,7 @@ Jump to information on [macOS Mojave 10.14](#macos-mojave-1014)
 Set a user's Desktop image in macOS Catalina 10.15 from the command line. See [Limitations](#limitations)
 
 ## Background
-An explanation of how Desktop images appear to be managed by macOS since Mojave (10.14) can be found at [Setting the Desktop Image in macOS Mojave From the Command Line](https://www.tech-otaku.com/mac/setting-desktop-image-macos-mojave-from-command-line). While this article was written before the release of the Catalina Beta, it is still relevant to 10.15. 
+An explanation of how Desktop images appear to be managed by macOS since Mojave (10.14) can be found at [Setting the Desktop Image in macOS Mojave From the Command Line](https://www.tech-otaku.com/mac/setting-desktop-image-macos-mojave-from-command-line). While this article was written before the release of the Catalina Beta, the majority is still relevant to 10.15. 
 
 ## Usage
 `[bash] /path/to/set-desktop-catalina.sh <desktop image>`
