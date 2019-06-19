@@ -8,7 +8,7 @@ Jump to information on [macOS Mojave 10.14](#macos-mojave-1014)
 
 # macOS Mojave 10.15
 
-**IMPORTANT**: `set-desktop-catalina.sh` has been tested using macOS Catalina Beta [ Build 19A487l ]
+**IMPORTANT**: `set-desktop-catalina.sh` has been tested using **macOS Catalina Beta [ Build 19A487l ]**
 
 ## Purpose
 Set a user's Desktop image in macOS Catalina 10.15 from the command line. See [Limitations](#limitations)
