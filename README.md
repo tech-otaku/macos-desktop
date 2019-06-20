@@ -47,10 +47,10 @@ An explanation of how Desktop images appear to be managed by macOS since Mojave 
 #### non-HEIF (.heic) images
 
 ###### High Sierra
-`[bash] /path/to/set-desktop-catalina.sh "/Library/Desktop Pictures/High Sierra.jpg"`
+`[bash] /path/to/set-desktop-catalina.sh "/System/Library/Desktop Pictures/High Sierra.jpg"`
 
 ###### Ink Cloud
-`[bash] /path/to/set-desktop-catalina.sh "/Library/Desktop Pictures/Ink Cloud.jpg"`
+`[bash] /path/to/set-desktop-catalina.sh "/System/Library/Desktop Pictures/Ink Cloud.jpg"`
 
 #### Other
 
