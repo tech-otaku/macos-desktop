@@ -1,23 +1,28 @@
 #!/usr/bin/env bash
 
+# Tested using macOS Catalina 10.15 Beta [ Builds 19A487l and 19A487m  ]
+
 # AUTHOR: Steve Ward [steve@tech-otaku.com]
 # URL: https://github.com/tech-otaku/macos-desktop.git
 # README: https://github.com/tech-otaku/macos-desktop/blob/master/README.md
 
-# USAGE: [bash] /path/to/set-desktop-mojave.sh <desktop image>
+# USAGE: [bash] /path/to/set-desktop-catalina.sh <desktop image>
 
     # Where <desktop image> can be...
         # HEIF (.heic) images
+            # catalina = Catalina Automatic
+            # light = Catalina Light (Still)
+            # dark = Catalina Dark (Still)
             # mojave = Mojave Dynamic
-            # light = Mojave Light (Still)
-            # dark = Mojave Dark (Still)
+            # mojave-light = Mojave Light (Still)
+            # mojave-dark = Mojave Dark (Still)
             # solar = Solar Gradients
         # non-HEIF (.heic) images e.g.
-            # "/Library/Desktop Pictures/High Sierra.jpg"
+            # "/System/Library/Desktop Pictures/High Sierra.jpg"
         # Other
             # default = set the database [$db] to the default
 
-# EXAMPLE: [bash] /path/to/set-desktop-mojave.sh light
+# EXAMPLE: [bash] /path/to/set-desktop-catalina.sh light
 
 
 
@@ -65,9 +70,9 @@
 # USAGE CHECKS
 #
 
-# Exit with error if OS version is not 10.14 or later
-    if [ $(system_profiler SPSoftwareDataType | awk '/System Version/ {print $4}' | cut -d . -f 2) -lt 14 ]; then
-        echo "ERROR: For use with macOS Mojave 10.14.x and later."
+# Exit with error if OS version is not 10.15
+    if [ $(system_profiler SPSoftwareDataType | awk '/System Version/ {print $4}' | cut -d . -f 2) -ne 15 ]; then
+        echo "ERROR: For use with macOS Catalina 10.15.x only."
         restore_sqliterc
         exit 1
     fi
@@ -81,7 +86,7 @@
 
 # Exit with error if the Desktop image is a file that doesn't exist or an invalid option.
     #if  [[ "$1" != "default" &&  "$1" != "mojave" && "$1" != "light" && "$1" != "dark" && "$1" != "solar" ]]; then
-    if  [ "$1" != "default" ] && [ "$1" != "mojave" ] && [ "$1" != "light" ] && [ "$1" != "dark" ] && [ "$1" != "solar" ]; then
+    if  [ "$1" != "catalina" ] && [ "$1" != "light" ] && [ "$1" != "dark" ] && [ "$1" != "default" ] && [ "$1" != "mojave" ] && [ "$1" != "mojave-light" ] && [ "$1" != "mojave-dark" ] && [ "$1" != "solar" ]; then
         re='\.'
         if [[ $1 =~ $re ]]; then # $1 contains a . denoting a filename.ext
             if ! [ -f "$1" ]; then
@@ -123,22 +128,37 @@
 
     key=20
     case "$1" in
-        mojave)
+        catalina)
             value=1
-            image="Mojave Dynamic"
+            image="Catalina Automatic"
             ;;
         light)
             value=2
-            image="Mojave Light (Still)"
+            image="Catalina (Light)"
             ;;
         dark)
             value=3
+            image="Catalina (Dark)"
+            ;;
+        mojave)
+            value=1
+            image="Mojave Dynamic"
+            file="'/System/Library/Desktop Pictures/Mojave.heic'"
+            ;;
+        mojave-light)
+            value=2
+            image="Mojave Light (Still)"
+            file="'/System/Library/Desktop Pictures/Mojave.heic'"
+            ;;
+        mojave-dark)
+            value=3
             image="Mojave Dark (Still)"
+            file="'/System/Library/Desktop Pictures/Mojave.heic'"
             ;;
         solar)
             value="'/Library/Desktop Pictures/Solar Gradients.heic'"
+             image="/Library/Desktop Pictures/Solar Gradients.heic"
             key=1
-            image="/Library/Desktop Pictures/Solar Gradients.heic"
             ;;
         default)
             # Set the database [$db] to the default and exit. Only works if $db is ~/Library/Application\ Support/Dock/desktoppicture.db
@@ -161,8 +181,7 @@
             key=1
             ;;
     esac
-
-
+    
 
 # # # # # # # # # # # # # # # # 
 # GET LAST ROW IDS
@@ -198,14 +217,33 @@
 # INSERT NEW ROWS
 #
 
+
 # Insert a new row into the `data` table.
     sqlite3 "$db" "INSERT INTO data(rowid,value) VALUES( $((lastrow[0] + 1)), $value );"
 
-# Insert four new rows into the `preferences` table.
-    sqlite3 "$db" "INSERT INTO preferences(rowid,key,data_id,picture_id) VALUES( $((lastrow[1] + 1)),$key,$((lastrow[0] + 1)),3);"
-    sqlite3 "$db" "INSERT INTO preferences(rowid,key,data_id,picture_id) VALUES( $((lastrow[1] + 2)),$key,$((lastrow[0] + 1)),4);"
-    sqlite3 "$db" "INSERT INTO preferences(rowid,key,data_id,picture_id) VALUES( $((lastrow[1] + 3)),$key,$((lastrow[0] + 1)),2);"
-    sqlite3 "$db" "INSERT INTO preferences(rowid,key,data_id,picture_id) VALUES( $((lastrow[1] + 4)),$key,$((lastrow[0] + 1)),1);"
+# Insert new rows into the `preferences` table.
+    data_id=$(sqlite3 "$db" "SELECT rowid FROM data WHERE value=$value;")
+    sqlite3 "$db" "INSERT INTO preferences(rowid,key,data_id,picture_id) VALUES( $((lastrow[1] + 1)),$key,$data_id,3);"
+    sqlite3 "$db" "INSERT INTO preferences(rowid,key,data_id,picture_id) VALUES( $((lastrow[1] + 2)),$key,$data_id,4);"
+    sqlite3 "$db" "INSERT INTO preferences(rowid,key,data_id,picture_id) VALUES( $((lastrow[1] + 3)),$key,$data_id,2);"
+    sqlite3 "$db" "INSERT INTO preferences(rowid,key,data_id,picture_id) VALUES( $((lastrow[1] + 4)),$key,$data_id,1);"
+
+
+# Additional rows need to be inserted into the `data` and `preferences` table if the desktop image is being set to Mojave Dynamic, Mojave Light (Still) or Mojave Dark (Still)
+    if [[ "$1" == mojave* ]]; then
+
+    # Insert a new row into the `data` table.
+        sqlite3 "$db" "INSERT INTO data(rowid,value) VALUES( $((lastrow[0] + 2)), $file );"
+
+    # Insert new rows into the `preferences` table.
+        key=1
+        data_id=$(sqlite3 "$db" "SELECT rowid FROM data WHERE value=$file")
+        sqlite3 "$db" "INSERT INTO preferences(rowid,key,data_id,picture_id) VALUES( $((lastrow[1] + 5)),$key,$data_id,3);"
+        sqlite3 "$db" "INSERT INTO preferences(rowid,key,data_id,picture_id) VALUES( $((lastrow[1] + 6)),$key,$data_id,4);"
+        sqlite3 "$db" "INSERT INTO preferences(rowid,key,data_id,picture_id) VALUES( $((lastrow[1] + 7)),$key,$data_id,2);"
+        sqlite3 "$db" "INSERT INTO preferences(rowid,key,data_id,picture_id) VALUES( $((lastrow[1] + 8)),$key,$data_id,1);"
+        
+    fi
 
     echo "The Desktop image has been set to $image."
 
