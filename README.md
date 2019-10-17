@@ -1,6 +1,6 @@
 # Set macOS Desktop Image
 
-Jump to information on [macOS Catalina 10.15](#macos-mojave-1015)
+Jump to information on [macOS Catalina 10.15](#macos-catalina-1015)
 
 Jump to information on [macOS Mojave 10.14](#macos-mojave-1014)
 
