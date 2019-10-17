@@ -6,7 +6,7 @@ Jump to information on [macOS Mojave 10.14](#macos-mojave-1014)
 
 ---
 
-# macOS Catlaina 10.15
+# macOS Catalina 10.15
 
 **IMPORTANT**: `set-desktop-catalina.sh` has been tested using **macOS Catalina Beta [ Developer 19A487l and Public 19A487m ]**
 
