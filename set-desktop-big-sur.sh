@@ -206,7 +206,7 @@
                 echo "The Desktop image has been set to the default."
                 exit 0
             else
-                echo "ERROR: The 'default' option is only appropriate when the database is /Volumes/Big Sur Developer Beta/Users/steve/Library/Application\ Support/Dock/desktoppicture.db"
+                echo "ERROR: The 'default' option is only appropriate when the database is \"${HOME}/Library/Application Support/Dock/desktoppicture.db\""
                 exit 1
             fi
             ;;
