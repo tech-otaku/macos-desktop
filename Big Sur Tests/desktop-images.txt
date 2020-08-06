@@ -1,0 +1,118 @@
+graphic
+graphic
+graphic
+graphic
+graphic
+light
+light
+light
+light
+light
+dark
+dark
+dark
+dark
+dark
+big-sur
+big-sur
+big-sur
+big-sur
+big-sur
+big-sur-light
+big-sur-light
+big-sur-light
+big-sur-light
+big-sur-light
+big-sur-dark
+big-sur-dark
+big-sur-dark
+big-sur-dark
+big-sur-dark
+catalina
+catalina
+catalina
+catalina
+catalina
+catalina-light
+catalina-light
+catalina-light
+catalina-light
+catalina-light
+catalina-dark
+catalina-dark
+catalina-dark
+catalina-dark
+catalina-dark
+mojave
+mojave
+mojave
+mojave
+mojave
+mojave-light
+mojave-light
+mojave-light
+mojave-light
+mojave-light
+mojave-dark
+mojave-dark
+mojave-dark
+mojave-dark
+mojave-dark
+solar
+solar
+solar
+solar
+solar
+/System/Library/Desktop Pictures/Abstract 1.jpg
+/System/Library/Desktop Pictures/Abstract 2.jpg
+/System/Library/Desktop Pictures/Abstract 3.jpg
+/System/Library/Desktop Pictures/Abstract 4.jpg
+/System/Library/Desktop Pictures/Color Burst 1.jpg
+/System/Library/Desktop Pictures/Color Burst 2.jpg
+/System/Library/Desktop Pictures/Color Burst 3.jpg
+/System/Library/Desktop Pictures/Desert 1.jpg
+/System/Library/Desktop Pictures/Desert 2.jpg
+/System/Library/Desktop Pictures/Desert 3.jpg
+/System/Library/Desktop Pictures/Desert 4.jpg
+/System/Library/Desktop Pictures/Desert 5.jpg
+/System/Library/Desktop Pictures/Desert 6.jpg
+/System/Library/Desktop Pictures/Desert 7.jpg
+/System/Library/Desktop Pictures/El Capitan 2.jpg
+/System/Library/Desktop Pictures/El Capitan.jpg
+/System/Library/Desktop Pictures/Flower 10.jpg
+/System/Library/Desktop Pictures/Flower 5.jpg
+/System/Library/Desktop Pictures/Flower 6.jpg
+/System/Library/Desktop Pictures/Flower 7.jpg
+/System/Library/Desktop Pictures/Flower 8.jpg
+/System/Library/Desktop Pictures/Flower 9.jpg
+/System/Library/Desktop Pictures/High Sierra.jpg
+/System/Library/Desktop Pictures/Ink Cloud.jpg
+/System/Library/Desktop Pictures/Reflection 1.jpg
+/System/Library/Desktop Pictures/Reflection 2.jpg
+/System/Library/Desktop Pictures/Reflection 3.jpg
+/System/Library/Desktop Pictures/Reflection 4.jpg
+/System/Library/Desktop Pictures/Sierra 2.jpg
+/System/Library/Desktop Pictures/Sierra.jpg
+/System/Library/Desktop Pictures/Yosemite 3.jpg
+/System/Library/Desktop Pictures/Yosemite 4.jpg
+/System/Library/Desktop Pictures/Yosemite.jpg
+/System/Library/Desktop Pictures/Solid Colors/Black.png
+/System/Library/Desktop Pictures/Solid Colors/Blue Violet.png
+/System/Library/Desktop Pictures/Solid Colors/Cyan.png
+/System/Library/Desktop Pictures/Solid Colors/Dusty Rose.png
+/System/Library/Desktop Pictures/Solid Colors/Electric Blue.png
+/System/Library/Desktop Pictures/Solid Colors/Gold 2.png
+/System/Library/Desktop Pictures/Solid Colors/Gold.png
+/System/Library/Desktop Pictures/Solid Colors/Ocher.png
+/System/Library/Desktop Pictures/Solid Colors/Plum.png
+/System/Library/Desktop Pictures/Solid Colors/Red Orange.png
+/System/Library/Desktop Pictures/Solid Colors/Rose Gold.png
+/System/Library/Desktop Pictures/Solid Colors/Silver.png
+/System/Library/Desktop Pictures/Solid Colors/Soft Pink.png
+/System/Library/Desktop Pictures/Solid Colors/Space Gray Pro.png
+/System/Library/Desktop Pictures/Solid Colors/Space Gray.png
+/System/Library/Desktop Pictures/Solid Colors/Stone.png
+/System/Library/Desktop Pictures/Solid Colors/Teal.png
+/System/Library/Desktop Pictures/Solid Colors/Turquoise Green.png
+/System/Library/Desktop Pictures/Solid Colors/Yellow.png
+
