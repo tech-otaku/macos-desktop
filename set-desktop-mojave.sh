@@ -2,9 +2,9 @@
 
 # AUTHOR: Steve Ward [steve@tech-otaku.com]
 # URL: https://github.com/tech-otaku/macos-desktop.git
-# README: https://github.com/tech-otaku/macos-desktop/blob/master/README.md
+# README: https://github.com/tech-otaku/macos-desktop/blob/master/MOJAVE.md
 
-# USAGE: [bash] /path/to/set-desktop-mojave.sh <desktop image>
+# USAGE: [bash] ./set-desktop-mojave.sh <desktop image>
 
     # Where <desktop image> can be...
         # HEIF (.heic) images
@@ -17,7 +17,7 @@
         # Other
             # default = set the database [$db] to the default
 
-# EXAMPLE: [bash] /path/to/set-desktop-mojave.sh light
+# EXAMPLE: [bash] ./set-desktop-mojave.sh light
 
 
 
@@ -66,7 +66,7 @@
 #
 
 # Exit with error if OS version is not 10.14
-    if [ $(system_profiler SPSoftwareDataType | awk '/System Version/ {print $4}' | cut -d . -f 2) -ne 14 ]; then
+    if [ $(system_profiler SPSoftwareDataType | awk '/System Version/ {print $4}' | cut -d . -f 1,2) != 10.14 ]; then
         echo "ERROR: For use with macOS Mojave 10.14.x only."
         restore_sqliterc
         exit 1
