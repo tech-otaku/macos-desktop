@@ -1,35 +1,24 @@
-catalina
-catalina
+default
+default
+default
 catalina
 catalina
 catalina
 light
 light
 light
-light
-light
-dark
-dark
 dark
 dark
 dark
 mojave
 mojave
 mojave
-mojave
-mojave
-mojave-light
-mojave-light
 mojave-light
 mojave-light
 mojave-light
 mojave-dark
 mojave-dark
 mojave-dark
-mojave-dark
-mojave-dark
-solar
-solar
 solar
 solar
 solar
@@ -37,10 +26,6 @@ solar
 /System/Library/Desktop Pictures/Abstract 2.jpg
 /System/Library/Desktop Pictures/Abstract 3.jpg
 /System/Library/Desktop Pictures/Abstract 4.jpg
-/System/Library/Desktop Pictures/Abstract Shapes 2.jpg
-/System/Library/Desktop Pictures/Abstract Shapes.jpg
-/System/Library/Desktop Pictures/Chroma 1.jpg
-/System/Library/Desktop Pictures/Chroma 2.jpg
 /System/Library/Desktop Pictures/Color Burst 1.jpg
 /System/Library/Desktop Pictures/Color Burst 2.jpg
 /System/Library/Desktop Pictures/Color Burst 3.jpg
@@ -53,11 +38,7 @@ solar
 /System/Library/Desktop Pictures/Desert 7.jpg
 /System/Library/Desktop Pictures/El Capitan 2.jpg
 /System/Library/Desktop Pictures/El Capitan.jpg
-/System/Library/Desktop Pictures/Flower 1.jpg
 /System/Library/Desktop Pictures/Flower 10.jpg
-/System/Library/Desktop Pictures/Flower 2.jpg
-/System/Library/Desktop Pictures/Flower 3.jpg
-/System/Library/Desktop Pictures/Flower 4.jpg
 /System/Library/Desktop Pictures/Flower 5.jpg
 /System/Library/Desktop Pictures/Flower 6.jpg
 /System/Library/Desktop Pictures/Flower 7.jpg
@@ -65,15 +46,12 @@ solar
 /System/Library/Desktop Pictures/Flower 9.jpg
 /System/Library/Desktop Pictures/High Sierra.jpg
 /System/Library/Desktop Pictures/Ink Cloud.jpg
-/System/Library/Desktop Pictures/Mojave Day.jpg
-/System/Library/Desktop Pictures/Mojave Night.jpg
 /System/Library/Desktop Pictures/Reflection 1.jpg
 /System/Library/Desktop Pictures/Reflection 2.jpg
 /System/Library/Desktop Pictures/Reflection 3.jpg
 /System/Library/Desktop Pictures/Reflection 4.jpg
 /System/Library/Desktop Pictures/Sierra 2.jpg
 /System/Library/Desktop Pictures/Sierra.jpg
-/System/Library/Desktop Pictures/Solar Gradients.heic
 /System/Library/Desktop Pictures/Yosemite 3.jpg
 /System/Library/Desktop Pictures/Yosemite 4.jpg
 /System/Library/Desktop Pictures/Yosemite.jpg
@@ -82,6 +60,7 @@ solar
 /System/Library/Desktop Pictures/Solid Colors/Cyan.png
 /System/Library/Desktop Pictures/Solid Colors/Dusty Rose.png
 /System/Library/Desktop Pictures/Solid Colors/Electric Blue.png
+/System/Library/Desktop Pictures/Solid Colors/Gold 2.png
 /System/Library/Desktop Pictures/Solid Colors/Gold.png
 /System/Library/Desktop Pictures/Solid Colors/Ocher.png
 /System/Library/Desktop Pictures/Solid Colors/Plum.png
