@@ -1,12 +1,10 @@
 #!/usr/bin/env bash
 
-# Tested using macOS Catalina 10.15 Beta [ Builds 19A487l and 19A487m  ]
-
 # AUTHOR: Steve Ward [steve@tech-otaku.com]
 # URL: https://github.com/tech-otaku/macos-desktop.git
-# README: https://github.com/tech-otaku/macos-desktop/blob/master/README.md
+# README: https://github.com/tech-otaku/macos-desktop/blob/master/CATALINA.md
 
-# USAGE: [bash] /path/to/set-desktop-catalina.sh <desktop image>
+# USAGE: [bash] ./set-desktop-catalina.sh <desktop image>
 
     # Where <desktop image> can be...
         # HEIF (.heic) images
@@ -22,7 +20,7 @@
         # Other
             # default = set the database [$db] to the default
 
-# EXAMPLE: [bash] /path/to/set-desktop-catalina.sh light
+# EXAMPLE: [bash] ./set-desktop-catalina.sh light
 
 
 
@@ -71,7 +69,7 @@
 #
 
 # Exit with error if OS version is not 10.15
-    if [ $(system_profiler SPSoftwareDataType | awk '/System Version/ {print $4}' | cut -d . -f 2) -ne 15 ]; then
+    if [ $(system_profiler SPSoftwareDataType | awk '/System Version/ {print $4}' | cut -d . -f 1,2) != 10.15 ]; then
         echo "ERROR: For use with macOS Catalina 10.15.x only."
         restore_sqliterc
         exit 1
@@ -130,15 +128,15 @@
     case "$1" in
         catalina)
             value=1
-            image="Catalina Automatic"
+            image="Catalina Dynamic"
             ;;
         light)
             value=2
-            image="Catalina (Light)"
+            image="Catalina Light (Still)"
             ;;
         dark)
             value=3
-            image="Catalina (Dark)"
+            image="Catalina Dark (Still)"
             ;;
         mojave)
             value=1
@@ -156,8 +154,8 @@
             file="'/System/Library/Desktop Pictures/Mojave.heic'"
             ;;
         solar)
-            value="'/Library/Desktop Pictures/Solar Gradients.heic'"
-             image="/Library/Desktop Pictures/Solar Gradients.heic"
+            value="'/System/Library/Desktop Pictures/Solar Gradients.heic'"
+            image="/System/Library/Desktop Pictures/Solar Gradients.heic"
             key=1
             ;;
         default)
