@@ -7,36 +7,36 @@ Set a user's Desktop image in macOS Mojave 10.14 from the command line. See [Lim
 An explanation for why this script does what it does can be found at [Setting the Desktop Image in macOS Mojave From the Command Line](https://www.tech-otaku.com/mac/setting-desktop-image-macos-mojave-from-command-line)
 
 ## Usage
-`[bash] /path/to/set-desktop-mojave.sh <desktop image>`
+`[bash] ./set-desktop-mojave.sh <desktop image>`
 
 ## Examples
 
 #### HEIF (.heic) images
 
 ###### Mojave Dynamic
-`[bash] /path/to/set-desktop-mojave.sh mojave`
+`[bash] ./set-desktop-mojave.sh mojave`
 
 ###### Mojave Light (Still)
-`[bash] /path/to/set-desktop-mojave.sh light`
+`[bash] ./set-desktop-mojave.sh light`
 
 ###### Mojave Dark (Still)
-`[bash] /path/to/set-desktop-mojave.sh dark`
+`[bash] ./set-desktop-mojave.sh dark`
 
 ###### Solar Gradients
-`[bash] /path/to/set-desktop-mojave.sh solar`
+`[bash] ./set-desktop-mojave.sh solar`
 
 #### non-HEIF (.heic) images
 
 ###### High Sierra
-`[bash] /path/to/set-desktop-mojave.sh "/Library/Desktop Pictures/High Sierra.jpg"`
+`[bash] ./set-desktop-mojave.sh "/Library/Desktop Pictures/High Sierra.jpg"`
 
 ###### Ink Cloud
-`[bash] /path/to/set-desktop-mojave.sh "/Library/Desktop Pictures/Ink Cloud.jpg"`
+`[bash] ./set-desktop-mojave.sh "/Library/Desktop Pictures/Ink Cloud.jpg"`
 
 #### Other
 
 ###### Default
-`[bash] /path/to/set-desktop-mojave.sh default`
+`[bash] ./set-desktop-mojave.sh default`
 
 ## Error Messages
 
