@@ -19,7 +19,6 @@ for (( i=1;i<=$TIMES;i++ )); do
 
 	echo -e "$i/$TIMES. $SELECTION:\n" >> set-desktop-big-sur-tests.txt
 	echo -e "--------------------------------- data ---------------------------------  --------- preferences ---------" >> set-desktop-big-sur-tests.txt
-	#sqlite3 ${HOME}/Library/Application\ Support/Dock/desktoppicture.db "SELECT data.rowid, data.value, preferences.rowid, preferences.key, preferences.data_id, preferences.picture_id FROM data INNER JOIN preferences ON data.rowid = preferences.data_id;" >> set-desktop-big-sur-tests.txt
 	sqlite3 ${HOME}/Library/Application\ Support/Dock/desktoppicture.db < config.txt "SELECT data.rowid, data.value, preferences.rowid, preferences.key, preferences.data_id, preferences.picture_id FROM data INNER JOIN preferences ON data.rowid = preferences.data_id;" >> set-desktop-big-sur-tests.txt
 	echo -e "\n\n" >> set-desktop-big-sur-tests.txt
 done
