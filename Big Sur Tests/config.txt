@@ -1,3 +1,0 @@
-.headers on
-.mode column
-.width -5 -65 -5 -3 -7 -10
