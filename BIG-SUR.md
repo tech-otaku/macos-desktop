@@ -1,6 +1,6 @@
 # macOS Big Sur 11.0
 
-**IMPORTANT**: `set-desktop-big-sur.sh` has been tested using **macOS Big Sur Developer Beta 4 [Build 20A5343i]**
+**IMPORTANT**: `set-desktop-big-sur.sh` has been tested using **macOS Big Sur Developer Beta 5 [Build 20A5354i]**
 
 ## Purpose
 Set a user's Desktop image in macOS Big Sur 11.0 from the command line. See [Limitations](#limitations)
