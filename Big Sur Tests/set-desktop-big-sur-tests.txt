@@ -1,46 +1,46 @@
-Randomly generated on 2020-08-26 at 09:13:40 by ./set-desktop-big-sur-tests.sh using Big Sur Developer Beta build (20A5354i)
+Randomly generated on 2020-11-05 at 12:33:56 by ./set-desktop-big-sur-tests.sh using Big Sur Developer Beta build (20B5012d)
 
-1/100. mojave-dark:
-
---------------------------------- data ---------------------------------  --------- preferences ---------
-rowid                                                              value  rowid  key  data_id  picture_id
------  -----------------------------------------------------------------  -----  ---  -------  ----------
-    1                                                                  3      1   20        1           3
-    1                                                                  3      2   20        1           4
-    1                                                                  3      3   20        1           2
-    1                                                                  3      4   20        1           1
-    2                       /System/Library/Desktop Pictures/Mojave.heic      5    1        2           3
-    2                       /System/Library/Desktop Pictures/Mojave.heic      6    1        2           4
-    2                       /System/Library/Desktop Pictures/Mojave.heic      7    1        2           2
-    2                       /System/Library/Desktop Pictures/Mojave.heic      8    1        2           1
-
-
-
-2/100. /System/Library/Desktop Pictures/Solid Colors/Rose Gold.png:
+1/100. solar:
 
 --------------------------------- data ---------------------------------  --------- preferences ---------
 rowid                                                              value  rowid  key  data_id  picture_id
 -----  -----------------------------------------------------------------  -----  ---  -------  ----------
-    3        /System/Library/Desktop Pictures/Solid Colors/Rose Gold.png      9    1        3           3
-    3        /System/Library/Desktop Pictures/Solid Colors/Rose Gold.png     10    1        3           4
-    3        /System/Library/Desktop Pictures/Solid Colors/Rose Gold.png     11    1        3           2
-    3        /System/Library/Desktop Pictures/Solid Colors/Rose Gold.png     12    1        3           1
+    1                                                                  1      1   20        1           3
+    1                                                                  1      2   20        1           4
+    1                                                                  1      3   20        1           2
+    1                                                                  1      4   20        1           1
+    2              /System/Library/Desktop Pictures/Solar Gradients.heic      5    1        2           3
+    2              /System/Library/Desktop Pictures/Solar Gradients.heic      6    1        2           4
+    2              /System/Library/Desktop Pictures/Solar Gradients.heic      7    1        2           2
+    2              /System/Library/Desktop Pictures/Solar Gradients.heic      8    1        2           1
 
 
 
-3/100. mojave-dark:
+2/100. dome-light:
 
 --------------------------------- data ---------------------------------  --------- preferences ---------
 rowid                                                              value  rowid  key  data_id  picture_id
 -----  -----------------------------------------------------------------  -----  ---  -------  ----------
-    4                                                                  3     13   20        4           3
-    4                                                                  3     14   20        4           4
-    4                                                                  3     15   20        4           2
-    4                                                                  3     16   20        4           1
-    5                       /System/Library/Desktop Pictures/Mojave.heic     17    1        5           3
-    5                       /System/Library/Desktop Pictures/Mojave.heic     18    1        5           4
-    5                       /System/Library/Desktop Pictures/Mojave.heic     19    1        5           2
-    5                       /System/Library/Desktop Pictures/Mojave.heic     20    1        5           1
+    3                                                                  2      9   20        3           3
+    3                                                                  2     10   20        3           4
+    3                                                                  2     11   20        3           2
+    3                                                                  2     12   20        3           1
+    4                         /System/Library/Desktop Pictures/Dome.heic     13    1        4           3
+    4                         /System/Library/Desktop Pictures/Dome.heic     14    1        4           4
+    4                         /System/Library/Desktop Pictures/Dome.heic     15    1        4           2
+    4                         /System/Library/Desktop Pictures/Dome.heic     16    1        4           1
+
+
+
+3/100. light:
+
+--------------------------------- data ---------------------------------  --------- preferences ---------
+rowid                                                              value  rowid  key  data_id  picture_id
+-----  -----------------------------------------------------------------  -----  ---  -------  ----------
+    5                                                                  2     17   20        5           3
+    5                                                                  2     18   20        5           4
+    5                                                                  2     19   20        5           2
+    5                                                                  2     20   20        5           1
 
 
 
@@ -56,613 +56,71 @@ rowid                                                              value  rowid 
 
 
 
-5/100. /System/Library/Desktop Pictures/Reflection 4.jpg:
+5/100. peak-light:
 
 --------------------------------- data ---------------------------------  --------- preferences ---------
 rowid                                                              value  rowid  key  data_id  picture_id
 -----  -----------------------------------------------------------------  -----  ---  -------  ----------
-    7                  /System/Library/Desktop Pictures/Reflection 4.jpg     25    1        7           3
-    7                  /System/Library/Desktop Pictures/Reflection 4.jpg     26    1        7           4
-    7                  /System/Library/Desktop Pictures/Reflection 4.jpg     27    1        7           2
-    7                  /System/Library/Desktop Pictures/Reflection 4.jpg     28    1        7           1
+    7                                                                  2     25   20        7           3
+    7                                                                  2     26   20        7           4
+    7                                                                  2     27   20        7           2
+    7                                                                  2     28   20        7           1
+    8                         /System/Library/Desktop Pictures/Peak.heic     29    1        8           3
+    8                         /System/Library/Desktop Pictures/Peak.heic     30    1        8           4
+    8                         /System/Library/Desktop Pictures/Peak.heic     31    1        8           2
+    8                         /System/Library/Desktop Pictures/Peak.heic     32    1        8           1
 
 
 
-6/100. mojave:
-
---------------------------------- data ---------------------------------  --------- preferences ---------
-rowid                                                              value  rowid  key  data_id  picture_id
------  -----------------------------------------------------------------  -----  ---  -------  ----------
-    8                                                                  1     29   20        8           3
-    8                                                                  1     30   20        8           4
-    8                                                                  1     31   20        8           2
-    8                                                                  1     32   20        8           1
-    9                       /System/Library/Desktop Pictures/Mojave.heic     33    1        9           3
-    9                       /System/Library/Desktop Pictures/Mojave.heic     34    1        9           4
-    9                       /System/Library/Desktop Pictures/Mojave.heic     35    1        9           2
-    9                       /System/Library/Desktop Pictures/Mojave.heic     36    1        9           1
-
-
-
-7/100. solar:
+6/100. desert:
 
 --------------------------------- data ---------------------------------  --------- preferences ---------
 rowid                                                              value  rowid  key  data_id  picture_id
 -----  -----------------------------------------------------------------  -----  ---  -------  ----------
-   10                                                                  1     37   20       10           3
-   10                                                                  1     38   20       10           4
-   10                                                                  1     39   20       10           2
-   10                                                                  1     40   20       10           1
-   11              /System/Library/Desktop Pictures/Solar Gradients.heic     41    1       11           3
-   11              /System/Library/Desktop Pictures/Solar Gradients.heic     42    1       11           4
-   11              /System/Library/Desktop Pictures/Solar Gradients.heic     43    1       11           2
-   11              /System/Library/Desktop Pictures/Solar Gradients.heic     44    1       11           1
+    9                                                                  1     33   20        9           3
+    9                                                                  1     34   20        9           4
+    9                                                                  1     35   20        9           2
+    9                                                                  1     36   20        9           1
+   10                   /System/Library/Desktop Pictures/The Desert.heic     37    1       10           3
+   10                   /System/Library/Desktop Pictures/The Desert.heic     38    1       10           4
+   10                   /System/Library/Desktop Pictures/The Desert.heic     39    1       10           2
+   10                   /System/Library/Desktop Pictures/The Desert.heic     40    1       10           1
 
 
 
-8/100. /System/Library/Desktop Pictures/Solid Colors/Cyan.png:
-
---------------------------------- data ---------------------------------  --------- preferences ---------
-rowid                                                              value  rowid  key  data_id  picture_id
------  -----------------------------------------------------------------  -----  ---  -------  ----------
-   12             /System/Library/Desktop Pictures/Solid Colors/Cyan.png     45    1       12           3
-   12             /System/Library/Desktop Pictures/Solid Colors/Cyan.png     46    1       12           4
-   12             /System/Library/Desktop Pictures/Solid Colors/Cyan.png     47    1       12           2
-   12             /System/Library/Desktop Pictures/Solid Colors/Cyan.png     48    1       12           1
-
-
-
-9/100. /System/Library/Desktop Pictures/Desert 6.jpg:
+7/100. big-sur:
 
 --------------------------------- data ---------------------------------  --------- preferences ---------
 rowid                                                              value  rowid  key  data_id  picture_id
 -----  -----------------------------------------------------------------  -----  ---  -------  ----------
-   13                      /System/Library/Desktop Pictures/Desert 6.jpg     49    1       13           3
-   13                      /System/Library/Desktop Pictures/Desert 6.jpg     50    1       13           4
-   13                      /System/Library/Desktop Pictures/Desert 6.jpg     51    1       13           2
-   13                      /System/Library/Desktop Pictures/Desert 6.jpg     52    1       13           1
+   11                                                                  1     41   20       11           3
+   11                                                                  1     42   20       11           4
+   11                                                                  1     43   20       11           2
+   11                                                                  1     44   20       11           1
+   12                      /System/Library/Desktop Pictures/Big Sur.heic     45    1       12           3
+   12                      /System/Library/Desktop Pictures/Big Sur.heic     46    1       12           4
+   12                      /System/Library/Desktop Pictures/Big Sur.heic     47    1       12           2
+   12                      /System/Library/Desktop Pictures/Big Sur.heic     48    1       12           1
 
 
 
-10/100. catalina-light:
-
---------------------------------- data ---------------------------------  --------- preferences ---------
-rowid                                                              value  rowid  key  data_id  picture_id
------  -----------------------------------------------------------------  -----  ---  -------  ----------
-   14                                                                  2     53   20       14           3
-   14                                                                  2     54   20       14           4
-   14                                                                  2     55   20       14           2
-   14                                                                  2     56   20       14           1
-   15                     /System/Library/Desktop Pictures/Catalina.heic     57    1       15           3
-   15                     /System/Library/Desktop Pictures/Catalina.heic     58    1       15           4
-   15                     /System/Library/Desktop Pictures/Catalina.heic     59    1       15           2
-   15                     /System/Library/Desktop Pictures/Catalina.heic     60    1       15           1
-
-
-
-11/100. mojave-dark:
+8/100. dome-dark:
 
 --------------------------------- data ---------------------------------  --------- preferences ---------
 rowid                                                              value  rowid  key  data_id  picture_id
 -----  -----------------------------------------------------------------  -----  ---  -------  ----------
-   16                                                                  3     61   20       16           3
-   16                                                                  3     62   20       16           4
-   16                                                                  3     63   20       16           2
-   16                                                                  3     64   20       16           1
-   17                       /System/Library/Desktop Pictures/Mojave.heic     65    1       17           3
-   17                       /System/Library/Desktop Pictures/Mojave.heic     66    1       17           4
-   17                       /System/Library/Desktop Pictures/Mojave.heic     67    1       17           2
-   17                       /System/Library/Desktop Pictures/Mojave.heic     68    1       17           1
+   13                                                                  3     49   20       13           3
+   13                                                                  3     50   20       13           4
+   13                                                                  3     51   20       13           2
+   13                                                                  3     52   20       13           1
+   14                         /System/Library/Desktop Pictures/Dome.heic     53    1       14           3
+   14                         /System/Library/Desktop Pictures/Dome.heic     54    1       14           4
+   14                         /System/Library/Desktop Pictures/Dome.heic     55    1       14           2
+   14                         /System/Library/Desktop Pictures/Dome.heic     56    1       14           1
 
 
 
-12/100. /System/Library/Desktop Pictures/Yosemite.jpg:
-
---------------------------------- data ---------------------------------  --------- preferences ---------
-rowid                                                              value  rowid  key  data_id  picture_id
------  -----------------------------------------------------------------  -----  ---  -------  ----------
-   18                      /System/Library/Desktop Pictures/Yosemite.jpg     69    1       18           3
-   18                      /System/Library/Desktop Pictures/Yosemite.jpg     70    1       18           4
-   18                      /System/Library/Desktop Pictures/Yosemite.jpg     71    1       18           2
-   18                      /System/Library/Desktop Pictures/Yosemite.jpg     72    1       18           1
-
-
-
-13/100. light:
-
---------------------------------- data ---------------------------------  --------- preferences ---------
-rowid                                                              value  rowid  key  data_id  picture_id
------  -----------------------------------------------------------------  -----  ---  -------  ----------
-   19                                                                  2     73   20       19           3
-   19                                                                  2     74   20       19           4
-   19                                                                  2     75   20       19           2
-   19                                                                  2     76   20       19           1
-
-
-
-14/100. mojave-light:
-
---------------------------------- data ---------------------------------  --------- preferences ---------
-rowid                                                              value  rowid  key  data_id  picture_id
------  -----------------------------------------------------------------  -----  ---  -------  ----------
-   20                                                                  2     77   20       20           3
-   20                                                                  2     78   20       20           4
-   20                                                                  2     79   20       20           2
-   20                                                                  2     80   20       20           1
-   21                       /System/Library/Desktop Pictures/Mojave.heic     81    1       21           3
-   21                       /System/Library/Desktop Pictures/Mojave.heic     82    1       21           4
-   21                       /System/Library/Desktop Pictures/Mojave.heic     83    1       21           2
-   21                       /System/Library/Desktop Pictures/Mojave.heic     84    1       21           1
-
-
-
-15/100. /System/Library/Desktop Pictures/Solid Colors/Turquoise Green.png:
-
---------------------------------- data ---------------------------------  --------- preferences ---------
-rowid                                                              value  rowid  key  data_id  picture_id
------  -----------------------------------------------------------------  -----  ---  -------  ----------
-   22  /System/Library/Desktop Pictures/Solid Colors/Turquoise Green.png     85    1       22           3
-   22  /System/Library/Desktop Pictures/Solid Colors/Turquoise Green.png     86    1       22           4
-   22  /System/Library/Desktop Pictures/Solid Colors/Turquoise Green.png     87    1       22           2
-   22  /System/Library/Desktop Pictures/Solid Colors/Turquoise Green.png     88    1       22           1
-
-
-
-16/100. catalina:
-
---------------------------------- data ---------------------------------  --------- preferences ---------
-rowid                                                              value  rowid  key  data_id  picture_id
------  -----------------------------------------------------------------  -----  ---  -------  ----------
-   23                                                                  1     89   20       23           3
-   23                                                                  1     90   20       23           4
-   23                                                                  1     91   20       23           2
-   23                                                                  1     92   20       23           1
-   24                     /System/Library/Desktop Pictures/Catalina.heic     93    1       24           3
-   24                     /System/Library/Desktop Pictures/Catalina.heic     94    1       24           4
-   24                     /System/Library/Desktop Pictures/Catalina.heic     95    1       24           2
-   24                     /System/Library/Desktop Pictures/Catalina.heic     96    1       24           1
-
-
-
-17/100. /System/Library/Desktop Pictures/Solid Colors/Red Orange.png:
-
---------------------------------- data ---------------------------------  --------- preferences ---------
-rowid                                                              value  rowid  key  data_id  picture_id
------  -----------------------------------------------------------------  -----  ---  -------  ----------
-   25       /System/Library/Desktop Pictures/Solid Colors/Red Orange.png     97    1       25           3
-   25       /System/Library/Desktop Pictures/Solid Colors/Red Orange.png     98    1       25           4
-   25       /System/Library/Desktop Pictures/Solid Colors/Red Orange.png     99    1       25           2
-   25       /System/Library/Desktop Pictures/Solid Colors/Red Orange.png    100    1       25           1
-
-
-
-18/100. /System/Library/Desktop Pictures/Reflection 1.jpg:
-
---------------------------------- data ---------------------------------  --------- preferences ---------
-rowid                                                              value  rowid  key  data_id  picture_id
------  -----------------------------------------------------------------  -----  ---  -------  ----------
-   26                  /System/Library/Desktop Pictures/Reflection 1.jpg    101    1       26           3
-   26                  /System/Library/Desktop Pictures/Reflection 1.jpg    102    1       26           4
-   26                  /System/Library/Desktop Pictures/Reflection 1.jpg    103    1       26           2
-   26                  /System/Library/Desktop Pictures/Reflection 1.jpg    104    1       26           1
-
-
-
-19/100. /System/Library/Desktop Pictures/Desert 6.jpg:
-
---------------------------------- data ---------------------------------  --------- preferences ---------
-rowid                                                              value  rowid  key  data_id  picture_id
------  -----------------------------------------------------------------  -----  ---  -------  ----------
-   27                      /System/Library/Desktop Pictures/Desert 6.jpg    105    1       27           3
-   27                      /System/Library/Desktop Pictures/Desert 6.jpg    106    1       27           4
-   27                      /System/Library/Desktop Pictures/Desert 6.jpg    107    1       27           2
-   27                      /System/Library/Desktop Pictures/Desert 6.jpg    108    1       27           1
-
-
-
-20/100. /System/Library/Desktop Pictures/Flower 5.jpg:
-
---------------------------------- data ---------------------------------  --------- preferences ---------
-rowid                                                              value  rowid  key  data_id  picture_id
------  -----------------------------------------------------------------  -----  ---  -------  ----------
-   28                      /System/Library/Desktop Pictures/Flower 5.jpg    109    1       28           3
-   28                      /System/Library/Desktop Pictures/Flower 5.jpg    110    1       28           4
-   28                      /System/Library/Desktop Pictures/Flower 5.jpg    111    1       28           2
-   28                      /System/Library/Desktop Pictures/Flower 5.jpg    112    1       28           1
-
-
-
-21/100. /System/Library/Desktop Pictures/Solid Colors/Stone.png:
-
---------------------------------- data ---------------------------------  --------- preferences ---------
-rowid                                                              value  rowid  key  data_id  picture_id
------  -----------------------------------------------------------------  -----  ---  -------  ----------
-   29            /System/Library/Desktop Pictures/Solid Colors/Stone.png    113    1       29           3
-   29            /System/Library/Desktop Pictures/Solid Colors/Stone.png    114    1       29           4
-   29            /System/Library/Desktop Pictures/Solid Colors/Stone.png    115    1       29           2
-   29            /System/Library/Desktop Pictures/Solid Colors/Stone.png    116    1       29           1
-
-
-
-22/100. solar:
-
---------------------------------- data ---------------------------------  --------- preferences ---------
-rowid                                                              value  rowid  key  data_id  picture_id
------  -----------------------------------------------------------------  -----  ---  -------  ----------
-   30                                                                  1    117   20       30           3
-   30                                                                  1    118   20       30           4
-   30                                                                  1    119   20       30           2
-   30                                                                  1    120   20       30           1
-   31              /System/Library/Desktop Pictures/Solar Gradients.heic    121    1       31           3
-   31              /System/Library/Desktop Pictures/Solar Gradients.heic    122    1       31           4
-   31              /System/Library/Desktop Pictures/Solar Gradients.heic    123    1       31           2
-   31              /System/Library/Desktop Pictures/Solar Gradients.heic    124    1       31           1
-
-
-
-23/100. /System/Library/Desktop Pictures/Solid Colors/Space Gray Pro.png:
-
---------------------------------- data ---------------------------------  --------- preferences ---------
-rowid                                                              value  rowid  key  data_id  picture_id
------  -----------------------------------------------------------------  -----  ---  -------  ----------
-   32   /System/Library/Desktop Pictures/Solid Colors/Space Gray Pro.png    125    1       32           3
-   32   /System/Library/Desktop Pictures/Solid Colors/Space Gray Pro.png    126    1       32           4
-   32   /System/Library/Desktop Pictures/Solid Colors/Space Gray Pro.png    127    1       32           2
-   32   /System/Library/Desktop Pictures/Solid Colors/Space Gray Pro.png    128    1       32           1
-
-
-
-24/100. catalina-dark:
-
---------------------------------- data ---------------------------------  --------- preferences ---------
-rowid                                                              value  rowid  key  data_id  picture_id
------  -----------------------------------------------------------------  -----  ---  -------  ----------
-   33                                                                  3    129   20       33           3
-   33                                                                  3    130   20       33           4
-   33                                                                  3    131   20       33           2
-   33                                                                  3    132   20       33           1
-   34                     /System/Library/Desktop Pictures/Catalina.heic    133    1       34           3
-   34                     /System/Library/Desktop Pictures/Catalina.heic    134    1       34           4
-   34                     /System/Library/Desktop Pictures/Catalina.heic    135    1       34           2
-   34                     /System/Library/Desktop Pictures/Catalina.heic    136    1       34           1
-
-
-
-25/100. solar:
-
---------------------------------- data ---------------------------------  --------- preferences ---------
-rowid                                                              value  rowid  key  data_id  picture_id
------  -----------------------------------------------------------------  -----  ---  -------  ----------
-   35                                                                  1    137   20       35           3
-   35                                                                  1    138   20       35           4
-   35                                                                  1    139   20       35           2
-   35                                                                  1    140   20       35           1
-   36              /System/Library/Desktop Pictures/Solar Gradients.heic    141    1       36           3
-   36              /System/Library/Desktop Pictures/Solar Gradients.heic    142    1       36           4
-   36              /System/Library/Desktop Pictures/Solar Gradients.heic    143    1       36           2
-   36              /System/Library/Desktop Pictures/Solar Gradients.heic    144    1       36           1
-
-
-
-26/100. /System/Library/Desktop Pictures/Abstract 3.jpg:
-
---------------------------------- data ---------------------------------  --------- preferences ---------
-rowid                                                              value  rowid  key  data_id  picture_id
------  -----------------------------------------------------------------  -----  ---  -------  ----------
-   37                    /System/Library/Desktop Pictures/Abstract 3.jpg    145    1       37           3
-   37                    /System/Library/Desktop Pictures/Abstract 3.jpg    146    1       37           4
-   37                    /System/Library/Desktop Pictures/Abstract 3.jpg    147    1       37           2
-   37                    /System/Library/Desktop Pictures/Abstract 3.jpg    148    1       37           1
-
-
-
-27/100. catalina-dark:
-
---------------------------------- data ---------------------------------  --------- preferences ---------
-rowid                                                              value  rowid  key  data_id  picture_id
------  -----------------------------------------------------------------  -----  ---  -------  ----------
-   38                                                                  3    149   20       38           3
-   38                                                                  3    150   20       38           4
-   38                                                                  3    151   20       38           2
-   38                                                                  3    152   20       38           1
-   39                     /System/Library/Desktop Pictures/Catalina.heic    153    1       39           3
-   39                     /System/Library/Desktop Pictures/Catalina.heic    154    1       39           4
-   39                     /System/Library/Desktop Pictures/Catalina.heic    155    1       39           2
-   39                     /System/Library/Desktop Pictures/Catalina.heic    156    1       39           1
-
-
-
-28/100. /System/Library/Desktop Pictures/El Capitan.jpg:
-
---------------------------------- data ---------------------------------  --------- preferences ---------
-rowid                                                              value  rowid  key  data_id  picture_id
------  -----------------------------------------------------------------  -----  ---  -------  ----------
-   40                    /System/Library/Desktop Pictures/El Capitan.jpg    157    1       40           3
-   40                    /System/Library/Desktop Pictures/El Capitan.jpg    158    1       40           4
-   40                    /System/Library/Desktop Pictures/El Capitan.jpg    159    1       40           2
-   40                    /System/Library/Desktop Pictures/El Capitan.jpg    160    1       40           1
-
-
-
-29/100. /System/Library/Desktop Pictures/Color Burst 3.jpg:
-
---------------------------------- data ---------------------------------  --------- preferences ---------
-rowid                                                              value  rowid  key  data_id  picture_id
------  -----------------------------------------------------------------  -----  ---  -------  ----------
-   41                 /System/Library/Desktop Pictures/Color Burst 3.jpg    161    1       41           3
-   41                 /System/Library/Desktop Pictures/Color Burst 3.jpg    162    1       41           4
-   41                 /System/Library/Desktop Pictures/Color Burst 3.jpg    163    1       41           2
-   41                 /System/Library/Desktop Pictures/Color Burst 3.jpg    164    1       41           1
-
-
-
-30/100. mojave:
-
---------------------------------- data ---------------------------------  --------- preferences ---------
-rowid                                                              value  rowid  key  data_id  picture_id
------  -----------------------------------------------------------------  -----  ---  -------  ----------
-   42                                                                  1    165   20       42           3
-   42                                                                  1    166   20       42           4
-   42                                                                  1    167   20       42           2
-   42                                                                  1    168   20       42           1
-   43                       /System/Library/Desktop Pictures/Mojave.heic    169    1       43           3
-   43                       /System/Library/Desktop Pictures/Mojave.heic    170    1       43           4
-   43                       /System/Library/Desktop Pictures/Mojave.heic    171    1       43           2
-   43                       /System/Library/Desktop Pictures/Mojave.heic    172    1       43           1
-
-
-
-31/100. mojave-light:
-
---------------------------------- data ---------------------------------  --------- preferences ---------
-rowid                                                              value  rowid  key  data_id  picture_id
------  -----------------------------------------------------------------  -----  ---  -------  ----------
-   44                                                                  2    173   20       44           3
-   44                                                                  2    174   20       44           4
-   44                                                                  2    175   20       44           2
-   44                                                                  2    176   20       44           1
-   45                       /System/Library/Desktop Pictures/Mojave.heic    177    1       45           3
-   45                       /System/Library/Desktop Pictures/Mojave.heic    178    1       45           4
-   45                       /System/Library/Desktop Pictures/Mojave.heic    179    1       45           2
-   45                       /System/Library/Desktop Pictures/Mojave.heic    180    1       45           1
-
-
-
-32/100. /System/Library/Desktop Pictures/Reflection 4.jpg:
-
---------------------------------- data ---------------------------------  --------- preferences ---------
-rowid                                                              value  rowid  key  data_id  picture_id
------  -----------------------------------------------------------------  -----  ---  -------  ----------
-   46                  /System/Library/Desktop Pictures/Reflection 4.jpg    181    1       46           3
-   46                  /System/Library/Desktop Pictures/Reflection 4.jpg    182    1       46           4
-   46                  /System/Library/Desktop Pictures/Reflection 4.jpg    183    1       46           2
-   46                  /System/Library/Desktop Pictures/Reflection 4.jpg    184    1       46           1
-
-
-
-33/100. solar:
-
---------------------------------- data ---------------------------------  --------- preferences ---------
-rowid                                                              value  rowid  key  data_id  picture_id
------  -----------------------------------------------------------------  -----  ---  -------  ----------
-   47                                                                  1    185   20       47           3
-   47                                                                  1    186   20       47           4
-   47                                                                  1    187   20       47           2
-   47                                                                  1    188   20       47           1
-   48              /System/Library/Desktop Pictures/Solar Gradients.heic    189    1       48           3
-   48              /System/Library/Desktop Pictures/Solar Gradients.heic    190    1       48           4
-   48              /System/Library/Desktop Pictures/Solar Gradients.heic    191    1       48           2
-   48              /System/Library/Desktop Pictures/Solar Gradients.heic    192    1       48           1
-
-
-
-34/100. /System/Library/Desktop Pictures/Solid Colors/Teal.png:
-
---------------------------------- data ---------------------------------  --------- preferences ---------
-rowid                                                              value  rowid  key  data_id  picture_id
------  -----------------------------------------------------------------  -----  ---  -------  ----------
-   49             /System/Library/Desktop Pictures/Solid Colors/Teal.png    193    1       49           3
-   49             /System/Library/Desktop Pictures/Solid Colors/Teal.png    194    1       49           4
-   49             /System/Library/Desktop Pictures/Solid Colors/Teal.png    195    1       49           2
-   49             /System/Library/Desktop Pictures/Solid Colors/Teal.png    196    1       49           1
-
-
-
-35/100. /System/Library/Desktop Pictures/Desert 2.jpg:
-
---------------------------------- data ---------------------------------  --------- preferences ---------
-rowid                                                              value  rowid  key  data_id  picture_id
------  -----------------------------------------------------------------  -----  ---  -------  ----------
-   50                      /System/Library/Desktop Pictures/Desert 2.jpg    197    1       50           3
-   50                      /System/Library/Desktop Pictures/Desert 2.jpg    198    1       50           4
-   50                      /System/Library/Desktop Pictures/Desert 2.jpg    199    1       50           2
-   50                      /System/Library/Desktop Pictures/Desert 2.jpg    200    1       50           1
-
-
-
-36/100. /System/Library/Desktop Pictures/Reflection 4.jpg:
-
---------------------------------- data ---------------------------------  --------- preferences ---------
-rowid                                                              value  rowid  key  data_id  picture_id
------  -----------------------------------------------------------------  -----  ---  -------  ----------
-   51                  /System/Library/Desktop Pictures/Reflection 4.jpg    201    1       51           3
-   51                  /System/Library/Desktop Pictures/Reflection 4.jpg    202    1       51           4
-   51                  /System/Library/Desktop Pictures/Reflection 4.jpg    203    1       51           2
-   51                  /System/Library/Desktop Pictures/Reflection 4.jpg    204    1       51           1
-
-
-
-37/100. mojave:
-
---------------------------------- data ---------------------------------  --------- preferences ---------
-rowid                                                              value  rowid  key  data_id  picture_id
------  -----------------------------------------------------------------  -----  ---  -------  ----------
-   52                                                                  1    205   20       52           3
-   52                                                                  1    206   20       52           4
-   52                                                                  1    207   20       52           2
-   52                                                                  1    208   20       52           1
-   53                       /System/Library/Desktop Pictures/Mojave.heic    209    1       53           3
-   53                       /System/Library/Desktop Pictures/Mojave.heic    210    1       53           4
-   53                       /System/Library/Desktop Pictures/Mojave.heic    211    1       53           2
-   53                       /System/Library/Desktop Pictures/Mojave.heic    212    1       53           1
-
-
-
-38/100. /System/Library/Desktop Pictures/Solid Colors/Space Gray Pro.png:
-
---------------------------------- data ---------------------------------  --------- preferences ---------
-rowid                                                              value  rowid  key  data_id  picture_id
------  -----------------------------------------------------------------  -----  ---  -------  ----------
-   54   /System/Library/Desktop Pictures/Solid Colors/Space Gray Pro.png    213    1       54           3
-   54   /System/Library/Desktop Pictures/Solid Colors/Space Gray Pro.png    214    1       54           4
-   54   /System/Library/Desktop Pictures/Solid Colors/Space Gray Pro.png    215    1       54           2
-   54   /System/Library/Desktop Pictures/Solid Colors/Space Gray Pro.png    216    1       54           1
-
-
-
-39/100. default:
-
---------------------------------- data ---------------------------------  --------- preferences ---------
-
-
-
-40/100. /System/Library/Desktop Pictures/Solid Colors/Soft Pink.png:
-
---------------------------------- data ---------------------------------  --------- preferences ---------
-rowid                                                              value  rowid  key  data_id  picture_id
------  -----------------------------------------------------------------  -----  ---  -------  ----------
-    1        /System/Library/Desktop Pictures/Solid Colors/Soft Pink.png      1    1        1           3
-    1        /System/Library/Desktop Pictures/Solid Colors/Soft Pink.png      2    1        1           4
-    1        /System/Library/Desktop Pictures/Solid Colors/Soft Pink.png      3    1        1           2
-    1        /System/Library/Desktop Pictures/Solid Colors/Soft Pink.png      4    1        1           1
-
-
-
-41/100. catalina:
-
---------------------------------- data ---------------------------------  --------- preferences ---------
-rowid                                                              value  rowid  key  data_id  picture_id
------  -----------------------------------------------------------------  -----  ---  -------  ----------
-    2                                                                  1      5   20        2           3
-    2                                                                  1      6   20        2           4
-    2                                                                  1      7   20        2           2
-    2                                                                  1      8   20        2           1
-    3                     /System/Library/Desktop Pictures/Catalina.heic      9    1        3           3
-    3                     /System/Library/Desktop Pictures/Catalina.heic     10    1        3           4
-    3                     /System/Library/Desktop Pictures/Catalina.heic     11    1        3           2
-    3                     /System/Library/Desktop Pictures/Catalina.heic     12    1        3           1
-
-
-
-42/100. /System/Library/Desktop Pictures/Solid Colors/Ocher.png:
-
---------------------------------- data ---------------------------------  --------- preferences ---------
-rowid                                                              value  rowid  key  data_id  picture_id
------  -----------------------------------------------------------------  -----  ---  -------  ----------
-    4            /System/Library/Desktop Pictures/Solid Colors/Ocher.png     13    1        4           3
-    4            /System/Library/Desktop Pictures/Solid Colors/Ocher.png     14    1        4           4
-    4            /System/Library/Desktop Pictures/Solid Colors/Ocher.png     15    1        4           2
-    4            /System/Library/Desktop Pictures/Solid Colors/Ocher.png     16    1        4           1
-
-
-
-43/100. mojave-dark:
-
---------------------------------- data ---------------------------------  --------- preferences ---------
-rowid                                                              value  rowid  key  data_id  picture_id
------  -----------------------------------------------------------------  -----  ---  -------  ----------
-    5                                                                  3     17   20        5           3
-    5                                                                  3     18   20        5           4
-    5                                                                  3     19   20        5           2
-    5                                                                  3     20   20        5           1
-    6                       /System/Library/Desktop Pictures/Mojave.heic     21    1        6           3
-    6                       /System/Library/Desktop Pictures/Mojave.heic     22    1        6           4
-    6                       /System/Library/Desktop Pictures/Mojave.heic     23    1        6           2
-    6                       /System/Library/Desktop Pictures/Mojave.heic     24    1        6           1
-
-
-
-44/100. solar:
-
---------------------------------- data ---------------------------------  --------- preferences ---------
-rowid                                                              value  rowid  key  data_id  picture_id
------  -----------------------------------------------------------------  -----  ---  -------  ----------
-    7                                                                  1     25   20        7           3
-    7                                                                  1     26   20        7           4
-    7                                                                  1     27   20        7           2
-    7                                                                  1     28   20        7           1
-    8              /System/Library/Desktop Pictures/Solar Gradients.heic     29    1        8           3
-    8              /System/Library/Desktop Pictures/Solar Gradients.heic     30    1        8           4
-    8              /System/Library/Desktop Pictures/Solar Gradients.heic     31    1        8           2
-    8              /System/Library/Desktop Pictures/Solar Gradients.heic     32    1        8           1
-
-
-
-45/100. /System/Library/Desktop Pictures/Solid Colors/Silver.png:
-
---------------------------------- data ---------------------------------  --------- preferences ---------
-rowid                                                              value  rowid  key  data_id  picture_id
------  -----------------------------------------------------------------  -----  ---  -------  ----------
-    9           /System/Library/Desktop Pictures/Solid Colors/Silver.png     33    1        9           3
-    9           /System/Library/Desktop Pictures/Solid Colors/Silver.png     34    1        9           4
-    9           /System/Library/Desktop Pictures/Solid Colors/Silver.png     35    1        9           2
-    9           /System/Library/Desktop Pictures/Solid Colors/Silver.png     36    1        9           1
-
-
-
-46/100. solar:
-
---------------------------------- data ---------------------------------  --------- preferences ---------
-rowid                                                              value  rowid  key  data_id  picture_id
------  -----------------------------------------------------------------  -----  ---  -------  ----------
-   10                                                                  1     37   20       10           3
-   10                                                                  1     38   20       10           4
-   10                                                                  1     39   20       10           2
-   10                                                                  1     40   20       10           1
-   11              /System/Library/Desktop Pictures/Solar Gradients.heic     41    1       11           3
-   11              /System/Library/Desktop Pictures/Solar Gradients.heic     42    1       11           4
-   11              /System/Library/Desktop Pictures/Solar Gradients.heic     43    1       11           2
-   11              /System/Library/Desktop Pictures/Solar Gradients.heic     44    1       11           1
-
-
-
-47/100. graphic:
-
---------------------------------- data ---------------------------------  --------- preferences ---------
-rowid                                                              value  rowid  key  data_id  picture_id
------  -----------------------------------------------------------------  -----  ---  -------  ----------
-   12                                                                  1     45   20       12           3
-   12                                                                  1     46   20       12           4
-   12                                                                  1     47   20       12           2
-   12                                                                  1     48   20       12           1
-
-
-
-48/100. /System/Library/Desktop Pictures/Solid Colors/Gold.png:
-
---------------------------------- data ---------------------------------  --------- preferences ---------
-rowid                                                              value  rowid  key  data_id  picture_id
------  -----------------------------------------------------------------  -----  ---  -------  ----------
-   13             /System/Library/Desktop Pictures/Solid Colors/Gold.png     49    1       13           3
-   13             /System/Library/Desktop Pictures/Solid Colors/Gold.png     50    1       13           4
-   13             /System/Library/Desktop Pictures/Solid Colors/Gold.png     51    1       13           2
-   13             /System/Library/Desktop Pictures/Solid Colors/Gold.png     52    1       13           1
-
-
-
-49/100. /System/Library/Desktop Pictures/High Sierra.jpg:
-
---------------------------------- data ---------------------------------  --------- preferences ---------
-rowid                                                              value  rowid  key  data_id  picture_id
------  -----------------------------------------------------------------  -----  ---  -------  ----------
-   14                   /System/Library/Desktop Pictures/High Sierra.jpg     53    1       14           3
-   14                   /System/Library/Desktop Pictures/High Sierra.jpg     54    1       14           4
-   14                   /System/Library/Desktop Pictures/High Sierra.jpg     55    1       14           2
-   14                   /System/Library/Desktop Pictures/High Sierra.jpg     56    1       14           1
-
-
-
-50/100. big-sur-light:
+9/100. iridescence-light:
 
 --------------------------------- data ---------------------------------  --------- preferences ---------
 rowid                                                              value  rowid  key  data_id  picture_id
@@ -671,14 +129,14 @@ rowid                                                              value  rowid 
    15                                                                  2     58   20       15           4
    15                                                                  2     59   20       15           2
    15                                                                  2     60   20       15           1
-   16                      /System/Library/Desktop Pictures/Big Sur.heic     61    1       16           3
-   16                      /System/Library/Desktop Pictures/Big Sur.heic     62    1       16           4
-   16                      /System/Library/Desktop Pictures/Big Sur.heic     63    1       16           2
-   16                      /System/Library/Desktop Pictures/Big Sur.heic     64    1       16           1
+   16                  /System/Library/Desktop Pictures/Iridescence.heic     61    1       16           3
+   16                  /System/Library/Desktop Pictures/Iridescence.heic     62    1       16           4
+   16                  /System/Library/Desktop Pictures/Iridescence.heic     63    1       16           2
+   16                  /System/Library/Desktop Pictures/Iridescence.heic     64    1       16           1
 
 
 
-51/100. big-sur-light:
+10/100. beach-light:
 
 --------------------------------- data ---------------------------------  --------- preferences ---------
 rowid                                                              value  rowid  key  data_id  picture_id
@@ -687,82 +145,838 @@ rowid                                                              value  rowid 
    17                                                                  2     66   20       17           4
    17                                                                  2     67   20       17           2
    17                                                                  2     68   20       17           1
-   18                      /System/Library/Desktop Pictures/Big Sur.heic     69    1       18           3
-   18                      /System/Library/Desktop Pictures/Big Sur.heic     70    1       18           4
-   18                      /System/Library/Desktop Pictures/Big Sur.heic     71    1       18           2
-   18                      /System/Library/Desktop Pictures/Big Sur.heic     72    1       18           1
+   18                    /System/Library/Desktop Pictures/The Beach.heic     69    1       18           3
+   18                    /System/Library/Desktop Pictures/The Beach.heic     70    1       18           4
+   18                    /System/Library/Desktop Pictures/The Beach.heic     71    1       18           2
+   18                    /System/Library/Desktop Pictures/The Beach.heic     72    1       18           1
 
 
 
-52/100. mojave-light:
-
---------------------------------- data ---------------------------------  --------- preferences ---------
-rowid                                                              value  rowid  key  data_id  picture_id
------  -----------------------------------------------------------------  -----  ---  -------  ----------
-   19                                                                  2     73   20       19           3
-   19                                                                  2     74   20       19           4
-   19                                                                  2     75   20       19           2
-   19                                                                  2     76   20       19           1
-   20                       /System/Library/Desktop Pictures/Mojave.heic     77    1       20           3
-   20                       /System/Library/Desktop Pictures/Mojave.heic     78    1       20           4
-   20                       /System/Library/Desktop Pictures/Mojave.heic     79    1       20           2
-   20                       /System/Library/Desktop Pictures/Mojave.heic     80    1       20           1
-
-
-
-53/100. mojave-light:
+11/100. lake:
 
 --------------------------------- data ---------------------------------  --------- preferences ---------
 rowid                                                              value  rowid  key  data_id  picture_id
 -----  -----------------------------------------------------------------  -----  ---  -------  ----------
-   21                                                                  2     81   20       21           3
-   21                                                                  2     82   20       21           4
-   21                                                                  2     83   20       21           2
-   21                                                                  2     84   20       21           1
-   22                       /System/Library/Desktop Pictures/Mojave.heic     85    1       22           3
-   22                       /System/Library/Desktop Pictures/Mojave.heic     86    1       22           4
-   22                       /System/Library/Desktop Pictures/Mojave.heic     87    1       22           2
-   22                       /System/Library/Desktop Pictures/Mojave.heic     88    1       22           1
+   19                                                                  1     73   20       19           3
+   19                                                                  1     74   20       19           4
+   19                                                                  1     75   20       19           2
+   19                                                                  1     76   20       19           1
+   20                     /System/Library/Desktop Pictures/The Lake.heic     77    1       20           3
+   20                     /System/Library/Desktop Pictures/The Lake.heic     78    1       20           4
+   20                     /System/Library/Desktop Pictures/The Lake.heic     79    1       20           2
+   20                     /System/Library/Desktop Pictures/The Lake.heic     80    1       20           1
 
 
 
-54/100. /System/Library/Desktop Pictures/Solid Colors/Electric Blue.png:
-
---------------------------------- data ---------------------------------  --------- preferences ---------
-rowid                                                              value  rowid  key  data_id  picture_id
------  -----------------------------------------------------------------  -----  ---  -------  ----------
-   23    /System/Library/Desktop Pictures/Solid Colors/Electric Blue.png     89    1       23           3
-   23    /System/Library/Desktop Pictures/Solid Colors/Electric Blue.png     90    1       23           4
-   23    /System/Library/Desktop Pictures/Solid Colors/Electric Blue.png     91    1       23           2
-   23    /System/Library/Desktop Pictures/Solid Colors/Electric Blue.png     92    1       23           1
-
-
-
-55/100. /System/Library/Desktop Pictures/Solid Colors/Soft Pink.png:
+12/100. /System/Library/Desktop Pictures/Big Sur Mountains.heic:
 
 --------------------------------- data ---------------------------------  --------- preferences ---------
 rowid                                                              value  rowid  key  data_id  picture_id
 -----  -----------------------------------------------------------------  -----  ---  -------  ----------
-   24        /System/Library/Desktop Pictures/Solid Colors/Soft Pink.png     93    1       24           3
-   24        /System/Library/Desktop Pictures/Solid Colors/Soft Pink.png     94    1       24           4
-   24        /System/Library/Desktop Pictures/Solid Colors/Soft Pink.png     95    1       24           2
-   24        /System/Library/Desktop Pictures/Solid Colors/Soft Pink.png     96    1       24           1
+   21            /System/Library/Desktop Pictures/Big Sur Mountains.heic     81    1       21           3
+   21            /System/Library/Desktop Pictures/Big Sur Mountains.heic     82    1       21           4
+   21            /System/Library/Desktop Pictures/Big Sur Mountains.heic     83    1       21           2
+   21            /System/Library/Desktop Pictures/Big Sur Mountains.heic     84    1       21           1
 
 
 
-56/100. /System/Library/Desktop Pictures/Color Burst 2.jpg:
+13/100. beach-light:
 
 --------------------------------- data ---------------------------------  --------- preferences ---------
 rowid                                                              value  rowid  key  data_id  picture_id
 -----  -----------------------------------------------------------------  -----  ---  -------  ----------
-   25                 /System/Library/Desktop Pictures/Color Burst 2.jpg     97    1       25           3
-   25                 /System/Library/Desktop Pictures/Color Burst 2.jpg     98    1       25           4
-   25                 /System/Library/Desktop Pictures/Color Burst 2.jpg     99    1       25           2
-   25                 /System/Library/Desktop Pictures/Color Burst 2.jpg    100    1       25           1
+   22                                                                  2     85   20       22           3
+   22                                                                  2     86   20       22           4
+   22                                                                  2     87   20       22           2
+   22                                                                  2     88   20       22           1
+   23                    /System/Library/Desktop Pictures/The Beach.heic     89    1       23           3
+   23                    /System/Library/Desktop Pictures/The Beach.heic     90    1       23           4
+   23                    /System/Library/Desktop Pictures/The Beach.heic     91    1       23           2
+   23                    /System/Library/Desktop Pictures/The Beach.heic     92    1       23           1
 
 
 
-57/100. catalina-dark:
+14/100. beach-light:
+
+--------------------------------- data ---------------------------------  --------- preferences ---------
+rowid                                                              value  rowid  key  data_id  picture_id
+-----  -----------------------------------------------------------------  -----  ---  -------  ----------
+   24                                                                  2     93   20       24           3
+   24                                                                  2     94   20       24           4
+   24                                                                  2     95   20       24           2
+   24                                                                  2     96   20       24           1
+   25                    /System/Library/Desktop Pictures/The Beach.heic     97    1       25           3
+   25                    /System/Library/Desktop Pictures/The Beach.heic     98    1       25           4
+   25                    /System/Library/Desktop Pictures/The Beach.heic     99    1       25           2
+   25                    /System/Library/Desktop Pictures/The Beach.heic    100    1       25           1
+
+
+
+15/100. lake-light:
+
+--------------------------------- data ---------------------------------  --------- preferences ---------
+rowid                                                              value  rowid  key  data_id  picture_id
+-----  -----------------------------------------------------------------  -----  ---  -------  ----------
+   26                                                                  2    101   20       26           3
+   26                                                                  2    102   20       26           4
+   26                                                                  2    103   20       26           2
+   26                                                                  2    104   20       26           1
+   27                     /System/Library/Desktop Pictures/The Lake.heic    105    1       27           3
+   27                     /System/Library/Desktop Pictures/The Lake.heic    106    1       27           4
+   27                     /System/Library/Desktop Pictures/The Lake.heic    107    1       27           2
+   27                     /System/Library/Desktop Pictures/The Lake.heic    108    1       27           1
+
+
+
+16/100. /System/Library/Desktop Pictures/Catalina Silhouette.heic:
+
+--------------------------------- data ---------------------------------  --------- preferences ---------
+rowid                                                              value  rowid  key  data_id  picture_id
+-----  -----------------------------------------------------------------  -----  ---  -------  ----------
+   28          /System/Library/Desktop Pictures/Catalina Silhouette.heic    109    1       28           3
+   28          /System/Library/Desktop Pictures/Catalina Silhouette.heic    110    1       28           4
+   28          /System/Library/Desktop Pictures/Catalina Silhouette.heic    111    1       28           2
+   28          /System/Library/Desktop Pictures/Catalina Silhouette.heic    112    1       28           1
+
+
+
+17/100. big-sur-light:
+
+--------------------------------- data ---------------------------------  --------- preferences ---------
+rowid                                                              value  rowid  key  data_id  picture_id
+-----  -----------------------------------------------------------------  -----  ---  -------  ----------
+   29                                                                  2    113   20       29           3
+   29                                                                  2    114   20       29           4
+   29                                                                  2    115   20       29           2
+   29                                                                  2    116   20       29           1
+   30                      /System/Library/Desktop Pictures/Big Sur.heic    117    1       30           3
+   30                      /System/Library/Desktop Pictures/Big Sur.heic    118    1       30           4
+   30                      /System/Library/Desktop Pictures/Big Sur.heic    119    1       30           2
+   30                      /System/Library/Desktop Pictures/Big Sur.heic    120    1       30           1
+
+
+
+18/100. beach-light:
+
+--------------------------------- data ---------------------------------  --------- preferences ---------
+rowid                                                              value  rowid  key  data_id  picture_id
+-----  -----------------------------------------------------------------  -----  ---  -------  ----------
+   31                                                                  2    121   20       31           3
+   31                                                                  2    122   20       31           4
+   31                                                                  2    123   20       31           2
+   31                                                                  2    124   20       31           1
+   32                    /System/Library/Desktop Pictures/The Beach.heic    125    1       32           3
+   32                    /System/Library/Desktop Pictures/The Beach.heic    126    1       32           4
+   32                    /System/Library/Desktop Pictures/The Beach.heic    127    1       32           2
+   32                    /System/Library/Desktop Pictures/The Beach.heic    128    1       32           1
+
+
+
+19/100. desert-dark:
+
+--------------------------------- data ---------------------------------  --------- preferences ---------
+rowid                                                              value  rowid  key  data_id  picture_id
+-----  -----------------------------------------------------------------  -----  ---  -------  ----------
+   33                                                                  3    129   20       33           3
+   33                                                                  3    130   20       33           4
+   33                                                                  3    131   20       33           2
+   33                                                                  3    132   20       33           1
+   34                   /System/Library/Desktop Pictures/The Desert.heic    133    1       34           3
+   34                   /System/Library/Desktop Pictures/The Desert.heic    134    1       34           4
+   34                   /System/Library/Desktop Pictures/The Desert.heic    135    1       34           2
+   34                   /System/Library/Desktop Pictures/The Desert.heic    136    1       34           1
+
+
+
+20/100. /System/Library/Desktop Pictures/Solid Colors/Space Gray.png:
+
+--------------------------------- data ---------------------------------  --------- preferences ---------
+rowid                                                              value  rowid  key  data_id  picture_id
+-----  -----------------------------------------------------------------  -----  ---  -------  ----------
+   35       /System/Library/Desktop Pictures/Solid Colors/Space Gray.png    137    1       35           3
+   35       /System/Library/Desktop Pictures/Solid Colors/Space Gray.png    138    1       35           4
+   35       /System/Library/Desktop Pictures/Solid Colors/Space Gray.png    139    1       35           2
+   35       /System/Library/Desktop Pictures/Solid Colors/Space Gray.png    140    1       35           1
+
+
+
+21/100. tree:
+
+--------------------------------- data ---------------------------------  --------- preferences ---------
+rowid                                                              value  rowid  key  data_id  picture_id
+-----  -----------------------------------------------------------------  -----  ---  -------  ----------
+   36                                                                  1    141   20       36           3
+   36                                                                  1    142   20       36           4
+   36                                                                  1    143   20       36           2
+   36                                                                  1    144   20       36           1
+   37                         /System/Library/Desktop Pictures/Tree.heic    145    1       37           3
+   37                         /System/Library/Desktop Pictures/Tree.heic    146    1       37           4
+   37                         /System/Library/Desktop Pictures/Tree.heic    147    1       37           2
+   37                         /System/Library/Desktop Pictures/Tree.heic    148    1       37           1
+
+
+
+22/100. /System/Library/Desktop Pictures/Solid Colors/Gold 2.png:
+
+--------------------------------- data ---------------------------------  --------- preferences ---------
+rowid                                                              value  rowid  key  data_id  picture_id
+-----  -----------------------------------------------------------------  -----  ---  -------  ----------
+   38           /System/Library/Desktop Pictures/Solid Colors/Gold 2.png    149    1       38           3
+   38           /System/Library/Desktop Pictures/Solid Colors/Gold 2.png    150    1       38           4
+   38           /System/Library/Desktop Pictures/Solid Colors/Gold 2.png    151    1       38           2
+   38           /System/Library/Desktop Pictures/Solid Colors/Gold 2.png    152    1       38           1
+
+
+
+23/100. tree-dark:
+
+--------------------------------- data ---------------------------------  --------- preferences ---------
+rowid                                                              value  rowid  key  data_id  picture_id
+-----  -----------------------------------------------------------------  -----  ---  -------  ----------
+   39                                                                  3    153   20       39           3
+   39                                                                  3    154   20       39           4
+   39                                                                  3    155   20       39           2
+   39                                                                  3    156   20       39           1
+   40                         /System/Library/Desktop Pictures/Tree.heic    157    1       40           3
+   40                         /System/Library/Desktop Pictures/Tree.heic    158    1       40           4
+   40                         /System/Library/Desktop Pictures/Tree.heic    159    1       40           2
+   40                         /System/Library/Desktop Pictures/Tree.heic    160    1       40           1
+
+
+
+24/100. tree-dark:
+
+--------------------------------- data ---------------------------------  --------- preferences ---------
+rowid                                                              value  rowid  key  data_id  picture_id
+-----  -----------------------------------------------------------------  -----  ---  -------  ----------
+   41                                                                  3    161   20       41           3
+   41                                                                  3    162   20       41           4
+   41                                                                  3    163   20       41           2
+   41                                                                  3    164   20       41           1
+   42                         /System/Library/Desktop Pictures/Tree.heic    165    1       42           3
+   42                         /System/Library/Desktop Pictures/Tree.heic    166    1       42           4
+   42                         /System/Library/Desktop Pictures/Tree.heic    167    1       42           2
+   42                         /System/Library/Desktop Pictures/Tree.heic    168    1       42           1
+
+
+
+25/100. /System/Library/Desktop Pictures/Solid Colors/Space Gray.png:
+
+--------------------------------- data ---------------------------------  --------- preferences ---------
+rowid                                                              value  rowid  key  data_id  picture_id
+-----  -----------------------------------------------------------------  -----  ---  -------  ----------
+   43       /System/Library/Desktop Pictures/Solid Colors/Space Gray.png    169    1       43           3
+   43       /System/Library/Desktop Pictures/Solid Colors/Space Gray.png    170    1       43           4
+   43       /System/Library/Desktop Pictures/Solid Colors/Space Gray.png    171    1       43           2
+   43       /System/Library/Desktop Pictures/Solid Colors/Space Gray.png    172    1       43           1
+
+
+
+26/100. iridescence-dark:
+
+--------------------------------- data ---------------------------------  --------- preferences ---------
+rowid                                                              value  rowid  key  data_id  picture_id
+-----  -----------------------------------------------------------------  -----  ---  -------  ----------
+   44                                                                  3    173   20       44           3
+   44                                                                  3    174   20       44           4
+   44                                                                  3    175   20       44           2
+   44                                                                  3    176   20       44           1
+   45                  /System/Library/Desktop Pictures/Iridescence.heic    177    1       45           3
+   45                  /System/Library/Desktop Pictures/Iridescence.heic    178    1       45           4
+   45                  /System/Library/Desktop Pictures/Iridescence.heic    179    1       45           2
+   45                  /System/Library/Desktop Pictures/Iridescence.heic    180    1       45           1
+
+
+
+27/100. lake-dark:
+
+--------------------------------- data ---------------------------------  --------- preferences ---------
+rowid                                                              value  rowid  key  data_id  picture_id
+-----  -----------------------------------------------------------------  -----  ---  -------  ----------
+   46                                                                  3    181   20       46           3
+   46                                                                  3    182   20       46           4
+   46                                                                  3    183   20       46           2
+   46                                                                  3    184   20       46           1
+   47                     /System/Library/Desktop Pictures/The Lake.heic    185    1       47           3
+   47                     /System/Library/Desktop Pictures/The Lake.heic    186    1       47           4
+   47                     /System/Library/Desktop Pictures/The Lake.heic    187    1       47           2
+   47                     /System/Library/Desktop Pictures/The Lake.heic    188    1       47           1
+
+
+
+28/100. solar:
+
+--------------------------------- data ---------------------------------  --------- preferences ---------
+rowid                                                              value  rowid  key  data_id  picture_id
+-----  -----------------------------------------------------------------  -----  ---  -------  ----------
+   48                                                                  1    189   20       48           3
+   48                                                                  1    190   20       48           4
+   48                                                                  1    191   20       48           2
+   48                                                                  1    192   20       48           1
+   49              /System/Library/Desktop Pictures/Solar Gradients.heic    193    1       49           3
+   49              /System/Library/Desktop Pictures/Solar Gradients.heic    194    1       49           4
+   49              /System/Library/Desktop Pictures/Solar Gradients.heic    195    1       49           2
+   49              /System/Library/Desktop Pictures/Solar Gradients.heic    196    1       49           1
+
+
+
+29/100. /System/Library/Desktop Pictures/Solid Colors/Turquoise Green.png:
+
+--------------------------------- data ---------------------------------  --------- preferences ---------
+rowid                                                              value  rowid  key  data_id  picture_id
+-----  -----------------------------------------------------------------  -----  ---  -------  ----------
+   50  /System/Library/Desktop Pictures/Solid Colors/Turquoise Green.png    197    1       50           3
+   50  /System/Library/Desktop Pictures/Solid Colors/Turquoise Green.png    198    1       50           4
+   50  /System/Library/Desktop Pictures/Solid Colors/Turquoise Green.png    199    1       50           2
+   50  /System/Library/Desktop Pictures/Solid Colors/Turquoise Green.png    200    1       50           1
+
+
+
+30/100. cliffs-dark:
+
+--------------------------------- data ---------------------------------  --------- preferences ---------
+rowid                                                              value  rowid  key  data_id  picture_id
+-----  -----------------------------------------------------------------  -----  ---  -------  ----------
+   51                                                                  3    201   20       51           3
+   51                                                                  3    202   20       51           4
+   51                                                                  3    203   20       51           2
+   51                                                                  3    204   20       51           1
+   52                   /System/Library/Desktop Pictures/The Cliffs.heic    205    1       52           3
+   52                   /System/Library/Desktop Pictures/The Cliffs.heic    206    1       52           4
+   52                   /System/Library/Desktop Pictures/The Cliffs.heic    207    1       52           2
+   52                   /System/Library/Desktop Pictures/The Cliffs.heic    208    1       52           1
+
+
+
+31/100. /System/Library/Desktop Pictures/Solid Colors/Dusty Rose.png:
+
+--------------------------------- data ---------------------------------  --------- preferences ---------
+rowid                                                              value  rowid  key  data_id  picture_id
+-----  -----------------------------------------------------------------  -----  ---  -------  ----------
+   53       /System/Library/Desktop Pictures/Solid Colors/Dusty Rose.png    209    1       53           3
+   53       /System/Library/Desktop Pictures/Solid Colors/Dusty Rose.png    210    1       53           4
+   53       /System/Library/Desktop Pictures/Solid Colors/Dusty Rose.png    211    1       53           2
+   53       /System/Library/Desktop Pictures/Solid Colors/Dusty Rose.png    212    1       53           1
+
+
+
+32/100. /System/Library/Desktop Pictures/Light Stream Blue.heic:
+
+--------------------------------- data ---------------------------------  --------- preferences ---------
+rowid                                                              value  rowid  key  data_id  picture_id
+-----  -----------------------------------------------------------------  -----  ---  -------  ----------
+   54            /System/Library/Desktop Pictures/Light Stream Blue.heic    213    1       54           3
+   54            /System/Library/Desktop Pictures/Light Stream Blue.heic    214    1       54           4
+   54            /System/Library/Desktop Pictures/Light Stream Blue.heic    215    1       54           2
+   54            /System/Library/Desktop Pictures/Light Stream Blue.heic    216    1       54           1
+
+
+
+33/100. dome-light:
+
+--------------------------------- data ---------------------------------  --------- preferences ---------
+rowid                                                              value  rowid  key  data_id  picture_id
+-----  -----------------------------------------------------------------  -----  ---  -------  ----------
+   55                                                                  2    217   20       55           3
+   55                                                                  2    218   20       55           4
+   55                                                                  2    219   20       55           2
+   55                                                                  2    220   20       55           1
+   56                         /System/Library/Desktop Pictures/Dome.heic    221    1       56           3
+   56                         /System/Library/Desktop Pictures/Dome.heic    222    1       56           4
+   56                         /System/Library/Desktop Pictures/Dome.heic    223    1       56           2
+   56                         /System/Library/Desktop Pictures/Dome.heic    224    1       56           1
+
+
+
+34/100. iridescence:
+
+--------------------------------- data ---------------------------------  --------- preferences ---------
+rowid                                                              value  rowid  key  data_id  picture_id
+-----  -----------------------------------------------------------------  -----  ---  -------  ----------
+   57                                                                  1    225   20       57           3
+   57                                                                  1    226   20       57           4
+   57                                                                  1    227   20       57           2
+   57                                                                  1    228   20       57           1
+   58                  /System/Library/Desktop Pictures/Iridescence.heic    229    1       58           3
+   58                  /System/Library/Desktop Pictures/Iridescence.heic    230    1       58           4
+   58                  /System/Library/Desktop Pictures/Iridescence.heic    231    1       58           2
+   58                  /System/Library/Desktop Pictures/Iridescence.heic    232    1       58           1
+
+
+
+35/100. /System/Library/Desktop Pictures/Light Stream Blue.heic:
+
+--------------------------------- data ---------------------------------  --------- preferences ---------
+rowid                                                              value  rowid  key  data_id  picture_id
+-----  -----------------------------------------------------------------  -----  ---  -------  ----------
+   59            /System/Library/Desktop Pictures/Light Stream Blue.heic    233    1       59           3
+   59            /System/Library/Desktop Pictures/Light Stream Blue.heic    234    1       59           4
+   59            /System/Library/Desktop Pictures/Light Stream Blue.heic    235    1       59           2
+   59            /System/Library/Desktop Pictures/Light Stream Blue.heic    236    1       59           1
+
+
+
+36/100. /System/Library/Desktop Pictures/Big Sur Horizon.heic:
+
+--------------------------------- data ---------------------------------  --------- preferences ---------
+rowid                                                              value  rowid  key  data_id  picture_id
+-----  -----------------------------------------------------------------  -----  ---  -------  ----------
+   60              /System/Library/Desktop Pictures/Big Sur Horizon.heic    237    1       60           3
+   60              /System/Library/Desktop Pictures/Big Sur Horizon.heic    238    1       60           4
+   60              /System/Library/Desktop Pictures/Big Sur Horizon.heic    239    1       60           2
+   60              /System/Library/Desktop Pictures/Big Sur Horizon.heic    240    1       60           1
+
+
+
+37/100. dark:
+
+--------------------------------- data ---------------------------------  --------- preferences ---------
+rowid                                                              value  rowid  key  data_id  picture_id
+-----  -----------------------------------------------------------------  -----  ---  -------  ----------
+   61                                                                  3    241   20       61           3
+   61                                                                  3    242   20       61           4
+   61                                                                  3    243   20       61           2
+   61                                                                  3    244   20       61           1
+
+
+
+38/100. /System/Library/Desktop Pictures/Reflection 4.jpg:
+
+--------------------------------- data ---------------------------------  --------- preferences ---------
+rowid                                                              value  rowid  key  data_id  picture_id
+-----  -----------------------------------------------------------------  -----  ---  -------  ----------
+   62                  /System/Library/Desktop Pictures/Reflection 4.jpg    245    1       62           3
+   62                  /System/Library/Desktop Pictures/Reflection 4.jpg    246    1       62           4
+   62                  /System/Library/Desktop Pictures/Reflection 4.jpg    247    1       62           2
+   62                  /System/Library/Desktop Pictures/Reflection 4.jpg    248    1       62           1
+
+
+
+39/100. beach:
+
+--------------------------------- data ---------------------------------  --------- preferences ---------
+rowid                                                              value  rowid  key  data_id  picture_id
+-----  -----------------------------------------------------------------  -----  ---  -------  ----------
+   63                                                                  1    249   20       63           3
+   63                                                                  1    250   20       63           4
+   63                                                                  1    251   20       63           2
+   63                                                                  1    252   20       63           1
+   64                    /System/Library/Desktop Pictures/The Beach.heic    253    1       64           3
+   64                    /System/Library/Desktop Pictures/The Beach.heic    254    1       64           4
+   64                    /System/Library/Desktop Pictures/The Beach.heic    255    1       64           2
+   64                    /System/Library/Desktop Pictures/The Beach.heic    256    1       64           1
+
+
+
+40/100. /System/Library/Desktop Pictures/Solid Colors/Red Orange.png:
+
+--------------------------------- data ---------------------------------  --------- preferences ---------
+rowid                                                              value  rowid  key  data_id  picture_id
+-----  -----------------------------------------------------------------  -----  ---  -------  ----------
+   65       /System/Library/Desktop Pictures/Solid Colors/Red Orange.png    257    1       65           3
+   65       /System/Library/Desktop Pictures/Solid Colors/Red Orange.png    258    1       65           4
+   65       /System/Library/Desktop Pictures/Solid Colors/Red Orange.png    259    1       65           2
+   65       /System/Library/Desktop Pictures/Solid Colors/Red Orange.png    260    1       65           1
+
+
+
+41/100. catalina-light:
+
+--------------------------------- data ---------------------------------  --------- preferences ---------
+rowid                                                              value  rowid  key  data_id  picture_id
+-----  -----------------------------------------------------------------  -----  ---  -------  ----------
+   66                                                                  2    261   20       66           3
+   66                                                                  2    262   20       66           4
+   66                                                                  2    263   20       66           2
+   66                                                                  2    264   20       66           1
+   67                     /System/Library/Desktop Pictures/Catalina.heic    265    1       67           3
+   67                     /System/Library/Desktop Pictures/Catalina.heic    266    1       67           4
+   67                     /System/Library/Desktop Pictures/Catalina.heic    267    1       67           2
+   67                     /System/Library/Desktop Pictures/Catalina.heic    268    1       67           1
+
+
+
+42/100. iridescence:
+
+--------------------------------- data ---------------------------------  --------- preferences ---------
+rowid                                                              value  rowid  key  data_id  picture_id
+-----  -----------------------------------------------------------------  -----  ---  -------  ----------
+   68                                                                  1    269   20       68           3
+   68                                                                  1    270   20       68           4
+   68                                                                  1    271   20       68           2
+   68                                                                  1    272   20       68           1
+   69                  /System/Library/Desktop Pictures/Iridescence.heic    273    1       69           3
+   69                  /System/Library/Desktop Pictures/Iridescence.heic    274    1       69           4
+   69                  /System/Library/Desktop Pictures/Iridescence.heic    275    1       69           2
+   69                  /System/Library/Desktop Pictures/Iridescence.heic    276    1       69           1
+
+
+
+43/100. peak-light:
+
+--------------------------------- data ---------------------------------  --------- preferences ---------
+rowid                                                              value  rowid  key  data_id  picture_id
+-----  -----------------------------------------------------------------  -----  ---  -------  ----------
+   70                                                                  2    277   20       70           3
+   70                                                                  2    278   20       70           4
+   70                                                                  2    279   20       70           2
+   70                                                                  2    280   20       70           1
+   71                         /System/Library/Desktop Pictures/Peak.heic    281    1       71           3
+   71                         /System/Library/Desktop Pictures/Peak.heic    282    1       71           4
+   71                         /System/Library/Desktop Pictures/Peak.heic    283    1       71           2
+   71                         /System/Library/Desktop Pictures/Peak.heic    284    1       71           1
+
+
+
+44/100. /System/Library/Desktop Pictures/Big Sur Night Grasses.heic:
+
+--------------------------------- data ---------------------------------  --------- preferences ---------
+rowid                                                              value  rowid  key  data_id  picture_id
+-----  -----------------------------------------------------------------  -----  ---  -------  ----------
+   72        /System/Library/Desktop Pictures/Big Sur Night Grasses.heic    285    1       72           3
+   72        /System/Library/Desktop Pictures/Big Sur Night Grasses.heic    286    1       72           4
+   72        /System/Library/Desktop Pictures/Big Sur Night Grasses.heic    287    1       72           2
+   72        /System/Library/Desktop Pictures/Big Sur Night Grasses.heic    288    1       72           1
+
+
+
+45/100. /System/Library/Desktop Pictures/Solid Colors/Black.png:
+
+--------------------------------- data ---------------------------------  --------- preferences ---------
+rowid                                                              value  rowid  key  data_id  picture_id
+-----  -----------------------------------------------------------------  -----  ---  -------  ----------
+   73            /System/Library/Desktop Pictures/Solid Colors/Black.png    289    1       73           3
+   73            /System/Library/Desktop Pictures/Solid Colors/Black.png    290    1       73           4
+   73            /System/Library/Desktop Pictures/Solid Colors/Black.png    291    1       73           2
+   73            /System/Library/Desktop Pictures/Solid Colors/Black.png    292    1       73           1
+
+
+
+46/100. lake-light:
+
+--------------------------------- data ---------------------------------  --------- preferences ---------
+rowid                                                              value  rowid  key  data_id  picture_id
+-----  -----------------------------------------------------------------  -----  ---  -------  ----------
+   74                                                                  2    293   20       74           3
+   74                                                                  2    294   20       74           4
+   74                                                                  2    295   20       74           2
+   74                                                                  2    296   20       74           1
+   75                     /System/Library/Desktop Pictures/The Lake.heic    297    1       75           3
+   75                     /System/Library/Desktop Pictures/The Lake.heic    298    1       75           4
+   75                     /System/Library/Desktop Pictures/The Lake.heic    299    1       75           2
+   75                     /System/Library/Desktop Pictures/The Lake.heic    300    1       75           1
+
+
+
+47/100. graphic:
+
+--------------------------------- data ---------------------------------  --------- preferences ---------
+rowid                                                              value  rowid  key  data_id  picture_id
+-----  -----------------------------------------------------------------  -----  ---  -------  ----------
+   76                                                                  1    301   20       76           3
+   76                                                                  1    302   20       76           4
+   76                                                                  1    303   20       76           2
+   76                                                                  1    304   20       76           1
+
+
+
+48/100. /System/Library/Desktop Pictures/Big Sur Shore Rocks.heic:
+
+--------------------------------- data ---------------------------------  --------- preferences ---------
+rowid                                                              value  rowid  key  data_id  picture_id
+-----  -----------------------------------------------------------------  -----  ---  -------  ----------
+   77          /System/Library/Desktop Pictures/Big Sur Shore Rocks.heic    305    1       77           3
+   77          /System/Library/Desktop Pictures/Big Sur Shore Rocks.heic    306    1       77           4
+   77          /System/Library/Desktop Pictures/Big Sur Shore Rocks.heic    307    1       77           2
+   77          /System/Library/Desktop Pictures/Big Sur Shore Rocks.heic    308    1       77           1
+
+
+
+49/100. /System/Library/Desktop Pictures/Reflection 2.jpg:
+
+--------------------------------- data ---------------------------------  --------- preferences ---------
+rowid                                                              value  rowid  key  data_id  picture_id
+-----  -----------------------------------------------------------------  -----  ---  -------  ----------
+   78                  /System/Library/Desktop Pictures/Reflection 2.jpg    309    1       78           3
+   78                  /System/Library/Desktop Pictures/Reflection 2.jpg    310    1       78           4
+   78                  /System/Library/Desktop Pictures/Reflection 2.jpg    311    1       78           2
+   78                  /System/Library/Desktop Pictures/Reflection 2.jpg    312    1       78           1
+
+
+
+50/100. big-sur-dark:
+
+--------------------------------- data ---------------------------------  --------- preferences ---------
+rowid                                                              value  rowid  key  data_id  picture_id
+-----  -----------------------------------------------------------------  -----  ---  -------  ----------
+   79                                                                  3    313   20       79           3
+   79                                                                  3    314   20       79           4
+   79                                                                  3    315   20       79           2
+   79                                                                  3    316   20       79           1
+   80                      /System/Library/Desktop Pictures/Big Sur.heic    317    1       80           3
+   80                      /System/Library/Desktop Pictures/Big Sur.heic    318    1       80           4
+   80                      /System/Library/Desktop Pictures/Big Sur.heic    319    1       80           2
+   80                      /System/Library/Desktop Pictures/Big Sur.heic    320    1       80           1
+
+
+
+51/100. catalina:
+
+--------------------------------- data ---------------------------------  --------- preferences ---------
+rowid                                                              value  rowid  key  data_id  picture_id
+-----  -----------------------------------------------------------------  -----  ---  -------  ----------
+   81                                                                  1    321   20       81           3
+   81                                                                  1    322   20       81           4
+   81                                                                  1    323   20       81           2
+   81                                                                  1    324   20       81           1
+   82                     /System/Library/Desktop Pictures/Catalina.heic    325    1       82           3
+   82                     /System/Library/Desktop Pictures/Catalina.heic    326    1       82           4
+   82                     /System/Library/Desktop Pictures/Catalina.heic    327    1       82           2
+   82                     /System/Library/Desktop Pictures/Catalina.heic    328    1       82           1
+
+
+
+52/100. default:
+
+--------------------------------- data ---------------------------------  --------- preferences ---------
+
+
+
+53/100. default:
+
+--------------------------------- data ---------------------------------  --------- preferences ---------
+
+
+
+54/100. tree:
+
+--------------------------------- data ---------------------------------  --------- preferences ---------
+rowid                                                              value  rowid  key  data_id  picture_id
+-----  -----------------------------------------------------------------  -----  ---  -------  ----------
+    1                                                                  1      1   20        1           3
+    1                                                                  1      2   20        1           4
+    1                                                                  1      3   20        1           2
+    1                                                                  1      4   20        1           1
+    2                         /System/Library/Desktop Pictures/Tree.heic      5    1        2           3
+    2                         /System/Library/Desktop Pictures/Tree.heic      6    1        2           4
+    2                         /System/Library/Desktop Pictures/Tree.heic      7    1        2           2
+    2                         /System/Library/Desktop Pictures/Tree.heic      8    1        2           1
+
+
+
+55/100. iridescence-dark:
+
+--------------------------------- data ---------------------------------  --------- preferences ---------
+rowid                                                              value  rowid  key  data_id  picture_id
+-----  -----------------------------------------------------------------  -----  ---  -------  ----------
+    3                                                                  3      9   20        3           3
+    3                                                                  3     10   20        3           4
+    3                                                                  3     11   20        3           2
+    3                                                                  3     12   20        3           1
+    4                  /System/Library/Desktop Pictures/Iridescence.heic     13    1        4           3
+    4                  /System/Library/Desktop Pictures/Iridescence.heic     14    1        4           4
+    4                  /System/Library/Desktop Pictures/Iridescence.heic     15    1        4           2
+    4                  /System/Library/Desktop Pictures/Iridescence.heic     16    1        4           1
+
+
+
+56/100. tree-light:
+
+--------------------------------- data ---------------------------------  --------- preferences ---------
+rowid                                                              value  rowid  key  data_id  picture_id
+-----  -----------------------------------------------------------------  -----  ---  -------  ----------
+    5                                                                  2     17   20        5           3
+    5                                                                  2     18   20        5           4
+    5                                                                  2     19   20        5           2
+    5                                                                  2     20   20        5           1
+    6                         /System/Library/Desktop Pictures/Tree.heic     21    1        6           3
+    6                         /System/Library/Desktop Pictures/Tree.heic     22    1        6           4
+    6                         /System/Library/Desktop Pictures/Tree.heic     23    1        6           2
+    6                         /System/Library/Desktop Pictures/Tree.heic     24    1        6           1
+
+
+
+57/100. peak:
+
+--------------------------------- data ---------------------------------  --------- preferences ---------
+rowid                                                              value  rowid  key  data_id  picture_id
+-----  -----------------------------------------------------------------  -----  ---  -------  ----------
+    7                                                                  1     25   20        7           3
+    7                                                                  1     26   20        7           4
+    7                                                                  1     27   20        7           2
+    7                                                                  1     28   20        7           1
+    8                         /System/Library/Desktop Pictures/Peak.heic     29    1        8           3
+    8                         /System/Library/Desktop Pictures/Peak.heic     30    1        8           4
+    8                         /System/Library/Desktop Pictures/Peak.heic     31    1        8           2
+    8                         /System/Library/Desktop Pictures/Peak.heic     32    1        8           1
+
+
+
+58/100. /System/Library/Desktop Pictures/Solid Colors/Red Orange.png:
+
+--------------------------------- data ---------------------------------  --------- preferences ---------
+rowid                                                              value  rowid  key  data_id  picture_id
+-----  -----------------------------------------------------------------  -----  ---  -------  ----------
+    9       /System/Library/Desktop Pictures/Solid Colors/Red Orange.png     33    1        9           3
+    9       /System/Library/Desktop Pictures/Solid Colors/Red Orange.png     34    1        9           4
+    9       /System/Library/Desktop Pictures/Solid Colors/Red Orange.png     35    1        9           2
+    9       /System/Library/Desktop Pictures/Solid Colors/Red Orange.png     36    1        9           1
+
+
+
+59/100. /System/Library/Desktop Pictures/Big Sur Night Succulents.heic:
+
+--------------------------------- data ---------------------------------  --------- preferences ---------
+rowid                                                              value  rowid  key  data_id  picture_id
+-----  -----------------------------------------------------------------  -----  ---  -------  ----------
+   10     /System/Library/Desktop Pictures/Big Sur Night Succulents.heic     37    1       10           3
+   10     /System/Library/Desktop Pictures/Big Sur Night Succulents.heic     38    1       10           4
+   10     /System/Library/Desktop Pictures/Big Sur Night Succulents.heic     39    1       10           2
+   10     /System/Library/Desktop Pictures/Big Sur Night Succulents.heic     40    1       10           1
+
+
+
+60/100. light:
+
+--------------------------------- data ---------------------------------  --------- preferences ---------
+rowid                                                              value  rowid  key  data_id  picture_id
+-----  -----------------------------------------------------------------  -----  ---  -------  ----------
+   11                                                                  2     41   20       11           3
+   11                                                                  2     42   20       11           4
+   11                                                                  2     43   20       11           2
+   11                                                                  2     44   20       11           1
+
+
+
+61/100. dark:
+
+--------------------------------- data ---------------------------------  --------- preferences ---------
+rowid                                                              value  rowid  key  data_id  picture_id
+-----  -----------------------------------------------------------------  -----  ---  -------  ----------
+   12                                                                  3     45   20       12           3
+   12                                                                  3     46   20       12           4
+   12                                                                  3     47   20       12           2
+   12                                                                  3     48   20       12           1
+
+
+
+62/100. peak:
+
+--------------------------------- data ---------------------------------  --------- preferences ---------
+rowid                                                              value  rowid  key  data_id  picture_id
+-----  -----------------------------------------------------------------  -----  ---  -------  ----------
+   13                                                                  1     49   20       13           3
+   13                                                                  1     50   20       13           4
+   13                                                                  1     51   20       13           2
+   13                                                                  1     52   20       13           1
+   14                         /System/Library/Desktop Pictures/Peak.heic     53    1       14           3
+   14                         /System/Library/Desktop Pictures/Peak.heic     54    1       14           4
+   14                         /System/Library/Desktop Pictures/Peak.heic     55    1       14           2
+   14                         /System/Library/Desktop Pictures/Peak.heic     56    1       14           1
+
+
+
+63/100. cliffs-light:
+
+--------------------------------- data ---------------------------------  --------- preferences ---------
+rowid                                                              value  rowid  key  data_id  picture_id
+-----  -----------------------------------------------------------------  -----  ---  -------  ----------
+   15                                                                  2     57   20       15           3
+   15                                                                  2     58   20       15           4
+   15                                                                  2     59   20       15           2
+   15                                                                  2     60   20       15           1
+   16                   /System/Library/Desktop Pictures/The Cliffs.heic     61    1       16           3
+   16                   /System/Library/Desktop Pictures/The Cliffs.heic     62    1       16           4
+   16                   /System/Library/Desktop Pictures/The Cliffs.heic     63    1       16           2
+   16                   /System/Library/Desktop Pictures/The Cliffs.heic     64    1       16           1
+
+
+
+64/100. valley:
+
+--------------------------------- data ---------------------------------  --------- preferences ---------
+rowid                                                              value  rowid  key  data_id  picture_id
+-----  -----------------------------------------------------------------  -----  ---  -------  ----------
+   17                                                                  1     65   20       17           3
+   17                                                                  1     66   20       17           4
+   17                                                                  1     67   20       17           2
+   17                                                                  1     68   20       17           1
+   18                       /System/Library/Desktop Pictures/Valley.heic     69    1       18           3
+   18                       /System/Library/Desktop Pictures/Valley.heic     70    1       18           4
+   18                       /System/Library/Desktop Pictures/Valley.heic     71    1       18           2
+   18                       /System/Library/Desktop Pictures/Valley.heic     72    1       18           1
+
+
+
+65/100. /System/Library/Desktop Pictures/Solid Colors/Space Gray Pro.png:
+
+--------------------------------- data ---------------------------------  --------- preferences ---------
+rowid                                                              value  rowid  key  data_id  picture_id
+-----  -----------------------------------------------------------------  -----  ---  -------  ----------
+   19   /System/Library/Desktop Pictures/Solid Colors/Space Gray Pro.png     73    1       19           3
+   19   /System/Library/Desktop Pictures/Solid Colors/Space Gray Pro.png     74    1       19           4
+   19   /System/Library/Desktop Pictures/Solid Colors/Space Gray Pro.png     75    1       19           2
+   19   /System/Library/Desktop Pictures/Solid Colors/Space Gray Pro.png     76    1       19           1
+
+
+
+66/100. valley:
+
+--------------------------------- data ---------------------------------  --------- preferences ---------
+rowid                                                              value  rowid  key  data_id  picture_id
+-----  -----------------------------------------------------------------  -----  ---  -------  ----------
+   20                                                                  1     77   20       20           3
+   20                                                                  1     78   20       20           4
+   20                                                                  1     79   20       20           2
+   20                                                                  1     80   20       20           1
+   21                       /System/Library/Desktop Pictures/Valley.heic     81    1       21           3
+   21                       /System/Library/Desktop Pictures/Valley.heic     82    1       21           4
+   21                       /System/Library/Desktop Pictures/Valley.heic     83    1       21           2
+   21                       /System/Library/Desktop Pictures/Valley.heic     84    1       21           1
+
+
+
+67/100. /System/Library/Desktop Pictures/Solid Colors/Electric Blue.png:
+
+--------------------------------- data ---------------------------------  --------- preferences ---------
+rowid                                                              value  rowid  key  data_id  picture_id
+-----  -----------------------------------------------------------------  -----  ---  -------  ----------
+   22    /System/Library/Desktop Pictures/Solid Colors/Electric Blue.png     85    1       22           3
+   22    /System/Library/Desktop Pictures/Solid Colors/Electric Blue.png     86    1       22           4
+   22    /System/Library/Desktop Pictures/Solid Colors/Electric Blue.png     87    1       22           2
+   22    /System/Library/Desktop Pictures/Solid Colors/Electric Blue.png     88    1       22           1
+
+
+
+68/100. valley-light:
+
+--------------------------------- data ---------------------------------  --------- preferences ---------
+rowid                                                              value  rowid  key  data_id  picture_id
+-----  -----------------------------------------------------------------  -----  ---  -------  ----------
+   23                                                                  2     89   20       23           3
+   23                                                                  2     90   20       23           4
+   23                                                                  2     91   20       23           2
+   23                                                                  2     92   20       23           1
+   24                       /System/Library/Desktop Pictures/Valley.heic     93    1       24           3
+   24                       /System/Library/Desktop Pictures/Valley.heic     94    1       24           4
+   24                       /System/Library/Desktop Pictures/Valley.heic     95    1       24           2
+   24                       /System/Library/Desktop Pictures/Valley.heic     96    1       24           1
+
+
+
+69/100. /System/Library/Desktop Pictures/Solid Colors/Space Gray Pro.png:
+
+--------------------------------- data ---------------------------------  --------- preferences ---------
+rowid                                                              value  rowid  key  data_id  picture_id
+-----  -----------------------------------------------------------------  -----  ---  -------  ----------
+   25   /System/Library/Desktop Pictures/Solid Colors/Space Gray Pro.png     97    1       25           3
+   25   /System/Library/Desktop Pictures/Solid Colors/Space Gray Pro.png     98    1       25           4
+   25   /System/Library/Desktop Pictures/Solid Colors/Space Gray Pro.png     99    1       25           2
+   25   /System/Library/Desktop Pictures/Solid Colors/Space Gray Pro.png    100    1       25           1
+
+
+
+70/100. beach-dark:
 
 --------------------------------- data ---------------------------------  --------- preferences ---------
 rowid                                                              value  rowid  key  data_id  picture_id
@@ -771,554 +985,444 @@ rowid                                                              value  rowid 
    26                                                                  3    102   20       26           4
    26                                                                  3    103   20       26           2
    26                                                                  3    104   20       26           1
-   27                     /System/Library/Desktop Pictures/Catalina.heic    105    1       27           3
-   27                     /System/Library/Desktop Pictures/Catalina.heic    106    1       27           4
-   27                     /System/Library/Desktop Pictures/Catalina.heic    107    1       27           2
-   27                     /System/Library/Desktop Pictures/Catalina.heic    108    1       27           1
+   27                    /System/Library/Desktop Pictures/The Beach.heic    105    1       27           3
+   27                    /System/Library/Desktop Pictures/The Beach.heic    106    1       27           4
+   27                    /System/Library/Desktop Pictures/The Beach.heic    107    1       27           2
+   27                    /System/Library/Desktop Pictures/The Beach.heic    108    1       27           1
 
 
 
-58/100. /System/Library/Desktop Pictures/Solid Colors/Teal.png:
-
---------------------------------- data ---------------------------------  --------- preferences ---------
-rowid                                                              value  rowid  key  data_id  picture_id
------  -----------------------------------------------------------------  -----  ---  -------  ----------
-   28             /System/Library/Desktop Pictures/Solid Colors/Teal.png    109    1       28           3
-   28             /System/Library/Desktop Pictures/Solid Colors/Teal.png    110    1       28           4
-   28             /System/Library/Desktop Pictures/Solid Colors/Teal.png    111    1       28           2
-   28             /System/Library/Desktop Pictures/Solid Colors/Teal.png    112    1       28           1
-
-
-
-59/100. /System/Library/Desktop Pictures/Solid Colors/Black.png:
+71/100. valley-dark:
 
 --------------------------------- data ---------------------------------  --------- preferences ---------
 rowid                                                              value  rowid  key  data_id  picture_id
 -----  -----------------------------------------------------------------  -----  ---  -------  ----------
-   29            /System/Library/Desktop Pictures/Solid Colors/Black.png    113    1       29           3
-   29            /System/Library/Desktop Pictures/Solid Colors/Black.png    114    1       29           4
-   29            /System/Library/Desktop Pictures/Solid Colors/Black.png    115    1       29           2
-   29            /System/Library/Desktop Pictures/Solid Colors/Black.png    116    1       29           1
+   28                                                                  3    109   20       28           3
+   28                                                                  3    110   20       28           4
+   28                                                                  3    111   20       28           2
+   28                                                                  3    112   20       28           1
+   29                       /System/Library/Desktop Pictures/Valley.heic    113    1       29           3
+   29                       /System/Library/Desktop Pictures/Valley.heic    114    1       29           4
+   29                       /System/Library/Desktop Pictures/Valley.heic    115    1       29           2
+   29                       /System/Library/Desktop Pictures/Valley.heic    116    1       29           1
 
 
 
-60/100. mojave:
-
---------------------------------- data ---------------------------------  --------- preferences ---------
-rowid                                                              value  rowid  key  data_id  picture_id
------  -----------------------------------------------------------------  -----  ---  -------  ----------
-   30                                                                  1    117   20       30           3
-   30                                                                  1    118   20       30           4
-   30                                                                  1    119   20       30           2
-   30                                                                  1    120   20       30           1
-   31                       /System/Library/Desktop Pictures/Mojave.heic    121    1       31           3
-   31                       /System/Library/Desktop Pictures/Mojave.heic    122    1       31           4
-   31                       /System/Library/Desktop Pictures/Mojave.heic    123    1       31           2
-   31                       /System/Library/Desktop Pictures/Mojave.heic    124    1       31           1
-
-
-
-61/100. big-sur-light:
+72/100. dome-dark:
 
 --------------------------------- data ---------------------------------  --------- preferences ---------
 rowid                                                              value  rowid  key  data_id  picture_id
 -----  -----------------------------------------------------------------  -----  ---  -------  ----------
-   32                                                                  2    125   20       32           3
-   32                                                                  2    126   20       32           4
-   32                                                                  2    127   20       32           2
-   32                                                                  2    128   20       32           1
-   33                      /System/Library/Desktop Pictures/Big Sur.heic    129    1       33           3
-   33                      /System/Library/Desktop Pictures/Big Sur.heic    130    1       33           4
-   33                      /System/Library/Desktop Pictures/Big Sur.heic    131    1       33           2
-   33                      /System/Library/Desktop Pictures/Big Sur.heic    132    1       33           1
+   30                                                                  3    117   20       30           3
+   30                                                                  3    118   20       30           4
+   30                                                                  3    119   20       30           2
+   30                                                                  3    120   20       30           1
+   31                         /System/Library/Desktop Pictures/Dome.heic    121    1       31           3
+   31                         /System/Library/Desktop Pictures/Dome.heic    122    1       31           4
+   31                         /System/Library/Desktop Pictures/Dome.heic    123    1       31           2
+   31                         /System/Library/Desktop Pictures/Dome.heic    124    1       31           1
 
 
 
-62/100. /System/Library/Desktop Pictures/Flower 10.jpg:
-
---------------------------------- data ---------------------------------  --------- preferences ---------
-rowid                                                              value  rowid  key  data_id  picture_id
------  -----------------------------------------------------------------  -----  ---  -------  ----------
-   34                     /System/Library/Desktop Pictures/Flower 10.jpg    133    1       34           3
-   34                     /System/Library/Desktop Pictures/Flower 10.jpg    134    1       34           4
-   34                     /System/Library/Desktop Pictures/Flower 10.jpg    135    1       34           2
-   34                     /System/Library/Desktop Pictures/Flower 10.jpg    136    1       34           1
-
-
-
-63/100. /System/Library/Desktop Pictures/Flower 6.jpg:
+73/100. /System/Library/Desktop Pictures/Solid Colors/Rose Gold.png:
 
 --------------------------------- data ---------------------------------  --------- preferences ---------
 rowid                                                              value  rowid  key  data_id  picture_id
 -----  -----------------------------------------------------------------  -----  ---  -------  ----------
-   35                      /System/Library/Desktop Pictures/Flower 6.jpg    137    1       35           3
-   35                      /System/Library/Desktop Pictures/Flower 6.jpg    138    1       35           4
-   35                      /System/Library/Desktop Pictures/Flower 6.jpg    139    1       35           2
-   35                      /System/Library/Desktop Pictures/Flower 6.jpg    140    1       35           1
+   32        /System/Library/Desktop Pictures/Solid Colors/Rose Gold.png    125    1       32           3
+   32        /System/Library/Desktop Pictures/Solid Colors/Rose Gold.png    126    1       32           4
+   32        /System/Library/Desktop Pictures/Solid Colors/Rose Gold.png    127    1       32           2
+   32        /System/Library/Desktop Pictures/Solid Colors/Rose Gold.png    128    1       32           1
 
 
 
-64/100. /System/Library/Desktop Pictures/Desert 7.jpg:
-
---------------------------------- data ---------------------------------  --------- preferences ---------
-rowid                                                              value  rowid  key  data_id  picture_id
------  -----------------------------------------------------------------  -----  ---  -------  ----------
-   36                      /System/Library/Desktop Pictures/Desert 7.jpg    141    1       36           3
-   36                      /System/Library/Desktop Pictures/Desert 7.jpg    142    1       36           4
-   36                      /System/Library/Desktop Pictures/Desert 7.jpg    143    1       36           2
-   36                      /System/Library/Desktop Pictures/Desert 7.jpg    144    1       36           1
-
-
-
-65/100. /System/Library/Desktop Pictures/Solid Colors/Black.png:
+74/100. catalina-light:
 
 --------------------------------- data ---------------------------------  --------- preferences ---------
 rowid                                                              value  rowid  key  data_id  picture_id
 -----  -----------------------------------------------------------------  -----  ---  -------  ----------
-   37            /System/Library/Desktop Pictures/Solid Colors/Black.png    145    1       37           3
-   37            /System/Library/Desktop Pictures/Solid Colors/Black.png    146    1       37           4
-   37            /System/Library/Desktop Pictures/Solid Colors/Black.png    147    1       37           2
-   37            /System/Library/Desktop Pictures/Solid Colors/Black.png    148    1       37           1
+   33                                                                  2    129   20       33           3
+   33                                                                  2    130   20       33           4
+   33                                                                  2    131   20       33           2
+   33                                                                  2    132   20       33           1
+   34                     /System/Library/Desktop Pictures/Catalina.heic    133    1       34           3
+   34                     /System/Library/Desktop Pictures/Catalina.heic    134    1       34           4
+   34                     /System/Library/Desktop Pictures/Catalina.heic    135    1       34           2
+   34                     /System/Library/Desktop Pictures/Catalina.heic    136    1       34           1
 
 
 
-66/100. /System/Library/Desktop Pictures/Flower 7.jpg:
-
---------------------------------- data ---------------------------------  --------- preferences ---------
-rowid                                                              value  rowid  key  data_id  picture_id
------  -----------------------------------------------------------------  -----  ---  -------  ----------
-   38                      /System/Library/Desktop Pictures/Flower 7.jpg    149    1       38           3
-   38                      /System/Library/Desktop Pictures/Flower 7.jpg    150    1       38           4
-   38                      /System/Library/Desktop Pictures/Flower 7.jpg    151    1       38           2
-   38                      /System/Library/Desktop Pictures/Flower 7.jpg    152    1       38           1
-
-
-
-67/100. /System/Library/Desktop Pictures/Solid Colors/Space Gray Pro.png:
+75/100. desert:
 
 --------------------------------- data ---------------------------------  --------- preferences ---------
 rowid                                                              value  rowid  key  data_id  picture_id
 -----  -----------------------------------------------------------------  -----  ---  -------  ----------
-   39   /System/Library/Desktop Pictures/Solid Colors/Space Gray Pro.png    153    1       39           3
-   39   /System/Library/Desktop Pictures/Solid Colors/Space Gray Pro.png    154    1       39           4
-   39   /System/Library/Desktop Pictures/Solid Colors/Space Gray Pro.png    155    1       39           2
-   39   /System/Library/Desktop Pictures/Solid Colors/Space Gray Pro.png    156    1       39           1
+   35                                                                  1    137   20       35           3
+   35                                                                  1    138   20       35           4
+   35                                                                  1    139   20       35           2
+   35                                                                  1    140   20       35           1
+   36                   /System/Library/Desktop Pictures/The Desert.heic    141    1       36           3
+   36                   /System/Library/Desktop Pictures/The Desert.heic    142    1       36           4
+   36                   /System/Library/Desktop Pictures/The Desert.heic    143    1       36           2
+   36                   /System/Library/Desktop Pictures/The Desert.heic    144    1       36           1
 
 
 
-68/100. mojave-dark:
-
---------------------------------- data ---------------------------------  --------- preferences ---------
-rowid                                                              value  rowid  key  data_id  picture_id
------  -----------------------------------------------------------------  -----  ---  -------  ----------
-   40                                                                  3    157   20       40           3
-   40                                                                  3    158   20       40           4
-   40                                                                  3    159   20       40           2
-   40                                                                  3    160   20       40           1
-   41                       /System/Library/Desktop Pictures/Mojave.heic    161    1       41           3
-   41                       /System/Library/Desktop Pictures/Mojave.heic    162    1       41           4
-   41                       /System/Library/Desktop Pictures/Mojave.heic    163    1       41           2
-   41                       /System/Library/Desktop Pictures/Mojave.heic    164    1       41           1
-
-
-
-69/100. catalina-light:
+76/100. /System/Library/Desktop Pictures/Catalina Clouds.heic:
 
 --------------------------------- data ---------------------------------  --------- preferences ---------
 rowid                                                              value  rowid  key  data_id  picture_id
 -----  -----------------------------------------------------------------  -----  ---  -------  ----------
-   42                                                                  2    165   20       42           3
-   42                                                                  2    166   20       42           4
-   42                                                                  2    167   20       42           2
-   42                                                                  2    168   20       42           1
-   43                     /System/Library/Desktop Pictures/Catalina.heic    169    1       43           3
-   43                     /System/Library/Desktop Pictures/Catalina.heic    170    1       43           4
-   43                     /System/Library/Desktop Pictures/Catalina.heic    171    1       43           2
-   43                     /System/Library/Desktop Pictures/Catalina.heic    172    1       43           1
+   37              /System/Library/Desktop Pictures/Catalina Clouds.heic    145    1       37           3
+   37              /System/Library/Desktop Pictures/Catalina Clouds.heic    146    1       37           4
+   37              /System/Library/Desktop Pictures/Catalina Clouds.heic    147    1       37           2
+   37              /System/Library/Desktop Pictures/Catalina Clouds.heic    148    1       37           1
 
 
 
-70/100. catalina:
+77/100. valley:
 
 --------------------------------- data ---------------------------------  --------- preferences ---------
 rowid                                                              value  rowid  key  data_id  picture_id
 -----  -----------------------------------------------------------------  -----  ---  -------  ----------
-   44                                                                  1    173   20       44           3
-   44                                                                  1    174   20       44           4
-   44                                                                  1    175   20       44           2
-   44                                                                  1    176   20       44           1
-   45                     /System/Library/Desktop Pictures/Catalina.heic    177    1       45           3
-   45                     /System/Library/Desktop Pictures/Catalina.heic    178    1       45           4
-   45                     /System/Library/Desktop Pictures/Catalina.heic    179    1       45           2
-   45                     /System/Library/Desktop Pictures/Catalina.heic    180    1       45           1
+   38                                                                  1    149   20       38           3
+   38                                                                  1    150   20       38           4
+   38                                                                  1    151   20       38           2
+   38                                                                  1    152   20       38           1
+   39                       /System/Library/Desktop Pictures/Valley.heic    153    1       39           3
+   39                       /System/Library/Desktop Pictures/Valley.heic    154    1       39           4
+   39                       /System/Library/Desktop Pictures/Valley.heic    155    1       39           2
+   39                       /System/Library/Desktop Pictures/Valley.heic    156    1       39           1
 
 
 
-71/100. /System/Library/Desktop Pictures/Desert 7.jpg:
-
---------------------------------- data ---------------------------------  --------- preferences ---------
-rowid                                                              value  rowid  key  data_id  picture_id
------  -----------------------------------------------------------------  -----  ---  -------  ----------
-   46                      /System/Library/Desktop Pictures/Desert 7.jpg    181    1       46           3
-   46                      /System/Library/Desktop Pictures/Desert 7.jpg    182    1       46           4
-   46                      /System/Library/Desktop Pictures/Desert 7.jpg    183    1       46           2
-   46                      /System/Library/Desktop Pictures/Desert 7.jpg    184    1       46           1
-
-
-
-72/100. /System/Library/Desktop Pictures/Solid Colors/Turquoise Green.png:
+78/100. iridescence-light:
 
 --------------------------------- data ---------------------------------  --------- preferences ---------
 rowid                                                              value  rowid  key  data_id  picture_id
 -----  -----------------------------------------------------------------  -----  ---  -------  ----------
-   47  /System/Library/Desktop Pictures/Solid Colors/Turquoise Green.png    185    1       47           3
-   47  /System/Library/Desktop Pictures/Solid Colors/Turquoise Green.png    186    1       47           4
-   47  /System/Library/Desktop Pictures/Solid Colors/Turquoise Green.png    187    1       47           2
-   47  /System/Library/Desktop Pictures/Solid Colors/Turquoise Green.png    188    1       47           1
+   40                                                                  2    157   20       40           3
+   40                                                                  2    158   20       40           4
+   40                                                                  2    159   20       40           2
+   40                                                                  2    160   20       40           1
+   41                  /System/Library/Desktop Pictures/Iridescence.heic    161    1       41           3
+   41                  /System/Library/Desktop Pictures/Iridescence.heic    162    1       41           4
+   41                  /System/Library/Desktop Pictures/Iridescence.heic    163    1       41           2
+   41                  /System/Library/Desktop Pictures/Iridescence.heic    164    1       41           1
 
 
 
-73/100. /System/Library/Desktop Pictures/Desert 6.jpg:
-
---------------------------------- data ---------------------------------  --------- preferences ---------
-rowid                                                              value  rowid  key  data_id  picture_id
------  -----------------------------------------------------------------  -----  ---  -------  ----------
-   48                      /System/Library/Desktop Pictures/Desert 6.jpg    189    1       48           3
-   48                      /System/Library/Desktop Pictures/Desert 6.jpg    190    1       48           4
-   48                      /System/Library/Desktop Pictures/Desert 6.jpg    191    1       48           2
-   48                      /System/Library/Desktop Pictures/Desert 6.jpg    192    1       48           1
-
-
-
-74/100. default:
-
---------------------------------- data ---------------------------------  --------- preferences ---------
-
-
-
-75/100. /System/Library/Desktop Pictures/Solid Colors/Dusty Rose.png:
+79/100. /System/Library/Desktop Pictures/Big Sur Aerial.heic:
 
 --------------------------------- data ---------------------------------  --------- preferences ---------
 rowid                                                              value  rowid  key  data_id  picture_id
 -----  -----------------------------------------------------------------  -----  ---  -------  ----------
-    1       /System/Library/Desktop Pictures/Solid Colors/Dusty Rose.png      1    1        1           3
-    1       /System/Library/Desktop Pictures/Solid Colors/Dusty Rose.png      2    1        1           4
-    1       /System/Library/Desktop Pictures/Solid Colors/Dusty Rose.png      3    1        1           2
-    1       /System/Library/Desktop Pictures/Solid Colors/Dusty Rose.png      4    1        1           1
+   42               /System/Library/Desktop Pictures/Big Sur Aerial.heic    165    1       42           3
+   42               /System/Library/Desktop Pictures/Big Sur Aerial.heic    166    1       42           4
+   42               /System/Library/Desktop Pictures/Big Sur Aerial.heic    167    1       42           2
+   42               /System/Library/Desktop Pictures/Big Sur Aerial.heic    168    1       42           1
 
 
 
-76/100. /System/Library/Desktop Pictures/High Sierra.jpg:
-
---------------------------------- data ---------------------------------  --------- preferences ---------
-rowid                                                              value  rowid  key  data_id  picture_id
------  -----------------------------------------------------------------  -----  ---  -------  ----------
-    2                   /System/Library/Desktop Pictures/High Sierra.jpg      5    1        2           3
-    2                   /System/Library/Desktop Pictures/High Sierra.jpg      6    1        2           4
-    2                   /System/Library/Desktop Pictures/High Sierra.jpg      7    1        2           2
-    2                   /System/Library/Desktop Pictures/High Sierra.jpg      8    1        2           1
-
-
-
-77/100. /System/Library/Desktop Pictures/Color Burst 3.jpg:
+80/100. catalina:
 
 --------------------------------- data ---------------------------------  --------- preferences ---------
 rowid                                                              value  rowid  key  data_id  picture_id
 -----  -----------------------------------------------------------------  -----  ---  -------  ----------
-    3                 /System/Library/Desktop Pictures/Color Burst 3.jpg      9    1        3           3
-    3                 /System/Library/Desktop Pictures/Color Burst 3.jpg     10    1        3           4
-    3                 /System/Library/Desktop Pictures/Color Burst 3.jpg     11    1        3           2
-    3                 /System/Library/Desktop Pictures/Color Burst 3.jpg     12    1        3           1
+   43                                                                  1    169   20       43           3
+   43                                                                  1    170   20       43           4
+   43                                                                  1    171   20       43           2
+   43                                                                  1    172   20       43           1
+   44                     /System/Library/Desktop Pictures/Catalina.heic    173    1       44           3
+   44                     /System/Library/Desktop Pictures/Catalina.heic    174    1       44           4
+   44                     /System/Library/Desktop Pictures/Catalina.heic    175    1       44           2
+   44                     /System/Library/Desktop Pictures/Catalina.heic    176    1       44           1
 
 
 
-78/100. /System/Library/Desktop Pictures/Yosemite 4.jpg:
-
---------------------------------- data ---------------------------------  --------- preferences ---------
-rowid                                                              value  rowid  key  data_id  picture_id
------  -----------------------------------------------------------------  -----  ---  -------  ----------
-    4                    /System/Library/Desktop Pictures/Yosemite 4.jpg     13    1        4           3
-    4                    /System/Library/Desktop Pictures/Yosemite 4.jpg     14    1        4           4
-    4                    /System/Library/Desktop Pictures/Yosemite 4.jpg     15    1        4           2
-    4                    /System/Library/Desktop Pictures/Yosemite 4.jpg     16    1        4           1
-
-
-
-79/100. /System/Library/Desktop Pictures/Ink Cloud.jpg:
+81/100. valley:
 
 --------------------------------- data ---------------------------------  --------- preferences ---------
 rowid                                                              value  rowid  key  data_id  picture_id
 -----  -----------------------------------------------------------------  -----  ---  -------  ----------
-    5                     /System/Library/Desktop Pictures/Ink Cloud.jpg     17    1        5           3
-    5                     /System/Library/Desktop Pictures/Ink Cloud.jpg     18    1        5           4
-    5                     /System/Library/Desktop Pictures/Ink Cloud.jpg     19    1        5           2
-    5                     /System/Library/Desktop Pictures/Ink Cloud.jpg     20    1        5           1
+   45                                                                  1    177   20       45           3
+   45                                                                  1    178   20       45           4
+   45                                                                  1    179   20       45           2
+   45                                                                  1    180   20       45           1
+   46                       /System/Library/Desktop Pictures/Valley.heic    181    1       46           3
+   46                       /System/Library/Desktop Pictures/Valley.heic    182    1       46           4
+   46                       /System/Library/Desktop Pictures/Valley.heic    183    1       46           2
+   46                       /System/Library/Desktop Pictures/Valley.heic    184    1       46           1
 
 
 
-80/100. dark:
-
---------------------------------- data ---------------------------------  --------- preferences ---------
-rowid                                                              value  rowid  key  data_id  picture_id
------  -----------------------------------------------------------------  -----  ---  -------  ----------
-    6                                                                  3     21   20        6           3
-    6                                                                  3     22   20        6           4
-    6                                                                  3     23   20        6           2
-    6                                                                  3     24   20        6           1
-
-
-
-81/100. /System/Library/Desktop Pictures/High Sierra.jpg:
+82/100. /System/Library/Desktop Pictures/Catalina Evening.heic:
 
 --------------------------------- data ---------------------------------  --------- preferences ---------
 rowid                                                              value  rowid  key  data_id  picture_id
 -----  -----------------------------------------------------------------  -----  ---  -------  ----------
-    7                   /System/Library/Desktop Pictures/High Sierra.jpg     25    1        7           3
-    7                   /System/Library/Desktop Pictures/High Sierra.jpg     26    1        7           4
-    7                   /System/Library/Desktop Pictures/High Sierra.jpg     27    1        7           2
-    7                   /System/Library/Desktop Pictures/High Sierra.jpg     28    1        7           1
+   47             /System/Library/Desktop Pictures/Catalina Evening.heic    185    1       47           3
+   47             /System/Library/Desktop Pictures/Catalina Evening.heic    186    1       47           4
+   47             /System/Library/Desktop Pictures/Catalina Evening.heic    187    1       47           2
+   47             /System/Library/Desktop Pictures/Catalina Evening.heic    188    1       47           1
 
 
 
-82/100. /System/Library/Desktop Pictures/Flower 8.jpg:
-
---------------------------------- data ---------------------------------  --------- preferences ---------
-rowid                                                              value  rowid  key  data_id  picture_id
------  -----------------------------------------------------------------  -----  ---  -------  ----------
-    8                      /System/Library/Desktop Pictures/Flower 8.jpg     29    1        8           3
-    8                      /System/Library/Desktop Pictures/Flower 8.jpg     30    1        8           4
-    8                      /System/Library/Desktop Pictures/Flower 8.jpg     31    1        8           2
-    8                      /System/Library/Desktop Pictures/Flower 8.jpg     32    1        8           1
-
-
-
-83/100. /System/Library/Desktop Pictures/Solid Colors/Dusty Rose.png:
+83/100. catalina-dark:
 
 --------------------------------- data ---------------------------------  --------- preferences ---------
 rowid                                                              value  rowid  key  data_id  picture_id
 -----  -----------------------------------------------------------------  -----  ---  -------  ----------
-    9       /System/Library/Desktop Pictures/Solid Colors/Dusty Rose.png     33    1        9           3
-    9       /System/Library/Desktop Pictures/Solid Colors/Dusty Rose.png     34    1        9           4
-    9       /System/Library/Desktop Pictures/Solid Colors/Dusty Rose.png     35    1        9           2
-    9       /System/Library/Desktop Pictures/Solid Colors/Dusty Rose.png     36    1        9           1
+   48                                                                  3    189   20       48           3
+   48                                                                  3    190   20       48           4
+   48                                                                  3    191   20       48           2
+   48                                                                  3    192   20       48           1
+   49                     /System/Library/Desktop Pictures/Catalina.heic    193    1       49           3
+   49                     /System/Library/Desktop Pictures/Catalina.heic    194    1       49           4
+   49                     /System/Library/Desktop Pictures/Catalina.heic    195    1       49           2
+   49                     /System/Library/Desktop Pictures/Catalina.heic    196    1       49           1
 
 
 
-84/100. mojave-dark:
-
---------------------------------- data ---------------------------------  --------- preferences ---------
-rowid                                                              value  rowid  key  data_id  picture_id
------  -----------------------------------------------------------------  -----  ---  -------  ----------
-   10                                                                  3     37   20       10           3
-   10                                                                  3     38   20       10           4
-   10                                                                  3     39   20       10           2
-   10                                                                  3     40   20       10           1
-   11                       /System/Library/Desktop Pictures/Mojave.heic     41    1       11           3
-   11                       /System/Library/Desktop Pictures/Mojave.heic     42    1       11           4
-   11                       /System/Library/Desktop Pictures/Mojave.heic     43    1       11           2
-   11                       /System/Library/Desktop Pictures/Mojave.heic     44    1       11           1
-
-
-
-85/100. big-sur:
+84/100. beach-dark:
 
 --------------------------------- data ---------------------------------  --------- preferences ---------
 rowid                                                              value  rowid  key  data_id  picture_id
 -----  -----------------------------------------------------------------  -----  ---  -------  ----------
-   12                                                                  1     45   20       12           3
-   12                                                                  1     46   20       12           4
-   12                                                                  1     47   20       12           2
-   12                                                                  1     48   20       12           1
-   13                      /System/Library/Desktop Pictures/Big Sur.heic     49    1       13           3
-   13                      /System/Library/Desktop Pictures/Big Sur.heic     50    1       13           4
-   13                      /System/Library/Desktop Pictures/Big Sur.heic     51    1       13           2
-   13                      /System/Library/Desktop Pictures/Big Sur.heic     52    1       13           1
+   50                                                                  3    197   20       50           3
+   50                                                                  3    198   20       50           4
+   50                                                                  3    199   20       50           2
+   50                                                                  3    200   20       50           1
+   51                    /System/Library/Desktop Pictures/The Beach.heic    201    1       51           3
+   51                    /System/Library/Desktop Pictures/The Beach.heic    202    1       51           4
+   51                    /System/Library/Desktop Pictures/The Beach.heic    203    1       51           2
+   51                    /System/Library/Desktop Pictures/The Beach.heic    204    1       51           1
 
 
 
-86/100. /System/Library/Desktop Pictures/Solid Colors/Gold 2.png:
-
---------------------------------- data ---------------------------------  --------- preferences ---------
-rowid                                                              value  rowid  key  data_id  picture_id
------  -----------------------------------------------------------------  -----  ---  -------  ----------
-   14           /System/Library/Desktop Pictures/Solid Colors/Gold 2.png     53    1       14           3
-   14           /System/Library/Desktop Pictures/Solid Colors/Gold 2.png     54    1       14           4
-   14           /System/Library/Desktop Pictures/Solid Colors/Gold 2.png     55    1       14           2
-   14           /System/Library/Desktop Pictures/Solid Colors/Gold 2.png     56    1       14           1
-
-
-
-87/100. /System/Library/Desktop Pictures/Solid Colors/Ocher.png:
+85/100. cliffs-light:
 
 --------------------------------- data ---------------------------------  --------- preferences ---------
 rowid                                                              value  rowid  key  data_id  picture_id
 -----  -----------------------------------------------------------------  -----  ---  -------  ----------
-   15            /System/Library/Desktop Pictures/Solid Colors/Ocher.png     57    1       15           3
-   15            /System/Library/Desktop Pictures/Solid Colors/Ocher.png     58    1       15           4
-   15            /System/Library/Desktop Pictures/Solid Colors/Ocher.png     59    1       15           2
-   15            /System/Library/Desktop Pictures/Solid Colors/Ocher.png     60    1       15           1
+   52                                                                  2    205   20       52           3
+   52                                                                  2    206   20       52           4
+   52                                                                  2    207   20       52           2
+   52                                                                  2    208   20       52           1
+   53                   /System/Library/Desktop Pictures/The Cliffs.heic    209    1       53           3
+   53                   /System/Library/Desktop Pictures/The Cliffs.heic    210    1       53           4
+   53                   /System/Library/Desktop Pictures/The Cliffs.heic    211    1       53           2
+   53                   /System/Library/Desktop Pictures/The Cliffs.heic    212    1       53           1
 
 
 
-88/100. /System/Library/Desktop Pictures/Reflection 2.jpg:
-
---------------------------------- data ---------------------------------  --------- preferences ---------
-rowid                                                              value  rowid  key  data_id  picture_id
------  -----------------------------------------------------------------  -----  ---  -------  ----------
-   16                  /System/Library/Desktop Pictures/Reflection 2.jpg     61    1       16           3
-   16                  /System/Library/Desktop Pictures/Reflection 2.jpg     62    1       16           4
-   16                  /System/Library/Desktop Pictures/Reflection 2.jpg     63    1       16           2
-   16                  /System/Library/Desktop Pictures/Reflection 2.jpg     64    1       16           1
-
-
-
-89/100. big-sur-light:
+86/100. /System/Library/Desktop Pictures/Solid Colors/Space Gray.png:
 
 --------------------------------- data ---------------------------------  --------- preferences ---------
 rowid                                                              value  rowid  key  data_id  picture_id
 -----  -----------------------------------------------------------------  -----  ---  -------  ----------
-   17                                                                  2     65   20       17           3
-   17                                                                  2     66   20       17           4
-   17                                                                  2     67   20       17           2
-   17                                                                  2     68   20       17           1
-   18                      /System/Library/Desktop Pictures/Big Sur.heic     69    1       18           3
-   18                      /System/Library/Desktop Pictures/Big Sur.heic     70    1       18           4
-   18                      /System/Library/Desktop Pictures/Big Sur.heic     71    1       18           2
-   18                      /System/Library/Desktop Pictures/Big Sur.heic     72    1       18           1
+   54       /System/Library/Desktop Pictures/Solid Colors/Space Gray.png    213    1       54           3
+   54       /System/Library/Desktop Pictures/Solid Colors/Space Gray.png    214    1       54           4
+   54       /System/Library/Desktop Pictures/Solid Colors/Space Gray.png    215    1       54           2
+   54       /System/Library/Desktop Pictures/Solid Colors/Space Gray.png    216    1       54           1
 
 
 
-90/100. light:
+87/100. tree-dark:
 
 --------------------------------- data ---------------------------------  --------- preferences ---------
 rowid                                                              value  rowid  key  data_id  picture_id
 -----  -----------------------------------------------------------------  -----  ---  -------  ----------
-   19                                                                  2     73   20       19           3
-   19                                                                  2     74   20       19           4
-   19                                                                  2     75   20       19           2
-   19                                                                  2     76   20       19           1
+   55                                                                  3    217   20       55           3
+   55                                                                  3    218   20       55           4
+   55                                                                  3    219   20       55           2
+   55                                                                  3    220   20       55           1
+   56                         /System/Library/Desktop Pictures/Tree.heic    221    1       56           3
+   56                         /System/Library/Desktop Pictures/Tree.heic    222    1       56           4
+   56                         /System/Library/Desktop Pictures/Tree.heic    223    1       56           2
+   56                         /System/Library/Desktop Pictures/Tree.heic    224    1       56           1
 
 
 
-91/100. /System/Library/Desktop Pictures/Flower 8.jpg:
-
---------------------------------- data ---------------------------------  --------- preferences ---------
-rowid                                                              value  rowid  key  data_id  picture_id
------  -----------------------------------------------------------------  -----  ---  -------  ----------
-   20                      /System/Library/Desktop Pictures/Flower 8.jpg     77    1       20           3
-   20                      /System/Library/Desktop Pictures/Flower 8.jpg     78    1       20           4
-   20                      /System/Library/Desktop Pictures/Flower 8.jpg     79    1       20           2
-   20                      /System/Library/Desktop Pictures/Flower 8.jpg     80    1       20           1
-
-
-
-92/100. default:
-
---------------------------------- data ---------------------------------  --------- preferences ---------
-
-
-
-93/100. /System/Library/Desktop Pictures/Flower 6.jpg:
+88/100. lake-dark:
 
 --------------------------------- data ---------------------------------  --------- preferences ---------
 rowid                                                              value  rowid  key  data_id  picture_id
 -----  -----------------------------------------------------------------  -----  ---  -------  ----------
-    1                      /System/Library/Desktop Pictures/Flower 6.jpg      1    1        1           3
-    1                      /System/Library/Desktop Pictures/Flower 6.jpg      2    1        1           4
-    1                      /System/Library/Desktop Pictures/Flower 6.jpg      3    1        1           2
-    1                      /System/Library/Desktop Pictures/Flower 6.jpg      4    1        1           1
+   57                                                                  3    225   20       57           3
+   57                                                                  3    226   20       57           4
+   57                                                                  3    227   20       57           2
+   57                                                                  3    228   20       57           1
+   58                     /System/Library/Desktop Pictures/The Lake.heic    229    1       58           3
+   58                     /System/Library/Desktop Pictures/The Lake.heic    230    1       58           4
+   58                     /System/Library/Desktop Pictures/The Lake.heic    231    1       58           2
+   58                     /System/Library/Desktop Pictures/The Lake.heic    232    1       58           1
 
 
 
-94/100. /System/Library/Desktop Pictures/Desert 4.jpg:
-
---------------------------------- data ---------------------------------  --------- preferences ---------
-rowid                                                              value  rowid  key  data_id  picture_id
------  -----------------------------------------------------------------  -----  ---  -------  ----------
-    2                      /System/Library/Desktop Pictures/Desert 4.jpg      5    1        2           3
-    2                      /System/Library/Desktop Pictures/Desert 4.jpg      6    1        2           4
-    2                      /System/Library/Desktop Pictures/Desert 4.jpg      7    1        2           2
-    2                      /System/Library/Desktop Pictures/Desert 4.jpg      8    1        2           1
-
-
-
-95/100. /System/Library/Desktop Pictures/Reflection 2.jpg:
+89/100. solar:
 
 --------------------------------- data ---------------------------------  --------- preferences ---------
 rowid                                                              value  rowid  key  data_id  picture_id
 -----  -----------------------------------------------------------------  -----  ---  -------  ----------
-    3                  /System/Library/Desktop Pictures/Reflection 2.jpg      9    1        3           3
-    3                  /System/Library/Desktop Pictures/Reflection 2.jpg     10    1        3           4
-    3                  /System/Library/Desktop Pictures/Reflection 2.jpg     11    1        3           2
-    3                  /System/Library/Desktop Pictures/Reflection 2.jpg     12    1        3           1
+   59                                                                  1    233   20       59           3
+   59                                                                  1    234   20       59           4
+   59                                                                  1    235   20       59           2
+   59                                                                  1    236   20       59           1
+   60              /System/Library/Desktop Pictures/Solar Gradients.heic    237    1       60           3
+   60              /System/Library/Desktop Pictures/Solar Gradients.heic    238    1       60           4
+   60              /System/Library/Desktop Pictures/Solar Gradients.heic    239    1       60           2
+   60              /System/Library/Desktop Pictures/Solar Gradients.heic    240    1       60           1
 
 
 
-96/100. graphic:
-
---------------------------------- data ---------------------------------  --------- preferences ---------
-rowid                                                              value  rowid  key  data_id  picture_id
------  -----------------------------------------------------------------  -----  ---  -------  ----------
-    4                                                                  1     13   20        4           3
-    4                                                                  1     14   20        4           4
-    4                                                                  1     15   20        4           2
-    4                                                                  1     16   20        4           1
-
-
-
-97/100. /System/Library/Desktop Pictures/Solid Colors/Teal.png:
+90/100. /System/Library/Desktop Pictures/Big Sur Night Succulents.heic:
 
 --------------------------------- data ---------------------------------  --------- preferences ---------
 rowid                                                              value  rowid  key  data_id  picture_id
 -----  -----------------------------------------------------------------  -----  ---  -------  ----------
-    5             /System/Library/Desktop Pictures/Solid Colors/Teal.png     17    1        5           3
-    5             /System/Library/Desktop Pictures/Solid Colors/Teal.png     18    1        5           4
-    5             /System/Library/Desktop Pictures/Solid Colors/Teal.png     19    1        5           2
-    5             /System/Library/Desktop Pictures/Solid Colors/Teal.png     20    1        5           1
+   61     /System/Library/Desktop Pictures/Big Sur Night Succulents.heic    241    1       61           3
+   61     /System/Library/Desktop Pictures/Big Sur Night Succulents.heic    242    1       61           4
+   61     /System/Library/Desktop Pictures/Big Sur Night Succulents.heic    243    1       61           2
+   61     /System/Library/Desktop Pictures/Big Sur Night Succulents.heic    244    1       61           1
 
 
 
-98/100. big-sur-dark:
-
---------------------------------- data ---------------------------------  --------- preferences ---------
-rowid                                                              value  rowid  key  data_id  picture_id
------  -----------------------------------------------------------------  -----  ---  -------  ----------
-    6                                                                  3     21   20        6           3
-    6                                                                  3     22   20        6           4
-    6                                                                  3     23   20        6           2
-    6                                                                  3     24   20        6           1
-    7                      /System/Library/Desktop Pictures/Big Sur.heic     25    1        7           3
-    7                      /System/Library/Desktop Pictures/Big Sur.heic     26    1        7           4
-    7                      /System/Library/Desktop Pictures/Big Sur.heic     27    1        7           2
-    7                      /System/Library/Desktop Pictures/Big Sur.heic     28    1        7           1
-
-
-
-99/100. /System/Library/Desktop Pictures/Solid Colors/Turquoise Green.png:
+91/100. desert:
 
 --------------------------------- data ---------------------------------  --------- preferences ---------
 rowid                                                              value  rowid  key  data_id  picture_id
 -----  -----------------------------------------------------------------  -----  ---  -------  ----------
-    8  /System/Library/Desktop Pictures/Solid Colors/Turquoise Green.png     29    1        8           3
-    8  /System/Library/Desktop Pictures/Solid Colors/Turquoise Green.png     30    1        8           4
-    8  /System/Library/Desktop Pictures/Solid Colors/Turquoise Green.png     31    1        8           2
-    8  /System/Library/Desktop Pictures/Solid Colors/Turquoise Green.png     32    1        8           1
+   62                                                                  1    245   20       62           3
+   62                                                                  1    246   20       62           4
+   62                                                                  1    247   20       62           2
+   62                                                                  1    248   20       62           1
+   63                   /System/Library/Desktop Pictures/The Desert.heic    249    1       63           3
+   63                   /System/Library/Desktop Pictures/The Desert.heic    250    1       63           4
+   63                   /System/Library/Desktop Pictures/The Desert.heic    251    1       63           2
+   63                   /System/Library/Desktop Pictures/The Desert.heic    252    1       63           1
 
 
 
-100/100. catalina-light:
+92/100. lake-light:
 
 --------------------------------- data ---------------------------------  --------- preferences ---------
 rowid                                                              value  rowid  key  data_id  picture_id
 -----  -----------------------------------------------------------------  -----  ---  -------  ----------
-    9                                                                  2     33   20        9           3
-    9                                                                  2     34   20        9           4
-    9                                                                  2     35   20        9           2
-    9                                                                  2     36   20        9           1
-   10                     /System/Library/Desktop Pictures/Catalina.heic     37    1       10           3
-   10                     /System/Library/Desktop Pictures/Catalina.heic     38    1       10           4
-   10                     /System/Library/Desktop Pictures/Catalina.heic     39    1       10           2
-   10                     /System/Library/Desktop Pictures/Catalina.heic     40    1       10           1
+   64                                                                  2    253   20       64           3
+   64                                                                  2    254   20       64           4
+   64                                                                  2    255   20       64           2
+   64                                                                  2    256   20       64           1
+   65                     /System/Library/Desktop Pictures/The Lake.heic    257    1       65           3
+   65                     /System/Library/Desktop Pictures/The Lake.heic    258    1       65           4
+   65                     /System/Library/Desktop Pictures/The Lake.heic    259    1       65           2
+   65                     /System/Library/Desktop Pictures/The Lake.heic    260    1       65           1
+
+
+
+93/100. peak-light:
+
+--------------------------------- data ---------------------------------  --------- preferences ---------
+rowid                                                              value  rowid  key  data_id  picture_id
+-----  -----------------------------------------------------------------  -----  ---  -------  ----------
+   66                                                                  2    261   20       66           3
+   66                                                                  2    262   20       66           4
+   66                                                                  2    263   20       66           2
+   66                                                                  2    264   20       66           1
+   67                         /System/Library/Desktop Pictures/Peak.heic    265    1       67           3
+   67                         /System/Library/Desktop Pictures/Peak.heic    266    1       67           4
+   67                         /System/Library/Desktop Pictures/Peak.heic    267    1       67           2
+   67                         /System/Library/Desktop Pictures/Peak.heic    268    1       67           1
+
+
+
+94/100. default:
+
+--------------------------------- data ---------------------------------  --------- preferences ---------
+
+
+
+95/100. peak-dark:
+
+--------------------------------- data ---------------------------------  --------- preferences ---------
+rowid                                                              value  rowid  key  data_id  picture_id
+-----  -----------------------------------------------------------------  -----  ---  -------  ----------
+    1                                                                  3      1   20        1           3
+    1                                                                  3      2   20        1           4
+    1                                                                  3      3   20        1           2
+    1                                                                  3      4   20        1           1
+    2                         /System/Library/Desktop Pictures/Peak.heic      5    1        2           3
+    2                         /System/Library/Desktop Pictures/Peak.heic      6    1        2           4
+    2                         /System/Library/Desktop Pictures/Peak.heic      7    1        2           2
+    2                         /System/Library/Desktop Pictures/Peak.heic      8    1        2           1
+
+
+
+96/100. /System/Library/Desktop Pictures/Solid Colors/Soft Pink.png:
+
+--------------------------------- data ---------------------------------  --------- preferences ---------
+rowid                                                              value  rowid  key  data_id  picture_id
+-----  -----------------------------------------------------------------  -----  ---  -------  ----------
+    3        /System/Library/Desktop Pictures/Solid Colors/Soft Pink.png      9    1        3           3
+    3        /System/Library/Desktop Pictures/Solid Colors/Soft Pink.png     10    1        3           4
+    3        /System/Library/Desktop Pictures/Solid Colors/Soft Pink.png     11    1        3           2
+    3        /System/Library/Desktop Pictures/Solid Colors/Soft Pink.png     12    1        3           1
+
+
+
+97/100. /System/Library/Desktop Pictures/Reflection 3.jpg:
+
+--------------------------------- data ---------------------------------  --------- preferences ---------
+rowid                                                              value  rowid  key  data_id  picture_id
+-----  -----------------------------------------------------------------  -----  ---  -------  ----------
+    4                  /System/Library/Desktop Pictures/Reflection 3.jpg     13    1        4           3
+    4                  /System/Library/Desktop Pictures/Reflection 3.jpg     14    1        4           4
+    4                  /System/Library/Desktop Pictures/Reflection 3.jpg     15    1        4           2
+    4                  /System/Library/Desktop Pictures/Reflection 3.jpg     16    1        4           1
+
+
+
+98/100. /System/Library/Desktop Pictures/Big Sur Shore Rocks.heic:
+
+--------------------------------- data ---------------------------------  --------- preferences ---------
+rowid                                                              value  rowid  key  data_id  picture_id
+-----  -----------------------------------------------------------------  -----  ---  -------  ----------
+    5          /System/Library/Desktop Pictures/Big Sur Shore Rocks.heic     17    1        5           3
+    5          /System/Library/Desktop Pictures/Big Sur Shore Rocks.heic     18    1        5           4
+    5          /System/Library/Desktop Pictures/Big Sur Shore Rocks.heic     19    1        5           2
+    5          /System/Library/Desktop Pictures/Big Sur Shore Rocks.heic     20    1        5           1
+
+
+
+99/100. lake:
+
+--------------------------------- data ---------------------------------  --------- preferences ---------
+rowid                                                              value  rowid  key  data_id  picture_id
+-----  -----------------------------------------------------------------  -----  ---  -------  ----------
+    6                                                                  1     21   20        6           3
+    6                                                                  1     22   20        6           4
+    6                                                                  1     23   20        6           2
+    6                                                                  1     24   20        6           1
+    7                     /System/Library/Desktop Pictures/The Lake.heic     25    1        7           3
+    7                     /System/Library/Desktop Pictures/The Lake.heic     26    1        7           4
+    7                     /System/Library/Desktop Pictures/The Lake.heic     27    1        7           2
+    7                     /System/Library/Desktop Pictures/The Lake.heic     28    1        7           1
+
+
+
+100/100. cliffs-dark:
+
+--------------------------------- data ---------------------------------  --------- preferences ---------
+rowid                                                              value  rowid  key  data_id  picture_id
+-----  -----------------------------------------------------------------  -----  ---  -------  ----------
+    8                                                                  3     29   20        8           3
+    8                                                                  3     30   20        8           4
+    8                                                                  3     31   20        8           2
+    8                                                                  3     32   20        8           1
+    9                   /System/Library/Desktop Pictures/The Cliffs.heic     33    1        9           3
+    9                   /System/Library/Desktop Pictures/The Cliffs.heic     34    1        9           4
+    9                   /System/Library/Desktop Pictures/The Cliffs.heic     35    1        9           2
+    9                   /System/Library/Desktop Pictures/The Cliffs.heic     36    1        9           1
 
 
 
