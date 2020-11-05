@@ -1,6 +1,6 @@
 # macOS Big Sur 11.0
 
-**IMPORTANT**: `set-desktop-big-sur.sh` has been tested using **macOS Big Sur Developer Beta 5 [Build 20A5354i]**
+**IMPORTANT**: `set-desktop-big-sur.sh` has been tested using **macOS 11.0.1 Big Sur Developer Beta [Build 20B5012d]**
 
 ## Purpose
 Set a user's Desktop image in macOS Big Sur 11.0 from the command line. See [Limitations](#limitations)
@@ -13,18 +13,11 @@ An explanation of how Desktop images appear to be managed by macOS since Mojave 
 
 ## Examples
 
-#### HEIF (.heic) images
+#### Dynamic Desktop
 
-##### Dynamic Desktop
+Setting the image to *Dynamic* (e.g. Big Sur Dynamic) ensures it changes throughout the day, based on your location.
 
-###### Big Sur Graphic Automatic
-`[bash] ./set-desktop-big-sur.sh graphic`
-
-###### Big Sur Graphic Light (Still)
-`[bash] ./set-desktop-big-sur.sh light`
-
-###### Big Sur Graphic Dark (Still)
-`[bash] ./set-desktop-big-sur.sh dark`
+##### HEIF (.heic) images
 
 ###### Big Sur Dynamic
 `[bash] ./set-desktop-big-sur.sh big-sur`
@@ -44,58 +37,159 @@ An explanation of how Desktop images appear to be managed by macOS since Mojave 
 ###### Catalina Dark (Still)
 `[bash] ./set-desktop-big-sur.sh catalina-dark`
 
-###### Mojave Dynamic
-`[bash] ./set-desktop-big-sur.sh mojave`
+###### The Cliffs Dynamic
+`[bash] ./set-desktop-big-sur.sh cliffs`
 
-###### Mojave Light (Still)
-`[bash] ./set-desktop-big-sur.sh mojave-light`
+###### The Cliffs Light (Still)
+`[bash] ./set-desktop-big-sur.sh cliffs-light`
 
-###### Mojave Dark (Still)
-`[bash] ./set-desktop-big-sur.sh mojave-dark`
+###### The Cliffs Dark (Still)
+`[bash] ./set-desktop-big-sur.sh cliffs-dark`
+
+###### The Lake Dynamic
+`[bash] ./set-desktop-big-sur.sh lake`
+
+###### The Lake Light (Still)
+`[bash] ./set-desktop-big-sur.sh lake-light`
+
+###### The Lake Dark (Still)
+`[bash] ./set-desktop-big-sur.sh lake-dark`
+
+###### The Desert Dynamic
+`[bash] ./set-desktop-big-sur.sh desert`
+
+###### The Desert Light (Still)
+`[bash] ./set-desktop-big-sur.sh desert-light`
+
+###### The Desert Dark (Still)
+`[bash] ./set-desktop-big-sur.sh desert-dark`
+
+###### The Beach Dynamic
+`[bash] ./set-desktop-big-sur.sh beach`
+
+###### The Beach Light (Still)
+`[bash] ./set-desktop-big-sur.sh beach-light`
+
+###### The Beach Dark (Still)
+`[bash] ./set-desktop-big-sur.sh beach-dark`
 
 ###### Solar Gradients
 `[bash] ./set-desktop-big-sur.sh solar`
 
-##### Desktop
+#### Light and Dark Desktop
+
+Setting the image to *Automatic* (e.g. Peak Automatic) ensures it conforms to the *Light*, *Dark* or *Auto* setting in **System Preferences** > **General** > **Appearance**.
+
+##### HEIF (.heic) images
+
+###### Peak Automatic
+`[bash] ./set-desktop-big-sur.sh peak`
+
+###### Peak Light (Still)
+`[bash] ./set-desktop-big-sur.sh peak-light`
+
+###### Peak Dark (Still)
+`[bash] ./set-desktop-big-sur.sh peak-dark`
+
+###### Tree Automatic
+`[bash] ./set-desktop-big-sur.sh tree`
+
+###### Tree Light (Still)
+`[bash] ./set-desktop-big-sur.sh tree-light`
+
+###### Tree Dark (Still)
+`[bash] ./set-desktop-big-sur.sh tree-dark`
+
+###### Valley Automatic
+`[bash] ./set-desktop-big-sur.sh valley`
+
+###### Valley Light (Still)
+`[bash] ./set-desktop-big-sur.sh valley-light`
+
+###### Valley Dark (Still)
+`[bash] ./set-desktop-big-sur.sh valley-dark`
+
+###### Dome Automatic
+`[bash] ./set-desktop-big-sur.sh dome`
+
+###### Dome Light (Still)
+`[bash] ./set-desktop-big-sur.sh dome-light`
+
+###### Dome Dark (Still)
+`[bash] ./set-desktop-big-sur.sh dome-dark`
+
+###### Big Sur Graphic Automatic
+`[bash] ./set-desktop-big-sur.sh graphic`
+
+###### Big Sur Graphic Light (Still)
+`[bash] ./set-desktop-big-sur.sh light`
+
+###### Big Sur Graphic Dark (Still)
+`[bash] ./set-desktop-big-sur.sh dark`
+
+###### Iridescence Automatic
+`[bash] ./set-desktop-big-sur.sh iridescence`
+
+###### Iridescence Light (Still)
+`[bash] ./set-desktop-big-sur.sh iridescence-light`
+
+###### Iridescence Dark (Still)
+`[bash] ./set-desktop-big-sur.sh iridescence-dark`
+
+#### Desktop Pictures
+
+##### HEIF (.heic) images
 
 ###### Big Sur Graphic Light
-~`[bash] ./set-desktop-big-sur.sh "/System/Library/Desktop Pictures/Big Sur Graphic Day.heic"`~ **<sup>1</sup>**
-
 Same as *Big Sur Graphic Light (Still)*. Use `[bash] ./set-desktop-big-sur.sh light` instead.
 
 ###### Big Sur Graphic Dark
-~`[bash] ./set-desktop-big-sur.sh "/System/Library/Desktop Pictures/Big Sur Graphic Night.heic"`~ **<sup>1</sup>**
-
 Same as *Big Sur Graphic Dark (Still)*. Use `[bash] ./set-desktop-big-sur.sh dark` instead.
 
 ###### Big Sur Day
-~`[bash] ./set-desktop-big-sur.sh "/System/Library/Desktop Pictures/Big Sur Day.heic"`~ **<sup>2</sup>**
-
 Same as *Big Sur Light (Still)*. Use `[bash] ./set-desktop-big-sur.sh big-sur-light` instead.
 
 ###### Big Sur Night
-~`[bash] ./set-desktop-big-sur.sh "/System/Library/Desktop Pictures/Big Sur Night.heic"`~ **<sup>2</sup>**
-
 Same as *Big Sur Dark (Still)*. Use `[bash] ./set-desktop-big-sur.sh big-sur-dark` instead.
 
-###### Catalina Clouds
-`[bash] ./set-desktop-big-sur.sh "/System/Library/Desktop Pictures/Catalina Clouds.heic"`
+###### Big Sur Mountains
+`[bash] ./set-desktop-big-sur.sh "/System/Library/Desktop Pictures/Big Sur Mountains.heic"`
+
+###### Big Sur Aerial
+`[bash] ./set-desktop-big-sur.sh "/System/Library/Desktop Pictures/Big Sur Aerial.heic"`
+
+###### Big Sur Horizon
+`[bash] ./set-desktop-big-sur.sh "/System/Library/Desktop Pictures/Big Sur Horizon.heic"`
+
+###### Big Sur Coastline
+`[bash] ./set-desktop-big-sur.sh "/System/Library/Desktop Pictures/Big Sur Coastline.heic"`
+
+###### Big Sur Shore Rocks
+`[bash] ./set-desktop-big-sur.sh "/System/Library/Desktop Pictures/Big Sur Shore Rocks.heic"`
+
+###### Big Sur Water's Edge
+`[bash] ./set-desktop-big-sur.sh "/System/Library/Desktop Pictures/Big Sur Waters Edge.heic"`
+
+###### Big Sur Road
+`[bash] ./set-desktop-big-sur.sh "/System/Library/Desktop Pictures/Big Sur Road.heic"`
+
+###### Big Sur Night Succulents
+`[bash] ./set-desktop-big-sur.sh "/System/Library/Desktop Pictures/Big Sur Night Succulents.heic"`
+
+###### Big Sur Night Grasses
+`[bash] ./set-desktop-big-sur.sh "/System/Library/Desktop Pictures/Big Sur Night Grasses.heic"`
+
+###### Catalina Day
+Same as *Catalina Light (Still)*. Use `[bash] ./set-desktop-big-sur.sh catalina-light` instead.
+
+###### Catalina Night
+Same as *Catalina Dark (Still)*. Use `[bash] ./set-desktop-big-sur.sh catalina-dark` instead.
 
 ###### Catalina Coast
 `[bash] ./set-desktop-big-sur.sh "/System/Library/Desktop Pictures/Catalina Coast.heic"`
 
-###### Catalina Day
-~`[bash] ./set-desktop-big-sur.sh "/System/Library/Desktop Pictures/Catalina Day.heic"`~ **<sup>3</sup>**
-
-Same as *Catalina Light (Still)*. Use `[bash] ./set-desktop-big-sur.sh catalina-light` instead.
-
 ###### Catalina Evening
 `[bash] ./set-desktop-big-sur.sh "/System/Library/Desktop Pictures/Catalina Evening.heic"`
-
-###### Catalina Night
-~`[bash] ./set-desktop-big-sur.sh "/System/Library/Desktop Pictures/Catalina Night.heic"`~ **<sup>3</sup>**
-
-Same as *Catalina Dark (Still)*. Use `[bash] ./set-desktop-big-sur.sh catalina-dark` instead.
 
 ###### Catalina Rock
 `[bash] ./set-desktop-big-sur.sh "/System/Library/Desktop Pictures/Catalina Rock.heic"`
@@ -103,11 +197,68 @@ Same as *Catalina Dark (Still)*. Use `[bash] ./set-desktop-big-sur.sh catalina-d
 ###### Catalina Shoreline
 `[bash] ./set-desktop-big-sur.sh "/System/Library/Desktop Pictures/Catalina Shoreline.heic"`
 
+###### Catalina Clouds
+`[bash] ./set-desktop-big-sur.sh "/System/Library/Desktop Pictures/Catalina Clouds.heic"`
+
 ###### Catalina Silhouette
 `[bash] ./set-desktop-big-sur.sh "/System/Library/Desktop Pictures/Catalina Silhouette.heic"`
 
 ###### Catalina Sunset
 `[bash] ./set-desktop-big-sur.sh "/System/Library/Desktop Pictures/Catalina Sunset.heic"`
+
+###### Peak Day
+Same as *Peak Light (Still)*. Use `[bash] ./set-desktop-big-sur.sh peak-light` instead.
+
+###### Peak Night
+Same as *Peak Dark (Still)*. Use `[bash] ./set-desktop-big-sur.sh peak-dark` instead.
+
+###### Tree Day
+Same as *Tree Light (Still)*. Use `[bash] ./set-desktop-big-sur.sh tree-light` instead.
+
+###### Tree Night
+Same as *Tree Dark (Still)*. Use `[bash] ./set-desktop-big-sur.sh tree-dark` instead.
+
+###### Valley Day
+Same as *Valley Light (Still)*. Use `[bash] ./set-desktop-big-sur.sh valley-light` instead.
+
+###### Valley Night
+Same as *Valley Dark (Still)*. Use `[bash] ./set-desktop-big-sur.sh valley-dark` instead.
+
+###### Dome Day
+Same as *Dome Light (Still)*. Use `[bash] ./set-desktop-big-sur.sh dome-light` instead.
+
+###### Dome Night
+Same as *Dome Dark (Still)*. Use `[bash] ./set-desktop-big-sur.sh dome-dark` instead.
+
+###### The Cliffs Day
+Same as *The Cliffs Light (Still)*. Use `[bash] ./set-desktop-big-sur.sh cliffs-light` instead.
+
+###### The Cliffs Night
+Same as *The Cliffs Dark (Still)*. Use `[bash] ./set-desktop-big-sur.sh cliffs-dark` instead.
+
+###### The Lake Day
+Same as *The Lake Light (Still)*. Use `[bash] ./set-desktop-big-sur.sh lake-light` instead.
+
+###### The Lake Night
+Same as *The Lake Dark (Still)*. Use `[bash] ./set-desktop-big-sur.sh lake-dark` instead.
+
+###### The Desert Day
+Same as *The Desert Light (Still)*. Use `[bash] ./set-desktop-big-sur.sh desert-light` instead.
+
+###### The Desert Night
+Same as *The Desert Dark (Still)*. Use `[bash] ./set-desktop-big-sur.sh desert-dark` instead.
+
+###### The Beach Day
+Same as *The Beach Light (Still)*. Use `[bash] ./set-desktop-big-sur.sh beach-light` instead.
+
+###### The Beach Night
+Same as *The Beach Dark (Still)*. Use `[bash] ./set-desktop-big-sur.sh beach-dark` instead.
+
+###### Iridescence Light
+Same as *Iridescence Light (Still)*. Use `[bash] ./set-desktop-big-sur.sh iridescence-light` instead.
+
+###### Iridescence Dark
+Same as *Iridescence Dark (Still)*. Use `[bash] ./set-desktop-big-sur.sh iridescence-dark` instead.
 
 ###### Light Stream Blue
 `[bash] ./set-desktop-big-sur.sh "/System/Library/Desktop Pictures/Light Stream Blue.heic"`
@@ -115,35 +266,29 @@ Same as *Catalina Dark (Still)*. Use `[bash] ./set-desktop-big-sur.sh catalina-d
 ###### Light Stream Red
 `[bash] ./set-desktop-big-sur.sh "/System/Library/Desktop Pictures/Light Stream Red.heic"`
 
-###### Mojave Day
-~`[bash] ./set-desktop-big-sur.sh "/System/Library/Desktop Pictures/Mojave Day.heic"`~ **<sup>4</sup>**
+##### non-HEIF (.heic) images
 
-Same as *Mojave Light (Still)*. Use `[bash] ./set-desktop-big-sur.sh mojave-light` instead.
+###### Reflection Grey
+`[bash] ./set-desktop-big-sur.sh "/System/Library/Desktop Pictures/Reflection 1.jpg"`
 
-###### Mojave Night
-~`[bash] ./set-desktop-big-sur.sh "/System/Library/Desktop Pictures/Mojave Night.heic"`~ **<sup>4</sup>**
+###### Reflection Orange
+`[bash] ./set-desktop-big-sur.sh "/System/Library/Desktop Pictures/Reflection 2.jpg"`
 
-Same as *Mojave Dark (Still)*. Use `[bash] ./set-desktop-big-sur.sh mojave-dark` instead.
+###### Reflection Green
+`[bash] ./set-desktop-big-sur.sh "/System/Library/Desktop Pictures/Reflection 3.jpg"`
 
-<br />
-
-**<sup>1</sup>** Symlink to `/System/Library/Desktop Pictures/Big Sur Graphic.heic` <br >
-**<sup>2</sup>** Symlink to `/System/Library/Desktop Pictures/Big Sur.heic` <br >
-**<sup>3</sup>** Symlink to `/System/Library/Desktop Pictures/Catalina.heic` <br >
-**<sup>4</sup>** Symlink to `/System/Library/Desktop Pictures/Mojave.heic`
-
-#### non-HEIF (.heic) images
-
-###### High Sierra
-`[bash] ./set-desktop-big-sur.sh "/System/Library/Desktop Pictures/High Sierra.jpg"`
-
-###### Ink Cloud
-`[bash] ./set-desktop-big-sur.sh "/System/Library/Desktop Pictures/Ink Cloud.jpg"`
+###### Reflection Purple
+`[bash] ./set-desktop-big-sur.sh "/System/Library/Desktop Pictures/Reflection 4.jpg"`
 
 #### Other
 
 ###### Default
 `[bash] ./set-desktop-big-sur.sh default`
+
+##### non-HEIF (.heic) images
+
+###### Electric Blue
+`[bash] ./set-desktop-big-sur.sh "/System/Library/Desktop Pictures/Solid Colors/Electric Blue.png"`
 
 ## Error Messages
 
