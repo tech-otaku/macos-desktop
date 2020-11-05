@@ -10,6 +10,15 @@ light
 dark
 dark
 dark
+beach
+beach
+beach
+beach-light
+beach-light
+beach-light
+beach-dark
+beach-dark
+beach-dark
 big-sur
 big-sur
 big-sur
@@ -28,51 +37,103 @@ catalina-light
 catalina-dark
 catalina-dark
 catalina-dark
-mojave
-mojave
-mojave
-mojave-light
-mojave-light
-mojave-light
-mojave-dark
-mojave-dark
-mojave-dark
+cliffs
+cliffs
+cliffs
+cliffs-light
+cliffs-light
+cliffs-light
+cliffs-dark
+cliffs-dark
+cliffs-dark
+desert
+desert
+desert
+desert-light
+desert-light
+desert-light
+desert-dark
+desert-dark
+desert-dark
+dome
+dome
+dome
+dome-light
+dome-light
+dome-light
+dome-dark
+dome-dark
+dome-dark
+iridescence
+iridescence
+iridescence
+iridescence-light
+iridescence-light
+iridescence-light
+iridescence-dark
+iridescence-dark
+iridescence-dark
+lake
+lake
+lake
+lake-light
+lake-light
+lake-light
+lake-dark
+lake-dark
+lake-dark
+peak
+peak
+peak
+peak-light
+peak-light
+peak-light
+peak-dark
+peak-dark
+peak-dark
 solar
 solar
 solar
-/System/Library/Desktop Pictures/Abstract 1.jpg
-/System/Library/Desktop Pictures/Abstract 2.jpg
-/System/Library/Desktop Pictures/Abstract 3.jpg
-/System/Library/Desktop Pictures/Abstract 4.jpg
-/System/Library/Desktop Pictures/Color Burst 1.jpg
-/System/Library/Desktop Pictures/Color Burst 2.jpg
-/System/Library/Desktop Pictures/Color Burst 3.jpg
-/System/Library/Desktop Pictures/Desert 1.jpg
-/System/Library/Desktop Pictures/Desert 2.jpg
-/System/Library/Desktop Pictures/Desert 3.jpg
-/System/Library/Desktop Pictures/Desert 4.jpg
-/System/Library/Desktop Pictures/Desert 5.jpg
-/System/Library/Desktop Pictures/Desert 6.jpg
-/System/Library/Desktop Pictures/Desert 7.jpg
-/System/Library/Desktop Pictures/El Capitan 2.jpg
-/System/Library/Desktop Pictures/El Capitan.jpg
-/System/Library/Desktop Pictures/Flower 10.jpg
-/System/Library/Desktop Pictures/Flower 5.jpg
-/System/Library/Desktop Pictures/Flower 6.jpg
-/System/Library/Desktop Pictures/Flower 7.jpg
-/System/Library/Desktop Pictures/Flower 8.jpg
-/System/Library/Desktop Pictures/Flower 9.jpg
-/System/Library/Desktop Pictures/High Sierra.jpg
-/System/Library/Desktop Pictures/Ink Cloud.jpg
+tree
+tree
+tree
+tree-light
+tree-light
+tree-light
+tree-dark
+tree-dark
+tree-dark
+valley
+valley
+valley
+valley-light
+valley-light
+valley-light
+valley-dark
+valley-dark
+valley-dark
+/System/Library/Desktop Pictures/Big Sur Aerial.heic
+/System/Library/Desktop Pictures/Big Sur Coastline.heic
+/System/Library/Desktop Pictures/Big Sur Horizon.heic
+/System/Library/Desktop Pictures/Big Sur Mountains.heic
+/System/Library/Desktop Pictures/Big Sur Night Grasses.heic
+/System/Library/Desktop Pictures/Big Sur Night Succulents.heic
+/System/Library/Desktop Pictures/Big Sur Road.heic
+/System/Library/Desktop Pictures/Big Sur Shore Rocks.heic
+/System/Library/Desktop Pictures/Big Sur Waters Edge.heic
+/System/Library/Desktop Pictures/Catalina Clouds.heic
+/System/Library/Desktop Pictures/Catalina Coast.heic
+/System/Library/Desktop Pictures/Catalina Evening.heic
+/System/Library/Desktop Pictures/Catalina Rock.heic
+/System/Library/Desktop Pictures/Catalina Shoreline.heic
+/System/Library/Desktop Pictures/Catalina Silhouette.heic
+/System/Library/Desktop Pictures/Catalina Sunset.heic
+/System/Library/Desktop Pictures/Light Stream Blue.heic
+/System/Library/Desktop Pictures/Light Stream Red.heic
 /System/Library/Desktop Pictures/Reflection 1.jpg
 /System/Library/Desktop Pictures/Reflection 2.jpg
 /System/Library/Desktop Pictures/Reflection 3.jpg
 /System/Library/Desktop Pictures/Reflection 4.jpg
-/System/Library/Desktop Pictures/Sierra 2.jpg
-/System/Library/Desktop Pictures/Sierra.jpg
-/System/Library/Desktop Pictures/Yosemite 3.jpg
-/System/Library/Desktop Pictures/Yosemite 4.jpg
-/System/Library/Desktop Pictures/Yosemite.jpg
 /System/Library/Desktop Pictures/Solid Colors/Black.png
 /System/Library/Desktop Pictures/Solid Colors/Blue Violet.png
 /System/Library/Desktop Pictures/Solid Colors/Cyan.png
