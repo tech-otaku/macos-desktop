@@ -1,1 +1,8 @@
 .DS_Store
+images.sh
+options-big-sur.json
+options-catalina.json
+set-desktop-big-sur-new.sh
+set-desktop-catalina-new.sh
+
+
