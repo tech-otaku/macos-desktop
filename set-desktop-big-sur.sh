@@ -54,6 +54,12 @@
 
 
 
+# Prevent this script from continuing as it's no longer being maintained in favour of set-desktop.sh
+    echo "WARNING: 'set-desktop-big-sur.sh' is no longer being maintained. Please use 'set-desktop.sh' instead."
+    exit 0
+
+
+
 # # # # # # # # # # # # # # # # 
 # FUNCTION DECLARATIONS
 #
