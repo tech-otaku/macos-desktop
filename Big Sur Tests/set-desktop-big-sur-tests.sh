@@ -6,16 +6,21 @@ rm set-desktop-big-sur-tests.txt
 
 echo -e "Randomly generated $(date '+on %Y-%m-%d at %H:%M:%S') by $0 using Big Sur Developer Beta build $(system_profiler SPSoftwareDataType | awk '/System Version/ {print $5}')\n" >> set-desktop-big-sur-tests.txt 
 
-bash ../set-desktop-big-sur.sh default
+pushd ../ > /dev/null
+bash set-desktop.sh default
+popd > /dev/null
 
-sleep 1
+sleep 3
 
 for (( i=1;i<=$TIMES;i++ )); do 
 	RANDNUM=$((1 + RANDOM % $(wc -l <  desktop-images.txt)))
 	SELECTION=$(sed ''$RANDNUM'!d' desktop-images.txt)
-	bash ../set-desktop-big-sur.sh "$SELECTION"
+
+    pushd ../ > /dev/null
+	bash set-desktop.sh "$SELECTION"
+    popd > /dev/null
 	
-	sleep 2
+	sleep 3
 
 	echo -e "$i/$TIMES. $SELECTION:\n" >> set-desktop-big-sur-tests.txt
 	echo -e "--------------------------------- data ---------------------------------  --------- preferences ---------" >> set-desktop-big-sur-tests.txt
