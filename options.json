@@ -1,0 +1,706 @@
+{
+    "versions": [
+        {
+            "version": "11.0",
+            "name": "Big Sur",
+            "options": [
+                {
+                    "option": "big-sur",
+                    "name": "Big Sur Dynamic",
+                    "value": "0",
+                    "key": "20",
+                    "file": "'/System/Library/Desktop Pictures/Big Sur.heic'",
+                    "additional": true,
+                    "category": "Dynamic Desktop"
+                },
+                {
+                    "option": "big-sur-light",
+                    "name": "Big Sur Light (Still)",
+                    "value": "2",
+                    "key": "20",
+                    "file": "'/System/Library/Desktop Pictures/Big Sur.heic'",
+                    "additional": true,
+                    "category": "Dynamic Desktop"
+                },
+                {
+                    "option": "big-sur-dark",
+                    "name": "Big Sur Dark (Still)",
+                    "value": "3",
+                    "key": "20",
+                    "file": "'/System/Library/Desktop Pictures/Big Sur.heic'",
+                    "additional": true,
+                    "category": "Dynamic Desktop"
+                },
+                {
+                    "option": "catalina",
+                    "name": "Catalina Dynamic",
+                    "value": "0",
+                    "key": "20",
+                    "file": "'/System/Library/Desktop Pictures/Catalina.heic'",
+                    "additional": true,
+                    "category": "Dynamic Desktop"
+                },
+                {
+                    "option": "catalina-light",
+                    "name": "Catalina Light (Still)",
+                    "value": "2",
+                    "key": "20",
+                    "file": "'/System/Library/Desktop Pictures/Catalina.heic'",
+                    "additional": true,
+                    "category": "Dynamic Desktop"
+                },
+                {
+                    "option": "catalina-dark",
+                    "name": "Catalina Dark (Still)",
+                    "value": "3",
+                    "key": "20",
+                    "file": "'/System/Library/Desktop Pictures/Catalina.heic'",
+                    "additional": true,
+                    "category": "Dynamic Desktop"
+                },
+                {
+                    "option": "cliffs",
+                    "name": "The Cliffs Dynamic",
+                    "value": "0",
+                    "key": "20",
+                    "file": "'/System/Library/Desktop Pictures/The Cliffs.heic'",
+                    "additional": true,
+                    "category": "Dynamic Desktop"
+                },
+                {
+                    "option": "cliffs-light",
+                    "name": "The Cliffs Light (Still)",
+                    "value": "2",
+                    "key": "20",
+                    "file": "'/System/Library/Desktop Pictures/The Cliffs.heic'",
+                    "additional": true,
+                    "category": "Dynamic Desktop"
+                },
+                {
+                    "option": "cliffs-dark",
+                    "name": "The Cliffs Dark (Still)",
+                    "value": "3",
+                    "key": "20",
+                    "file": "'/System/Library/Desktop Pictures/The Cliffs.heic'",
+                    "additional": true,
+                    "category": "Dynamic Desktop"
+                },
+                {
+                    "option": "lake",
+                    "name": "The Lake Dynamic",
+                    "value": "0",
+                    "key": "20",
+                    "file": "'/System/Library/Desktop Pictures/The Lake.heic'",
+                    "additional": true,
+                    "category": "Dynamic Desktop"
+                },
+                {
+                    "option": "lake-light",
+                    "name": "The Lake Light (Still)",
+                    "value": "2",
+                    "key": "20",
+                    "file": "'/System/Library/Desktop Pictures/The Lake.heic'",
+                    "additional": true,
+                    "category": "Dynamic Desktop"
+                },
+                {
+                    "option": "lake-dark",
+                    "name": "The Lake Dark (Still)",
+                    "value": "3",
+                    "key": "20",
+                    "file": "'/System/Library/Desktop Pictures/The Lake.heic'",
+                    "additional": true,
+                    "category": "Dynamic Desktop"
+                },
+                {
+                    "option": "desert",
+                    "name": "The Desert Dynamic",
+                    "value": "0",
+                    "key": "20",
+                    "file": "'/System/Library/Desktop Pictures/The Desert.heic'",
+                    "additional": true,
+                    "category": "Dynamic Desktop"
+                },
+                {
+                    "option": "desert-light",
+                    "name": "The Desert Light (Still)",
+                    "value": "2",
+                    "key": "20",
+                    "file": "'/System/Library/Desktop Pictures/The Desert.heic'",
+                    "additional": true,
+                    "category": "Dynamic Desktop"
+                },
+                {
+                    "option": "desert-dark",
+                    "name": "The Desert Dark (Still)",
+                    "value": "3",
+                    "key": "20",
+                    "file": "'/System/Library/Desktop Pictures/The Desert.heic'",
+                    "additional": true,
+                    "category": "Dynamic Desktop"
+                },
+                {
+                    "option": "beach",
+                    "name": "The Beach Dynamic",
+                    "value": "0",
+                    "key": "20",
+                    "file": "'/System/Library/Desktop Pictures/The Beach.heic'",
+                    "additional": true,
+                    "category": "Dynamic Desktop"
+                },
+                {
+                    "option": "beach-light",
+                    "name": "The Beach Light (Still)",
+                    "value": "2",
+                    "key": "20",
+                    "file": "'/System/Library/Desktop Pictures/The Beach.heic'",
+                    "additional": true,
+                    "category": "Dynamic Desktop"
+                },
+                {
+                    "option": "beach-dark",
+                    "name": "The Beach Dark (Still)",
+                    "value": "3",
+                    "key": "20",
+                    "file": "'/System/Library/Desktop Pictures/The Beach.heic'",
+                    "additional": true,
+                    "category": "Dynamic Desktop"
+                },
+                {
+                    "option": "solar",
+                    "name": "Solar Gradients",
+                    "value": "0",
+                    "key": "20",
+                    "file": "'/System/Library/Desktop Pictures/Solar Gradients.heic'",
+                    "additional": true,
+                    "category": "Dynamic Desktop"
+                },
+                {
+                    "option": "peak",
+                    "name": "Peak Automatic",
+                    "value": "0",
+                    "key": "20",
+                    "file": "'/System/Library/Desktop Pictures/Peak.heic'",
+                    "additional": true,
+                    "category": "Light and Dark Desktop"
+                },
+                {
+                    "option": "peak-light",
+                    "name": "Peak Light (Still)",
+                    "value": "2",
+                    "key": "20",
+                    "file": "'/System/Library/Desktop Pictures/Peak.heic'",
+                    "additional": true,
+                    "category": "Light and Dark Desktop"
+                },
+                {
+                    "option": "peak-dark",
+                    "name": "Peak Dark (Still)",
+                    "value": "3",
+                    "key": "20",
+                    "file": "'/System/Library/Desktop Pictures/Peak.heic'",
+                    "additional": true,
+                    "category": "Light and Dark Desktop"
+                },
+                {
+                    "option": "tree",
+                    "name": "Tree Automatic",
+                    "value": "0",
+                    "key": "20",
+                    "file": "'/System/Library/Desktop Pictures/Tree.heic'",
+                    "additional": true,
+                    "category": "Light and Dark Desktop"
+                },
+                {
+                    "option": "tree-light",
+                    "name": "Tree Light (Still)",
+                    "value": "2",
+                    "key": "20",
+                    "file": "'/System/Library/Desktop Pictures/Tree.heic'",
+                    "additional": true,
+                    "category": "Light and Dark Desktop"
+                },
+                {
+                    "option": "tree-dark",
+                    "name": "Tree Dark (Still)",
+                    "value": "3",
+                    "key": "20",
+                    "file": "'/System/Library/Desktop Pictures/Tree.heic'",
+                    "additional": true,
+                    "category": "Light and Dark Desktop"
+                },
+                {
+                    "option": "valley",
+                    "name": "Valley Automatic",
+                    "value": "0",
+                    "key": "20",
+                    "file": "'/System/Library/Desktop Pictures/Valley.heic'",
+                    "additional": true,
+                    "category": "Light and Dark Desktop"
+                },
+                {
+                    "option": "valley-light",
+                    "name": "Valley Light (Still)",
+                    "value": "2",
+                    "key": "20",
+                    "file": "'/System/Library/Desktop Pictures/Valley.heic'",
+                    "additional": true,
+                    "category": "Light and Dark Desktop"
+                },
+                {
+                    "option": "valley-dark",
+                    "name": "Valley Dark (Still)",
+                    "value": "3",
+                    "key": "20",
+                    "file": "'/System/Library/Desktop Pictures/Valley.heic'",
+                    "additional": true,
+                    "category": "Light and Dark Desktop"
+                },
+                {
+                    "option": "dome",
+                    "name": "Dome Automatic",
+                    "value": "0",
+                    "key": "20",
+                    "file": "'/System/Library/Desktop Pictures/Dome.heic'",
+                    "additional": true,
+                    "category": "Light and Dark Desktop"
+                },
+                {
+                    "option": "dome-light",
+                    "name": "Dome Light (Still)",
+                    "value": "2",
+                    "key": "20",
+                    "file": "'/System/Library/Desktop Pictures/Dome.heic'",
+                    "additional": true,
+                    "category": "Light and Dark Desktop"
+                },
+                {
+                    "option": "dome-dark",
+                    "name": "Dome Dark (Still)",
+                    "value": "3",
+                    "key": "20",
+                    "file": "'/System/Library/Desktop Pictures/Dome.heic'",
+                    "additional": true,
+                    "category": "Light and Dark Desktop"
+                },
+                {
+                    "option": "graphic",
+                    "name": "Big Sur Graphic Automatic",
+                    "value": "0",
+                    "key": "20",
+                    "file": null,
+                    "additional": false,
+                    "category": "Light and Dark Desktop"
+                },
+                {
+                    "option": "light",
+                    "name": "Big Sur Graphic Light (Still)",
+                    "value": "2",
+                    "key": "20",
+                    "file": null,
+                    "additional": false,
+                    "category": "Light and Dark Desktop"
+                },
+                {
+                    "option": "dark",
+                    "name": "Big Sur Graphic Dark (Still)",
+                    "value": "3",
+                    "key": "20",
+                    "file": null,
+                    "additional": false,
+                    "category": "Light and Dark Desktop"
+                },
+                {
+                    "option": "iridescence",
+                    "name": "Iridescence Automatic",
+                    "value": "0",
+                    "key": "20",
+                    "file": "'/System/Library/Desktop Pictures/Iridescence.heic'",
+                    "additional": true,
+                    "category": "Light and Dark Desktop"
+                },
+                {
+                    "option": "iridescence-light",
+                    "name": "Iridescence Light (Still)",
+                    "value": "2",
+                    "key": "20",
+                    "file": "'/System/Library/Desktop Pictures/Iridescence.heic'",
+                    "additional": true,
+                    "category": "Light and Dark Desktop"
+                },
+                {
+                    "option": "iridescence-dark",
+                    "name": "Iridescence Dark (Still)",
+                    "value": "3",
+                    "key": "20",
+                    "file": "'/System/Library/Desktop Pictures/Iridescence.heic'",
+                    "additional": true,
+                    "category": "Light and Dark Desktop"
+                },
+                {
+                    "option": "light-2",
+                    "name": "Big Sur Graphic Light",
+                    "value": "2",
+                    "key": "20",
+                    "file": null,
+                    "additional": false,
+                    "category": "Desktop Pictures"
+                },
+                {
+                    "option": "dark-2",
+                    "name": "Big Sur Graphic Dark",
+                    "value": "3",
+                    "key": "20",
+                    "file": null,
+                    "additional": false,
+                    "category": "Desktop Pictures"
+                },
+                {
+                    "option": "big-sur-day",
+                    "name": "Big Sur Day",
+                    "value": "2",
+                    "key": "20",
+                    "file": "'/System/Library/Desktop Pictures/Big Sur.heic'",
+                    "additional": true,
+                    "category": "Desktop Pictures"
+                },
+                {
+                    "option": "big-sur-night",
+                    "name": "Big Sur Night",
+                    "value": "3",
+                    "key": "20",
+                    "file": "'/System/Library/Desktop Pictures/Big Sur.heic'",
+                    "additional": true,
+                    "category": "Desktop Pictures"
+                },
+                {
+                    "option": "catalina-day",
+                    "name": "Catalina Day",
+                    "value": "2",
+                    "key": "20",
+                    "file": "'/System/Library/Desktop Pictures/Catalina.heic'",
+                    "additional": true,
+                    "category": "Desktop Pictures"
+                },
+                {
+                    "option": "catalina-night",
+                    "name": "Catalina Night",
+                    "value": "3",
+                    "key": "20",
+                    "file": "'/System/Library/Desktop Pictures/Catalina.heic'",
+                    "additional": true,
+                    "category": "Desktop Pictures"
+                },
+                {
+                    "option": "peak-day",
+                    "name": "Peak Day",
+                    "value": "2",
+                    "key": "20",
+                    "file": "'/System/Library/Desktop Pictures/Peak.heic'",
+                    "additional": true,
+                    "category": "Desktop Pictures"
+                },
+                {
+                    "option": "peak-night",
+                    "name": "Peak Night",
+                    "value": "3",
+                    "key": "20",
+                    "file": "'/System/Library/Desktop Pictures/Peak.heic'",
+                    "additional": true,
+                    "category": "Desktop Pictures"
+                },
+                {
+                    "option": "tree-day",
+                    "name": "Tree Day",
+                    "value": "2",
+                    "key": "20",
+                    "file": "'/System/Library/Desktop Pictures/Tree.heic'",
+                    "additional": true,
+                    "category": "Desktop Pictures"
+                },
+                {
+                    "option": "tree-night",
+                    "name": "Tree Night",
+                    "value": "3",
+                    "key": "20",
+                    "file": "'/System/Library/Desktop Pictures/Tree.heic'",
+                    "additional": true,
+                    "category": "Desktop Pictures"
+                },
+                {
+                    "option": "valley-day",
+                    "name": "Valley Day",
+                    "value": "2",
+                    "key": "20",
+                    "file": "'/System/Library/Desktop Pictures/Valley.heic'",
+                    "additional": true,
+                    "category": "Desktop Pictures"
+                },
+                {
+                    "option": "valley-night",
+                    "name": "Valley Night",
+                    "value": "3",
+                    "key": "20",
+                    "file": "'/System/Library/Desktop Pictures/Valley.heic'",
+                    "additional": true,
+                    "category": "Desktop Pictures"
+                },
+                {
+                    "option": "dome-day",
+                    "name": "Dome Day",
+                    "value": "2",
+                    "key": "20",
+                    "file": "'/System/Library/Desktop Pictures/Dome.heic'",
+                    "additional": true,
+                    "category": "Desktop Pictures"
+                },
+                {
+                    "option": "dome-night",
+                    "name": "Dome Night",
+                    "value": "3",
+                    "key": "20",
+                    "file": "'/System/Library/Desktop Pictures/Dome.heic'",
+                    "additional": true,
+                    "category": "Desktop Pictures"
+                },
+                {
+                    "option": "cliffs-day",
+                    "name": "The Cliffs Day",
+                    "value": "2",
+                    "key": "20",
+                    "file": "'/System/Library/Desktop Pictures/The Cliffs.heic'",
+                    "additional": true,
+                    "category": "Desktop Pictures"
+                },
+                {
+                    "option": "cliffs-night",
+                    "name": "The Cliffs Night",
+                    "value": "3",
+                    "key": "20",
+                    "file": "'/System/Library/Desktop Pictures/The Cliffs.heic'",
+                    "additional": true,
+                    "category": "Desktop Pictures"
+                },
+                {
+                    "option": "lake-day",
+                    "name": "The Lake Day",
+                    "value": "2",
+                    "key": "20",
+                    "file": "'/System/Library/Desktop Pictures/The Lake.heic'",
+                    "additional": true,
+                    "category": "Desktop Pictures"
+                },
+                {
+                    "option": "lake-night",
+                    "name": "The Lake Night",
+                    "value": "3",
+                    "key": "20",
+                    "file": "'/System/Library/Desktop Pictures/The Lake.heic'",
+                    "additional": true,
+                    "category": "Desktop Pictures"
+                },
+                {
+                    "option": "desert-day",
+                    "name": "The Desert Day",
+                    "value": "2",
+                    "key": "20",
+                    "file": "'/System/Library/Desktop Pictures/The Desert.heic'",
+                    "additional": true,
+                    "category": "Desktop Pictures"
+                },
+                {
+                    "option": "desert-night",
+                    "name": "The Desert Night",
+                    "value": "3",
+                    "key": "20",
+                    "file": "'/System/Library/Desktop Pictures/The Desert.heic'",
+                    "additional": true,
+                    "category": "Desktop Pictures"
+                },
+                {
+                    "option": "beach-day",
+                    "name": "The Beach Day",
+                    "value": "2",
+                    "key": "20",
+                    "file": "'/System/Library/Desktop Pictures/The Beach.heic'",
+                    "additional": true,
+                    "category": "Desktop Pictures"
+                },
+                {
+                    "option": "beach-night",
+                    "name": "The Beach Night",
+                    "value": "3",
+                    "key": "20",
+                    "file": "'/System/Library/Desktop Pictures/The Beach.heic'",
+                    "additional": true,
+                    "category": "Desktop Pictures"
+                },
+                {
+                    "option": "iridescence-light-2",
+                    "name": "Iridescence Light",
+                    "value": "2",
+                    "key": "20",
+                    "file": "'/System/Library/Desktop Pictures/Iridescence.heic'",
+                    "additional": true,
+                    "category": "Desktop Pictures"
+                },
+                {
+                    "option": "iridescence-dark-2",
+                    "name": "Iridescence Dark",
+                    "value": "3",
+                    "key": "20",
+                    "file": "'/System/Library/Desktop Pictures/Iridescence.heic'",
+                    "additional": true,
+                    "category": "Desktop Pictures"
+                }
+            ]
+        },
+        {
+            "version": "10.15",
+            "name": "Catalina",
+            "options": [
+                {
+                    "option": "catalina",
+                    "name": "Catalina Dynamic",
+                    "value": "0",
+                    "key": "20",
+                    "file": null,
+                    "additional": false,
+                    "category": "Dynamic Desktop"
+                },
+                {
+                    "option": "catalina-light",
+                    "name": "Catalina Light (Still)",
+                    "value": "2",
+                    "key": "20",
+                    "file": null,
+                    "additional": false,
+                    "category": "Dynamic Desktop"
+                },
+                {
+                    "option": "catalina-dark",
+                    "name": "Catalina Dark (Still)",
+                    "value": "3",
+                    "key": "20",
+                    "file": null,
+                    "additional": false,
+                    "category": "Dynamic Desktop"
+                },
+                {
+                    "option": "mojave",
+                    "name": "Mojave Dynamic",
+                    "value": "0",
+                    "key": "20",
+                    "file": "'/System/Library/Desktop Pictures/Mojave.heic'",
+                    "additional": true,
+                    "category": "Dynamic Desktop"
+                },
+                {
+                    "option": "mojave-light",
+                    "name": "Mojave Light (Still)",
+                    "value": "2",
+                    "key": "20",
+                    "file": "'/System/Library/Desktop Pictures/Mojave.heic'",
+                    "additional": true,
+                    "category": "Dynamic Desktop"
+                },
+                {
+                    "option": "mojave-dark",
+                    "name": "Mojave Dark (Still)",
+                    "value": "3",
+                    "key": "20",
+                    "file": "'/System/Library/Desktop Pictures/Mojave.heic'",
+                    "additional": true,
+                    "category": "Dynamic Desktop"
+                },
+                {
+                    "option": "solar",
+                    "name": "Solar Gradients",
+                    "value": "0",
+                    "key": "20",
+                    "file": "'/System/Library/Desktop Pictures/Solar Gradients.heic'",
+                    "additional": true,
+                    "category": "Dynamic Desktop"
+                },
+                {
+                    "option": "catalina-day",
+                    "name": "Catalina Day",
+                    "value": "2",
+                    "key": "20",
+                    "file": "'/System/Library/Desktop Pictures/Catalina Day.heic'",
+                    "additional": true,
+                    "category": "Desktop Pictures"
+                },
+                {
+                    "option": "catalina-night",
+                    "name": "Catalina Night",
+                    "value": "3",
+                    "key": "20",
+                    "file": "'/System/Library/Desktop Pictures/Catalina Night.heic'",
+                    "additional": true,
+                    "category": "Desktop Pictures"
+                },
+                {
+                    "option": "mojave-day",
+                    "name": "Mojave Day",
+                    "value": "2",
+                    "key": "20",
+                    "file": "'/System/Library/Desktop Pictures/Mojave Day.heic'",
+                    "additional": true,
+                    "category": "Desktop Pictures"
+                },
+                {
+                    "option": "mojave-night",
+                    "name": "Mojave Night",
+                    "value": "3",
+                    "key": "20",
+                    "file": "'/System/Library/Desktop Pictures/Mojave Night.heic'",
+                    "additional": true,
+                    "category": "Desktop Pictures"
+                }
+            ]
+        },
+        {
+            "version": "10.14",
+            "name": "Mojave",
+            "options": [
+                {
+                    "option": "mojave-dark",
+                    "name": "Mojave Dark (Still)",
+                    "value": "3",
+                    "key": "20",
+                    "file": null,
+                    "additional": false,
+                    "category": "Dynamic Desktop"
+                },
+                {
+                    "option": "mojave",
+                    "name": "Mojave Dynamic",
+                    "value": "1",
+                    "key": "20",
+                    "file": null,
+                    "additional": false,
+                    "category": "Dynamic Desktop"
+                },
+                {
+                    "option": "mojave-light",
+                    "name": "Mojave Light (Still)",
+                    "value": "2",
+                    "key": "20",
+                    "file": null,
+                    "additional": false,
+                    "category": "Dynamic Desktop"
+                },
+                {
+                    "option": "solar",
+                    "name": "Solar Gradients",
+                    "value": "'/Library/Desktop Pictures/Solar Gradients.heic'",
+                    "key": "1",
+                    "file": null,
+                    "additional": false,
+                    "category": "Dynamic Desktop"
+                }
+            ]
+        }
+    ]
+}
