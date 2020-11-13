@@ -1,1274 +1,1294 @@
-Randomly generated on 2020-08-05 at 11:20:15 by ./set-desktop-catalina-tests.sh using macOS 10.15.6 (19G73)
+Randomly generated on 2020-11-12 at 14:50:27 by ./set-desktop-catalina-tests.sh using macOS 10.15.7 (19H2)
 
-1/100. /System/Library/Desktop Pictures/El Capitan.jpg:
+1/100. /System/Library/Desktop Pictures/Solid Colors/Teal.png:
 
 --------------------------------- data ---------------------------------  --------- preferences ---------
-rowid                                                      value  rowid  key  data_id  picture_id
------  ---------------------------------------------------------  -----  ---  -------  ----------
-    1            /System/Library/Desktop Pictures/El Capitan.jpg      1    1        1           3
-    1            /System/Library/Desktop Pictures/El Capitan.jpg      2    1        1           4
-    1            /System/Library/Desktop Pictures/El Capitan.jpg      3    1        1           2
-    1            /System/Library/Desktop Pictures/El Capitan.jpg      4    1        1           1
+rowid                                                              value  rowid  key  data_id  picture_id
+-----  -----------------------------------------------------------------  -----  ---  -------  ----------
+    1             /System/Library/Desktop Pictures/Solid Colors/Teal.png      1    1        1           3
+    1             /System/Library/Desktop Pictures/Solid Colors/Teal.png      2    1        1           4
+    1             /System/Library/Desktop Pictures/Solid Colors/Teal.png      3    1        1           2
+    1             /System/Library/Desktop Pictures/Solid Colors/Teal.png      4    1        1           1
 
 
 
-2/100. light:
+2/100. mojave-light:
 
 --------------------------------- data ---------------------------------  --------- preferences ---------
-rowid                                                      value  rowid  key  data_id  picture_id
------  ---------------------------------------------------------  -----  ---  -------  ----------
-    2                                                          2      5   20        2           3
-    2                                                          2      6   20        2           4
-    2                                                          2      7   20        2           2
-    2                                                          2      8   20        2           1
+rowid                                                              value  rowid  key  data_id  picture_id
+-----  -----------------------------------------------------------------  -----  ---  -------  ----------
+    2                       /System/Library/Desktop Pictures/Mojave.heic      5    1        2           3
+    3                                                                  2      6   20        3           3
+    2                       /System/Library/Desktop Pictures/Mojave.heic      7    1        2           4
+    3                                                                  2      8   20        3           4
+    2                       /System/Library/Desktop Pictures/Mojave.heic      9    1        2           2
+    3                                                                  2     10   20        3           2
+    2                       /System/Library/Desktop Pictures/Mojave.heic     11    1        2           1
+    3                                                                  2     12   20        3           1
 
 
 
-3/100. /System/Library/Desktop Pictures/Desert 7.jpg:
+3/100. solar:
 
 --------------------------------- data ---------------------------------  --------- preferences ---------
-rowid                                                      value  rowid  key  data_id  picture_id
------  ---------------------------------------------------------  -----  ---  -------  ----------
-    3              /System/Library/Desktop Pictures/Desert 7.jpg      9    1        3           3
-    3              /System/Library/Desktop Pictures/Desert 7.jpg     10    1        3           4
-    3              /System/Library/Desktop Pictures/Desert 7.jpg     11    1        3           2
-    3              /System/Library/Desktop Pictures/Desert 7.jpg     12    1        3           1
+rowid                                                              value  rowid  key  data_id  picture_id
+-----  -----------------------------------------------------------------  -----  ---  -------  ----------
+    4              /System/Library/Desktop Pictures/Solar Gradients.heic     13    1        4           3
+    5                                                                  0     14   20        5           3
+    4              /System/Library/Desktop Pictures/Solar Gradients.heic     15    1        4           4
+    5                                                                  0     16   20        5           4
+    4              /System/Library/Desktop Pictures/Solar Gradients.heic     17    1        4           2
+    5                                                                  0     18   20        5           2
+    4              /System/Library/Desktop Pictures/Solar Gradients.heic     19    1        4           1
+    5                                                                  0     20   20        5           1
 
 
 
-4/100. mojave-dark:
+4/100. /System/Library/Desktop Pictures/Sierra 2.jpg:
 
 --------------------------------- data ---------------------------------  --------- preferences ---------
-rowid                                                      value  rowid  key  data_id  picture_id
------  ---------------------------------------------------------  -----  ---  -------  ----------
-    4                                                          3     13   20        4           3
-    4                                                          3     14   20        4           4
-    4                                                          3     15   20        4           2
-    4                                                          3     16   20        4           1
-    5               /System/Library/Desktop Pictures/Mojave.heic     17    1        5           3
-    5               /System/Library/Desktop Pictures/Mojave.heic     18    1        5           4
-    5               /System/Library/Desktop Pictures/Mojave.heic     19    1        5           2
-    5               /System/Library/Desktop Pictures/Mojave.heic     20    1        5           1
+rowid                                                              value  rowid  key  data_id  picture_id
+-----  -----------------------------------------------------------------  -----  ---  -------  ----------
+    6                      /System/Library/Desktop Pictures/Sierra 2.jpg     21    1        6           3
+    6                      /System/Library/Desktop Pictures/Sierra 2.jpg     22    1        6           4
+    6                      /System/Library/Desktop Pictures/Sierra 2.jpg     23    1        6           2
+    6                      /System/Library/Desktop Pictures/Sierra 2.jpg     24    1        6           1
 
 
 
-5/100. /System/Library/Desktop Pictures/Yosemite 4.jpg:
+5/100. /System/Library/Desktop Pictures/Yosemite 3.jpg:
 
 --------------------------------- data ---------------------------------  --------- preferences ---------
-rowid                                                      value  rowid  key  data_id  picture_id
------  ---------------------------------------------------------  -----  ---  -------  ----------
-    6            /System/Library/Desktop Pictures/Yosemite 4.jpg     21    1        6           3
-    6            /System/Library/Desktop Pictures/Yosemite 4.jpg     22    1        6           4
-    6            /System/Library/Desktop Pictures/Yosemite 4.jpg     23    1        6           2
-    6            /System/Library/Desktop Pictures/Yosemite 4.jpg     24    1        6           1
+rowid                                                              value  rowid  key  data_id  picture_id
+-----  -----------------------------------------------------------------  -----  ---  -------  ----------
+    7                    /System/Library/Desktop Pictures/Yosemite 3.jpg     25    1        7           3
+    7                    /System/Library/Desktop Pictures/Yosemite 3.jpg     26    1        7           4
+    7                    /System/Library/Desktop Pictures/Yosemite 3.jpg     27    1        7           2
+    7                    /System/Library/Desktop Pictures/Yosemite 3.jpg     28    1        7           1
 
 
 
-6/100. /System/Library/Desktop Pictures/Yosemite.jpg:
+6/100. catalina-dark:
 
 --------------------------------- data ---------------------------------  --------- preferences ---------
-rowid                                                      value  rowid  key  data_id  picture_id
------  ---------------------------------------------------------  -----  ---  -------  ----------
-    7              /System/Library/Desktop Pictures/Yosemite.jpg     25    1        7           3
-    7              /System/Library/Desktop Pictures/Yosemite.jpg     26    1        7           4
-    7              /System/Library/Desktop Pictures/Yosemite.jpg     27    1        7           2
-    7              /System/Library/Desktop Pictures/Yosemite.jpg     28    1        7           1
+rowid                                                              value  rowid  key  data_id  picture_id
+-----  -----------------------------------------------------------------  -----  ---  -------  ----------
+    8                                                                  3     29   20        8           3
+    8                                                                  3     30   20        8           4
+    8                                                                  3     31   20        8           2
+    8                                                                  3     32   20        8           1
 
 
 
-7/100. mojave:
+7/100. /System/Library/Desktop Pictures/Solid Colors/Gold 2.png:
 
 --------------------------------- data ---------------------------------  --------- preferences ---------
-rowid                                                      value  rowid  key  data_id  picture_id
------  ---------------------------------------------------------  -----  ---  -------  ----------
-    8                                                          1     29   20        8           3
-    8                                                          1     30   20        8           4
-    8                                                          1     31   20        8           2
-    8                                                          1     32   20        8           1
-    9               /System/Library/Desktop Pictures/Mojave.heic     33    1        9           3
-    9               /System/Library/Desktop Pictures/Mojave.heic     34    1        9           4
-    9               /System/Library/Desktop Pictures/Mojave.heic     35    1        9           2
-    9               /System/Library/Desktop Pictures/Mojave.heic     36    1        9           1
+rowid                                                              value  rowid  key  data_id  picture_id
+-----  -----------------------------------------------------------------  -----  ---  -------  ----------
+    9           /System/Library/Desktop Pictures/Solid Colors/Gold 2.png     33    1        9           3
+    9           /System/Library/Desktop Pictures/Solid Colors/Gold 2.png     34    1        9           4
+    9           /System/Library/Desktop Pictures/Solid Colors/Gold 2.png     35    1        9           2
+    9           /System/Library/Desktop Pictures/Solid Colors/Gold 2.png     36    1        9           1
 
 
 
-8/100. catalina:
+8/100. catalina-day:
 
 --------------------------------- data ---------------------------------  --------- preferences ---------
-rowid                                                      value  rowid  key  data_id  picture_id
------  ---------------------------------------------------------  -----  ---  -------  ----------
-   10                                                          1     37   20       10           3
-   10                                                          1     38   20       10           4
-   10                                                          1     39   20       10           2
-   10                                                          1     40   20       10           1
+rowid                                                              value  rowid  key  data_id  picture_id
+-----  -----------------------------------------------------------------  -----  ---  -------  ----------
+   10                 /System/Library/Desktop Pictures/Catalina Day.heic     37    1       10           3
+   11                                                                  2     38   20       11           3
+   10                 /System/Library/Desktop Pictures/Catalina Day.heic     39    1       10           4
+   11                                                                  2     40   20       11           4
+   10                 /System/Library/Desktop Pictures/Catalina Day.heic     41    1       10           2
+   11                                                                  2     42   20       11           2
+   10                 /System/Library/Desktop Pictures/Catalina Day.heic     43    1       10           1
+   11                                                                  2     44   20       11           1
 
 
 
-9/100. catalina:
+9/100. /System/Library/Desktop Pictures/Abstract 1.jpg:
 
 --------------------------------- data ---------------------------------  --------- preferences ---------
-rowid                                                      value  rowid  key  data_id  picture_id
------  ---------------------------------------------------------  -----  ---  -------  ----------
-   11                                                          1     41   20       11           3
-   11                                                          1     42   20       11           4
-   11                                                          1     43   20       11           2
-   11                                                          1     44   20       11           1
+rowid                                                              value  rowid  key  data_id  picture_id
+-----  -----------------------------------------------------------------  -----  ---  -------  ----------
+   12                    /System/Library/Desktop Pictures/Abstract 1.jpg     45    1       12           3
+   12                    /System/Library/Desktop Pictures/Abstract 1.jpg     46    1       12           4
+   12                    /System/Library/Desktop Pictures/Abstract 1.jpg     47    1       12           2
+   12                    /System/Library/Desktop Pictures/Abstract 1.jpg     48    1       12           1
 
 
 
-10/100. mojave-light:
+10/100. catalina-dark:
 
 --------------------------------- data ---------------------------------  --------- preferences ---------
-rowid                                                      value  rowid  key  data_id  picture_id
------  ---------------------------------------------------------  -----  ---  -------  ----------
-   12                                                          2     45   20       12           3
-   12                                                          2     46   20       12           4
-   12                                                          2     47   20       12           2
-   12                                                          2     48   20       12           1
-   13               /System/Library/Desktop Pictures/Mojave.heic     49    1       13           3
-   13               /System/Library/Desktop Pictures/Mojave.heic     50    1       13           4
-   13               /System/Library/Desktop Pictures/Mojave.heic     51    1       13           2
-   13               /System/Library/Desktop Pictures/Mojave.heic     52    1       13           1
+rowid                                                              value  rowid  key  data_id  picture_id
+-----  -----------------------------------------------------------------  -----  ---  -------  ----------
+   13                                                                  3     49   20       13           3
+   13                                                                  3     50   20       13           4
+   13                                                                  3     51   20       13           2
+   13                                                                  3     52   20       13           1
 
 
 
-11/100. /System/Library/Desktop Pictures/Solid Colors/Electric Blue.png:
+11/100. mojave:
 
 --------------------------------- data ---------------------------------  --------- preferences ---------
-rowid                                                      value  rowid  key  data_id  picture_id
------  ---------------------------------------------------------  -----  ---  -------  ----------
-   14  /System/Library/Desktop Pictures/Solid Colors/Electric Bl     53    1       14           3
-   14  /System/Library/Desktop Pictures/Solid Colors/Electric Bl     54    1       14           4
-   14  /System/Library/Desktop Pictures/Solid Colors/Electric Bl     55    1       14           2
-   14  /System/Library/Desktop Pictures/Solid Colors/Electric Bl     56    1       14           1
+rowid                                                              value  rowid  key  data_id  picture_id
+-----  -----------------------------------------------------------------  -----  ---  -------  ----------
+   14                       /System/Library/Desktop Pictures/Mojave.heic     53    1       14           3
+   15                                                                  0     54   20       15           3
+   14                       /System/Library/Desktop Pictures/Mojave.heic     55    1       14           4
+   15                                                                  0     56   20       15           4
+   14                       /System/Library/Desktop Pictures/Mojave.heic     57    1       14           2
+   15                                                                  0     58   20       15           2
+   14                       /System/Library/Desktop Pictures/Mojave.heic     59    1       14           1
+   15                                                                  0     60   20       15           1
 
 
 
-12/100. mojave:
+12/100. mojave-day:
 
 --------------------------------- data ---------------------------------  --------- preferences ---------
-rowid                                                      value  rowid  key  data_id  picture_id
------  ---------------------------------------------------------  -----  ---  -------  ----------
-   15                                                          1     57   20       15           3
-   15                                                          1     58   20       15           4
-   15                                                          1     59   20       15           2
-   15                                                          1     60   20       15           1
-   16               /System/Library/Desktop Pictures/Mojave.heic     61    1       16           3
-   16               /System/Library/Desktop Pictures/Mojave.heic     62    1       16           4
-   16               /System/Library/Desktop Pictures/Mojave.heic     63    1       16           2
-   16               /System/Library/Desktop Pictures/Mojave.heic     64    1       16           1
+rowid                                                              value  rowid  key  data_id  picture_id
+-----  -----------------------------------------------------------------  -----  ---  -------  ----------
+   16                   /System/Library/Desktop Pictures/Mojave Day.heic     61    1       16           3
+   17                                                                  2     62   20       17           3
+   16                   /System/Library/Desktop Pictures/Mojave Day.heic     63    1       16           4
+   17                                                                  2     64   20       17           4
+   16                   /System/Library/Desktop Pictures/Mojave Day.heic     65    1       16           2
+   17                                                                  2     66   20       17           2
+   16                   /System/Library/Desktop Pictures/Mojave Day.heic     67    1       16           1
+   17                                                                  2     68   20       17           1
 
 
 
-13/100. solar:
+13/100. /System/Library/Desktop Pictures/El Capitan 2.jpg:
 
 --------------------------------- data ---------------------------------  --------- preferences ---------
-rowid                                                      value  rowid  key  data_id  picture_id
------  ---------------------------------------------------------  -----  ---  -------  ----------
-   17      /System/Library/Desktop Pictures/Solar Gradients.heic     65    1       17           3
-   17      /System/Library/Desktop Pictures/Solar Gradients.heic     66    1       17           4
-   17      /System/Library/Desktop Pictures/Solar Gradients.heic     67    1       17           2
-   17      /System/Library/Desktop Pictures/Solar Gradients.heic     68    1       17           1
+rowid                                                              value  rowid  key  data_id  picture_id
+-----  -----------------------------------------------------------------  -----  ---  -------  ----------
+   18                  /System/Library/Desktop Pictures/El Capitan 2.jpg     69    1       18           3
+   18                  /System/Library/Desktop Pictures/El Capitan 2.jpg     70    1       18           4
+   18                  /System/Library/Desktop Pictures/El Capitan 2.jpg     71    1       18           2
+   18                  /System/Library/Desktop Pictures/El Capitan 2.jpg     72    1       18           1
 
 
 
-14/100. mojave-light:
+14/100. mojave-night:
 
 --------------------------------- data ---------------------------------  --------- preferences ---------
-rowid                                                      value  rowid  key  data_id  picture_id
------  ---------------------------------------------------------  -----  ---  -------  ----------
-   18                                                          2     69   20       18           3
-   18                                                          2     70   20       18           4
-   18                                                          2     71   20       18           2
-   18                                                          2     72   20       18           1
-   19               /System/Library/Desktop Pictures/Mojave.heic     73    1       19           3
-   19               /System/Library/Desktop Pictures/Mojave.heic     74    1       19           4
-   19               /System/Library/Desktop Pictures/Mojave.heic     75    1       19           2
-   19               /System/Library/Desktop Pictures/Mojave.heic     76    1       19           1
+rowid                                                              value  rowid  key  data_id  picture_id
+-----  -----------------------------------------------------------------  -----  ---  -------  ----------
+   19                 /System/Library/Desktop Pictures/Mojave Night.heic     73    1       19           3
+   20                                                                  3     74   20       20           3
+   19                 /System/Library/Desktop Pictures/Mojave Night.heic     75    1       19           4
+   20                                                                  3     76   20       20           4
+   19                 /System/Library/Desktop Pictures/Mojave Night.heic     77    1       19           2
+   20                                                                  3     78   20       20           2
+   19                 /System/Library/Desktop Pictures/Mojave Night.heic     79    1       19           1
+   20                                                                  3     80   20       20           1
 
 
 
-15/100. mojave-light:
+15/100. solar:
 
 --------------------------------- data ---------------------------------  --------- preferences ---------
-rowid                                                      value  rowid  key  data_id  picture_id
------  ---------------------------------------------------------  -----  ---  -------  ----------
-   20                                                          2     77   20       20           3
-   20                                                          2     78   20       20           4
-   20                                                          2     79   20       20           2
-   20                                                          2     80   20       20           1
-   21               /System/Library/Desktop Pictures/Mojave.heic     81    1       21           3
-   21               /System/Library/Desktop Pictures/Mojave.heic     82    1       21           4
-   21               /System/Library/Desktop Pictures/Mojave.heic     83    1       21           2
-   21               /System/Library/Desktop Pictures/Mojave.heic     84    1       21           1
+rowid                                                              value  rowid  key  data_id  picture_id
+-----  -----------------------------------------------------------------  -----  ---  -------  ----------
+   21              /System/Library/Desktop Pictures/Solar Gradients.heic     81    1       21           3
+   22                                                                  0     82   20       22           3
+   21              /System/Library/Desktop Pictures/Solar Gradients.heic     83    1       21           4
+   22                                                                  0     84   20       22           4
+   21              /System/Library/Desktop Pictures/Solar Gradients.heic     85    1       21           2
+   22                                                                  0     86   20       22           2
+   21              /System/Library/Desktop Pictures/Solar Gradients.heic     87    1       21           1
+   22                                                                  0     88   20       22           1
 
 
 
-16/100. dark:
+16/100. /System/Library/Desktop Pictures/Solid Colors/Red Orange.png:
 
 --------------------------------- data ---------------------------------  --------- preferences ---------
-rowid                                                      value  rowid  key  data_id  picture_id
------  ---------------------------------------------------------  -----  ---  -------  ----------
-   22                                                          3     85   20       22           3
-   22                                                          3     86   20       22           4
-   22                                                          3     87   20       22           2
-   22                                                          3     88   20       22           1
+rowid                                                              value  rowid  key  data_id  picture_id
+-----  -----------------------------------------------------------------  -----  ---  -------  ----------
+   23       /System/Library/Desktop Pictures/Solid Colors/Red Orange.png     89    1       23           3
+   23       /System/Library/Desktop Pictures/Solid Colors/Red Orange.png     90    1       23           4
+   23       /System/Library/Desktop Pictures/Solid Colors/Red Orange.png     91    1       23           2
+   23       /System/Library/Desktop Pictures/Solid Colors/Red Orange.png     92    1       23           1
 
 
 
-17/100. /System/Library/Desktop Pictures/Desert 6.jpg:
+17/100. mojave-light:
 
 --------------------------------- data ---------------------------------  --------- preferences ---------
-rowid                                                      value  rowid  key  data_id  picture_id
------  ---------------------------------------------------------  -----  ---  -------  ----------
-   23              /System/Library/Desktop Pictures/Desert 6.jpg     89    1       23           3
-   23              /System/Library/Desktop Pictures/Desert 6.jpg     90    1       23           4
-   23              /System/Library/Desktop Pictures/Desert 6.jpg     91    1       23           2
-   23              /System/Library/Desktop Pictures/Desert 6.jpg     92    1       23           1
+rowid                                                              value  rowid  key  data_id  picture_id
+-----  -----------------------------------------------------------------  -----  ---  -------  ----------
+   24                       /System/Library/Desktop Pictures/Mojave.heic     93    1       24           3
+   25                                                                  2     94   20       25           3
+   24                       /System/Library/Desktop Pictures/Mojave.heic     95    1       24           4
+   25                                                                  2     96   20       25           4
+   24                       /System/Library/Desktop Pictures/Mojave.heic     97    1       24           2
+   25                                                                  2     98   20       25           2
+   24                       /System/Library/Desktop Pictures/Mojave.heic     99    1       24           1
+   25                                                                  2    100   20       25           1
 
 
 
-18/100. /System/Library/Desktop Pictures/Solid Colors/Stone.png:
+18/100. /System/Library/Desktop Pictures/Desert 1.jpg:
 
 --------------------------------- data ---------------------------------  --------- preferences ---------
-rowid                                                      value  rowid  key  data_id  picture_id
------  ---------------------------------------------------------  -----  ---  -------  ----------
-   24    /System/Library/Desktop Pictures/Solid Colors/Stone.png     93    1       24           3
-   24    /System/Library/Desktop Pictures/Solid Colors/Stone.png     94    1       24           4
-   24    /System/Library/Desktop Pictures/Solid Colors/Stone.png     95    1       24           2
-   24    /System/Library/Desktop Pictures/Solid Colors/Stone.png     96    1       24           1
+rowid                                                              value  rowid  key  data_id  picture_id
+-----  -----------------------------------------------------------------  -----  ---  -------  ----------
+   26                      /System/Library/Desktop Pictures/Desert 1.jpg    101    1       26           3
+   26                      /System/Library/Desktop Pictures/Desert 1.jpg    102    1       26           4
+   26                      /System/Library/Desktop Pictures/Desert 1.jpg    103    1       26           2
+   26                      /System/Library/Desktop Pictures/Desert 1.jpg    104    1       26           1
 
 
 
-19/100. mojave:
+19/100. /System/Library/Desktop Pictures/Solid Colors/Plum.png:
 
 --------------------------------- data ---------------------------------  --------- preferences ---------
-rowid                                                      value  rowid  key  data_id  picture_id
------  ---------------------------------------------------------  -----  ---  -------  ----------
-   25                                                          1     97   20       25           3
-   25                                                          1     98   20       25           4
-   25                                                          1     99   20       25           2
-   25                                                          1    100   20       25           1
-   26               /System/Library/Desktop Pictures/Mojave.heic    101    1       26           3
-   26               /System/Library/Desktop Pictures/Mojave.heic    102    1       26           4
-   26               /System/Library/Desktop Pictures/Mojave.heic    103    1       26           2
-   26               /System/Library/Desktop Pictures/Mojave.heic    104    1       26           1
+rowid                                                              value  rowid  key  data_id  picture_id
+-----  -----------------------------------------------------------------  -----  ---  -------  ----------
+   27             /System/Library/Desktop Pictures/Solid Colors/Plum.png    105    1       27           3
+   27             /System/Library/Desktop Pictures/Solid Colors/Plum.png    106    1       27           4
+   27             /System/Library/Desktop Pictures/Solid Colors/Plum.png    107    1       27           2
+   27             /System/Library/Desktop Pictures/Solid Colors/Plum.png    108    1       27           1
 
 
 
-20/100. solar:
+20/100. mojave-light:
 
 --------------------------------- data ---------------------------------  --------- preferences ---------
-rowid                                                      value  rowid  key  data_id  picture_id
------  ---------------------------------------------------------  -----  ---  -------  ----------
-   27      /System/Library/Desktop Pictures/Solar Gradients.heic    105    1       27           3
-   27      /System/Library/Desktop Pictures/Solar Gradients.heic    106    1       27           4
-   27      /System/Library/Desktop Pictures/Solar Gradients.heic    107    1       27           2
-   27      /System/Library/Desktop Pictures/Solar Gradients.heic    108    1       27           1
+rowid                                                              value  rowid  key  data_id  picture_id
+-----  -----------------------------------------------------------------  -----  ---  -------  ----------
+   28                       /System/Library/Desktop Pictures/Mojave.heic    109    1       28           3
+   29                                                                  2    110   20       29           3
+   28                       /System/Library/Desktop Pictures/Mojave.heic    111    1       28           4
+   29                                                                  2    112   20       29           4
+   28                       /System/Library/Desktop Pictures/Mojave.heic    113    1       28           2
+   29                                                                  2    114   20       29           2
+   28                       /System/Library/Desktop Pictures/Mojave.heic    115    1       28           1
+   29                                                                  2    116   20       29           1
 
 
 
-21/100. /System/Library/Desktop Pictures/Sierra 2.jpg:
+21/100. catalina-light:
 
 --------------------------------- data ---------------------------------  --------- preferences ---------
-rowid                                                      value  rowid  key  data_id  picture_id
------  ---------------------------------------------------------  -----  ---  -------  ----------
-   28              /System/Library/Desktop Pictures/Sierra 2.jpg    109    1       28           3
-   28              /System/Library/Desktop Pictures/Sierra 2.jpg    110    1       28           4
-   28              /System/Library/Desktop Pictures/Sierra 2.jpg    111    1       28           2
-   28              /System/Library/Desktop Pictures/Sierra 2.jpg    112    1       28           1
+rowid                                                              value  rowid  key  data_id  picture_id
+-----  -----------------------------------------------------------------  -----  ---  -------  ----------
+   30                                                                  2    117   20       30           3
+   30                                                                  2    118   20       30           4
+   30                                                                  2    119   20       30           2
+   30                                                                  2    120   20       30           1
 
 
 
-22/100. mojave-dark:
+22/100. /System/Library/Desktop Pictures/Solid Colors/Space Gray Pro.png:
 
 --------------------------------- data ---------------------------------  --------- preferences ---------
-rowid                                                      value  rowid  key  data_id  picture_id
------  ---------------------------------------------------------  -----  ---  -------  ----------
-   29                                                          3    113   20       29           3
-   29                                                          3    114   20       29           4
-   29                                                          3    115   20       29           2
-   29                                                          3    116   20       29           1
-   30               /System/Library/Desktop Pictures/Mojave.heic    117    1       30           3
-   30               /System/Library/Desktop Pictures/Mojave.heic    118    1       30           4
-   30               /System/Library/Desktop Pictures/Mojave.heic    119    1       30           2
-   30               /System/Library/Desktop Pictures/Mojave.heic    120    1       30           1
+rowid                                                              value  rowid  key  data_id  picture_id
+-----  -----------------------------------------------------------------  -----  ---  -------  ----------
+   31   /System/Library/Desktop Pictures/Solid Colors/Space Gray Pro.png    121    1       31           3
+   31   /System/Library/Desktop Pictures/Solid Colors/Space Gray Pro.png    122    1       31           4
+   31   /System/Library/Desktop Pictures/Solid Colors/Space Gray Pro.png    123    1       31           2
+   31   /System/Library/Desktop Pictures/Solid Colors/Space Gray Pro.png    124    1       31           1
 
 
 
-23/100. /System/Library/Desktop Pictures/Desert 6.jpg:
+23/100. /System/Library/Desktop Pictures/Flower 6.jpg:
 
 --------------------------------- data ---------------------------------  --------- preferences ---------
-rowid                                                      value  rowid  key  data_id  picture_id
------  ---------------------------------------------------------  -----  ---  -------  ----------
-   31              /System/Library/Desktop Pictures/Desert 6.jpg    121    1       31           3
-   31              /System/Library/Desktop Pictures/Desert 6.jpg    122    1       31           4
-   31              /System/Library/Desktop Pictures/Desert 6.jpg    123    1       31           2
-   31              /System/Library/Desktop Pictures/Desert 6.jpg    124    1       31           1
+rowid                                                              value  rowid  key  data_id  picture_id
+-----  -----------------------------------------------------------------  -----  ---  -------  ----------
+   32                      /System/Library/Desktop Pictures/Flower 6.jpg    125    1       32           3
+   32                      /System/Library/Desktop Pictures/Flower 6.jpg    126    1       32           4
+   32                      /System/Library/Desktop Pictures/Flower 6.jpg    127    1       32           2
+   32                      /System/Library/Desktop Pictures/Flower 6.jpg    128    1       32           1
 
 
 
-24/100. light:
+24/100. /System/Library/Desktop Pictures/Solid Colors/Red Orange.png:
 
 --------------------------------- data ---------------------------------  --------- preferences ---------
-rowid                                                      value  rowid  key  data_id  picture_id
------  ---------------------------------------------------------  -----  ---  -------  ----------
-   32                                                          2    125   20       32           3
-   32                                                          2    126   20       32           4
-   32                                                          2    127   20       32           2
-   32                                                          2    128   20       32           1
+rowid                                                              value  rowid  key  data_id  picture_id
+-----  -----------------------------------------------------------------  -----  ---  -------  ----------
+   33       /System/Library/Desktop Pictures/Solid Colors/Red Orange.png    129    1       33           3
+   33       /System/Library/Desktop Pictures/Solid Colors/Red Orange.png    130    1       33           4
+   33       /System/Library/Desktop Pictures/Solid Colors/Red Orange.png    131    1       33           2
+   33       /System/Library/Desktop Pictures/Solid Colors/Red Orange.png    132    1       33           1
 
 
 
-25/100. mojave-light:
+25/100. /System/Library/Desktop Pictures/Yosemite.jpg:
 
 --------------------------------- data ---------------------------------  --------- preferences ---------
-rowid                                                      value  rowid  key  data_id  picture_id
------  ---------------------------------------------------------  -----  ---  -------  ----------
-   33                                                          2    129   20       33           3
-   33                                                          2    130   20       33           4
-   33                                                          2    131   20       33           2
-   33                                                          2    132   20       33           1
-   34               /System/Library/Desktop Pictures/Mojave.heic    133    1       34           3
-   34               /System/Library/Desktop Pictures/Mojave.heic    134    1       34           4
-   34               /System/Library/Desktop Pictures/Mojave.heic    135    1       34           2
-   34               /System/Library/Desktop Pictures/Mojave.heic    136    1       34           1
+rowid                                                              value  rowid  key  data_id  picture_id
+-----  -----------------------------------------------------------------  -----  ---  -------  ----------
+   34                      /System/Library/Desktop Pictures/Yosemite.jpg    133    1       34           3
+   34                      /System/Library/Desktop Pictures/Yosemite.jpg    134    1       34           4
+   34                      /System/Library/Desktop Pictures/Yosemite.jpg    135    1       34           2
+   34                      /System/Library/Desktop Pictures/Yosemite.jpg    136    1       34           1
 
 
 
-26/100. /System/Library/Desktop Pictures/Flower 8.jpg:
+26/100. mojave-day:
 
 --------------------------------- data ---------------------------------  --------- preferences ---------
-rowid                                                      value  rowid  key  data_id  picture_id
------  ---------------------------------------------------------  -----  ---  -------  ----------
-   35              /System/Library/Desktop Pictures/Flower 8.jpg    137    1       35           3
-   35              /System/Library/Desktop Pictures/Flower 8.jpg    138    1       35           4
-   35              /System/Library/Desktop Pictures/Flower 8.jpg    139    1       35           2
-   35              /System/Library/Desktop Pictures/Flower 8.jpg    140    1       35           1
+rowid                                                              value  rowid  key  data_id  picture_id
+-----  -----------------------------------------------------------------  -----  ---  -------  ----------
+   35                   /System/Library/Desktop Pictures/Mojave Day.heic    137    1       35           3
+   36                                                                  2    138   20       36           3
+   35                   /System/Library/Desktop Pictures/Mojave Day.heic    139    1       35           4
+   36                                                                  2    140   20       36           4
+   35                   /System/Library/Desktop Pictures/Mojave Day.heic    141    1       35           2
+   36                                                                  2    142   20       36           2
+   35                   /System/Library/Desktop Pictures/Mojave Day.heic    143    1       35           1
+   36                                                                  2    144   20       36           1
 
 
 
-27/100. mojave-dark:
+27/100. catalina-light:
 
 --------------------------------- data ---------------------------------  --------- preferences ---------
-rowid                                                      value  rowid  key  data_id  picture_id
------  ---------------------------------------------------------  -----  ---  -------  ----------
-   36                                                          3    141   20       36           3
-   36                                                          3    142   20       36           4
-   36                                                          3    143   20       36           2
-   36                                                          3    144   20       36           1
-   37               /System/Library/Desktop Pictures/Mojave.heic    145    1       37           3
-   37               /System/Library/Desktop Pictures/Mojave.heic    146    1       37           4
-   37               /System/Library/Desktop Pictures/Mojave.heic    147    1       37           2
-   37               /System/Library/Desktop Pictures/Mojave.heic    148    1       37           1
+rowid                                                              value  rowid  key  data_id  picture_id
+-----  -----------------------------------------------------------------  -----  ---  -------  ----------
+   37                                                                  2    145   20       37           3
+   37                                                                  2    146   20       37           4
+   37                                                                  2    147   20       37           2
+   37                                                                  2    148   20       37           1
 
 
 
-28/100. /System/Library/Desktop Pictures/Flower 6.jpg:
+28/100. /System/Library/Desktop Pictures/Solid Colors/Plum.png:
 
 --------------------------------- data ---------------------------------  --------- preferences ---------
-rowid                                                      value  rowid  key  data_id  picture_id
------  ---------------------------------------------------------  -----  ---  -------  ----------
-   38              /System/Library/Desktop Pictures/Flower 6.jpg    149    1       38           3
-   38              /System/Library/Desktop Pictures/Flower 6.jpg    150    1       38           4
-   38              /System/Library/Desktop Pictures/Flower 6.jpg    151    1       38           2
-   38              /System/Library/Desktop Pictures/Flower 6.jpg    152    1       38           1
+rowid                                                              value  rowid  key  data_id  picture_id
+-----  -----------------------------------------------------------------  -----  ---  -------  ----------
+   38             /System/Library/Desktop Pictures/Solid Colors/Plum.png    149    1       38           3
+   38             /System/Library/Desktop Pictures/Solid Colors/Plum.png    150    1       38           4
+   38             /System/Library/Desktop Pictures/Solid Colors/Plum.png    151    1       38           2
+   38             /System/Library/Desktop Pictures/Solid Colors/Plum.png    152    1       38           1
 
 
 
-29/100. /System/Library/Desktop Pictures/Yosemite 4.jpg:
+29/100. /System/Library/Desktop Pictures/Solid Colors/Red Orange.png:
 
 --------------------------------- data ---------------------------------  --------- preferences ---------
-rowid                                                      value  rowid  key  data_id  picture_id
------  ---------------------------------------------------------  -----  ---  -------  ----------
-   39            /System/Library/Desktop Pictures/Yosemite 4.jpg    153    1       39           3
-   39            /System/Library/Desktop Pictures/Yosemite 4.jpg    154    1       39           4
-   39            /System/Library/Desktop Pictures/Yosemite 4.jpg    155    1       39           2
-   39            /System/Library/Desktop Pictures/Yosemite 4.jpg    156    1       39           1
+rowid                                                              value  rowid  key  data_id  picture_id
+-----  -----------------------------------------------------------------  -----  ---  -------  ----------
+   39       /System/Library/Desktop Pictures/Solid Colors/Red Orange.png    153    1       39           3
+   39       /System/Library/Desktop Pictures/Solid Colors/Red Orange.png    154    1       39           4
+   39       /System/Library/Desktop Pictures/Solid Colors/Red Orange.png    155    1       39           2
+   39       /System/Library/Desktop Pictures/Solid Colors/Red Orange.png    156    1       39           1
 
 
 
-30/100. dark:
+30/100. catalina-dark:
 
 --------------------------------- data ---------------------------------  --------- preferences ---------
-rowid                                                      value  rowid  key  data_id  picture_id
------  ---------------------------------------------------------  -----  ---  -------  ----------
-   40                                                          3    157   20       40           3
-   40                                                          3    158   20       40           4
-   40                                                          3    159   20       40           2
-   40                                                          3    160   20       40           1
+rowid                                                              value  rowid  key  data_id  picture_id
+-----  -----------------------------------------------------------------  -----  ---  -------  ----------
+   40                                                                  3    157   20       40           3
+   40                                                                  3    158   20       40           4
+   40                                                                  3    159   20       40           2
+   40                                                                  3    160   20       40           1
 
 
 
-31/100. catalina:
+31/100. /System/Library/Desktop Pictures/Reflection 1.jpg:
 
 --------------------------------- data ---------------------------------  --------- preferences ---------
-rowid                                                      value  rowid  key  data_id  picture_id
------  ---------------------------------------------------------  -----  ---  -------  ----------
-   41                                                          1    161   20       41           3
-   41                                                          1    162   20       41           4
-   41                                                          1    163   20       41           2
-   41                                                          1    164   20       41           1
+rowid                                                              value  rowid  key  data_id  picture_id
+-----  -----------------------------------------------------------------  -----  ---  -------  ----------
+   41                  /System/Library/Desktop Pictures/Reflection 1.jpg    161    1       41           3
+   41                  /System/Library/Desktop Pictures/Reflection 1.jpg    162    1       41           4
+   41                  /System/Library/Desktop Pictures/Reflection 1.jpg    163    1       41           2
+   41                  /System/Library/Desktop Pictures/Reflection 1.jpg    164    1       41           1
 
 
 
-32/100. mojave:
+32/100. /System/Library/Desktop Pictures/Color Burst 1.jpg:
 
 --------------------------------- data ---------------------------------  --------- preferences ---------
-rowid                                                      value  rowid  key  data_id  picture_id
------  ---------------------------------------------------------  -----  ---  -------  ----------
-   42                                                          1    165   20       42           3
-   42                                                          1    166   20       42           4
-   42                                                          1    167   20       42           2
-   42                                                          1    168   20       42           1
-   43               /System/Library/Desktop Pictures/Mojave.heic    169    1       43           3
-   43               /System/Library/Desktop Pictures/Mojave.heic    170    1       43           4
-   43               /System/Library/Desktop Pictures/Mojave.heic    171    1       43           2
-   43               /System/Library/Desktop Pictures/Mojave.heic    172    1       43           1
+rowid                                                              value  rowid  key  data_id  picture_id
+-----  -----------------------------------------------------------------  -----  ---  -------  ----------
+   42                 /System/Library/Desktop Pictures/Color Burst 1.jpg    165    1       42           3
+   42                 /System/Library/Desktop Pictures/Color Burst 1.jpg    166    1       42           4
+   42                 /System/Library/Desktop Pictures/Color Burst 1.jpg    167    1       42           2
+   42                 /System/Library/Desktop Pictures/Color Burst 1.jpg    168    1       42           1
 
 
 
-33/100. mojave:
+33/100. catalina:
 
 --------------------------------- data ---------------------------------  --------- preferences ---------
-rowid                                                      value  rowid  key  data_id  picture_id
------  ---------------------------------------------------------  -----  ---  -------  ----------
-   44                                                          1    173   20       44           3
-   44                                                          1    174   20       44           4
-   44                                                          1    175   20       44           2
-   44                                                          1    176   20       44           1
-   45               /System/Library/Desktop Pictures/Mojave.heic    177    1       45           3
-   45               /System/Library/Desktop Pictures/Mojave.heic    178    1       45           4
-   45               /System/Library/Desktop Pictures/Mojave.heic    179    1       45           2
-   45               /System/Library/Desktop Pictures/Mojave.heic    180    1       45           1
+rowid                                                              value  rowid  key  data_id  picture_id
+-----  -----------------------------------------------------------------  -----  ---  -------  ----------
+   43                                                                  0    169   20       43           3
+   43                                                                  0    170   20       43           4
+   43                                                                  0    171   20       43           2
+   43                                                                  0    172   20       43           1
 
 
 
-34/100. /System/Library/Desktop Pictures/Solid Colors/Electric Blue.png:
+34/100. /System/Library/Desktop Pictures/Color Burst 1.jpg:
 
 --------------------------------- data ---------------------------------  --------- preferences ---------
-rowid                                                      value  rowid  key  data_id  picture_id
------  ---------------------------------------------------------  -----  ---  -------  ----------
-   46  /System/Library/Desktop Pictures/Solid Colors/Electric Bl    181    1       46           3
-   46  /System/Library/Desktop Pictures/Solid Colors/Electric Bl    182    1       46           4
-   46  /System/Library/Desktop Pictures/Solid Colors/Electric Bl    183    1       46           2
-   46  /System/Library/Desktop Pictures/Solid Colors/Electric Bl    184    1       46           1
+rowid                                                              value  rowid  key  data_id  picture_id
+-----  -----------------------------------------------------------------  -----  ---  -------  ----------
+   44                 /System/Library/Desktop Pictures/Color Burst 1.jpg    173    1       44           3
+   44                 /System/Library/Desktop Pictures/Color Burst 1.jpg    174    1       44           4
+   44                 /System/Library/Desktop Pictures/Color Burst 1.jpg    175    1       44           2
+   44                 /System/Library/Desktop Pictures/Color Burst 1.jpg    176    1       44           1
 
 
 
-35/100. /System/Library/Desktop Pictures/Solid Colors/Plum.png:
+35/100. mojave-light:
 
 --------------------------------- data ---------------------------------  --------- preferences ---------
-rowid                                                      value  rowid  key  data_id  picture_id
------  ---------------------------------------------------------  -----  ---  -------  ----------
-   47     /System/Library/Desktop Pictures/Solid Colors/Plum.png    185    1       47           3
-   47     /System/Library/Desktop Pictures/Solid Colors/Plum.png    186    1       47           4
-   47     /System/Library/Desktop Pictures/Solid Colors/Plum.png    187    1       47           2
-   47     /System/Library/Desktop Pictures/Solid Colors/Plum.png    188    1       47           1
+rowid                                                              value  rowid  key  data_id  picture_id
+-----  -----------------------------------------------------------------  -----  ---  -------  ----------
+   45                       /System/Library/Desktop Pictures/Mojave.heic    177    1       45           3
+   46                                                                  2    178   20       46           3
+   45                       /System/Library/Desktop Pictures/Mojave.heic    179    1       45           4
+   46                                                                  2    180   20       46           4
+   45                       /System/Library/Desktop Pictures/Mojave.heic    181    1       45           2
+   46                                                                  2    182   20       46           2
+   45                       /System/Library/Desktop Pictures/Mojave.heic    183    1       45           1
+   46                                                                  2    184   20       46           1
 
 
 
-36/100. /System/Library/Desktop Pictures/Reflection 3.jpg:
+36/100. /System/Library/Desktop Pictures/Solid Colors/Ocher.png:
 
 --------------------------------- data ---------------------------------  --------- preferences ---------
-rowid                                                      value  rowid  key  data_id  picture_id
------  ---------------------------------------------------------  -----  ---  -------  ----------
-   48          /System/Library/Desktop Pictures/Reflection 3.jpg    189    1       48           3
-   48          /System/Library/Desktop Pictures/Reflection 3.jpg    190    1       48           4
-   48          /System/Library/Desktop Pictures/Reflection 3.jpg    191    1       48           2
-   48          /System/Library/Desktop Pictures/Reflection 3.jpg    192    1       48           1
+rowid                                                              value  rowid  key  data_id  picture_id
+-----  -----------------------------------------------------------------  -----  ---  -------  ----------
+   47            /System/Library/Desktop Pictures/Solid Colors/Ocher.png    185    1       47           3
+   47            /System/Library/Desktop Pictures/Solid Colors/Ocher.png    186    1       47           4
+   47            /System/Library/Desktop Pictures/Solid Colors/Ocher.png    187    1       47           2
+   47            /System/Library/Desktop Pictures/Solid Colors/Ocher.png    188    1       47           1
 
 
 
-37/100. catalina:
+37/100. mojave-night:
 
 --------------------------------- data ---------------------------------  --------- preferences ---------
-rowid                                                      value  rowid  key  data_id  picture_id
------  ---------------------------------------------------------  -----  ---  -------  ----------
-   49                                                          1    193   20       49           3
-   49                                                          1    194   20       49           4
-   49                                                          1    195   20       49           2
-   49                                                          1    196   20       49           1
+rowid                                                              value  rowid  key  data_id  picture_id
+-----  -----------------------------------------------------------------  -----  ---  -------  ----------
+   48                 /System/Library/Desktop Pictures/Mojave Night.heic    189    1       48           3
+   49                                                                  3    190   20       49           3
+   48                 /System/Library/Desktop Pictures/Mojave Night.heic    191    1       48           4
+   49                                                                  3    192   20       49           4
+   48                 /System/Library/Desktop Pictures/Mojave Night.heic    193    1       48           2
+   49                                                                  3    194   20       49           2
+   48                 /System/Library/Desktop Pictures/Mojave Night.heic    195    1       48           1
+   49                                                                  3    196   20       49           1
 
 
 
-38/100. /System/Library/Desktop Pictures/Color Burst 1.jpg:
+38/100. catalina-night:
 
 --------------------------------- data ---------------------------------  --------- preferences ---------
-rowid                                                      value  rowid  key  data_id  picture_id
------  ---------------------------------------------------------  -----  ---  -------  ----------
-   50         /System/Library/Desktop Pictures/Color Burst 1.jpg    197    1       50           3
-   50         /System/Library/Desktop Pictures/Color Burst 1.jpg    198    1       50           4
-   50         /System/Library/Desktop Pictures/Color Burst 1.jpg    199    1       50           2
-   50         /System/Library/Desktop Pictures/Color Burst 1.jpg    200    1       50           1
+rowid                                                              value  rowid  key  data_id  picture_id
+-----  -----------------------------------------------------------------  -----  ---  -------  ----------
+   50               /System/Library/Desktop Pictures/Catalina Night.heic    197    1       50           3
+   51                                                                  3    198   20       51           3
+   50               /System/Library/Desktop Pictures/Catalina Night.heic    199    1       50           4
+   51                                                                  3    200   20       51           4
+   50               /System/Library/Desktop Pictures/Catalina Night.heic    201    1       50           2
+   51                                                                  3    202   20       51           2
+   50               /System/Library/Desktop Pictures/Catalina Night.heic    203    1       50           1
+   51                                                                  3    204   20       51           1
 
 
 
-39/100. /System/Library/Desktop Pictures/Solid Colors/Rose Gold.png:
+39/100. catalina-day:
 
 --------------------------------- data ---------------------------------  --------- preferences ---------
-rowid                                                      value  rowid  key  data_id  picture_id
------  ---------------------------------------------------------  -----  ---  -------  ----------
-   51  /System/Library/Desktop Pictures/Solid Colors/Rose Gold.p    201    1       51           3
-   51  /System/Library/Desktop Pictures/Solid Colors/Rose Gold.p    202    1       51           4
-   51  /System/Library/Desktop Pictures/Solid Colors/Rose Gold.p    203    1       51           2
-   51  /System/Library/Desktop Pictures/Solid Colors/Rose Gold.p    204    1       51           1
+rowid                                                              value  rowid  key  data_id  picture_id
+-----  -----------------------------------------------------------------  -----  ---  -------  ----------
+   52                 /System/Library/Desktop Pictures/Catalina Day.heic    205    1       52           3
+   53                                                                  2    206   20       53           3
+   52                 /System/Library/Desktop Pictures/Catalina Day.heic    207    1       52           4
+   53                                                                  2    208   20       53           4
+   52                 /System/Library/Desktop Pictures/Catalina Day.heic    209    1       52           2
+   53                                                                  2    210   20       53           2
+   52                 /System/Library/Desktop Pictures/Catalina Day.heic    211    1       52           1
+   53                                                                  2    212   20       53           1
 
 
 
-40/100. /System/Library/Desktop Pictures/Solid Colors/Silver.png:
+40/100. /System/Library/Desktop Pictures/Solid Colors/Dusty Rose.png:
 
 --------------------------------- data ---------------------------------  --------- preferences ---------
-rowid                                                      value  rowid  key  data_id  picture_id
------  ---------------------------------------------------------  -----  ---  -------  ----------
-   52   /System/Library/Desktop Pictures/Solid Colors/Silver.png    205    1       52           3
-   52   /System/Library/Desktop Pictures/Solid Colors/Silver.png    206    1       52           4
-   52   /System/Library/Desktop Pictures/Solid Colors/Silver.png    207    1       52           2
-   52   /System/Library/Desktop Pictures/Solid Colors/Silver.png    208    1       52           1
+rowid                                                              value  rowid  key  data_id  picture_id
+-----  -----------------------------------------------------------------  -----  ---  -------  ----------
+   54       /System/Library/Desktop Pictures/Solid Colors/Dusty Rose.png    213    1       54           3
+   54       /System/Library/Desktop Pictures/Solid Colors/Dusty Rose.png    214    1       54           4
+   54       /System/Library/Desktop Pictures/Solid Colors/Dusty Rose.png    215    1       54           2
+   54       /System/Library/Desktop Pictures/Solid Colors/Dusty Rose.png    216    1       54           1
 
 
 
-41/100. /System/Library/Desktop Pictures/Solid Colors/Space Gray Pro.png:
+41/100. mojave-light:
 
 --------------------------------- data ---------------------------------  --------- preferences ---------
-rowid                                                      value  rowid  key  data_id  picture_id
------  ---------------------------------------------------------  -----  ---  -------  ----------
-   53  /System/Library/Desktop Pictures/Solid Colors/Space Gray     209    1       53           3
-   53  /System/Library/Desktop Pictures/Solid Colors/Space Gray     210    1       53           4
-   53  /System/Library/Desktop Pictures/Solid Colors/Space Gray     211    1       53           2
-   53  /System/Library/Desktop Pictures/Solid Colors/Space Gray     212    1       53           1
+rowid                                                              value  rowid  key  data_id  picture_id
+-----  -----------------------------------------------------------------  -----  ---  -------  ----------
+   55                       /System/Library/Desktop Pictures/Mojave.heic    217    1       55           3
+   56                                                                  2    218   20       56           3
+   55                       /System/Library/Desktop Pictures/Mojave.heic    219    1       55           4
+   56                                                                  2    220   20       56           4
+   55                       /System/Library/Desktop Pictures/Mojave.heic    221    1       55           2
+   56                                                                  2    222   20       56           2
+   55                       /System/Library/Desktop Pictures/Mojave.heic    223    1       55           1
+   56                                                                  2    224   20       56           1
 
 
 
-42/100. /System/Library/Desktop Pictures/Solid Colors/Stone.png:
+42/100. /System/Library/Desktop Pictures/Solid Colors/Gold.png:
 
 --------------------------------- data ---------------------------------  --------- preferences ---------
-rowid                                                      value  rowid  key  data_id  picture_id
------  ---------------------------------------------------------  -----  ---  -------  ----------
-   54    /System/Library/Desktop Pictures/Solid Colors/Stone.png    213    1       54           3
-   54    /System/Library/Desktop Pictures/Solid Colors/Stone.png    214    1       54           4
-   54    /System/Library/Desktop Pictures/Solid Colors/Stone.png    215    1       54           2
-   54    /System/Library/Desktop Pictures/Solid Colors/Stone.png    216    1       54           1
+rowid                                                              value  rowid  key  data_id  picture_id
+-----  -----------------------------------------------------------------  -----  ---  -------  ----------
+   57             /System/Library/Desktop Pictures/Solid Colors/Gold.png    225    1       57           3
+   57             /System/Library/Desktop Pictures/Solid Colors/Gold.png    226    1       57           4
+   57             /System/Library/Desktop Pictures/Solid Colors/Gold.png    227    1       57           2
+   57             /System/Library/Desktop Pictures/Solid Colors/Gold.png    228    1       57           1
 
 
 
-43/100. /System/Library/Desktop Pictures/Solid Colors/Turquoise Green.png:
+43/100. /System/Library/Desktop Pictures/Desert 5.jpg:
 
 --------------------------------- data ---------------------------------  --------- preferences ---------
-rowid                                                      value  rowid  key  data_id  picture_id
------  ---------------------------------------------------------  -----  ---  -------  ----------
-   55  /System/Library/Desktop Pictures/Solid Colors/Turquoise G    217    1       55           3
-   55  /System/Library/Desktop Pictures/Solid Colors/Turquoise G    218    1       55           4
-   55  /System/Library/Desktop Pictures/Solid Colors/Turquoise G    219    1       55           2
-   55  /System/Library/Desktop Pictures/Solid Colors/Turquoise G    220    1       55           1
+rowid                                                              value  rowid  key  data_id  picture_id
+-----  -----------------------------------------------------------------  -----  ---  -------  ----------
+   58                      /System/Library/Desktop Pictures/Desert 5.jpg    229    1       58           3
+   58                      /System/Library/Desktop Pictures/Desert 5.jpg    230    1       58           4
+   58                      /System/Library/Desktop Pictures/Desert 5.jpg    231    1       58           2
+   58                      /System/Library/Desktop Pictures/Desert 5.jpg    232    1       58           1
 
 
 
-44/100. catalina:
+44/100. mojave-dark:
 
 --------------------------------- data ---------------------------------  --------- preferences ---------
-rowid                                                      value  rowid  key  data_id  picture_id
------  ---------------------------------------------------------  -----  ---  -------  ----------
-   56                                                          1    221   20       56           3
-   56                                                          1    222   20       56           4
-   56                                                          1    223   20       56           2
-   56                                                          1    224   20       56           1
+rowid                                                              value  rowid  key  data_id  picture_id
+-----  -----------------------------------------------------------------  -----  ---  -------  ----------
+   59                       /System/Library/Desktop Pictures/Mojave.heic    233    1       59           3
+   60                                                                  3    234   20       60           3
+   59                       /System/Library/Desktop Pictures/Mojave.heic    235    1       59           4
+   60                                                                  3    236   20       60           4
+   59                       /System/Library/Desktop Pictures/Mojave.heic    237    1       59           2
+   60                                                                  3    238   20       60           2
+   59                       /System/Library/Desktop Pictures/Mojave.heic    239    1       59           1
+   60                                                                  3    240   20       60           1
 
 
 
-45/100. light:
+45/100. /System/Library/Desktop Pictures/Solid Colors/Dusty Rose.png:
 
 --------------------------------- data ---------------------------------  --------- preferences ---------
-rowid                                                      value  rowid  key  data_id  picture_id
------  ---------------------------------------------------------  -----  ---  -------  ----------
-   57                                                          2    225   20       57           3
-   57                                                          2    226   20       57           4
-   57                                                          2    227   20       57           2
-   57                                                          2    228   20       57           1
+rowid                                                              value  rowid  key  data_id  picture_id
+-----  -----------------------------------------------------------------  -----  ---  -------  ----------
+   61       /System/Library/Desktop Pictures/Solid Colors/Dusty Rose.png    241    1       61           3
+   61       /System/Library/Desktop Pictures/Solid Colors/Dusty Rose.png    242    1       61           4
+   61       /System/Library/Desktop Pictures/Solid Colors/Dusty Rose.png    243    1       61           2
+   61       /System/Library/Desktop Pictures/Solid Colors/Dusty Rose.png    244    1       61           1
 
 
 
-46/100. /System/Library/Desktop Pictures/Abstract 4.jpg:
+46/100. /System/Library/Desktop Pictures/Sierra.jpg:
 
 --------------------------------- data ---------------------------------  --------- preferences ---------
-rowid                                                      value  rowid  key  data_id  picture_id
------  ---------------------------------------------------------  -----  ---  -------  ----------
-   58            /System/Library/Desktop Pictures/Abstract 4.jpg    229    1       58           3
-   58            /System/Library/Desktop Pictures/Abstract 4.jpg    230    1       58           4
-   58            /System/Library/Desktop Pictures/Abstract 4.jpg    231    1       58           2
-   58            /System/Library/Desktop Pictures/Abstract 4.jpg    232    1       58           1
+rowid                                                              value  rowid  key  data_id  picture_id
+-----  -----------------------------------------------------------------  -----  ---  -------  ----------
+   62                        /System/Library/Desktop Pictures/Sierra.jpg    245    1       62           3
+   62                        /System/Library/Desktop Pictures/Sierra.jpg    246    1       62           4
+   62                        /System/Library/Desktop Pictures/Sierra.jpg    247    1       62           2
+   62                        /System/Library/Desktop Pictures/Sierra.jpg    248    1       62           1
 
 
 
-47/100. /System/Library/Desktop Pictures/Solid Colors/Stone.png:
+47/100. /System/Library/Desktop Pictures/Reflection 2.jpg:
 
 --------------------------------- data ---------------------------------  --------- preferences ---------
-rowid                                                      value  rowid  key  data_id  picture_id
------  ---------------------------------------------------------  -----  ---  -------  ----------
-   59    /System/Library/Desktop Pictures/Solid Colors/Stone.png    233    1       59           3
-   59    /System/Library/Desktop Pictures/Solid Colors/Stone.png    234    1       59           4
-   59    /System/Library/Desktop Pictures/Solid Colors/Stone.png    235    1       59           2
-   59    /System/Library/Desktop Pictures/Solid Colors/Stone.png    236    1       59           1
+rowid                                                              value  rowid  key  data_id  picture_id
+-----  -----------------------------------------------------------------  -----  ---  -------  ----------
+   63                  /System/Library/Desktop Pictures/Reflection 2.jpg    249    1       63           3
+   63                  /System/Library/Desktop Pictures/Reflection 2.jpg    250    1       63           4
+   63                  /System/Library/Desktop Pictures/Reflection 2.jpg    251    1       63           2
+   63                  /System/Library/Desktop Pictures/Reflection 2.jpg    252    1       63           1
 
 
 
-48/100. /System/Library/Desktop Pictures/Abstract Shapes.jpg:
+48/100. /System/Library/Desktop Pictures/Desert 7.jpg:
 
 --------------------------------- data ---------------------------------  --------- preferences ---------
-rowid                                                      value  rowid  key  data_id  picture_id
------  ---------------------------------------------------------  -----  ---  -------  ----------
-   59    /System/Library/Desktop Pictures/Solid Colors/Stone.png    233    1       59           3
-   59    /System/Library/Desktop Pictures/Solid Colors/Stone.png    234    1       59           4
-   59    /System/Library/Desktop Pictures/Solid Colors/Stone.png    235    1       59           2
-   59    /System/Library/Desktop Pictures/Solid Colors/Stone.png    236    1       59           1
+rowid                                                              value  rowid  key  data_id  picture_id
+-----  -----------------------------------------------------------------  -----  ---  -------  ----------
+   64                      /System/Library/Desktop Pictures/Desert 7.jpg    253    1       64           3
+   64                      /System/Library/Desktop Pictures/Desert 7.jpg    254    1       64           4
+   64                      /System/Library/Desktop Pictures/Desert 7.jpg    255    1       64           2
+   64                      /System/Library/Desktop Pictures/Desert 7.jpg    256    1       64           1
 
 
 
-49/100. catalina:
+49/100. catalina-light:
 
 --------------------------------- data ---------------------------------  --------- preferences ---------
-rowid                                                      value  rowid  key  data_id  picture_id
------  ---------------------------------------------------------  -----  ---  -------  ----------
-   60                                                          1    237   20       60           3
-   60                                                          1    238   20       60           4
-   60                                                          1    239   20       60           2
-   60                                                          1    240   20       60           1
+rowid                                                              value  rowid  key  data_id  picture_id
+-----  -----------------------------------------------------------------  -----  ---  -------  ----------
+   65                                                                  2    257   20       65           3
+   65                                                                  2    258   20       65           4
+   65                                                                  2    259   20       65           2
+   65                                                                  2    260   20       65           1
 
 
 
-50/100. /System/Library/Desktop Pictures/Abstract 1.jpg:
+50/100. /System/Library/Desktop Pictures/Desert 3.jpg:
 
 --------------------------------- data ---------------------------------  --------- preferences ---------
-rowid                                                      value  rowid  key  data_id  picture_id
------  ---------------------------------------------------------  -----  ---  -------  ----------
-   61            /System/Library/Desktop Pictures/Abstract 1.jpg    241    1       61           3
-   61            /System/Library/Desktop Pictures/Abstract 1.jpg    242    1       61           4
-   61            /System/Library/Desktop Pictures/Abstract 1.jpg    243    1       61           2
-   61            /System/Library/Desktop Pictures/Abstract 1.jpg    244    1       61           1
+rowid                                                              value  rowid  key  data_id  picture_id
+-----  -----------------------------------------------------------------  -----  ---  -------  ----------
+   66                      /System/Library/Desktop Pictures/Desert 3.jpg    261    1       66           3
+   66                      /System/Library/Desktop Pictures/Desert 3.jpg    262    1       66           4
+   66                      /System/Library/Desktop Pictures/Desert 3.jpg    263    1       66           2
+   66                      /System/Library/Desktop Pictures/Desert 3.jpg    264    1       66           1
 
 
 
-51/100. /System/Library/Desktop Pictures/Abstract 3.jpg:
+51/100. /System/Library/Desktop Pictures/Solid Colors/Teal.png:
 
 --------------------------------- data ---------------------------------  --------- preferences ---------
-rowid                                                      value  rowid  key  data_id  picture_id
------  ---------------------------------------------------------  -----  ---  -------  ----------
-   62            /System/Library/Desktop Pictures/Abstract 3.jpg    245    1       62           3
-   62            /System/Library/Desktop Pictures/Abstract 3.jpg    246    1       62           4
-   62            /System/Library/Desktop Pictures/Abstract 3.jpg    247    1       62           2
-   62            /System/Library/Desktop Pictures/Abstract 3.jpg    248    1       62           1
+rowid                                                              value  rowid  key  data_id  picture_id
+-----  -----------------------------------------------------------------  -----  ---  -------  ----------
+   67             /System/Library/Desktop Pictures/Solid Colors/Teal.png    265    1       67           3
+   67             /System/Library/Desktop Pictures/Solid Colors/Teal.png    266    1       67           4
+   67             /System/Library/Desktop Pictures/Solid Colors/Teal.png    267    1       67           2
+   67             /System/Library/Desktop Pictures/Solid Colors/Teal.png    268    1       67           1
 
 
 
-52/100. mojave-dark:
+52/100. catalina-night:
 
 --------------------------------- data ---------------------------------  --------- preferences ---------
-rowid                                                      value  rowid  key  data_id  picture_id
------  ---------------------------------------------------------  -----  ---  -------  ----------
-   63                                                          3    249   20       63           3
-   63                                                          3    250   20       63           4
-   63                                                          3    251   20       63           2
-   63                                                          3    252   20       63           1
-   64               /System/Library/Desktop Pictures/Mojave.heic    253    1       64           3
-   64               /System/Library/Desktop Pictures/Mojave.heic    254    1       64           4
-   64               /System/Library/Desktop Pictures/Mojave.heic    255    1       64           2
-   64               /System/Library/Desktop Pictures/Mojave.heic    256    1       64           1
+rowid                                                              value  rowid  key  data_id  picture_id
+-----  -----------------------------------------------------------------  -----  ---  -------  ----------
+   68               /System/Library/Desktop Pictures/Catalina Night.heic    269    1       68           3
+   69                                                                  3    270   20       69           3
+   68               /System/Library/Desktop Pictures/Catalina Night.heic    271    1       68           4
+   69                                                                  3    272   20       69           4
+   68               /System/Library/Desktop Pictures/Catalina Night.heic    273    1       68           2
+   69                                                                  3    274   20       69           2
+   68               /System/Library/Desktop Pictures/Catalina Night.heic    275    1       68           1
+   69                                                                  3    276   20       69           1
 
 
 
-53/100. /System/Library/Desktop Pictures/Color Burst 2.jpg:
+53/100. /System/Library/Desktop Pictures/Abstract 1.jpg:
 
 --------------------------------- data ---------------------------------  --------- preferences ---------
-rowid                                                      value  rowid  key  data_id  picture_id
------  ---------------------------------------------------------  -----  ---  -------  ----------
-   65         /System/Library/Desktop Pictures/Color Burst 2.jpg    257    1       65           3
-   65         /System/Library/Desktop Pictures/Color Burst 2.jpg    258    1       65           4
-   65         /System/Library/Desktop Pictures/Color Burst 2.jpg    259    1       65           2
-   65         /System/Library/Desktop Pictures/Color Burst 2.jpg    260    1       65           1
+rowid                                                              value  rowid  key  data_id  picture_id
+-----  -----------------------------------------------------------------  -----  ---  -------  ----------
+   70                    /System/Library/Desktop Pictures/Abstract 1.jpg    277    1       70           3
+   70                    /System/Library/Desktop Pictures/Abstract 1.jpg    278    1       70           4
+   70                    /System/Library/Desktop Pictures/Abstract 1.jpg    279    1       70           2
+   70                    /System/Library/Desktop Pictures/Abstract 1.jpg    280    1       70           1
 
 
 
-54/100. /System/Library/Desktop Pictures/Flower 6.jpg:
+54/100. /System/Library/Desktop Pictures/Solid Colors/Rose Gold.png:
 
 --------------------------------- data ---------------------------------  --------- preferences ---------
-rowid                                                      value  rowid  key  data_id  picture_id
------  ---------------------------------------------------------  -----  ---  -------  ----------
-   66              /System/Library/Desktop Pictures/Flower 6.jpg    261    1       66           3
-   66              /System/Library/Desktop Pictures/Flower 6.jpg    262    1       66           4
-   66              /System/Library/Desktop Pictures/Flower 6.jpg    263    1       66           2
-   66              /System/Library/Desktop Pictures/Flower 6.jpg    264    1       66           1
+rowid                                                              value  rowid  key  data_id  picture_id
+-----  -----------------------------------------------------------------  -----  ---  -------  ----------
+   71        /System/Library/Desktop Pictures/Solid Colors/Rose Gold.png    281    1       71           3
+   71        /System/Library/Desktop Pictures/Solid Colors/Rose Gold.png    282    1       71           4
+   71        /System/Library/Desktop Pictures/Solid Colors/Rose Gold.png    283    1       71           2
+   71        /System/Library/Desktop Pictures/Solid Colors/Rose Gold.png    284    1       71           1
 
 
 
-55/100. /System/Library/Desktop Pictures/Solid Colors/Gold.png:
+55/100. default:
 
 --------------------------------- data ---------------------------------  --------- preferences ---------
-rowid                                                      value  rowid  key  data_id  picture_id
------  ---------------------------------------------------------  -----  ---  -------  ----------
-   67     /System/Library/Desktop Pictures/Solid Colors/Gold.png    265    1       67           3
-   67     /System/Library/Desktop Pictures/Solid Colors/Gold.png    266    1       67           4
-   67     /System/Library/Desktop Pictures/Solid Colors/Gold.png    267    1       67           2
-   67     /System/Library/Desktop Pictures/Solid Colors/Gold.png    268    1       67           1
 
 
 
-56/100. /System/Library/Desktop Pictures/Desert 7.jpg:
+56/100. /System/Library/Desktop Pictures/Solid Colors/Space Gray.png:
 
 --------------------------------- data ---------------------------------  --------- preferences ---------
-rowid                                                      value  rowid  key  data_id  picture_id
------  ---------------------------------------------------------  -----  ---  -------  ----------
-   68              /System/Library/Desktop Pictures/Desert 7.jpg    269    1       68           3
-   68              /System/Library/Desktop Pictures/Desert 7.jpg    270    1       68           4
-   68              /System/Library/Desktop Pictures/Desert 7.jpg    271    1       68           2
-   68              /System/Library/Desktop Pictures/Desert 7.jpg    272    1       68           1
+rowid                                                              value  rowid  key  data_id  picture_id
+-----  -----------------------------------------------------------------  -----  ---  -------  ----------
+    1       /System/Library/Desktop Pictures/Solid Colors/Space Gray.png      1    1        1           3
+    1       /System/Library/Desktop Pictures/Solid Colors/Space Gray.png      2    1        1           4
+    1       /System/Library/Desktop Pictures/Solid Colors/Space Gray.png      3    1        1           2
+    1       /System/Library/Desktop Pictures/Solid Colors/Space Gray.png      4    1        1           1
 
 
 
-57/100. /System/Library/Desktop Pictures/Reflection 2.jpg:
+57/100. catalina-night:
 
 --------------------------------- data ---------------------------------  --------- preferences ---------
-rowid                                                      value  rowid  key  data_id  picture_id
------  ---------------------------------------------------------  -----  ---  -------  ----------
-   69          /System/Library/Desktop Pictures/Reflection 2.jpg    273    1       69           3
-   69          /System/Library/Desktop Pictures/Reflection 2.jpg    274    1       69           4
-   69          /System/Library/Desktop Pictures/Reflection 2.jpg    275    1       69           2
-   69          /System/Library/Desktop Pictures/Reflection 2.jpg    276    1       69           1
+rowid                                                              value  rowid  key  data_id  picture_id
+-----  -----------------------------------------------------------------  -----  ---  -------  ----------
+    2               /System/Library/Desktop Pictures/Catalina Night.heic      5    1        2           3
+    3                                                                  3      6   20        3           3
+    2               /System/Library/Desktop Pictures/Catalina Night.heic      7    1        2           4
+    3                                                                  3      8   20        3           4
+    2               /System/Library/Desktop Pictures/Catalina Night.heic      9    1        2           2
+    3                                                                  3     10   20        3           2
+    2               /System/Library/Desktop Pictures/Catalina Night.heic     11    1        2           1
+    3                                                                  3     12   20        3           1
 
 
 
-58/100. solar:
+58/100. /System/Library/Desktop Pictures/Flower 7.jpg:
 
 --------------------------------- data ---------------------------------  --------- preferences ---------
-rowid                                                      value  rowid  key  data_id  picture_id
------  ---------------------------------------------------------  -----  ---  -------  ----------
-   70      /System/Library/Desktop Pictures/Solar Gradients.heic    277    1       70           3
-   70      /System/Library/Desktop Pictures/Solar Gradients.heic    278    1       70           4
-   70      /System/Library/Desktop Pictures/Solar Gradients.heic    279    1       70           2
-   70      /System/Library/Desktop Pictures/Solar Gradients.heic    280    1       70           1
+rowid                                                              value  rowid  key  data_id  picture_id
+-----  -----------------------------------------------------------------  -----  ---  -------  ----------
+    4                      /System/Library/Desktop Pictures/Flower 7.jpg     13    1        4           3
+    4                      /System/Library/Desktop Pictures/Flower 7.jpg     14    1        4           4
+    4                      /System/Library/Desktop Pictures/Flower 7.jpg     15    1        4           2
+    4                      /System/Library/Desktop Pictures/Flower 7.jpg     16    1        4           1
 
 
 
-59/100. solar:
+59/100. /System/Library/Desktop Pictures/Flower 8.jpg:
 
 --------------------------------- data ---------------------------------  --------- preferences ---------
-rowid                                                      value  rowid  key  data_id  picture_id
------  ---------------------------------------------------------  -----  ---  -------  ----------
-   71      /System/Library/Desktop Pictures/Solar Gradients.heic    281    1       71           3
-   71      /System/Library/Desktop Pictures/Solar Gradients.heic    282    1       71           4
-   71      /System/Library/Desktop Pictures/Solar Gradients.heic    283    1       71           2
-   71      /System/Library/Desktop Pictures/Solar Gradients.heic    284    1       71           1
+rowid                                                              value  rowid  key  data_id  picture_id
+-----  -----------------------------------------------------------------  -----  ---  -------  ----------
+    5                      /System/Library/Desktop Pictures/Flower 8.jpg     17    1        5           3
+    5                      /System/Library/Desktop Pictures/Flower 8.jpg     18    1        5           4
+    5                      /System/Library/Desktop Pictures/Flower 8.jpg     19    1        5           2
+    5                      /System/Library/Desktop Pictures/Flower 8.jpg     20    1        5           1
 
 
 
-60/100. light:
+60/100. /System/Library/Desktop Pictures/High Sierra.jpg:
 
 --------------------------------- data ---------------------------------  --------- preferences ---------
-rowid                                                      value  rowid  key  data_id  picture_id
------  ---------------------------------------------------------  -----  ---  -------  ----------
-   72                                                          2    285   20       72           3
-   72                                                          2    286   20       72           4
-   72                                                          2    287   20       72           2
-   72                                                          2    288   20       72           1
+rowid                                                              value  rowid  key  data_id  picture_id
+-----  -----------------------------------------------------------------  -----  ---  -------  ----------
+    6                   /System/Library/Desktop Pictures/High Sierra.jpg     21    1        6           3
+    6                   /System/Library/Desktop Pictures/High Sierra.jpg     22    1        6           4
+    6                   /System/Library/Desktop Pictures/High Sierra.jpg     23    1        6           2
+    6                   /System/Library/Desktop Pictures/High Sierra.jpg     24    1        6           1
 
 
 
-61/100. solar:
+61/100. /System/Library/Desktop Pictures/Solid Colors/Red Orange.png:
 
 --------------------------------- data ---------------------------------  --------- preferences ---------
-rowid                                                      value  rowid  key  data_id  picture_id
------  ---------------------------------------------------------  -----  ---  -------  ----------
-   73      /System/Library/Desktop Pictures/Solar Gradients.heic    289    1       73           3
-   73      /System/Library/Desktop Pictures/Solar Gradients.heic    290    1       73           4
-   73      /System/Library/Desktop Pictures/Solar Gradients.heic    291    1       73           2
-   73      /System/Library/Desktop Pictures/Solar Gradients.heic    292    1       73           1
+rowid                                                              value  rowid  key  data_id  picture_id
+-----  -----------------------------------------------------------------  -----  ---  -------  ----------
+    7       /System/Library/Desktop Pictures/Solid Colors/Red Orange.png     25    1        7           3
+    7       /System/Library/Desktop Pictures/Solid Colors/Red Orange.png     26    1        7           4
+    7       /System/Library/Desktop Pictures/Solid Colors/Red Orange.png     27    1        7           2
+    7       /System/Library/Desktop Pictures/Solid Colors/Red Orange.png     28    1        7           1
 
 
 
-62/100. /System/Library/Desktop Pictures/Sierra 2.jpg:
+62/100. mojave-night:
 
 --------------------------------- data ---------------------------------  --------- preferences ---------
-rowid                                                      value  rowid  key  data_id  picture_id
------  ---------------------------------------------------------  -----  ---  -------  ----------
-   74              /System/Library/Desktop Pictures/Sierra 2.jpg    293    1       74           3
-   74              /System/Library/Desktop Pictures/Sierra 2.jpg    294    1       74           4
-   74              /System/Library/Desktop Pictures/Sierra 2.jpg    295    1       74           2
-   74              /System/Library/Desktop Pictures/Sierra 2.jpg    296    1       74           1
+rowid                                                              value  rowid  key  data_id  picture_id
+-----  -----------------------------------------------------------------  -----  ---  -------  ----------
+    8                 /System/Library/Desktop Pictures/Mojave Night.heic     29    1        8           3
+    9                                                                  3     30   20        9           3
+    8                 /System/Library/Desktop Pictures/Mojave Night.heic     31    1        8           4
+    9                                                                  3     32   20        9           4
+    8                 /System/Library/Desktop Pictures/Mojave Night.heic     33    1        8           2
+    9                                                                  3     34   20        9           2
+    8                 /System/Library/Desktop Pictures/Mojave Night.heic     35    1        8           1
+    9                                                                  3     36   20        9           1
 
 
 
-63/100. mojave:
+63/100. /System/Library/Desktop Pictures/Abstract 4.jpg:
 
 --------------------------------- data ---------------------------------  --------- preferences ---------
-rowid                                                      value  rowid  key  data_id  picture_id
------  ---------------------------------------------------------  -----  ---  -------  ----------
-   75                                                          1    297   20       75           3
-   75                                                          1    298   20       75           4
-   75                                                          1    299   20       75           2
-   75                                                          1    300   20       75           1
-   76               /System/Library/Desktop Pictures/Mojave.heic    301    1       76           3
-   76               /System/Library/Desktop Pictures/Mojave.heic    302    1       76           4
-   76               /System/Library/Desktop Pictures/Mojave.heic    303    1       76           2
-   76               /System/Library/Desktop Pictures/Mojave.heic    304    1       76           1
+rowid                                                              value  rowid  key  data_id  picture_id
+-----  -----------------------------------------------------------------  -----  ---  -------  ----------
+   10                    /System/Library/Desktop Pictures/Abstract 4.jpg     37    1       10           3
+   10                    /System/Library/Desktop Pictures/Abstract 4.jpg     38    1       10           4
+   10                    /System/Library/Desktop Pictures/Abstract 4.jpg     39    1       10           2
+   10                    /System/Library/Desktop Pictures/Abstract 4.jpg     40    1       10           1
 
 
 
-64/100. /System/Library/Desktop Pictures/Abstract 3.jpg:
+64/100. mojave-light:
 
 --------------------------------- data ---------------------------------  --------- preferences ---------
-rowid                                                      value  rowid  key  data_id  picture_id
------  ---------------------------------------------------------  -----  ---  -------  ----------
-   77            /System/Library/Desktop Pictures/Abstract 3.jpg    305    1       77           3
-   77            /System/Library/Desktop Pictures/Abstract 3.jpg    306    1       77           4
-   77            /System/Library/Desktop Pictures/Abstract 3.jpg    307    1       77           2
-   77            /System/Library/Desktop Pictures/Abstract 3.jpg    308    1       77           1
+rowid                                                              value  rowid  key  data_id  picture_id
+-----  -----------------------------------------------------------------  -----  ---  -------  ----------
+   11                       /System/Library/Desktop Pictures/Mojave.heic     41    1       11           3
+   12                                                                  2     42   20       12           3
+   11                       /System/Library/Desktop Pictures/Mojave.heic     43    1       11           4
+   12                                                                  2     44   20       12           4
+   11                       /System/Library/Desktop Pictures/Mojave.heic     45    1       11           2
+   12                                                                  2     46   20       12           2
+   11                       /System/Library/Desktop Pictures/Mojave.heic     47    1       11           1
+   12                                                                  2     48   20       12           1
 
 
 
-65/100. /System/Library/Desktop Pictures/Yosemite 4.jpg:
+65/100. mojave-night:
 
 --------------------------------- data ---------------------------------  --------- preferences ---------
-rowid                                                      value  rowid  key  data_id  picture_id
------  ---------------------------------------------------------  -----  ---  -------  ----------
-   78            /System/Library/Desktop Pictures/Yosemite 4.jpg    309    1       78           3
-   78            /System/Library/Desktop Pictures/Yosemite 4.jpg    310    1       78           4
-   78            /System/Library/Desktop Pictures/Yosemite 4.jpg    311    1       78           2
-   78            /System/Library/Desktop Pictures/Yosemite 4.jpg    312    1       78           1
+rowid                                                              value  rowid  key  data_id  picture_id
+-----  -----------------------------------------------------------------  -----  ---  -------  ----------
+   13                 /System/Library/Desktop Pictures/Mojave Night.heic     49    1       13           3
+   14                                                                  3     50   20       14           3
+   13                 /System/Library/Desktop Pictures/Mojave Night.heic     51    1       13           4
+   14                                                                  3     52   20       14           4
+   13                 /System/Library/Desktop Pictures/Mojave Night.heic     53    1       13           2
+   14                                                                  3     54   20       14           2
+   13                 /System/Library/Desktop Pictures/Mojave Night.heic     55    1       13           1
+   14                                                                  3     56   20       14           1
 
 
 
-66/100. /System/Library/Desktop Pictures/Flower 5.jpg:
+66/100. /System/Library/Desktop Pictures/Desert 5.jpg:
 
 --------------------------------- data ---------------------------------  --------- preferences ---------
-rowid                                                      value  rowid  key  data_id  picture_id
------  ---------------------------------------------------------  -----  ---  -------  ----------
-   79              /System/Library/Desktop Pictures/Flower 5.jpg    313    1       79           3
-   79              /System/Library/Desktop Pictures/Flower 5.jpg    314    1       79           4
-   79              /System/Library/Desktop Pictures/Flower 5.jpg    315    1       79           2
-   79              /System/Library/Desktop Pictures/Flower 5.jpg    316    1       79           1
+rowid                                                              value  rowid  key  data_id  picture_id
+-----  -----------------------------------------------------------------  -----  ---  -------  ----------
+   15                      /System/Library/Desktop Pictures/Desert 5.jpg     57    1       15           3
+   15                      /System/Library/Desktop Pictures/Desert 5.jpg     58    1       15           4
+   15                      /System/Library/Desktop Pictures/Desert 5.jpg     59    1       15           2
+   15                      /System/Library/Desktop Pictures/Desert 5.jpg     60    1       15           1
 
 
 
-67/100. /System/Library/Desktop Pictures/Solid Colors/Soft Pink.png:
+67/100. catalina:
 
 --------------------------------- data ---------------------------------  --------- preferences ---------
-rowid                                                      value  rowid  key  data_id  picture_id
------  ---------------------------------------------------------  -----  ---  -------  ----------
-   80  /System/Library/Desktop Pictures/Solid Colors/Soft Pink.p    317    1       80           3
-   80  /System/Library/Desktop Pictures/Solid Colors/Soft Pink.p    318    1       80           4
-   80  /System/Library/Desktop Pictures/Solid Colors/Soft Pink.p    319    1       80           2
-   80  /System/Library/Desktop Pictures/Solid Colors/Soft Pink.p    320    1       80           1
+rowid                                                              value  rowid  key  data_id  picture_id
+-----  -----------------------------------------------------------------  -----  ---  -------  ----------
+   16                                                                  0     61   20       16           3
+   16                                                                  0     62   20       16           4
+   16                                                                  0     63   20       16           2
+   16                                                                  0     64   20       16           1
 
 
 
-68/100. mojave-dark:
+68/100. catalina-day:
 
 --------------------------------- data ---------------------------------  --------- preferences ---------
-rowid                                                      value  rowid  key  data_id  picture_id
------  ---------------------------------------------------------  -----  ---  -------  ----------
-   81                                                          3    321   20       81           3
-   81                                                          3    322   20       81           4
-   81                                                          3    323   20       81           2
-   81                                                          3    324   20       81           1
-   82               /System/Library/Desktop Pictures/Mojave.heic    325    1       82           3
-   82               /System/Library/Desktop Pictures/Mojave.heic    326    1       82           4
-   82               /System/Library/Desktop Pictures/Mojave.heic    327    1       82           2
-   82               /System/Library/Desktop Pictures/Mojave.heic    328    1       82           1
+rowid                                                              value  rowid  key  data_id  picture_id
+-----  -----------------------------------------------------------------  -----  ---  -------  ----------
+   17                 /System/Library/Desktop Pictures/Catalina Day.heic     65    1       17           3
+   18                                                                  2     66   20       18           3
+   17                 /System/Library/Desktop Pictures/Catalina Day.heic     67    1       17           4
+   18                                                                  2     68   20       18           4
+   17                 /System/Library/Desktop Pictures/Catalina Day.heic     69    1       17           2
+   18                                                                  2     70   20       18           2
+   17                 /System/Library/Desktop Pictures/Catalina Day.heic     71    1       17           1
+   18                                                                  2     72   20       18           1
 
 
 
-69/100. light:
+69/100. /System/Library/Desktop Pictures/Solid Colors/Stone.png:
 
 --------------------------------- data ---------------------------------  --------- preferences ---------
-rowid                                                      value  rowid  key  data_id  picture_id
------  ---------------------------------------------------------  -----  ---  -------  ----------
-   83                                                          2    329   20       83           3
-   83                                                          2    330   20       83           4
-   83                                                          2    331   20       83           2
-   83                                                          2    332   20       83           1
+rowid                                                              value  rowid  key  data_id  picture_id
+-----  -----------------------------------------------------------------  -----  ---  -------  ----------
+   19            /System/Library/Desktop Pictures/Solid Colors/Stone.png     73    1       19           3
+   19            /System/Library/Desktop Pictures/Solid Colors/Stone.png     74    1       19           4
+   19            /System/Library/Desktop Pictures/Solid Colors/Stone.png     75    1       19           2
+   19            /System/Library/Desktop Pictures/Solid Colors/Stone.png     76    1       19           1
 
 
 
-70/100. mojave-light:
+70/100. mojave-day:
 
 --------------------------------- data ---------------------------------  --------- preferences ---------
-rowid                                                      value  rowid  key  data_id  picture_id
------  ---------------------------------------------------------  -----  ---  -------  ----------
-   84                                                          2    333   20       84           3
-   84                                                          2    334   20       84           4
-   84                                                          2    335   20       84           2
-   84                                                          2    336   20       84           1
-   85               /System/Library/Desktop Pictures/Mojave.heic    337    1       85           3
-   85               /System/Library/Desktop Pictures/Mojave.heic    338    1       85           4
-   85               /System/Library/Desktop Pictures/Mojave.heic    339    1       85           2
-   85               /System/Library/Desktop Pictures/Mojave.heic    340    1       85           1
+rowid                                                              value  rowid  key  data_id  picture_id
+-----  -----------------------------------------------------------------  -----  ---  -------  ----------
+   20                   /System/Library/Desktop Pictures/Mojave Day.heic     77    1       20           3
+   21                                                                  2     78   20       21           3
+   20                   /System/Library/Desktop Pictures/Mojave Day.heic     79    1       20           4
+   21                                                                  2     80   20       21           4
+   20                   /System/Library/Desktop Pictures/Mojave Day.heic     81    1       20           2
+   21                                                                  2     82   20       21           2
+   20                   /System/Library/Desktop Pictures/Mojave Day.heic     83    1       20           1
+   21                                                                  2     84   20       21           1
 
 
 
-71/100. /System/Library/Desktop Pictures/Color Burst 2.jpg:
+71/100. mojave-dark:
 
 --------------------------------- data ---------------------------------  --------- preferences ---------
-rowid                                                      value  rowid  key  data_id  picture_id
------  ---------------------------------------------------------  -----  ---  -------  ----------
-   86         /System/Library/Desktop Pictures/Color Burst 2.jpg    341    1       86           3
-   86         /System/Library/Desktop Pictures/Color Burst 2.jpg    342    1       86           4
-   86         /System/Library/Desktop Pictures/Color Burst 2.jpg    343    1       86           2
-   86         /System/Library/Desktop Pictures/Color Burst 2.jpg    344    1       86           1
+rowid                                                              value  rowid  key  data_id  picture_id
+-----  -----------------------------------------------------------------  -----  ---  -------  ----------
+   22                       /System/Library/Desktop Pictures/Mojave.heic     85    1       22           3
+   23                                                                  3     86   20       23           3
+   22                       /System/Library/Desktop Pictures/Mojave.heic     87    1       22           4
+   23                                                                  3     88   20       23           4
+   22                       /System/Library/Desktop Pictures/Mojave.heic     89    1       22           2
+   23                                                                  3     90   20       23           2
+   22                       /System/Library/Desktop Pictures/Mojave.heic     91    1       22           1
+   23                                                                  3     92   20       23           1
 
 
 
-72/100. /System/Library/Desktop Pictures/Flower 6.jpg:
+72/100. /System/Library/Desktop Pictures/Abstract 2.jpg:
 
 --------------------------------- data ---------------------------------  --------- preferences ---------
-rowid                                                      value  rowid  key  data_id  picture_id
------  ---------------------------------------------------------  -----  ---  -------  ----------
-   87              /System/Library/Desktop Pictures/Flower 6.jpg    345    1       87           3
-   87              /System/Library/Desktop Pictures/Flower 6.jpg    346    1       87           4
-   87              /System/Library/Desktop Pictures/Flower 6.jpg    347    1       87           2
-   87              /System/Library/Desktop Pictures/Flower 6.jpg    348    1       87           1
+rowid                                                              value  rowid  key  data_id  picture_id
+-----  -----------------------------------------------------------------  -----  ---  -------  ----------
+   24                    /System/Library/Desktop Pictures/Abstract 2.jpg     93    1       24           3
+   24                    /System/Library/Desktop Pictures/Abstract 2.jpg     94    1       24           4
+   24                    /System/Library/Desktop Pictures/Abstract 2.jpg     95    1       24           2
+   24                    /System/Library/Desktop Pictures/Abstract 2.jpg     96    1       24           1
 
 
 
-73/100. light:
+73/100. /System/Library/Desktop Pictures/Abstract 2.jpg:
 
 --------------------------------- data ---------------------------------  --------- preferences ---------
-rowid                                                      value  rowid  key  data_id  picture_id
------  ---------------------------------------------------------  -----  ---  -------  ----------
-   88                                                          2    349   20       88           3
-   88                                                          2    350   20       88           4
-   88                                                          2    351   20       88           2
-   88                                                          2    352   20       88           1
+rowid                                                              value  rowid  key  data_id  picture_id
+-----  -----------------------------------------------------------------  -----  ---  -------  ----------
+   25                    /System/Library/Desktop Pictures/Abstract 2.jpg     97    1       25           3
+   25                    /System/Library/Desktop Pictures/Abstract 2.jpg     98    1       25           4
+   25                    /System/Library/Desktop Pictures/Abstract 2.jpg     99    1       25           2
+   25                    /System/Library/Desktop Pictures/Abstract 2.jpg    100    1       25           1
 
 
 
-74/100. /System/Library/Desktop Pictures/Sierra 2.jpg:
+74/100. /System/Library/Desktop Pictures/Flower 6.jpg:
 
 --------------------------------- data ---------------------------------  --------- preferences ---------
-rowid                                                      value  rowid  key  data_id  picture_id
------  ---------------------------------------------------------  -----  ---  -------  ----------
-   89              /System/Library/Desktop Pictures/Sierra 2.jpg    353    1       89           3
-   89              /System/Library/Desktop Pictures/Sierra 2.jpg    354    1       89           4
-   89              /System/Library/Desktop Pictures/Sierra 2.jpg    355    1       89           2
-   89              /System/Library/Desktop Pictures/Sierra 2.jpg    356    1       89           1
+rowid                                                              value  rowid  key  data_id  picture_id
+-----  -----------------------------------------------------------------  -----  ---  -------  ----------
+   26                      /System/Library/Desktop Pictures/Flower 6.jpg    101    1       26           3
+   26                      /System/Library/Desktop Pictures/Flower 6.jpg    102    1       26           4
+   26                      /System/Library/Desktop Pictures/Flower 6.jpg    103    1       26           2
+   26                      /System/Library/Desktop Pictures/Flower 6.jpg    104    1       26           1
 
 
 
-75/100. solar:
+75/100. /System/Library/Desktop Pictures/Desert 3.jpg:
 
 --------------------------------- data ---------------------------------  --------- preferences ---------
-rowid                                                      value  rowid  key  data_id  picture_id
------  ---------------------------------------------------------  -----  ---  -------  ----------
-   90      /System/Library/Desktop Pictures/Solar Gradients.heic    357    1       90           3
-   90      /System/Library/Desktop Pictures/Solar Gradients.heic    358    1       90           4
-   90      /System/Library/Desktop Pictures/Solar Gradients.heic    359    1       90           2
-   90      /System/Library/Desktop Pictures/Solar Gradients.heic    360    1       90           1
+rowid                                                              value  rowid  key  data_id  picture_id
+-----  -----------------------------------------------------------------  -----  ---  -------  ----------
+   27                      /System/Library/Desktop Pictures/Desert 3.jpg    105    1       27           3
+   27                      /System/Library/Desktop Pictures/Desert 3.jpg    106    1       27           4
+   27                      /System/Library/Desktop Pictures/Desert 3.jpg    107    1       27           2
+   27                      /System/Library/Desktop Pictures/Desert 3.jpg    108    1       27           1
 
 
 
-76/100. /System/Library/Desktop Pictures/Desert 7.jpg:
+76/100. /System/Library/Desktop Pictures/Solid Colors/Teal.png:
 
 --------------------------------- data ---------------------------------  --------- preferences ---------
-rowid                                                      value  rowid  key  data_id  picture_id
------  ---------------------------------------------------------  -----  ---  -------  ----------
-   91              /System/Library/Desktop Pictures/Desert 7.jpg    361    1       91           3
-   91              /System/Library/Desktop Pictures/Desert 7.jpg    362    1       91           4
-   91              /System/Library/Desktop Pictures/Desert 7.jpg    363    1       91           2
-   91              /System/Library/Desktop Pictures/Desert 7.jpg    364    1       91           1
+rowid                                                              value  rowid  key  data_id  picture_id
+-----  -----------------------------------------------------------------  -----  ---  -------  ----------
+   28             /System/Library/Desktop Pictures/Solid Colors/Teal.png    109    1       28           3
+   28             /System/Library/Desktop Pictures/Solid Colors/Teal.png    110    1       28           4
+   28             /System/Library/Desktop Pictures/Solid Colors/Teal.png    111    1       28           2
+   28             /System/Library/Desktop Pictures/Solid Colors/Teal.png    112    1       28           1
 
 
 
-77/100. mojave-light:
+77/100. catalina:
 
 --------------------------------- data ---------------------------------  --------- preferences ---------
-rowid                                                      value  rowid  key  data_id  picture_id
------  ---------------------------------------------------------  -----  ---  -------  ----------
-   92                                                          2    365   20       92           3
-   92                                                          2    366   20       92           4
-   92                                                          2    367   20       92           2
-   92                                                          2    368   20       92           1
-   93               /System/Library/Desktop Pictures/Mojave.heic    369    1       93           3
-   93               /System/Library/Desktop Pictures/Mojave.heic    370    1       93           4
-   93               /System/Library/Desktop Pictures/Mojave.heic    371    1       93           2
-   93               /System/Library/Desktop Pictures/Mojave.heic    372    1       93           1
+rowid                                                              value  rowid  key  data_id  picture_id
+-----  -----------------------------------------------------------------  -----  ---  -------  ----------
+   29                                                                  0    113   20       29           3
+   29                                                                  0    114   20       29           4
+   29                                                                  0    115   20       29           2
+   29                                                                  0    116   20       29           1
 
 
 
-78/100. /System/Library/Desktop Pictures/Solid Colors/Stone.png:
+78/100. /System/Library/Desktop Pictures/Flower 6.jpg:
 
 --------------------------------- data ---------------------------------  --------- preferences ---------
-rowid                                                      value  rowid  key  data_id  picture_id
------  ---------------------------------------------------------  -----  ---  -------  ----------
-   94    /System/Library/Desktop Pictures/Solid Colors/Stone.png    373    1       94           3
-   94    /System/Library/Desktop Pictures/Solid Colors/Stone.png    374    1       94           4
-   94    /System/Library/Desktop Pictures/Solid Colors/Stone.png    375    1       94           2
-   94    /System/Library/Desktop Pictures/Solid Colors/Stone.png    376    1       94           1
+rowid                                                              value  rowid  key  data_id  picture_id
+-----  -----------------------------------------------------------------  -----  ---  -------  ----------
+   30                      /System/Library/Desktop Pictures/Flower 6.jpg    117    1       30           3
+   30                      /System/Library/Desktop Pictures/Flower 6.jpg    118    1       30           4
+   30                      /System/Library/Desktop Pictures/Flower 6.jpg    119    1       30           2
+   30                      /System/Library/Desktop Pictures/Flower 6.jpg    120    1       30           1
 
 
 
-79/100. /System/Library/Desktop Pictures/Flower 5.jpg:
+79/100. /System/Library/Desktop Pictures/El Capitan.jpg:
 
 --------------------------------- data ---------------------------------  --------- preferences ---------
-rowid                                                      value  rowid  key  data_id  picture_id
------  ---------------------------------------------------------  -----  ---  -------  ----------
-   95              /System/Library/Desktop Pictures/Flower 5.jpg    377    1       95           3
-   95              /System/Library/Desktop Pictures/Flower 5.jpg    378    1       95           4
-   95              /System/Library/Desktop Pictures/Flower 5.jpg    379    1       95           2
-   95              /System/Library/Desktop Pictures/Flower 5.jpg    380    1       95           1
+rowid                                                              value  rowid  key  data_id  picture_id
+-----  -----------------------------------------------------------------  -----  ---  -------  ----------
+   31                    /System/Library/Desktop Pictures/El Capitan.jpg    121    1       31           3
+   31                    /System/Library/Desktop Pictures/El Capitan.jpg    122    1       31           4
+   31                    /System/Library/Desktop Pictures/El Capitan.jpg    123    1       31           2
+   31                    /System/Library/Desktop Pictures/El Capitan.jpg    124    1       31           1
 
 
 
-80/100. mojave-light:
+80/100. /System/Library/Desktop Pictures/Solid Colors/Silver.png:
 
 --------------------------------- data ---------------------------------  --------- preferences ---------
-rowid                                                      value  rowid  key  data_id  picture_id
------  ---------------------------------------------------------  -----  ---  -------  ----------
-   96                                                          2    381   20       96           3
-   96                                                          2    382   20       96           4
-   96                                                          2    383   20       96           2
-   96                                                          2    384   20       96           1
-   97               /System/Library/Desktop Pictures/Mojave.heic    385    1       97           3
-   97               /System/Library/Desktop Pictures/Mojave.heic    386    1       97           4
-   97               /System/Library/Desktop Pictures/Mojave.heic    387    1       97           2
-   97               /System/Library/Desktop Pictures/Mojave.heic    388    1       97           1
+rowid                                                              value  rowid  key  data_id  picture_id
+-----  -----------------------------------------------------------------  -----  ---  -------  ----------
+   32           /System/Library/Desktop Pictures/Solid Colors/Silver.png    125    1       32           3
+   32           /System/Library/Desktop Pictures/Solid Colors/Silver.png    126    1       32           4
+   32           /System/Library/Desktop Pictures/Solid Colors/Silver.png    127    1       32           2
+   32           /System/Library/Desktop Pictures/Solid Colors/Silver.png    128    1       32           1
 
 
 
-81/100. /System/Library/Desktop Pictures/Solid Colors/Cyan.png:
+81/100. /System/Library/Desktop Pictures/Sierra.jpg:
 
 --------------------------------- data ---------------------------------  --------- preferences ---------
-rowid                                                      value  rowid  key  data_id  picture_id
------  ---------------------------------------------------------  -----  ---  -------  ----------
-   98     /System/Library/Desktop Pictures/Solid Colors/Cyan.png    389    1       98           3
-   98     /System/Library/Desktop Pictures/Solid Colors/Cyan.png    390    1       98           4
-   98     /System/Library/Desktop Pictures/Solid Colors/Cyan.png    391    1       98           2
-   98     /System/Library/Desktop Pictures/Solid Colors/Cyan.png    392    1       98           1
+rowid                                                              value  rowid  key  data_id  picture_id
+-----  -----------------------------------------------------------------  -----  ---  -------  ----------
+   33                        /System/Library/Desktop Pictures/Sierra.jpg    129    1       33           3
+   33                        /System/Library/Desktop Pictures/Sierra.jpg    130    1       33           4
+   33                        /System/Library/Desktop Pictures/Sierra.jpg    131    1       33           2
+   33                        /System/Library/Desktop Pictures/Sierra.jpg    132    1       33           1
 
 
 
-82/100. solar:
+82/100. catalina:
 
 --------------------------------- data ---------------------------------  --------- preferences ---------
-rowid                                                      value  rowid  key  data_id  picture_id
------  ---------------------------------------------------------  -----  ---  -------  ----------
-   99      /System/Library/Desktop Pictures/Solar Gradients.heic    393    1       99           3
-   99      /System/Library/Desktop Pictures/Solar Gradients.heic    394    1       99           4
-   99      /System/Library/Desktop Pictures/Solar Gradients.heic    395    1       99           2
-   99      /System/Library/Desktop Pictures/Solar Gradients.heic    396    1       99           1
+rowid                                                              value  rowid  key  data_id  picture_id
+-----  -----------------------------------------------------------------  -----  ---  -------  ----------
+   34                                                                  0    133   20       34           3
+   34                                                                  0    134   20       34           4
+   34                                                                  0    135   20       34           2
+   34                                                                  0    136   20       34           1
 
 
 
-83/100. /System/Library/Desktop Pictures/Color Burst 2.jpg:
+83/100. default:
 
 --------------------------------- data ---------------------------------  --------- preferences ---------
-rowid                                                      value  rowid  key  data_id  picture_id
------  ---------------------------------------------------------  -----  ---  -------  ----------
-  100         /System/Library/Desktop Pictures/Color Burst 2.jpg    397    1      100           3
-  100         /System/Library/Desktop Pictures/Color Burst 2.jpg    398    1      100           4
-  100         /System/Library/Desktop Pictures/Color Burst 2.jpg    399    1      100           2
-  100         /System/Library/Desktop Pictures/Color Burst 2.jpg    400    1      100           1
 
 
 
-84/100. /System/Library/Desktop Pictures/High Sierra.jpg:
+84/100. catalina:
 
 --------------------------------- data ---------------------------------  --------- preferences ---------
-rowid                                                      value  rowid  key  data_id  picture_id
------  ---------------------------------------------------------  -----  ---  -------  ----------
-  101           /System/Library/Desktop Pictures/High Sierra.jpg    401    1      101           3
-  101           /System/Library/Desktop Pictures/High Sierra.jpg    402    1      101           4
-  101           /System/Library/Desktop Pictures/High Sierra.jpg    403    1      101           2
-  101           /System/Library/Desktop Pictures/High Sierra.jpg    404    1      101           1
+rowid                                                              value  rowid  key  data_id  picture_id
+-----  -----------------------------------------------------------------  -----  ---  -------  ----------
+    1                                                                  0      1   20        1           3
+    1                                                                  0      2   20        1           4
+    1                                                                  0      3   20        1           2
+    1                                                                  0      4   20        1           1
 
 
 
-85/100. /System/Library/Desktop Pictures/Flower 5.jpg:
+85/100. catalina-light:
 
 --------------------------------- data ---------------------------------  --------- preferences ---------
-rowid                                                      value  rowid  key  data_id  picture_id
------  ---------------------------------------------------------  -----  ---  -------  ----------
-  102              /System/Library/Desktop Pictures/Flower 5.jpg    405    1      102           3
-  102              /System/Library/Desktop Pictures/Flower 5.jpg    406    1      102           4
-  102              /System/Library/Desktop Pictures/Flower 5.jpg    407    1      102           2
-  102              /System/Library/Desktop Pictures/Flower 5.jpg    408    1      102           1
+rowid                                                              value  rowid  key  data_id  picture_id
+-----  -----------------------------------------------------------------  -----  ---  -------  ----------
+    2                                                                  2      5   20        2           3
+    2                                                                  2      6   20        2           4
+    2                                                                  2      7   20        2           2
+    2                                                                  2      8   20        2           1
 
 
 
-86/100. dark:
+86/100. /System/Library/Desktop Pictures/Desert 5.jpg:
 
 --------------------------------- data ---------------------------------  --------- preferences ---------
-rowid                                                      value  rowid  key  data_id  picture_id
------  ---------------------------------------------------------  -----  ---  -------  ----------
-  103                                                          3    409   20      103           3
-  103                                                          3    410   20      103           4
-  103                                                          3    411   20      103           2
-  103                                                          3    412   20      103           1
+rowid                                                              value  rowid  key  data_id  picture_id
+-----  -----------------------------------------------------------------  -----  ---  -------  ----------
+    3                      /System/Library/Desktop Pictures/Desert 5.jpg      9    1        3           3
+    3                      /System/Library/Desktop Pictures/Desert 5.jpg     10    1        3           4
+    3                      /System/Library/Desktop Pictures/Desert 5.jpg     11    1        3           2
+    3                      /System/Library/Desktop Pictures/Desert 5.jpg     12    1        3           1
 
 
 
-87/100. /System/Library/Desktop Pictures/Solid Colors/Stone.png:
+87/100. mojave-light:
 
 --------------------------------- data ---------------------------------  --------- preferences ---------
-rowid                                                      value  rowid  key  data_id  picture_id
------  ---------------------------------------------------------  -----  ---  -------  ----------
-  104    /System/Library/Desktop Pictures/Solid Colors/Stone.png    413    1      104           3
-  104    /System/Library/Desktop Pictures/Solid Colors/Stone.png    414    1      104           4
-  104    /System/Library/Desktop Pictures/Solid Colors/Stone.png    415    1      104           2
-  104    /System/Library/Desktop Pictures/Solid Colors/Stone.png    416    1      104           1
+rowid                                                              value  rowid  key  data_id  picture_id
+-----  -----------------------------------------------------------------  -----  ---  -------  ----------
+    4                       /System/Library/Desktop Pictures/Mojave.heic     13    1        4           3
+    5                                                                  2     14   20        5           3
+    4                       /System/Library/Desktop Pictures/Mojave.heic     15    1        4           4
+    5                                                                  2     16   20        5           4
+    4                       /System/Library/Desktop Pictures/Mojave.heic     17    1        4           2
+    5                                                                  2     18   20        5           2
+    4                       /System/Library/Desktop Pictures/Mojave.heic     19    1        4           1
+    5                                                                  2     20   20        5           1
 
 
 
-88/100. /System/Library/Desktop Pictures/Solid Colors/Teal.png:
+88/100. /System/Library/Desktop Pictures/Solid Colors/Gold.png:
 
 --------------------------------- data ---------------------------------  --------- preferences ---------
-rowid                                                      value  rowid  key  data_id  picture_id
------  ---------------------------------------------------------  -----  ---  -------  ----------
-  105     /System/Library/Desktop Pictures/Solid Colors/Teal.png    417    1      105           3
-  105     /System/Library/Desktop Pictures/Solid Colors/Teal.png    418    1      105           4
-  105     /System/Library/Desktop Pictures/Solid Colors/Teal.png    419    1      105           2
-  105     /System/Library/Desktop Pictures/Solid Colors/Teal.png    420    1      105           1
+rowid                                                              value  rowid  key  data_id  picture_id
+-----  -----------------------------------------------------------------  -----  ---  -------  ----------
+    6             /System/Library/Desktop Pictures/Solid Colors/Gold.png     21    1        6           3
+    6             /System/Library/Desktop Pictures/Solid Colors/Gold.png     22    1        6           4
+    6             /System/Library/Desktop Pictures/Solid Colors/Gold.png     23    1        6           2
+    6             /System/Library/Desktop Pictures/Solid Colors/Gold.png     24    1        6           1
 
 
 
-89/100. /System/Library/Desktop Pictures/Abstract 3.jpg:
+89/100. catalina:
 
 --------------------------------- data ---------------------------------  --------- preferences ---------
-rowid                                                      value  rowid  key  data_id  picture_id
------  ---------------------------------------------------------  -----  ---  -------  ----------
-  106            /System/Library/Desktop Pictures/Abstract 3.jpg    421    1      106           3
-  106            /System/Library/Desktop Pictures/Abstract 3.jpg    422    1      106           4
-  106            /System/Library/Desktop Pictures/Abstract 3.jpg    423    1      106           2
-  106            /System/Library/Desktop Pictures/Abstract 3.jpg    424    1      106           1
+rowid                                                              value  rowid  key  data_id  picture_id
+-----  -----------------------------------------------------------------  -----  ---  -------  ----------
+    7                                                                  0     25   20        7           3
+    7                                                                  0     26   20        7           4
+    7                                                                  0     27   20        7           2
+    7                                                                  0     28   20        7           1
 
 
 
-90/100. /System/Library/Desktop Pictures/Solid Colors/Gold 2.png:
+90/100. /System/Library/Desktop Pictures/Yosemite 3.jpg:
 
 --------------------------------- data ---------------------------------  --------- preferences ---------
-rowid                                                      value  rowid  key  data_id  picture_id
------  ---------------------------------------------------------  -----  ---  -------  ----------
-  107   /System/Library/Desktop Pictures/Solid Colors/Gold 2.png    425    1      107           3
-  107   /System/Library/Desktop Pictures/Solid Colors/Gold 2.png    426    1      107           4
-  107   /System/Library/Desktop Pictures/Solid Colors/Gold 2.png    427    1      107           2
-  107   /System/Library/Desktop Pictures/Solid Colors/Gold 2.png    428    1      107           1
+rowid                                                              value  rowid  key  data_id  picture_id
+-----  -----------------------------------------------------------------  -----  ---  -------  ----------
+    8                    /System/Library/Desktop Pictures/Yosemite 3.jpg     29    1        8           3
+    8                    /System/Library/Desktop Pictures/Yosemite 3.jpg     30    1        8           4
+    8                    /System/Library/Desktop Pictures/Yosemite 3.jpg     31    1        8           2
+    8                    /System/Library/Desktop Pictures/Yosemite 3.jpg     32    1        8           1
 
 
 
-91/100. /System/Library/Desktop Pictures/Solid Colors/Gold.png:
+91/100. mojave-dark:
 
 --------------------------------- data ---------------------------------  --------- preferences ---------
-rowid                                                      value  rowid  key  data_id  picture_id
------  ---------------------------------------------------------  -----  ---  -------  ----------
-  108     /System/Library/Desktop Pictures/Solid Colors/Gold.png    429    1      108           3
-  108     /System/Library/Desktop Pictures/Solid Colors/Gold.png    430    1      108           4
-  108     /System/Library/Desktop Pictures/Solid Colors/Gold.png    431    1      108           2
-  108     /System/Library/Desktop Pictures/Solid Colors/Gold.png    432    1      108           1
+rowid                                                              value  rowid  key  data_id  picture_id
+-----  -----------------------------------------------------------------  -----  ---  -------  ----------
+    9                       /System/Library/Desktop Pictures/Mojave.heic     33    1        9           3
+   10                                                                  3     34   20       10           3
+    9                       /System/Library/Desktop Pictures/Mojave.heic     35    1        9           4
+   10                                                                  3     36   20       10           4
+    9                       /System/Library/Desktop Pictures/Mojave.heic     37    1        9           2
+   10                                                                  3     38   20       10           2
+    9                       /System/Library/Desktop Pictures/Mojave.heic     39    1        9           1
+   10                                                                  3     40   20       10           1
 
 
 
-92/100. /System/Library/Desktop Pictures/El Capitan.jpg:
+92/100. /System/Library/Desktop Pictures/Yosemite.jpg:
 
 --------------------------------- data ---------------------------------  --------- preferences ---------
-rowid                                                      value  rowid  key  data_id  picture_id
------  ---------------------------------------------------------  -----  ---  -------  ----------
-  109            /System/Library/Desktop Pictures/El Capitan.jpg    433    1      109           3
-  109            /System/Library/Desktop Pictures/El Capitan.jpg    434    1      109           4
-  109            /System/Library/Desktop Pictures/El Capitan.jpg    435    1      109           2
-  109            /System/Library/Desktop Pictures/El Capitan.jpg    436    1      109           1
+rowid                                                              value  rowid  key  data_id  picture_id
+-----  -----------------------------------------------------------------  -----  ---  -------  ----------
+   11                      /System/Library/Desktop Pictures/Yosemite.jpg     41    1       11           3
+   11                      /System/Library/Desktop Pictures/Yosemite.jpg     42    1       11           4
+   11                      /System/Library/Desktop Pictures/Yosemite.jpg     43    1       11           2
+   11                      /System/Library/Desktop Pictures/Yosemite.jpg     44    1       11           1
 
 
 
-93/100. /System/Library/Desktop Pictures/Solid Colors/Red Orange.png:
+93/100. /System/Library/Desktop Pictures/Abstract 3.jpg:
 
 --------------------------------- data ---------------------------------  --------- preferences ---------
-rowid                                                      value  rowid  key  data_id  picture_id
------  ---------------------------------------------------------  -----  ---  -------  ----------
-  110  /System/Library/Desktop Pictures/Solid Colors/Red Orange.    437    1      110           3
-  110  /System/Library/Desktop Pictures/Solid Colors/Red Orange.    438    1      110           4
-  110  /System/Library/Desktop Pictures/Solid Colors/Red Orange.    439    1      110           2
-  110  /System/Library/Desktop Pictures/Solid Colors/Red Orange.    440    1      110           1
+rowid                                                              value  rowid  key  data_id  picture_id
+-----  -----------------------------------------------------------------  -----  ---  -------  ----------
+   12                    /System/Library/Desktop Pictures/Abstract 3.jpg     45    1       12           3
+   12                    /System/Library/Desktop Pictures/Abstract 3.jpg     46    1       12           4
+   12                    /System/Library/Desktop Pictures/Abstract 3.jpg     47    1       12           2
+   12                    /System/Library/Desktop Pictures/Abstract 3.jpg     48    1       12           1
 
 
 
-94/100. dark:
+94/100. /System/Library/Desktop Pictures/El Capitan 2.jpg:
 
 --------------------------------- data ---------------------------------  --------- preferences ---------
-rowid                                                      value  rowid  key  data_id  picture_id
------  ---------------------------------------------------------  -----  ---  -------  ----------
-  111                                                          3    441   20      111           3
-  111                                                          3    442   20      111           4
-  111                                                          3    443   20      111           2
-  111                                                          3    444   20      111           1
+rowid                                                              value  rowid  key  data_id  picture_id
+-----  -----------------------------------------------------------------  -----  ---  -------  ----------
+   13                  /System/Library/Desktop Pictures/El Capitan 2.jpg     49    1       13           3
+   13                  /System/Library/Desktop Pictures/El Capitan 2.jpg     50    1       13           4
+   13                  /System/Library/Desktop Pictures/El Capitan 2.jpg     51    1       13           2
+   13                  /System/Library/Desktop Pictures/El Capitan 2.jpg     52    1       13           1
 
 
 
-95/100. /System/Library/Desktop Pictures/Flower 5.jpg:
+95/100. /System/Library/Desktop Pictures/Flower 9.jpg:
 
 --------------------------------- data ---------------------------------  --------- preferences ---------
-rowid                                                      value  rowid  key  data_id  picture_id
------  ---------------------------------------------------------  -----  ---  -------  ----------
-  112              /System/Library/Desktop Pictures/Flower 5.jpg    445    1      112           3
-  112              /System/Library/Desktop Pictures/Flower 5.jpg    446    1      112           4
-  112              /System/Library/Desktop Pictures/Flower 5.jpg    447    1      112           2
-  112              /System/Library/Desktop Pictures/Flower 5.jpg    448    1      112           1
+rowid                                                              value  rowid  key  data_id  picture_id
+-----  -----------------------------------------------------------------  -----  ---  -------  ----------
+   14                      /System/Library/Desktop Pictures/Flower 9.jpg     53    1       14           3
+   14                      /System/Library/Desktop Pictures/Flower 9.jpg     54    1       14           4
+   14                      /System/Library/Desktop Pictures/Flower 9.jpg     55    1       14           2
+   14                      /System/Library/Desktop Pictures/Flower 9.jpg     56    1       14           1
 
 
 
-96/100. /System/Library/Desktop Pictures/Abstract Shapes 2.jpg:
+96/100. /System/Library/Desktop Pictures/Solid Colors/Blue Violet.png:
 
 --------------------------------- data ---------------------------------  --------- preferences ---------
-rowid                                                      value  rowid  key  data_id  picture_id
------  ---------------------------------------------------------  -----  ---  -------  ----------
-  112              /System/Library/Desktop Pictures/Flower 5.jpg    445    1      112           3
-  112              /System/Library/Desktop Pictures/Flower 5.jpg    446    1      112           4
-  112              /System/Library/Desktop Pictures/Flower 5.jpg    447    1      112           2
-  112              /System/Library/Desktop Pictures/Flower 5.jpg    448    1      112           1
+rowid                                                              value  rowid  key  data_id  picture_id
+-----  -----------------------------------------------------------------  -----  ---  -------  ----------
+   15      /System/Library/Desktop Pictures/Solid Colors/Blue Violet.png     57    1       15           3
+   15      /System/Library/Desktop Pictures/Solid Colors/Blue Violet.png     58    1       15           4
+   15      /System/Library/Desktop Pictures/Solid Colors/Blue Violet.png     59    1       15           2
+   15      /System/Library/Desktop Pictures/Solid Colors/Blue Violet.png     60    1       15           1
 
 
 
-97/100. /System/Library/Desktop Pictures/Flower 7.jpg:
+97/100. /System/Library/Desktop Pictures/Solid Colors/Soft Pink.png:
 
 --------------------------------- data ---------------------------------  --------- preferences ---------
-rowid                                                      value  rowid  key  data_id  picture_id
------  ---------------------------------------------------------  -----  ---  -------  ----------
-  113              /System/Library/Desktop Pictures/Flower 7.jpg    449    1      113           3
-  113              /System/Library/Desktop Pictures/Flower 7.jpg    450    1      113           4
-  113              /System/Library/Desktop Pictures/Flower 7.jpg    451    1      113           2
-  113              /System/Library/Desktop Pictures/Flower 7.jpg    452    1      113           1
+rowid                                                              value  rowid  key  data_id  picture_id
+-----  -----------------------------------------------------------------  -----  ---  -------  ----------
+   16        /System/Library/Desktop Pictures/Solid Colors/Soft Pink.png     61    1       16           3
+   16        /System/Library/Desktop Pictures/Solid Colors/Soft Pink.png     62    1       16           4
+   16        /System/Library/Desktop Pictures/Solid Colors/Soft Pink.png     63    1       16           2
+   16        /System/Library/Desktop Pictures/Solid Colors/Soft Pink.png     64    1       16           1
 
 
 
-98/100. /System/Library/Desktop Pictures/Desert 7.jpg:
+98/100. /System/Library/Desktop Pictures/El Capitan.jpg:
 
 --------------------------------- data ---------------------------------  --------- preferences ---------
-rowid                                                      value  rowid  key  data_id  picture_id
------  ---------------------------------------------------------  -----  ---  -------  ----------
-  114              /System/Library/Desktop Pictures/Desert 7.jpg    453    1      114           3
-  114              /System/Library/Desktop Pictures/Desert 7.jpg    454    1      114           4
-  114              /System/Library/Desktop Pictures/Desert 7.jpg    455    1      114           2
-  114              /System/Library/Desktop Pictures/Desert 7.jpg    456    1      114           1
+rowid                                                              value  rowid  key  data_id  picture_id
+-----  -----------------------------------------------------------------  -----  ---  -------  ----------
+   17                    /System/Library/Desktop Pictures/El Capitan.jpg     65    1       17           3
+   17                    /System/Library/Desktop Pictures/El Capitan.jpg     66    1       17           4
+   17                    /System/Library/Desktop Pictures/El Capitan.jpg     67    1       17           2
+   17                    /System/Library/Desktop Pictures/El Capitan.jpg     68    1       17           1
 
 
 
-99/100. /System/Library/Desktop Pictures/Sierra 2.jpg:
+99/100. /System/Library/Desktop Pictures/Abstract 3.jpg:
 
 --------------------------------- data ---------------------------------  --------- preferences ---------
-rowid                                                      value  rowid  key  data_id  picture_id
------  ---------------------------------------------------------  -----  ---  -------  ----------
-  115              /System/Library/Desktop Pictures/Sierra 2.jpg    457    1      115           3
-  115              /System/Library/Desktop Pictures/Sierra 2.jpg    458    1      115           4
-  115              /System/Library/Desktop Pictures/Sierra 2.jpg    459    1      115           2
-  115              /System/Library/Desktop Pictures/Sierra 2.jpg    460    1      115           1
+rowid                                                              value  rowid  key  data_id  picture_id
+-----  -----------------------------------------------------------------  -----  ---  -------  ----------
+   18                    /System/Library/Desktop Pictures/Abstract 3.jpg     69    1       18           3
+   18                    /System/Library/Desktop Pictures/Abstract 3.jpg     70    1       18           4
+   18                    /System/Library/Desktop Pictures/Abstract 3.jpg     71    1       18           2
+   18                    /System/Library/Desktop Pictures/Abstract 3.jpg     72    1       18           1
 
 
 
-100/100. /System/Library/Desktop Pictures/Sierra 2.jpg:
+100/100. /System/Library/Desktop Pictures/Desert 3.jpg:
 
 --------------------------------- data ---------------------------------  --------- preferences ---------
-rowid                                                      value  rowid  key  data_id  picture_id
------  ---------------------------------------------------------  -----  ---  -------  ----------
-  116              /System/Library/Desktop Pictures/Sierra 2.jpg    461    1      116           3
-  116              /System/Library/Desktop Pictures/Sierra 2.jpg    462    1      116           4
-  116              /System/Library/Desktop Pictures/Sierra 2.jpg    463    1      116           2
-  116              /System/Library/Desktop Pictures/Sierra 2.jpg    464    1      116           1
+rowid                                                              value  rowid  key  data_id  picture_id
+-----  -----------------------------------------------------------------  -----  ---  -------  ----------
+   19                      /System/Library/Desktop Pictures/Desert 3.jpg     73    1       19           3
+   19                      /System/Library/Desktop Pictures/Desert 3.jpg     74    1       19           4
+   19                      /System/Library/Desktop Pictures/Desert 3.jpg     75    1       19           2
+   19                      /System/Library/Desktop Pictures/Desert 3.jpg     76    1       19           1
 
 
 
