@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-# AUTHOR: Steve Ward [steve@tech-otaku.com]
+# AUTHOR: Steve Ward [steve at tech-otaku dot com]
 # URL: https://github.com/tech-otaku/macos-desktop.git
 # README: https://github.com/tech-otaku/macos-desktop/blob/master/README.md
 
@@ -51,7 +51,18 @@
 
     db="$HOME/Library/Application Support/Dock/desktoppicture.db"
     backup="$HOME/Library/Application Support/Dock/backup"
-    export version=$(system_profiler SPSoftwareDataType | awk '/System Version/ {print $4}' | cut -d . -f 1,2)
+
+    # The version numbering convention has changed with the release of Big Sur where only the major version number is significant for 
+    # determining if Big Sur is installed i.e. 11.0, 11.1, 11.2 etc are all versions of Big Sur. This is in contrast to earlier macOS 
+    # versions where both the major and minor version numbers are significant i.e 10.15 Catalina, 10.14 Mojave etc.
+    if [ $(system_profiler SPSoftwareDataType | awk '/System Version/ {print $4}' | cut -d . -f 1) -ge 11 ]; then
+        # Since macOS Big Sur
+        export version=$(system_profiler SPSoftwareDataType | awk '/System Version/ {print $4}' | cut -d . -f 1)
+    else
+        # Upto and including macOS Catalina
+        export version=$(system_profiler SPSoftwareDataType | awk '/System Version/ {print $4}' | cut -d . -f 1,2)
+    fi
+
     export option_arg=$1
     option_config=options.json
 
@@ -76,8 +87,8 @@
 #
 
 # Exit with error if OS version is not 10.15 or 11.0
-    if [ $version != 10.15 ] && [ $version != 11.0 ]; then
-        printf "ERROR: For use with macOS Catalina 10.15.x and macOS Big Sur 11.0 only." $version
+    if [ $version != 10.15 ] && [ $version != 11 ]; then
+        printf "ERROR: For use with macOS Catalina 10.15.x and macOS Big Sur 11 only.\n"
         exit 1
     fi
 
