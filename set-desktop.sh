@@ -4,8 +4,8 @@
 # URL: https://github.com/tech-otaku/macos-desktop.git
 # README: https://github.com/tech-otaku/macos-desktop/blob/master/README.md
 
-# USAGE: [bash] ./set-desktop-big-sur.sh <desktop image>
-# EXAMPLE: [bash] ./set-desktop-big-sur.sh catalina
+# USAGE: [bash] ./set-desktop.sh <desktop image>
+# EXAMPLE: [bash] ./set-desktop.sh desert
 #   See the README for more examples
 
 
