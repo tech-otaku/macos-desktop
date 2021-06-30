@@ -144,4 +144,4 @@ To change the Desktop picture 100 times, `cd` into the `Catalina Tests` director
 
 ---
 
-Back to [TOC](https://github.com/tech-otaku/macos-desktop/blob/master/README.md)
+Back to [TOC](README.md#table-of-contents-toc)

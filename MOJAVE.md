@@ -69,4 +69,4 @@ __Not for use with multiple Desktops (Spaces) or in a dual-display environment._
 
 ---
 
-Bact to [TOC](https://github.com/tech-otaku/macos-desktop/blob/master/README.md)
+Back to [TOC](README.md#table-of-contents-toc)

@@ -2,4 +2,4 @@
 
 ---
 
-Back to [TOC](https://github.com/tech-otaku/macos-desktop/blob/master/README.md)
+Back to [TOC](README.md#table-of-contents-toc)
