@@ -1,6 +1,372 @@
 {
     "versions": [
         {
+            "version": "12",
+            "name": "Monterey",
+            "options": [
+                {
+                    "option": "big-sur",
+                    "name": "Big Sur Dynamic",
+                    "value": "0",
+                    "key": "20",
+                    "file": "'/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/98b5bd24c8bb188ec6101ea415ec049fdd03de8.asset/AssetData/Big Sur.heic'",
+                    "additional": true,
+                    "category": "Dynamic Desktop"
+                },
+                {
+                    "option": "big-sur-light",
+                    "name": "Big Sur Light (Still)",
+                    "value": "2",
+                    "key": "20",
+                    "file": "'/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/98b5bd24c8bb188ec6101ea415ec049fdd03de8.asset/AssetData/Big Sur.heic'",
+                    "additional": true,
+                    "category": "Dynamic Desktop"
+                },
+                {
+                    "option": "big-sur-dark",
+                    "name": "Big Sur Dark (Still)",
+                    "value": "3",
+                    "key": "20",
+                    "file": "'/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/98b5bd24c8bb188ec6101ea415ec049fdd03de8.asset/AssetData/Big Sur.heic'",
+                    "additional": true,
+                    "category": "Dynamic Desktop"
+                },
+                {
+                    "option": "catalina",
+                    "name": "Catalina Dynamic",
+                    "value": "0",
+                    "key": "20",
+                    "file": "'/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/28e590448a1795ffd7d8ae9c9f826ceedd9696a2.asset/AssetData/Catalina.heic'",
+                    "additional": true,
+                    "category": "Dynamic Desktop"
+                },
+                {
+                    "option": "catalina-light",
+                    "name": "Catalina Light (Still)",
+                    "value": "2",
+                    "key": "20",
+                    "file": "'/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/28e590448a1795ffd7d8ae9c9f826ceedd9696a2.asset/AssetData/Catalina.heic'",
+                    "additional": true,
+                    "category": "Dynamic Desktop"
+                },
+                {
+                    "option": "catalina-dark",
+                    "name": "Catalina Dark (Still)",
+                    "value": "3",
+                    "key": "20",
+                    "file": "'/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/28e590448a1795ffd7d8ae9c9f826ceedd9696a2.asset/AssetData/Catalina.heic'",
+                    "additional": true,
+                    "category": "Dynamic Desktop"
+                },
+                {
+                    "option": "cliffs",
+                    "name": "The Cliffs Dynamic",
+                    "value": "0",
+                    "key": "20",
+                    "file": "'/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/3f8e02c0678e834abc820fd1d69d2a4b11a3ae.asset/AssetData/The Cliffs.heic'",
+                    "additional": true,
+                    "category": "Dynamic Desktop"
+                },
+                {
+                    "option": "cliffs-light",
+                    "name": "The Cliffs Light (Still)",
+                    "value": "2",
+                    "key": "20",
+                    "file": "'/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/3f8e02c0678e834abc820fd1d69d2a4b11a3ae.asset/AssetData/The Cliffs.heic'",
+                    "additional": true,
+                    "category": "Dynamic Desktop"
+                },
+                {
+                    "option": "cliffs-dark",
+                    "name": "The Cliffs Dark (Still)",
+                    "value": "3",
+                    "key": "20",
+                    "file": "'/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/3f8e02c0678e834abc820fd1d69d2a4b11a3ae.asset/AssetData/The Cliffs.heic'",
+                    "additional": true,
+                    "category": "Dynamic Desktop"
+                },
+                {
+                    "option": "lake",
+                    "name": "The Lake Dynamic",
+                    "value": "0",
+                    "key": "20",
+                    "file": "'/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/f1bdab95fdb69bf6278bf963cbc182dc052d9792.asset/AssetData/The Lake.heic'",
+                    "additional": true,
+                    "category": "Dynamic Desktop"
+                },
+                {
+                    "option": "lake-light",
+                    "name": "The Lake Light (Still)",
+                    "value": "2",
+                    "key": "20",
+                    "file": "'/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/f1bdab95fdb69bf6278bf963cbc182dc052d9792.asset/AssetData/The Lake.heic'",
+                    "additional": true,
+                    "category": "Dynamic Desktop"
+                },
+                {
+                    "option": "lake-dark",
+                    "name": "The Lake Dark (Still)",
+                    "value": "3",
+                    "key": "20",
+                    "file": "'/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/f1bdab95fdb69bf6278bf963cbc182dc052d9792.asset/AssetData/The Lake.heic'",
+                    "additional": true,
+                    "category": "Dynamic Desktop"
+                },
+                {
+                    "option": "desert",
+                    "name": "The Desert Dynamic",
+                    "value": "0",
+                    "key": "20",
+                    "file": "'/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/df1a67fbca0d20c34f9ed7d3508d549faa9ae25b.asset/AssetData/The Desert.heic'",
+                    "additional": true,
+                    "category": "Dynamic Desktop"
+                },
+                {
+                    "option": "desert-light",
+                    "name": "The Desert Light (Still)",
+                    "value": "2",
+                    "key": "20",
+                    "file": "'/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/df1a67fbca0d20c34f9ed7d3508d549faa9ae25b.asset/AssetData/The Desert.heic'",
+                    "additional": true,
+                    "category": "Dynamic Desktop"
+                },
+                {
+                    "option": "desert-dark",
+                    "name": "The Desert Dark (Still)",
+                    "value": "3",
+                    "key": "20",
+                    "file": "'/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/df1a67fbca0d20c34f9ed7d3508d549faa9ae25b.asset/AssetData/The Desert.heic'",
+                    "additional": true,
+                    "category": "Dynamic Desktop"
+                },
+                {
+                    "option": "beach",
+                    "name": "The Beach Dynamic",
+                    "value": "0",
+                    "key": "20",
+                    "file": "'/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/b91ec140f7d34cfdd77304c8e72c570ccdf8d814.asset/AssetData/The Beach.heic'",
+                    "additional": true,
+                    "category": "Dynamic Desktop"
+                },
+                {
+                    "option": "beach-light",
+                    "name": "The Beach Light (Still)",
+                    "value": "2",
+                    "key": "20",
+                    "file": "'/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/b91ec140f7d34cfdd77304c8e72c570ccdf8d814.asset/AssetData/The Beach.heic'",
+                    "additional": true,
+                    "category": "Dynamic Desktop"
+                },
+                {
+                    "option": "beach-dark",
+                    "name": "The Beach Dark (Still)",
+                    "value": "3",
+                    "key": "20",
+                    "file": "'/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/b91ec140f7d34cfdd77304c8e72c570ccdf8d814.asset/AssetData/The Beach.heic'",
+                    "additional": true,
+                    "category": "Dynamic Desktop"
+                },
+                {
+                    "option": "solar",
+                    "name": "Solar Gradients",
+                    "value": "0",
+                    "key": "20",
+                    "file": "'/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/0df344f8b4cf558225c378c8c4b0e343ce8bd6d2.asset/AssetData/Solar Gradients.heic'",
+                    "additional": true,
+                    "category": "Dynamic Desktop"
+                },
+				{
+					"option": "graphic",
+					"name": "macOS Graphic Automatic",
+					"value": "0",
+					"key": "20",
+					"file": null,
+					"additional": false,
+					"category": "Light and Dark Desktop"
+				},
+				{
+					"option": "light",
+					"name": "macOS Graphic Light (Still)",
+					"value": "2",
+					"key": "20",
+					"file": null,
+					"additional": false,
+					"category": "Light and Dark Desktop"
+				},
+				{
+					"option": "dark",
+					"name": "macOS Graphic Dark (Still)",
+					"value": "3",
+					"key": "20",
+					"file": null,
+					"additional": false,
+					"category": "Light and Dark Desktop"
+				},
+				{
+					"option": "big-sur-graphic",
+					"name": "Big Sur Graphic Automatic",
+					"value": "0",
+					"key": "20",
+					"file": "'/System/Library/Desktop Pictures/Big Sur Graphic.heic'",
+					"additional": true,
+					"category": "Light and Dark Desktop"
+				},
+				{
+					"option": "big-sur-graphic-light",
+					"name": "Big Sur Graphic Light (Still)",
+					"value": "2",
+					"key": "20",
+					"file": "'/System/Library/Desktop Pictures/Big Sur Graphic.heic'",
+					"additional": true,
+					"category": "Light and Dark Desktop"
+				},
+				{
+					"option": "big-sur-graphic-dark",
+					"name": "Big Sur Graphic Dark (Still)",
+					"value": "3",
+					"key": "20",
+					"file": "'/System/Library/Desktop Pictures/Big Sur Graphic.heic'",
+					"additional": true,
+					"category": "Light and Dark Desktop"
+				},
+                {
+                    "option": "peak",
+                    "name": "Peak Automatic",
+                    "value": "0",
+                    "key": "20",
+                    "file": "'/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/3cc38432b076d2f0401e1c9dbad145af9b9b5f0f.asset/AssetData/Peak.heic'",
+                    "additional": true,
+                    "category": "Light and Dark Desktop"
+                },
+                {
+                    "option": "peak-light",
+                    "name": "Peak Light (Still)",
+                    "value": "2",
+                    "key": "20",
+                    "file": "'/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/3cc38432b076d2f0401e1c9dbad145af9b9b5f0f.asset/AssetData/Peak.heic'",
+                    "additional": true,
+                    "category": "Light and Dark Desktop"
+                },
+                {
+                    "option": "peak-dark",
+                    "name": "Peak Dark (Still)",
+                    "value": "3",
+                    "key": "20",
+                    "file": "'/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/3cc38432b076d2f0401e1c9dbad145af9b9b5f0f.asset/AssetData/Peak.heic'",
+                    "additional": true,
+                    "category": "Light and Dark Desktop"
+                },
+                {
+                    "option": "tree",
+                    "name": "Tree Automatic",
+                    "value": "0",
+                    "key": "20",
+                    "file": "'/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/5e8a9e5a102140a4dc5e651e04567d3d7cefd52a.asset/AssetData/Tree.heic'",
+                    "additional": true,
+                    "category": "Light and Dark Desktop"
+                },
+                {
+                    "option": "tree-light",
+                    "name": "Tree Light (Still)",
+                    "value": "2",
+                    "key": "20",
+                    "file": "'/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/5e8a9e5a102140a4dc5e651e04567d3d7cefd52a.asset/AssetData/Tree.heic'",
+                    "additional": true,
+                    "category": "Light and Dark Desktop"
+                },
+                {
+                    "option": "tree-dark",
+                    "name": "Tree Dark (Still)",
+                    "value": "3",
+                    "key": "20",
+                    "file": "'/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/5e8a9e5a102140a4dc5e651e04567d3d7cefd52a.asset/AssetData/Tree.heic'",
+                    "additional": true,
+                    "category": "Light and Dark Desktop"
+                },
+                {
+                    "option": "valley",
+                    "name": "Valley Automatic",
+                    "value": "0",
+                    "key": "20",
+                    "file": "'/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/b520a8b613c92fd7693d4343aedf17c52f6f9eda.asset/AssetData/Valley.heic'",
+                    "additional": true,
+                    "category": "Light and Dark Desktop"
+                },
+                {
+                    "option": "valley-light",
+                    "name": "Valley Light (Still)",
+                    "value": "2",
+                    "key": "20",
+                    "file": "'/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/b520a8b613c92fd7693d4343aedf17c52f6f9eda.asset/AssetData/Valley.heic'",
+                    "additional": true,
+                    "category": "Light and Dark Desktop"
+                },
+                {
+                    "option": "valley-dark",
+                    "name": "Valley Dark (Still)",
+                    "value": "3",
+                    "key": "20",
+                    "file": "'/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/b520a8b613c92fd7693d4343aedf17c52f6f9eda.asset/AssetData/Valley.heic'",
+                    "additional": true,
+                    "category": "Light and Dark Desktop"
+                },
+                {
+                    "option": "dome",
+                    "name": "Dome Automatic",
+                    "value": "0",
+                    "key": "20",
+                    "file": "'/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/0147cb729255506b6649aae14e8805b248f6f99f.asset/AssetData/Dome.heic'",
+                    "additional": true,
+                    "category": "Light and Dark Desktop"
+                },
+                {
+                    "option": "dome-light",
+                    "name": "Dome Light (Still)",
+                    "value": "2",
+                    "key": "20",
+                    "file": "'/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/0147cb729255506b6649aae14e8805b248f6f99f.asset/AssetData/Dome.heic'",
+                    "additional": true,
+                    "category": "Light and Dark Desktop"
+                },
+                {
+                    "option": "dome-dark",
+                    "name": "Dome Dark (Still)",
+                    "value": "3",
+                    "key": "20",
+                    "file": "'/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/0147cb729255506b6649aae14e8805b248f6f99f.asset/AssetData/Dome.heic'",
+                    "additional": true,
+                    "category": "Light and Dark Desktop"
+                },
+                {
+                    "option": "iridescence",
+                    "name": "Iridescence Automatic",
+                    "value": "0",
+                    "key": "20",
+                    "file": "'/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/37ac5562f90c0888a9c35ece6def29a53c0ddd55.asset/AssetData/Iridescence.heic''",
+                    "additional": true,
+                    "category": "Light and Dark Desktop"
+                },
+                {
+                    "option": "iridescence-light",
+                    "name": "Iridescence Light (Still)",
+                    "value": "2",
+                    "key": "20",
+                    "file": "'/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/37ac5562f90c0888a9c35ece6def29a53c0ddd55.asset/AssetData/Iridescence.heic''",
+                    "additional": true,
+                    "category": "Light and Dark Desktop"
+                },
+                {
+                    "option": "iridescence-dark",
+                    "name": "Iridescence Dark (Still)",
+                    "value": "3",
+                    "key": "20",
+                    "file": "'/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/37ac5562f90c0888a9c35ece6def29a53c0ddd55.asset/AssetData/Iridescence.heic''",
+                    "additional": true,
+                    "category": "Light and Dark Desktop"
+                }
+            ]
+        },
+        {
             "version": "11",
             "name": "Big Sur",
             "options": [
@@ -176,6 +542,33 @@
                     "category": "Dynamic Desktop"
                 },
                 {
+                    "option": "graphic",
+                    "name": "Big Sur Graphic Automatic",
+                    "value": "0",
+                    "key": "20",
+                    "file": null,
+                    "additional": false,
+                    "category": "Light and Dark Desktop"
+                },
+                {
+                    "option": "light",
+                    "name": "Big Sur Graphic Light (Still)",
+                    "value": "2",
+                    "key": "20",
+                    "file": null,
+                    "additional": false,
+                    "category": "Light and Dark Desktop"
+                },
+                {
+                    "option": "dark",
+                    "name": "Big Sur Graphic Dark (Still)",
+                    "value": "3",
+                    "key": "20",
+                    "file": null,
+                    "additional": false,
+                    "category": "Light and Dark Desktop"
+                },
+                {
                     "option": "peak",
                     "name": "Peak Automatic",
                     "value": "0",
@@ -281,33 +674,6 @@
                     "key": "20",
                     "file": "'/System/Library/Desktop Pictures/Dome.heic'",
                     "additional": true,
-                    "category": "Light and Dark Desktop"
-                },
-                {
-                    "option": "graphic",
-                    "name": "Big Sur Graphic Automatic",
-                    "value": "0",
-                    "key": "20",
-                    "file": null,
-                    "additional": false,
-                    "category": "Light and Dark Desktop"
-                },
-                {
-                    "option": "light",
-                    "name": "Big Sur Graphic Light (Still)",
-                    "value": "2",
-                    "key": "20",
-                    "file": null,
-                    "additional": false,
-                    "category": "Light and Dark Desktop"
-                },
-                {
-                    "option": "dark",
-                    "name": "Big Sur Graphic Dark (Still)",
-                    "value": "3",
-                    "key": "20",
-                    "file": null,
-                    "additional": false,
                     "category": "Light and Dark Desktop"
                 },
                 {
