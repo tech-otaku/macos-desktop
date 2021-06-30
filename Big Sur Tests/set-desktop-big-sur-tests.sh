@@ -4,7 +4,7 @@
 
 rm set-desktop-big-sur-tests.txt
 
-echo -e "Randomly generated $(date '+on %Y-%m-%d at %H:%M:%S') by $0 using Big Sur Developer Beta build $(system_profiler SPSoftwareDataType | awk '/System Version/ {print $5}')\n" >> set-desktop-big-sur-tests.txt 
+echo -e "Randomly generated $(date '+on %Y-%m-%d at %H:%M:%S') by $0 using Big Sur $(system_profiler SPSoftwareDataType | awk '/System Version/ {print $4}' | cut -d . -f 1,2) build $(system_profiler SPSoftwareDataType | awk '/System Version/ {print $5}')\n" >> set-desktop-big-sur-tests.txt 
 
 pushd ../ > /dev/null
 bash set-desktop.sh default
