@@ -175,60 +175,60 @@
                     "additional": true,
                     "category": "Dynamic Desktop"
                 },
-				{
-					"option": "graphic",
-					"name": "macOS Graphic Automatic",
-					"value": "0",
-					"key": "20",
-					"file": null,
-					"additional": false,
-					"category": "Light and Dark Desktop"
-				},
-				{
-					"option": "light",
-					"name": "macOS Graphic Light (Still)",
-					"value": "2",
-					"key": "20",
-					"file": null,
-					"additional": false,
-					"category": "Light and Dark Desktop"
-				},
-				{
-					"option": "dark",
-					"name": "macOS Graphic Dark (Still)",
-					"value": "3",
-					"key": "20",
-					"file": null,
-					"additional": false,
-					"category": "Light and Dark Desktop"
-				},
-				{
-					"option": "big-sur-graphic",
-					"name": "Big Sur Graphic Automatic",
-					"value": "0",
-					"key": "20",
-					"file": "'/System/Library/Desktop Pictures/Big Sur Graphic.heic'",
-					"additional": true,
-					"category": "Light and Dark Desktop"
-				},
-				{
-					"option": "big-sur-graphic-light",
-					"name": "Big Sur Graphic Light (Still)",
-					"value": "2",
-					"key": "20",
-					"file": "'/System/Library/Desktop Pictures/Big Sur Graphic.heic'",
-					"additional": true,
-					"category": "Light and Dark Desktop"
-				},
-				{
-					"option": "big-sur-graphic-dark",
-					"name": "Big Sur Graphic Dark (Still)",
-					"value": "3",
-					"key": "20",
-					"file": "'/System/Library/Desktop Pictures/Big Sur Graphic.heic'",
-					"additional": true,
-					"category": "Light and Dark Desktop"
-				},
+                {
+                    "option": "graphic",
+                    "name": "macOS Graphic Automatic",
+                    "value": "0",
+                    "key": "20",
+                    "file": null,
+                    "additional": false,
+                    "category": "Light and Dark Desktop"
+                },
+                {
+                    "option": "light",
+                    "name": "macOS Graphic Light (Still)",
+                    "value": "2",
+                    "key": "20",
+                    "file": null,
+                    "additional": false,
+                    "category": "Light and Dark Desktop"
+                },
+                {
+                    "option": "dark",
+                    "name": "macOS Graphic Dark (Still)",
+                    "value": "3",
+                    "key": "20",
+                    "file": null,
+                    "additional": false,
+                    "category": "Light and Dark Desktop"
+                },
+                {
+                    "option": "big-sur-graphic",
+                    "name": "Big Sur Graphic Automatic",
+                    "value": "0",
+                    "key": "20",
+                    "file": "'/System/Library/Desktop Pictures/Big Sur Graphic.heic'",
+                    "additional": true,
+                    "category": "Light and Dark Desktop"
+                },
+                {
+                    "option": "big-sur-graphic-light",
+                    "name": "Big Sur Graphic Light (Still)",
+                    "value": "2",
+                    "key": "20",
+                    "file": "'/System/Library/Desktop Pictures/Big Sur Graphic.heic'",
+                    "additional": true,
+                    "category": "Light and Dark Desktop"
+                },
+                {
+                    "option": "big-sur-graphic-dark",
+                    "name": "Big Sur Graphic Dark (Still)",
+                    "value": "3",
+                    "key": "20",
+                    "file": "'/System/Library/Desktop Pictures/Big Sur Graphic.heic'",
+                    "additional": true,
+                    "category": "Light and Dark Desktop"
+                },
                 {
                     "option": "peak",
                     "name": "Peak Automatic",
