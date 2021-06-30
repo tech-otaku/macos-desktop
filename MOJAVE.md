@@ -1,4 +1,4 @@
-# macOS Mojave 10.14
+# macOS 10.14 Mojave
 
 ## Purpose
 Set a user's Desktop image in macOS Mojave 10.14 from the command line. See [Limitations](#limitations)

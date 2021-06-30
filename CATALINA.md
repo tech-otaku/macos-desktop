@@ -1,4 +1,4 @@
-# macOS Catalina 10.15
+# macOS 10.15 Catalina
 
 The script `set-desktop-catalina.sh` has been replaced by `set-desktop.sh`.
 
@@ -144,4 +144,4 @@ To change the Desktop picture 100 times, `cd` into the `Catalina Tests` director
 
 ---
 
-Bact to [TOC](https://github.com/tech-otaku/macos-desktop/blob/master/README.md)
+Back to [TOC](https://github.com/tech-otaku/macos-desktop/blob/master/README.md)

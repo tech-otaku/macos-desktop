@@ -1,4 +1,4 @@
-# macOS Big Sur 11.0
+# macOS 11 Big Sur
 
 The script `set-desktop-big-sur.sh` has been replaced by `set-desktop.sh`.
 
@@ -262,4 +262,4 @@ To change the Desktop picture 100 times, `cd` into the `Big Sur Tests` directory
 
 ---
 
-Bact to [TOC](https://github.com/tech-otaku/macos-desktop/blob/master/README.md)
+Back to [TOC](https://github.com/tech-otaku/macos-desktop/blob/master/README.md)
