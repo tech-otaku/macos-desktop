@@ -8,7 +8,7 @@
 # EXAMPLE: [bash] ./set-desktop.sh desert
 #   See the README for more examples
 
-
+sudo -v
 
 # # # # # # # # # # # # # # # # 
 # FUNCTION DECLARATIONS
@@ -19,6 +19,8 @@
         if [ -f "$HOME/.sqliterc-$timestamp" ]; then
             mv "$HOME/.sqliterc-$timestamp" "$HOME/.sqliterc"
         fi
+
+        sudo -k
     }
 
 # Ensure 'restore_sqliterc' is executed every time the script exits regardless of exit status
@@ -40,6 +42,8 @@
 #   key = value of the 'key' column for new rows in the 'preferences' table (populated from match in the 'option_config' file unless a filename was passed to the script)
 #   lastrow[0] = highest row id in the 'data' table 
 #   lastrow[1] = highest row id in the 'preferences' table 
+#   major =
+#   minor = 
 #   name = the title or filename of the Desktop image (populated from match in the 'option_config' file unless a filename was passed to the script)
 #   option = the option name (populated from match in the 'option_config' file)
 #   option_arg = value of the 'option' argument passed to the script (variable needs to be exported so its value is available to the Python code)
@@ -55,12 +59,14 @@
     # The version numbering convention has changed with the release of Big Sur where only the major version number is significant for 
     # determining if Big Sur is installed i.e. 11.0, 11.1, 11.2 etc are all versions of Big Sur. This is in contrast to earlier macOS 
     # versions where both the major and minor version numbers are significant i.e 10.15 Catalina, 10.14 Mojave etc.
-    if [ $(system_profiler SPSoftwareDataType | awk '/System Version/ {print $4}' | cut -d . -f 1) -ge 11 ]; then
+    major=$(system_profiler SPSoftwareDataType | awk '/System Version/ {print $4}' | cut -d . -f 1)
+    minor=$(system_profiler SPSoftwareDataType | awk '/System Version/ {print $4}'| cut -d . -f 2)
+    if [ $major -ge 11 ]; then
         # Since macOS Big Sur
-        export version=$(system_profiler SPSoftwareDataType | awk '/System Version/ {print $4}' | cut -d . -f 1)
+        export version=$major
     else
         # Upto and including macOS Catalina
-        export version=$(system_profiler SPSoftwareDataType | awk '/System Version/ {print $4}' | cut -d . -f 1,2)
+        export version=$major.$minor
     fi
 
     export option_arg=$1
@@ -86,11 +92,17 @@
 # USAGE CHECKS
 #
 
-# Exit with error if OS version is not 10.15 or 11.0
-    if [ $version != 10.15 ] && [ $version != 11 ]; then
-        printf "ERROR: For use with macOS Catalina 10.15.x and macOS Big Sur 11 only.\n"
+# Exit with error if OS version is not 10.15 or later
+    if ! ( ( [ $major -eq 10 ] && [ $minor -eq 15 ] ) || [ $major -ge 11 ] ); then
+        printf "ERROR: For use with macOS 10.15 Catalina or later.\n"
         exit 1
     fi
+
+# Exit with error if OS version is 12 and SIP is enabled (default)
+    if [ $major -eq 12 ] && [[ $(csrutil status) == *"enabled"* ]]; then
+        printf "ERROR: System Integrity Protection (SIP) is enabled.\n"
+        exit 1
+    fi    
 
 # Exit with error if configuration file doesn't exist
     if [ ! -f "$option_config" ]; then
@@ -187,6 +199,44 @@
         additional=$(echo $option_data | python -c $'from __future__ import print_function\nimport sys, json; data=json.loads(sys.stdin.read())\nif data["additional"]: print(data["additional"])')
         category=$(echo $option_data | python -c $'from __future__ import print_function\nimport sys, json; data=json.loads(sys.stdin.read())\nprint(data["category"])')
     fi
+
+
+
+
+    if [[ "$file" == *"com_apple_MobileAsset_DesktopPicture"* ]]; then 
+        if ! [ -f  "$(echo "$file" | tr -d "'")" ]; then
+
+            # WARNING: This routine requires System Integrity Protection (SIP) to be disabled 
+            # in order to write to the '/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/' directory
+
+            printf "'%s' doesn't exist.\n" "$file"
+
+            xml="/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/com_apple_MobileAsset_DesktopPicture.xml"
+            item_count=$(/usr/libexec/PlistBuddy -x -c "Print Assets" "$xml" | grep '<dict>' | wc -l)
+            rootpath="/System/Library/AssetsV2"
+            filename=$(echo "$(basename "$file")" | tr -d "'")
+            desktoppictureid=$(echo ${filename%.*})
+
+            i=0
+            while [ $i -lt $item_count ]; do
+
+                if [[  $(/usr/libexec/PlistBuddy -c "Print Assets:$i:DesktopPictureID" "$xml") == $desktoppictureid ]]; then
+
+                    baseurl=$(/usr/libexec/PlistBuddy -c "Print Assets:$i:__BaseURL" "$xml")
+
+                    relativepath=$(/usr/libexec/PlistBuddy -c "Print Assets:$i:__RelativePath" "$xml")
+
+                    sudo curl -o "$rootpath/$relativepath" -L "$baseurl$relativepath"
+                    sudo unzip -q "$rootpath/$relativepath" -d "$rootpath"/$(echo "${relativepath%.*}".asset)
+                    sudo rm -f "$rootpath/$relativepath"
+
+                fi
+
+                i=$(( $i + 1 ))
+            done
+        fi
+    fi
+
 
 
 
