@@ -9,7 +9,7 @@
                     "name": "Big Sur Dynamic",
                     "value": "0",
                     "key": "20",
-                    "file": "'/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/98b5bd24c8bb188ec6101ea415ec049fdd03de8.asset/AssetData/Big Sur.heic'",
+                    "file": "'/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/98b5bd24c8bb188ec6101ea415ec049fdd03de84.asset/AssetData/Big Sur.heic'",
                     "additional": true,
                     "category": "Dynamic Desktop"
                 },
@@ -18,7 +18,7 @@
                     "name": "Big Sur Light (Still)",
                     "value": "2",
                     "key": "20",
-                    "file": "'/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/98b5bd24c8bb188ec6101ea415ec049fdd03de8.asset/AssetData/Big Sur.heic'",
+                    "file": "'/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/98b5bd24c8bb188ec6101ea415ec049fdd03de84.asset/AssetData/Big Sur.heic'",
                     "additional": true,
                     "category": "Dynamic Desktop"
                 },
@@ -27,7 +27,7 @@
                     "name": "Big Sur Dark (Still)",
                     "value": "3",
                     "key": "20",
-                    "file": "'/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/98b5bd24c8bb188ec6101ea415ec049fdd03de8.asset/AssetData/Big Sur.heic'",
+                    "file": "'/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/98b5bd24c8bb188ec6101ea415ec049fdd03de84.asset/AssetData/Big Sur.heic'",
                     "additional": true,
                     "category": "Dynamic Desktop"
                 },
@@ -63,7 +63,7 @@
                     "name": "The Cliffs Dynamic",
                     "value": "0",
                     "key": "20",
-                    "file": "'/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/3f8e02c0678e834abc820fd1d69d2a4b11a3ae.asset/AssetData/The Cliffs.heic'",
+                    "file": "'/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/3f8e02c0678e834abc820fd1d69d2a4b11a3ae84.asset/AssetData/The Cliffs.heic'",
                     "additional": true,
                     "category": "Dynamic Desktop"
                 },
@@ -72,7 +72,7 @@
                     "name": "The Cliffs Light (Still)",
                     "value": "2",
                     "key": "20",
-                    "file": "'/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/3f8e02c0678e834abc820fd1d69d2a4b11a3ae.asset/AssetData/The Cliffs.heic'",
+                    "file": "'/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/3f8e02c0678e834abc820fd1d69d2a4b11a3ae84.asset/AssetData/The Cliffs.heic'",
                     "additional": true,
                     "category": "Dynamic Desktop"
                 },
@@ -81,7 +81,7 @@
                     "name": "The Cliffs Dark (Still)",
                     "value": "3",
                     "key": "20",
-                    "file": "'/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/3f8e02c0678e834abc820fd1d69d2a4b11a3ae.asset/AssetData/The Cliffs.heic'",
+                    "file": "'/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/3f8e02c0678e834abc820fd1d69d2a4b11a3ae84.asset/AssetData/The Cliffs.heic'",
                     "additional": true,
                     "category": "Dynamic Desktop"
                 },
