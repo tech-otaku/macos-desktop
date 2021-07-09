@@ -342,7 +342,7 @@
                     "name": "Iridescence Automatic",
                     "value": "0",
                     "key": "20",
-                    "file": "'/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/37ac5562f90c0888a9c35ece6def29a53c0ddd55.asset/AssetData/Iridescence.heic''",
+                    "file": "'/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/37ac5562f90c0888a9c35ece6def29a53c0ddd55.asset/AssetData/Iridescence.heic'",
                     "additional": true,
                     "category": "Light and Dark Desktop"
                 },
@@ -351,7 +351,7 @@
                     "name": "Iridescence Light (Still)",
                     "value": "2",
                     "key": "20",
-                    "file": "'/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/37ac5562f90c0888a9c35ece6def29a53c0ddd55.asset/AssetData/Iridescence.heic''",
+                    "file": "'/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/37ac5562f90c0888a9c35ece6def29a53c0ddd55.asset/AssetData/Iridescence.heic'",
                     "additional": true,
                     "category": "Light and Dark Desktop"
                 },
@@ -360,7 +360,7 @@
                     "name": "Iridescence Dark (Still)",
                     "value": "3",
                     "key": "20",
-                    "file": "'/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/37ac5562f90c0888a9c35ece6def29a53c0ddd55.asset/AssetData/Iridescence.heic''",
+                    "file": "'/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/37ac5562f90c0888a9c35ece6def29a53c0ddd55.asset/AssetData/Iridescence.heic'",
                     "additional": true,
                     "category": "Light and Dark Desktop"
                 }
