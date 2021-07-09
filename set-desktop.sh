@@ -8,7 +8,7 @@
 # EXAMPLE: [bash] ./set-desktop.sh desert
 #   See the README for more examples
 
-sudo -v
+
 
 # # # # # # # # # # # # # # # # 
 # FUNCTION DECLARATIONS
@@ -19,12 +19,26 @@ sudo -v
         if [ -f "$HOME/.sqliterc-$timestamp" ]; then
             mv "$HOME/.sqliterc-$timestamp" "$HOME/.sqliterc"
         fi
-
-        sudo -k
     }
 
 # Ensure 'restore_sqliterc' is executed every time the script exits regardless of exit status
     trap restore_sqliterc EXIT
+
+# If the path to an image file contains 'com_apple_MobileAsset_DesktopPicture', check that it exists having previously been downloaded via System Preferences
+    function check_file_downloaded {
+        # The function is passed the value of either the $value variable or $file variable which is received as $1
+        if [[ "$1" == *"com_apple_MobileAsset_DesktopPicture"* ]]; then
+            if ! [ -f  "$(echo "$1" | tr -d "'")" ]; then
+                filename=$(echo "$(basename "$1")" | tr -d "'")     # e.g. Big Sur Shore Rocks.heic
+                printf "ERROR: Please download '%s' via System Preferences first, then re-run this script.\n" "${filename%.*}"  >&2
+                false
+            else
+                true
+            fi
+        else
+            true
+        fi
+    }
 
 
 
@@ -98,12 +112,6 @@ sudo -v
         exit 1
     fi
 
-# Exit with error if OS version is 12 and SIP is enabled (default)
-    if [ $major -eq 12 ] && [[ $(csrutil status) == *"enabled"* ]]; then
-        printf "ERROR: System Integrity Protection (SIP) is enabled.\n"
-        exit 1
-    fi    
-
 # Exit with error if configuration file doesn't exist
     if [ ! -f "$option_config" ]; then
         printf "ERROR: Can't find configuration file '%s'.\n" "$option_config" 
@@ -132,10 +140,12 @@ sudo -v
 
         if [ -z "$option_data" ]; then  # the option that was passed to the script was not found in the configuration file
             re='\.'
-            if [[ $option_arg =~ \. ]]; then    # $option_arg contains a . denoting a filename.ext
+            if [[ "$option_arg" =~ \. ]]; then  # $option_arg contains a '.' denoting a filename.ext
                 if ! [ -f "$option_arg" ]; then #   4. ...the name (and path) of an image file that doesn't exist
-                    printf "ERROR: '%s' doesn't exist.\n" "$option_arg"
-                    exit 1
+                    if [[ "$option_arg" != *"com_apple_MobileAsset_DesktopPicture"* ]]; then    # For now, ignore image file paths containing 'com_apple_MobileAsset_DesktopPicture'. These are checked later in the script.
+                        printf "ERROR: '%s' doesn't exist.\n" "$option_arg"
+                        exit 1
+                    fi
                 fi
             else    #   5. ...an invalid option 
                 printf "ERROR: '%s' is not a valid option.\n" "$option_arg"
@@ -189,6 +199,12 @@ sudo -v
             value="'$option_arg'"
             name="$option_arg"
             key=1
+
+            # If the image file path contains 'com_apple_MobileAsset_DesktopPicture', check it has been downloaded via System Preferences 
+            if ! check_file_downloaded "$value"; then
+                exit 1
+            fi 
+
         fi
     else    # 3. ...a valid option 
         option=$(echo $option_data | python -c $'from __future__ import print_function\nimport sys, json; data=json.loads(sys.stdin.read())\nprint(data["option"])')
@@ -198,45 +214,13 @@ sudo -v
         file=$(echo $option_data | python -c $'from __future__ import print_function\nimport sys, json; data=json.loads(sys.stdin.read())\nif data["file"]: print(data["file"])')
         additional=$(echo $option_data | python -c $'from __future__ import print_function\nimport sys, json; data=json.loads(sys.stdin.read())\nif data["additional"]: print(data["additional"])')
         category=$(echo $option_data | python -c $'from __future__ import print_function\nimport sys, json; data=json.loads(sys.stdin.read())\nprint(data["category"])')
+
+        # If the image file path contains 'com_apple_MobileAsset_DesktopPicture', check it has been downloaded via System Preferences 
+        if ! check_file_downloaded "$file"; then
+            exit 1
+        fi 
+
     fi
-
-
-
-
-    if [[ "$file" == *"com_apple_MobileAsset_DesktopPicture"* ]]; then 
-        if ! [ -f  "$(echo "$file" | tr -d "'")" ]; then
-
-            # WARNING: This routine requires System Integrity Protection (SIP) to be disabled 
-            # in order to write to the '/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/' directory
-
-            printf "'%s' doesn't exist.\n" "$file"
-
-            xml="/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/com_apple_MobileAsset_DesktopPicture.xml"
-            item_count=$(/usr/libexec/PlistBuddy -x -c "Print Assets" "$xml" | grep '<dict>' | wc -l)
-            rootpath="/System/Library/AssetsV2"
-            filename=$(echo "$(basename "$file")" | tr -d "'")
-            desktoppictureid=$(echo ${filename%.*})
-
-            i=0
-            while [ $i -lt $item_count ]; do
-
-                if [[  $(/usr/libexec/PlistBuddy -c "Print Assets:$i:DesktopPictureID" "$xml") == $desktoppictureid ]]; then
-
-                    baseurl=$(/usr/libexec/PlistBuddy -c "Print Assets:$i:__BaseURL" "$xml")
-
-                    relativepath=$(/usr/libexec/PlistBuddy -c "Print Assets:$i:__RelativePath" "$xml")
-
-                    sudo curl -o "$rootpath/$relativepath" -L "$baseurl$relativepath"
-                    sudo unzip -q "$rootpath/$relativepath" -d "$rootpath"/$(echo "${relativepath%.*}".asset)
-                    sudo rm -f "$rootpath/$relativepath"
-
-                fi
-
-                i=$(( $i + 1 ))
-            done
-        fi
-    fi
-
 
 
 
