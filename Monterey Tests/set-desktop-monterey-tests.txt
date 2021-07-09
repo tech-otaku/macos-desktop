@@ -1,0 +1,1478 @@
+Randomly generated on 2021-07-09 at 10:26:58 by ./set-desktop-monterey-tests.sh using Monterey Developer Beta 1 build (21A5248p)
+
+1/100. beach-dark:
+
+--------------------------------------------------------------------------- data ---------------------------------------------------------------------------  --------- preferences ---------
+rowid                                                                                                                                                  value  rowid  key  data_id  picture_id
+-----  -----------------------------------------------------------------------------------------------------------------------------------------------------  -----  ---  -------  ----------
+    1                  /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/b91ec140f7d34cfdd77304c8e72c570ccdf8d814.asset/AssetData/The Beach.heic      1    1        1           3
+    2                                                                                                                                                      3      2   20        2           3
+    1                  /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/b91ec140f7d34cfdd77304c8e72c570ccdf8d814.asset/AssetData/The Beach.heic      3    1        1           4
+    2                                                                                                                                                      3      4   20        2           4
+    1                  /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/b91ec140f7d34cfdd77304c8e72c570ccdf8d814.asset/AssetData/The Beach.heic      5    1        1           2
+    2                                                                                                                                                      3      6   20        2           2
+    1                  /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/b91ec140f7d34cfdd77304c8e72c570ccdf8d814.asset/AssetData/The Beach.heic      7    1        1           1
+    2                                                                                                                                                      3      8   20        2           1
+
+
+
+2/100. dome-dark:
+
+--------------------------------------------------------------------------- data ---------------------------------------------------------------------------  --------- preferences ---------
+rowid                                                                                                                                                  value  rowid  key  data_id  picture_id
+-----  -----------------------------------------------------------------------------------------------------------------------------------------------------  -----  ---  -------  ----------
+    3                       /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/0147cb729255506b6649aae14e8805b248f6f99f.asset/AssetData/Dome.heic      9    1        3           3
+    4                                                                                                                                                      3     10   20        4           3
+    3                       /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/0147cb729255506b6649aae14e8805b248f6f99f.asset/AssetData/Dome.heic     11    1        3           4
+    4                                                                                                                                                      3     12   20        4           4
+    3                       /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/0147cb729255506b6649aae14e8805b248f6f99f.asset/AssetData/Dome.heic     13    1        3           2
+    4                                                                                                                                                      3     14   20        4           2
+    3                       /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/0147cb729255506b6649aae14e8805b248f6f99f.asset/AssetData/Dome.heic     15    1        3           1
+    4                                                                                                                                                      3     16   20        4           1
+
+
+
+3/100. dome:
+
+--------------------------------------------------------------------------- data ---------------------------------------------------------------------------  --------- preferences ---------
+rowid                                                                                                                                                  value  rowid  key  data_id  picture_id
+-----  -----------------------------------------------------------------------------------------------------------------------------------------------------  -----  ---  -------  ----------
+    5                       /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/0147cb729255506b6649aae14e8805b248f6f99f.asset/AssetData/Dome.heic     17    1        5           3
+    6                                                                                                                                                      0     18   20        6           3
+    5                       /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/0147cb729255506b6649aae14e8805b248f6f99f.asset/AssetData/Dome.heic     19    1        5           4
+    6                                                                                                                                                      0     20   20        6           4
+    5                       /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/0147cb729255506b6649aae14e8805b248f6f99f.asset/AssetData/Dome.heic     21    1        5           2
+    6                                                                                                                                                      0     22   20        6           2
+    5                       /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/0147cb729255506b6649aae14e8805b248f6f99f.asset/AssetData/Dome.heic     23    1        5           1
+    6                                                                                                                                                      0     24   20        6           1
+
+
+
+4/100. /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/b783f7498e002b0aa3a2759a5df26f8f428b649d.asset/AssetData/Catalina Coast.heic:
+
+--------------------------------------------------------------------------- data ---------------------------------------------------------------------------  --------- preferences ---------
+rowid                                                                                                                                                  value  rowid  key  data_id  picture_id
+-----  -----------------------------------------------------------------------------------------------------------------------------------------------------  -----  ---  -------  ----------
+    7             /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/b783f7498e002b0aa3a2759a5df26f8f428b649d.asset/AssetData/Catalina Coast.heic     25    1        7           3
+    7             /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/b783f7498e002b0aa3a2759a5df26f8f428b649d.asset/AssetData/Catalina Coast.heic     26    1        7           4
+    7             /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/b783f7498e002b0aa3a2759a5df26f8f428b649d.asset/AssetData/Catalina Coast.heic     27    1        7           2
+    7             /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/b783f7498e002b0aa3a2759a5df26f8f428b649d.asset/AssetData/Catalina Coast.heic     28    1        7           1
+
+
+
+5/100. lake-light:
+
+--------------------------------------------------------------------------- data ---------------------------------------------------------------------------  --------- preferences ---------
+rowid                                                                                                                                                  value  rowid  key  data_id  picture_id
+-----  -----------------------------------------------------------------------------------------------------------------------------------------------------  -----  ---  -------  ----------
+    8                   /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/f1bdab95fdb69bf6278bf963cbc182dc052d9792.asset/AssetData/The Lake.heic     29    1        8           3
+    9                                                                                                                                                      2     30   20        9           3
+    8                   /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/f1bdab95fdb69bf6278bf963cbc182dc052d9792.asset/AssetData/The Lake.heic     31    1        8           4
+    9                                                                                                                                                      2     32   20        9           4
+    8                   /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/f1bdab95fdb69bf6278bf963cbc182dc052d9792.asset/AssetData/The Lake.heic     33    1        8           2
+    9                                                                                                                                                      2     34   20        9           2
+    8                   /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/f1bdab95fdb69bf6278bf963cbc182dc052d9792.asset/AssetData/The Lake.heic     35    1        8           1
+    9                                                                                                                                                      2     36   20        9           1
+
+
+
+6/100. big-sur-graphic-light:
+
+--------------------------------------------------------------------------- data ---------------------------------------------------------------------------  --------- preferences ---------
+rowid                                                                                                                                                  value  rowid  key  data_id  picture_id
+-----  -----------------------------------------------------------------------------------------------------------------------------------------------------  -----  ---  -------  ----------
+   10                                                                                                  /System/Library/Desktop Pictures/Big Sur Graphic.heic     37    1       10           3
+   11                                                                                                                                                      2     38   20       11           3
+   10                                                                                                  /System/Library/Desktop Pictures/Big Sur Graphic.heic     39    1       10           4
+   11                                                                                                                                                      2     40   20       11           4
+   10                                                                                                  /System/Library/Desktop Pictures/Big Sur Graphic.heic     41    1       10           2
+   11                                                                                                                                                      2     42   20       11           2
+   10                                                                                                  /System/Library/Desktop Pictures/Big Sur Graphic.heic     43    1       10           1
+   11                                                                                                                                                      2     44   20       11           1
+
+
+
+7/100. beach:
+
+--------------------------------------------------------------------------- data ---------------------------------------------------------------------------  --------- preferences ---------
+rowid                                                                                                                                                  value  rowid  key  data_id  picture_id
+-----  -----------------------------------------------------------------------------------------------------------------------------------------------------  -----  ---  -------  ----------
+   12                  /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/b91ec140f7d34cfdd77304c8e72c570ccdf8d814.asset/AssetData/The Beach.heic     45    1       12           3
+   13                                                                                                                                                      0     46   20       13           3
+   12                  /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/b91ec140f7d34cfdd77304c8e72c570ccdf8d814.asset/AssetData/The Beach.heic     47    1       12           4
+   13                                                                                                                                                      0     48   20       13           4
+   12                  /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/b91ec140f7d34cfdd77304c8e72c570ccdf8d814.asset/AssetData/The Beach.heic     49    1       12           2
+   13                                                                                                                                                      0     50   20       13           2
+   12                  /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/b91ec140f7d34cfdd77304c8e72c570ccdf8d814.asset/AssetData/The Beach.heic     51    1       12           1
+   13                                                                                                                                                      0     52   20       13           1
+
+
+
+8/100. tree:
+
+--------------------------------------------------------------------------- data ---------------------------------------------------------------------------  --------- preferences ---------
+rowid                                                                                                                                                  value  rowid  key  data_id  picture_id
+-----  -----------------------------------------------------------------------------------------------------------------------------------------------------  -----  ---  -------  ----------
+   14                       /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/5e8a9e5a102140a4dc5e651e04567d3d7cefd52a.asset/AssetData/Tree.heic     53    1       14           3
+   15                                                                                                                                                      0     54   20       15           3
+   14                       /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/5e8a9e5a102140a4dc5e651e04567d3d7cefd52a.asset/AssetData/Tree.heic     55    1       14           4
+   15                                                                                                                                                      0     56   20       15           4
+   14                       /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/5e8a9e5a102140a4dc5e651e04567d3d7cefd52a.asset/AssetData/Tree.heic     57    1       14           2
+   15                                                                                                                                                      0     58   20       15           2
+   14                       /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/5e8a9e5a102140a4dc5e651e04567d3d7cefd52a.asset/AssetData/Tree.heic     59    1       14           1
+   15                                                                                                                                                      0     60   20       15           1
+
+
+
+9/100. catalina:
+
+--------------------------------------------------------------------------- data ---------------------------------------------------------------------------  --------- preferences ---------
+rowid                                                                                                                                                  value  rowid  key  data_id  picture_id
+-----  -----------------------------------------------------------------------------------------------------------------------------------------------------  -----  ---  -------  ----------
+   16                   /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/28e590448a1795ffd7d8ae9c9f826ceedd9696a2.asset/AssetData/Catalina.heic     61    1       16           3
+   17                                                                                                                                                      0     62   20       17           3
+   16                   /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/28e590448a1795ffd7d8ae9c9f826ceedd9696a2.asset/AssetData/Catalina.heic     63    1       16           4
+   17                                                                                                                                                      0     64   20       17           4
+   16                   /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/28e590448a1795ffd7d8ae9c9f826ceedd9696a2.asset/AssetData/Catalina.heic     65    1       16           2
+   17                                                                                                                                                      0     66   20       17           2
+   16                   /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/28e590448a1795ffd7d8ae9c9f826ceedd9696a2.asset/AssetData/Catalina.heic     67    1       16           1
+   17                                                                                                                                                      0     68   20       17           1
+
+
+
+10/100. iridescence:
+
+--------------------------------------------------------------------------- data ---------------------------------------------------------------------------  --------- preferences ---------
+rowid                                                                                                                                                  value  rowid  key  data_id  picture_id
+-----  -----------------------------------------------------------------------------------------------------------------------------------------------------  -----  ---  -------  ----------
+   18                /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/37ac5562f90c0888a9c35ece6def29a53c0ddd55.asset/AssetData/Iridescence.heic     69    1       18           3
+   19                                                                                                                                                      0     70   20       19           3
+   18                /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/37ac5562f90c0888a9c35ece6def29a53c0ddd55.asset/AssetData/Iridescence.heic     71    1       18           4
+   19                                                                                                                                                      0     72   20       19           4
+   18                /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/37ac5562f90c0888a9c35ece6def29a53c0ddd55.asset/AssetData/Iridescence.heic     73    1       18           2
+   19                                                                                                                                                      0     74   20       19           2
+   18                /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/37ac5562f90c0888a9c35ece6def29a53c0ddd55.asset/AssetData/Iridescence.heic     75    1       18           1
+   19                                                                                                                                                      0     76   20       19           1
+
+
+
+11/100. desert-dark:
+
+--------------------------------------------------------------------------- data ---------------------------------------------------------------------------  --------- preferences ---------
+rowid                                                                                                                                                  value  rowid  key  data_id  picture_id
+-----  -----------------------------------------------------------------------------------------------------------------------------------------------------  -----  ---  -------  ----------
+   20                 /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/df1a67fbca0d20c34f9ed7d3508d549faa9ae25b.asset/AssetData/The Desert.heic     77    1       20           3
+   21                                                                                                                                                      3     78   20       21           3
+   20                 /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/df1a67fbca0d20c34f9ed7d3508d549faa9ae25b.asset/AssetData/The Desert.heic     79    1       20           4
+   21                                                                                                                                                      3     80   20       21           4
+   20                 /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/df1a67fbca0d20c34f9ed7d3508d549faa9ae25b.asset/AssetData/The Desert.heic     81    1       20           2
+   21                                                                                                                                                      3     82   20       21           2
+   20                 /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/df1a67fbca0d20c34f9ed7d3508d549faa9ae25b.asset/AssetData/The Desert.heic     83    1       20           1
+   21                                                                                                                                                      3     84   20       21           1
+
+
+
+12/100. big-sur-graphic-light:
+
+--------------------------------------------------------------------------- data ---------------------------------------------------------------------------  --------- preferences ---------
+rowid                                                                                                                                                  value  rowid  key  data_id  picture_id
+-----  -----------------------------------------------------------------------------------------------------------------------------------------------------  -----  ---  -------  ----------
+   22                                                                                                  /System/Library/Desktop Pictures/Big Sur Graphic.heic     85    1       22           3
+   23                                                                                                                                                      2     86   20       23           3
+   22                                                                                                  /System/Library/Desktop Pictures/Big Sur Graphic.heic     87    1       22           4
+   23                                                                                                                                                      2     88   20       23           4
+   22                                                                                                  /System/Library/Desktop Pictures/Big Sur Graphic.heic     89    1       22           2
+   23                                                                                                                                                      2     90   20       23           2
+   22                                                                                                  /System/Library/Desktop Pictures/Big Sur Graphic.heic     91    1       22           1
+   23                                                                                                                                                      2     92   20       23           1
+
+
+
+13/100. iridescence-dark:
+
+--------------------------------------------------------------------------- data ---------------------------------------------------------------------------  --------- preferences ---------
+rowid                                                                                                                                                  value  rowid  key  data_id  picture_id
+-----  -----------------------------------------------------------------------------------------------------------------------------------------------------  -----  ---  -------  ----------
+   24                /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/37ac5562f90c0888a9c35ece6def29a53c0ddd55.asset/AssetData/Iridescence.heic     93    1       24           3
+   25                                                                                                                                                      3     94   20       25           3
+   24                /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/37ac5562f90c0888a9c35ece6def29a53c0ddd55.asset/AssetData/Iridescence.heic     95    1       24           4
+   25                                                                                                                                                      3     96   20       25           4
+   24                /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/37ac5562f90c0888a9c35ece6def29a53c0ddd55.asset/AssetData/Iridescence.heic     97    1       24           2
+   25                                                                                                                                                      3     98   20       25           2
+   24                /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/37ac5562f90c0888a9c35ece6def29a53c0ddd55.asset/AssetData/Iridescence.heic     99    1       24           1
+   25                                                                                                                                                      3    100   20       25           1
+
+
+
+14/100. /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/1479b2d222bc2ebe51fc4d73b06e4fa8c1ce0e5c.asset/AssetData/Catalina Evening.heic:
+
+--------------------------------------------------------------------------- data ---------------------------------------------------------------------------  --------- preferences ---------
+rowid                                                                                                                                                  value  rowid  key  data_id  picture_id
+-----  -----------------------------------------------------------------------------------------------------------------------------------------------------  -----  ---  -------  ----------
+   26           /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/1479b2d222bc2ebe51fc4d73b06e4fa8c1ce0e5c.asset/AssetData/Catalina Evening.heic    101    1       26           3
+   26           /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/1479b2d222bc2ebe51fc4d73b06e4fa8c1ce0e5c.asset/AssetData/Catalina Evening.heic    102    1       26           4
+   26           /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/1479b2d222bc2ebe51fc4d73b06e4fa8c1ce0e5c.asset/AssetData/Catalina Evening.heic    103    1       26           2
+   26           /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/1479b2d222bc2ebe51fc4d73b06e4fa8c1ce0e5c.asset/AssetData/Catalina Evening.heic    104    1       26           1
+
+
+
+15/100. lake-dark:
+
+--------------------------------------------------------------------------- data ---------------------------------------------------------------------------  --------- preferences ---------
+rowid                                                                                                                                                  value  rowid  key  data_id  picture_id
+-----  -----------------------------------------------------------------------------------------------------------------------------------------------------  -----  ---  -------  ----------
+   27                   /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/f1bdab95fdb69bf6278bf963cbc182dc052d9792.asset/AssetData/The Lake.heic    105    1       27           3
+   28                                                                                                                                                      3    106   20       28           3
+   27                   /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/f1bdab95fdb69bf6278bf963cbc182dc052d9792.asset/AssetData/The Lake.heic    107    1       27           4
+   28                                                                                                                                                      3    108   20       28           4
+   27                   /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/f1bdab95fdb69bf6278bf963cbc182dc052d9792.asset/AssetData/The Lake.heic    109    1       27           2
+   28                                                                                                                                                      3    110   20       28           2
+   27                   /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/f1bdab95fdb69bf6278bf963cbc182dc052d9792.asset/AssetData/The Lake.heic    111    1       27           1
+   28                                                                                                                                                      3    112   20       28           1
+
+
+
+16/100. tree-dark:
+
+--------------------------------------------------------------------------- data ---------------------------------------------------------------------------  --------- preferences ---------
+rowid                                                                                                                                                  value  rowid  key  data_id  picture_id
+-----  -----------------------------------------------------------------------------------------------------------------------------------------------------  -----  ---  -------  ----------
+   29                       /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/5e8a9e5a102140a4dc5e651e04567d3d7cefd52a.asset/AssetData/Tree.heic    113    1       29           3
+   30                                                                                                                                                      3    114   20       30           3
+   29                       /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/5e8a9e5a102140a4dc5e651e04567d3d7cefd52a.asset/AssetData/Tree.heic    115    1       29           4
+   30                                                                                                                                                      3    116   20       30           4
+   29                       /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/5e8a9e5a102140a4dc5e651e04567d3d7cefd52a.asset/AssetData/Tree.heic    117    1       29           2
+   30                                                                                                                                                      3    118   20       30           2
+   29                       /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/5e8a9e5a102140a4dc5e651e04567d3d7cefd52a.asset/AssetData/Tree.heic    119    1       29           1
+   30                                                                                                                                                      3    120   20       30           1
+
+
+
+17/100. /System/Library/Desktop Pictures/Solid Colors/Blue Violet.png:
+
+--------------------------------------------------------------------------- data ---------------------------------------------------------------------------  --------- preferences ---------
+rowid                                                                                                                                                  value  rowid  key  data_id  picture_id
+-----  -----------------------------------------------------------------------------------------------------------------------------------------------------  -----  ---  -------  ----------
+   31                                                                                          /System/Library/Desktop Pictures/Solid Colors/Blue Violet.png    121    1       31           3
+   31                                                                                          /System/Library/Desktop Pictures/Solid Colors/Blue Violet.png    122    1       31           4
+   31                                                                                          /System/Library/Desktop Pictures/Solid Colors/Blue Violet.png    123    1       31           2
+   31                                                                                          /System/Library/Desktop Pictures/Solid Colors/Blue Violet.png    124    1       31           1
+
+
+
+18/100. big-sur-graphic:
+
+--------------------------------------------------------------------------- data ---------------------------------------------------------------------------  --------- preferences ---------
+rowid                                                                                                                                                  value  rowid  key  data_id  picture_id
+-----  -----------------------------------------------------------------------------------------------------------------------------------------------------  -----  ---  -------  ----------
+   32                                                                                                  /System/Library/Desktop Pictures/Big Sur Graphic.heic    125    1       32           3
+   33                                                                                                                                                      0    126   20       33           3
+   32                                                                                                  /System/Library/Desktop Pictures/Big Sur Graphic.heic    127    1       32           4
+   33                                                                                                                                                      0    128   20       33           4
+   32                                                                                                  /System/Library/Desktop Pictures/Big Sur Graphic.heic    129    1       32           2
+   33                                                                                                                                                      0    130   20       33           2
+   32                                                                                                  /System/Library/Desktop Pictures/Big Sur Graphic.heic    131    1       32           1
+   33                                                                                                                                                      0    132   20       33           1
+
+
+
+19/100. /System/Library/Desktop Pictures/hello Orange.heic:
+
+--------------------------------------------------------------------------- data ---------------------------------------------------------------------------  --------- preferences ---------
+rowid                                                                                                                                                  value  rowid  key  data_id  picture_id
+-----  -----------------------------------------------------------------------------------------------------------------------------------------------------  -----  ---  -------  ----------
+   34                                                                                                     /System/Library/Desktop Pictures/hello Orange.heic    133    1       34           3
+   34                                                                                                     /System/Library/Desktop Pictures/hello Orange.heic    134    1       34           4
+   34                                                                                                     /System/Library/Desktop Pictures/hello Orange.heic    135    1       34           2
+   34                                                                                                     /System/Library/Desktop Pictures/hello Orange.heic    136    1       34           1
+
+
+
+20/100. big-sur-graphic:
+
+--------------------------------------------------------------------------- data ---------------------------------------------------------------------------  --------- preferences ---------
+rowid                                                                                                                                                  value  rowid  key  data_id  picture_id
+-----  -----------------------------------------------------------------------------------------------------------------------------------------------------  -----  ---  -------  ----------
+   35                                                                                                  /System/Library/Desktop Pictures/Big Sur Graphic.heic    137    1       35           3
+   36                                                                                                                                                      0    138   20       36           3
+   35                                                                                                  /System/Library/Desktop Pictures/Big Sur Graphic.heic    139    1       35           4
+   36                                                                                                                                                      0    140   20       36           4
+   35                                                                                                  /System/Library/Desktop Pictures/Big Sur Graphic.heic    141    1       35           2
+   36                                                                                                                                                      0    142   20       36           2
+   35                                                                                                  /System/Library/Desktop Pictures/Big Sur Graphic.heic    143    1       35           1
+   36                                                                                                                                                      0    144   20       36           1
+
+
+
+21/100. valley:
+
+--------------------------------------------------------------------------- data ---------------------------------------------------------------------------  --------- preferences ---------
+rowid                                                                                                                                                  value  rowid  key  data_id  picture_id
+-----  -----------------------------------------------------------------------------------------------------------------------------------------------------  -----  ---  -------  ----------
+   37                     /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/b520a8b613c92fd7693d4343aedf17c52f6f9eda.asset/AssetData/Valley.heic    145    1       37           3
+   38                                                                                                                                                      0    146   20       38           3
+   37                     /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/b520a8b613c92fd7693d4343aedf17c52f6f9eda.asset/AssetData/Valley.heic    147    1       37           4
+   38                                                                                                                                                      0    148   20       38           4
+   37                     /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/b520a8b613c92fd7693d4343aedf17c52f6f9eda.asset/AssetData/Valley.heic    149    1       37           2
+   38                                                                                                                                                      0    150   20       38           2
+   37                     /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/b520a8b613c92fd7693d4343aedf17c52f6f9eda.asset/AssetData/Valley.heic    151    1       37           1
+   38                                                                                                                                                      0    152   20       38           1
+
+
+
+22/100. tree-light:
+
+--------------------------------------------------------------------------- data ---------------------------------------------------------------------------  --------- preferences ---------
+rowid                                                                                                                                                  value  rowid  key  data_id  picture_id
+-----  -----------------------------------------------------------------------------------------------------------------------------------------------------  -----  ---  -------  ----------
+   39                       /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/5e8a9e5a102140a4dc5e651e04567d3d7cefd52a.asset/AssetData/Tree.heic    153    1       39           3
+   40                                                                                                                                                      2    154   20       40           3
+   39                       /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/5e8a9e5a102140a4dc5e651e04567d3d7cefd52a.asset/AssetData/Tree.heic    155    1       39           4
+   40                                                                                                                                                      2    156   20       40           4
+   39                       /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/5e8a9e5a102140a4dc5e651e04567d3d7cefd52a.asset/AssetData/Tree.heic    157    1       39           2
+   40                                                                                                                                                      2    158   20       40           2
+   39                       /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/5e8a9e5a102140a4dc5e651e04567d3d7cefd52a.asset/AssetData/Tree.heic    159    1       39           1
+   40                                                                                                                                                      2    160   20       40           1
+
+
+
+23/100. default:
+
+--------------------------------------------------------------------------- data ---------------------------------------------------------------------------  --------- preferences ---------
+
+
+
+24/100. tree:
+
+--------------------------------------------------------------------------- data ---------------------------------------------------------------------------  --------- preferences ---------
+rowid                                                                                                                                                  value  rowid  key  data_id  picture_id
+-----  -----------------------------------------------------------------------------------------------------------------------------------------------------  -----  ---  -------  ----------
+    1                       /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/5e8a9e5a102140a4dc5e651e04567d3d7cefd52a.asset/AssetData/Tree.heic      1    1        1           3
+    2                                                                                                                                                      0      2   20        2           3
+    1                       /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/5e8a9e5a102140a4dc5e651e04567d3d7cefd52a.asset/AssetData/Tree.heic      3    1        1           4
+    2                                                                                                                                                      0      4   20        2           4
+    1                       /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/5e8a9e5a102140a4dc5e651e04567d3d7cefd52a.asset/AssetData/Tree.heic      5    1        1           2
+    2                                                                                                                                                      0      6   20        2           2
+    1                       /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/5e8a9e5a102140a4dc5e651e04567d3d7cefd52a.asset/AssetData/Tree.heic      7    1        1           1
+    2                                                                                                                                                      0      8   20        2           1
+
+
+
+25/100. /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/f72f29b3fd3625a6b61bc672d35a32f464640a64.asset/AssetData/Catalina Clouds.heic:
+
+--------------------------------------------------------------------------- data ---------------------------------------------------------------------------  --------- preferences ---------
+rowid                                                                                                                                                  value  rowid  key  data_id  picture_id
+-----  -----------------------------------------------------------------------------------------------------------------------------------------------------  -----  ---  -------  ----------
+    3            /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/f72f29b3fd3625a6b61bc672d35a32f464640a64.asset/AssetData/Catalina Clouds.heic      9    1        3           3
+    3            /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/f72f29b3fd3625a6b61bc672d35a32f464640a64.asset/AssetData/Catalina Clouds.heic     10    1        3           4
+    3            /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/f72f29b3fd3625a6b61bc672d35a32f464640a64.asset/AssetData/Catalina Clouds.heic     11    1        3           2
+    3            /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/f72f29b3fd3625a6b61bc672d35a32f464640a64.asset/AssetData/Catalina Clouds.heic     12    1        3           1
+
+
+
+26/100. default:
+
+--------------------------------------------------------------------------- data ---------------------------------------------------------------------------  --------- preferences ---------
+
+
+
+27/100. desert:
+
+--------------------------------------------------------------------------- data ---------------------------------------------------------------------------  --------- preferences ---------
+rowid                                                                                                                                                  value  rowid  key  data_id  picture_id
+-----  -----------------------------------------------------------------------------------------------------------------------------------------------------  -----  ---  -------  ----------
+    1                 /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/df1a67fbca0d20c34f9ed7d3508d549faa9ae25b.asset/AssetData/The Desert.heic      1    1        1           3
+    2                                                                                                                                                      0      2   20        2           3
+    1                 /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/df1a67fbca0d20c34f9ed7d3508d549faa9ae25b.asset/AssetData/The Desert.heic      3    1        1           4
+    2                                                                                                                                                      0      4   20        2           4
+    1                 /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/df1a67fbca0d20c34f9ed7d3508d549faa9ae25b.asset/AssetData/The Desert.heic      5    1        1           2
+    2                                                                                                                                                      0      6   20        2           2
+    1                 /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/df1a67fbca0d20c34f9ed7d3508d549faa9ae25b.asset/AssetData/The Desert.heic      7    1        1           1
+    2                                                                                                                                                      0      8   20        2           1
+
+
+
+28/100. tree:
+
+--------------------------------------------------------------------------- data ---------------------------------------------------------------------------  --------- preferences ---------
+rowid                                                                                                                                                  value  rowid  key  data_id  picture_id
+-----  -----------------------------------------------------------------------------------------------------------------------------------------------------  -----  ---  -------  ----------
+    3                       /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/5e8a9e5a102140a4dc5e651e04567d3d7cefd52a.asset/AssetData/Tree.heic      9    1        3           3
+    4                                                                                                                                                      0     10   20        4           3
+    3                       /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/5e8a9e5a102140a4dc5e651e04567d3d7cefd52a.asset/AssetData/Tree.heic     11    1        3           4
+    4                                                                                                                                                      0     12   20        4           4
+    3                       /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/5e8a9e5a102140a4dc5e651e04567d3d7cefd52a.asset/AssetData/Tree.heic     13    1        3           2
+    4                                                                                                                                                      0     14   20        4           2
+    3                       /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/5e8a9e5a102140a4dc5e651e04567d3d7cefd52a.asset/AssetData/Tree.heic     15    1        3           1
+    4                                                                                                                                                      0     16   20        4           1
+
+
+
+29/100. dome-light:
+
+--------------------------------------------------------------------------- data ---------------------------------------------------------------------------  --------- preferences ---------
+rowid                                                                                                                                                  value  rowid  key  data_id  picture_id
+-----  -----------------------------------------------------------------------------------------------------------------------------------------------------  -----  ---  -------  ----------
+    5                       /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/0147cb729255506b6649aae14e8805b248f6f99f.asset/AssetData/Dome.heic     17    1        5           3
+    6                                                                                                                                                      2     18   20        6           3
+    5                       /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/0147cb729255506b6649aae14e8805b248f6f99f.asset/AssetData/Dome.heic     19    1        5           4
+    6                                                                                                                                                      2     20   20        6           4
+    5                       /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/0147cb729255506b6649aae14e8805b248f6f99f.asset/AssetData/Dome.heic     21    1        5           2
+    6                                                                                                                                                      2     22   20        6           2
+    5                       /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/0147cb729255506b6649aae14e8805b248f6f99f.asset/AssetData/Dome.heic     23    1        5           1
+    6                                                                                                                                                      2     24   20        6           1
+
+
+
+30/100. valley:
+
+--------------------------------------------------------------------------- data ---------------------------------------------------------------------------  --------- preferences ---------
+rowid                                                                                                                                                  value  rowid  key  data_id  picture_id
+-----  -----------------------------------------------------------------------------------------------------------------------------------------------------  -----  ---  -------  ----------
+    7                     /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/b520a8b613c92fd7693d4343aedf17c52f6f9eda.asset/AssetData/Valley.heic     25    1        7           3
+    8                                                                                                                                                      0     26   20        8           3
+    7                     /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/b520a8b613c92fd7693d4343aedf17c52f6f9eda.asset/AssetData/Valley.heic     27    1        7           4
+    8                                                                                                                                                      0     28   20        8           4
+    7                     /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/b520a8b613c92fd7693d4343aedf17c52f6f9eda.asset/AssetData/Valley.heic     29    1        7           2
+    8                                                                                                                                                      0     30   20        8           2
+    7                     /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/b520a8b613c92fd7693d4343aedf17c52f6f9eda.asset/AssetData/Valley.heic     31    1        7           1
+    8                                                                                                                                                      0     32   20        8           1
+
+
+
+31/100. /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/0ffac9759762068a7ab8dfb650a1a19ef7093b46.asset/AssetData/Big Sur Night Succulents.heic:
+
+--------------------------------------------------------------------------- data ---------------------------------------------------------------------------  --------- preferences ---------
+rowid                                                                                                                                                  value  rowid  key  data_id  picture_id
+-----  -----------------------------------------------------------------------------------------------------------------------------------------------------  -----  ---  -------  ----------
+    9   /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/0ffac9759762068a7ab8dfb650a1a19ef7093b46.asset/AssetData/Big Sur Night Succulents.heic     33    1        9           3
+    9   /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/0ffac9759762068a7ab8dfb650a1a19ef7093b46.asset/AssetData/Big Sur Night Succulents.heic     34    1        9           4
+    9   /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/0ffac9759762068a7ab8dfb650a1a19ef7093b46.asset/AssetData/Big Sur Night Succulents.heic     35    1        9           2
+    9   /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/0ffac9759762068a7ab8dfb650a1a19ef7093b46.asset/AssetData/Big Sur Night Succulents.heic     36    1        9           1
+
+
+
+32/100. /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/1a56f27cffc35c1c0d6332e586ee48d68aaaebd9.asset/AssetData/Catalina Rock.heic:
+
+--------------------------------------------------------------------------- data ---------------------------------------------------------------------------  --------- preferences ---------
+rowid                                                                                                                                                  value  rowid  key  data_id  picture_id
+-----  -----------------------------------------------------------------------------------------------------------------------------------------------------  -----  ---  -------  ----------
+   10              /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/1a56f27cffc35c1c0d6332e586ee48d68aaaebd9.asset/AssetData/Catalina Rock.heic     37    1       10           3
+   10              /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/1a56f27cffc35c1c0d6332e586ee48d68aaaebd9.asset/AssetData/Catalina Rock.heic     38    1       10           4
+   10              /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/1a56f27cffc35c1c0d6332e586ee48d68aaaebd9.asset/AssetData/Catalina Rock.heic     39    1       10           2
+   10              /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/1a56f27cffc35c1c0d6332e586ee48d68aaaebd9.asset/AssetData/Catalina Rock.heic     40    1       10           1
+
+
+
+33/100. /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/c8db91583c4eeffd413c3069f021f95df64d0e4e.asset/AssetData/Catalina Sunset.heic:
+
+--------------------------------------------------------------------------- data ---------------------------------------------------------------------------  --------- preferences ---------
+rowid                                                                                                                                                  value  rowid  key  data_id  picture_id
+-----  -----------------------------------------------------------------------------------------------------------------------------------------------------  -----  ---  -------  ----------
+   11            /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/c8db91583c4eeffd413c3069f021f95df64d0e4e.asset/AssetData/Catalina Sunset.heic     41    1       11           3
+   11            /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/c8db91583c4eeffd413c3069f021f95df64d0e4e.asset/AssetData/Catalina Sunset.heic     42    1       11           4
+   11            /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/c8db91583c4eeffd413c3069f021f95df64d0e4e.asset/AssetData/Catalina Sunset.heic     43    1       11           2
+   11            /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/c8db91583c4eeffd413c3069f021f95df64d0e4e.asset/AssetData/Catalina Sunset.heic     44    1       11           1
+
+
+
+34/100. tree-light:
+
+--------------------------------------------------------------------------- data ---------------------------------------------------------------------------  --------- preferences ---------
+rowid                                                                                                                                                  value  rowid  key  data_id  picture_id
+-----  -----------------------------------------------------------------------------------------------------------------------------------------------------  -----  ---  -------  ----------
+   12                       /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/5e8a9e5a102140a4dc5e651e04567d3d7cefd52a.asset/AssetData/Tree.heic     45    1       12           3
+   13                                                                                                                                                      2     46   20       13           3
+   12                       /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/5e8a9e5a102140a4dc5e651e04567d3d7cefd52a.asset/AssetData/Tree.heic     47    1       12           4
+   13                                                                                                                                                      2     48   20       13           4
+   12                       /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/5e8a9e5a102140a4dc5e651e04567d3d7cefd52a.asset/AssetData/Tree.heic     49    1       12           2
+   13                                                                                                                                                      2     50   20       13           2
+   12                       /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/5e8a9e5a102140a4dc5e651e04567d3d7cefd52a.asset/AssetData/Tree.heic     51    1       12           1
+   13                                                                                                                                                      2     52   20       13           1
+
+
+
+35/100. /System/Library/Desktop Pictures/Solid Colors/Teal.png:
+
+--------------------------------------------------------------------------- data ---------------------------------------------------------------------------  --------- preferences ---------
+rowid                                                                                                                                                  value  rowid  key  data_id  picture_id
+-----  -----------------------------------------------------------------------------------------------------------------------------------------------------  -----  ---  -------  ----------
+   14                                                                                                 /System/Library/Desktop Pictures/Solid Colors/Teal.png     53    1       14           3
+   14                                                                                                 /System/Library/Desktop Pictures/Solid Colors/Teal.png     54    1       14           4
+   14                                                                                                 /System/Library/Desktop Pictures/Solid Colors/Teal.png     55    1       14           2
+   14                                                                                                 /System/Library/Desktop Pictures/Solid Colors/Teal.png     56    1       14           1
+
+
+
+36/100. lake-light:
+
+--------------------------------------------------------------------------- data ---------------------------------------------------------------------------  --------- preferences ---------
+rowid                                                                                                                                                  value  rowid  key  data_id  picture_id
+-----  -----------------------------------------------------------------------------------------------------------------------------------------------------  -----  ---  -------  ----------
+   15                   /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/f1bdab95fdb69bf6278bf963cbc182dc052d9792.asset/AssetData/The Lake.heic     57    1       15           3
+   16                                                                                                                                                      2     58   20       16           3
+   15                   /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/f1bdab95fdb69bf6278bf963cbc182dc052d9792.asset/AssetData/The Lake.heic     59    1       15           4
+   16                                                                                                                                                      2     60   20       16           4
+   15                   /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/f1bdab95fdb69bf6278bf963cbc182dc052d9792.asset/AssetData/The Lake.heic     61    1       15           2
+   16                                                                                                                                                      2     62   20       16           2
+   15                   /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/f1bdab95fdb69bf6278bf963cbc182dc052d9792.asset/AssetData/The Lake.heic     63    1       15           1
+   16                                                                                                                                                      2     64   20       16           1
+
+
+
+37/100. dome:
+
+--------------------------------------------------------------------------- data ---------------------------------------------------------------------------  --------- preferences ---------
+rowid                                                                                                                                                  value  rowid  key  data_id  picture_id
+-----  -----------------------------------------------------------------------------------------------------------------------------------------------------  -----  ---  -------  ----------
+   17                       /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/0147cb729255506b6649aae14e8805b248f6f99f.asset/AssetData/Dome.heic     65    1       17           3
+   18                                                                                                                                                      0     66   20       18           3
+   17                       /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/0147cb729255506b6649aae14e8805b248f6f99f.asset/AssetData/Dome.heic     67    1       17           4
+   18                                                                                                                                                      0     68   20       18           4
+   17                       /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/0147cb729255506b6649aae14e8805b248f6f99f.asset/AssetData/Dome.heic     69    1       17           2
+   18                                                                                                                                                      0     70   20       18           2
+   17                       /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/0147cb729255506b6649aae14e8805b248f6f99f.asset/AssetData/Dome.heic     71    1       17           1
+   18                                                                                                                                                      0     72   20       18           1
+
+
+
+38/100. /System/Library/Desktop Pictures/hello Yellow.heic:
+
+--------------------------------------------------------------------------- data ---------------------------------------------------------------------------  --------- preferences ---------
+rowid                                                                                                                                                  value  rowid  key  data_id  picture_id
+-----  -----------------------------------------------------------------------------------------------------------------------------------------------------  -----  ---  -------  ----------
+   19                                                                                                     /System/Library/Desktop Pictures/hello Yellow.heic     73    1       19           3
+   19                                                                                                     /System/Library/Desktop Pictures/hello Yellow.heic     74    1       19           4
+   19                                                                                                     /System/Library/Desktop Pictures/hello Yellow.heic     75    1       19           2
+   19                                                                                                     /System/Library/Desktop Pictures/hello Yellow.heic     76    1       19           1
+
+
+
+39/100. desert-light:
+
+--------------------------------------------------------------------------- data ---------------------------------------------------------------------------  --------- preferences ---------
+rowid                                                                                                                                                  value  rowid  key  data_id  picture_id
+-----  -----------------------------------------------------------------------------------------------------------------------------------------------------  -----  ---  -------  ----------
+   20                 /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/df1a67fbca0d20c34f9ed7d3508d549faa9ae25b.asset/AssetData/The Desert.heic     77    1       20           3
+   21                                                                                                                                                      2     78   20       21           3
+   20                 /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/df1a67fbca0d20c34f9ed7d3508d549faa9ae25b.asset/AssetData/The Desert.heic     79    1       20           4
+   21                                                                                                                                                      2     80   20       21           4
+   20                 /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/df1a67fbca0d20c34f9ed7d3508d549faa9ae25b.asset/AssetData/The Desert.heic     81    1       20           2
+   21                                                                                                                                                      2     82   20       21           2
+   20                 /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/df1a67fbca0d20c34f9ed7d3508d549faa9ae25b.asset/AssetData/The Desert.heic     83    1       20           1
+   21                                                                                                                                                      2     84   20       21           1
+
+
+
+40/100. /System/Library/Desktop Pictures/Solid Colors/Gold.png:
+
+--------------------------------------------------------------------------- data ---------------------------------------------------------------------------  --------- preferences ---------
+rowid                                                                                                                                                  value  rowid  key  data_id  picture_id
+-----  -----------------------------------------------------------------------------------------------------------------------------------------------------  -----  ---  -------  ----------
+   22                                                                                                 /System/Library/Desktop Pictures/Solid Colors/Gold.png     85    1       22           3
+   22                                                                                                 /System/Library/Desktop Pictures/Solid Colors/Gold.png     86    1       22           4
+   22                                                                                                 /System/Library/Desktop Pictures/Solid Colors/Gold.png     87    1       22           2
+   22                                                                                                 /System/Library/Desktop Pictures/Solid Colors/Gold.png     88    1       22           1
+
+
+
+41/100. /System/Library/Desktop Pictures/hello Green.heic:
+
+--------------------------------------------------------------------------- data ---------------------------------------------------------------------------  --------- preferences ---------
+rowid                                                                                                                                                  value  rowid  key  data_id  picture_id
+-----  -----------------------------------------------------------------------------------------------------------------------------------------------------  -----  ---  -------  ----------
+   23                                                                                                      /System/Library/Desktop Pictures/hello Green.heic     89    1       23           3
+   23                                                                                                      /System/Library/Desktop Pictures/hello Green.heic     90    1       23           4
+   23                                                                                                      /System/Library/Desktop Pictures/hello Green.heic     91    1       23           2
+   23                                                                                                      /System/Library/Desktop Pictures/hello Green.heic     92    1       23           1
+
+
+
+42/100. /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/a29e422ecde57671ce8bab2a61587cb01211fa07.asset/AssetData/Light Stream Green.heic:
+
+--------------------------------------------------------------------------- data ---------------------------------------------------------------------------  --------- preferences ---------
+rowid                                                                                                                                                  value  rowid  key  data_id  picture_id
+-----  -----------------------------------------------------------------------------------------------------------------------------------------------------  -----  ---  -------  ----------
+   24         /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/a29e422ecde57671ce8bab2a61587cb01211fa07.asset/AssetData/Light Stream Green.heic     93    1       24           3
+   24         /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/a29e422ecde57671ce8bab2a61587cb01211fa07.asset/AssetData/Light Stream Green.heic     94    1       24           4
+   24         /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/a29e422ecde57671ce8bab2a61587cb01211fa07.asset/AssetData/Light Stream Green.heic     95    1       24           2
+   24         /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/a29e422ecde57671ce8bab2a61587cb01211fa07.asset/AssetData/Light Stream Green.heic     96    1       24           1
+
+
+
+43/100. iridescence:
+
+--------------------------------------------------------------------------- data ---------------------------------------------------------------------------  --------- preferences ---------
+rowid                                                                                                                                                  value  rowid  key  data_id  picture_id
+-----  -----------------------------------------------------------------------------------------------------------------------------------------------------  -----  ---  -------  ----------
+   25                /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/37ac5562f90c0888a9c35ece6def29a53c0ddd55.asset/AssetData/Iridescence.heic     97    1       25           3
+   26                                                                                                                                                      0     98   20       26           3
+   25                /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/37ac5562f90c0888a9c35ece6def29a53c0ddd55.asset/AssetData/Iridescence.heic     99    1       25           4
+   26                                                                                                                                                      0    100   20       26           4
+   25                /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/37ac5562f90c0888a9c35ece6def29a53c0ddd55.asset/AssetData/Iridescence.heic    101    1       25           2
+   26                                                                                                                                                      0    102   20       26           2
+   25                /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/37ac5562f90c0888a9c35ece6def29a53c0ddd55.asset/AssetData/Iridescence.heic    103    1       25           1
+   26                                                                                                                                                      0    104   20       26           1
+
+
+
+44/100. desert-dark:
+
+--------------------------------------------------------------------------- data ---------------------------------------------------------------------------  --------- preferences ---------
+rowid                                                                                                                                                  value  rowid  key  data_id  picture_id
+-----  -----------------------------------------------------------------------------------------------------------------------------------------------------  -----  ---  -------  ----------
+   27                 /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/df1a67fbca0d20c34f9ed7d3508d549faa9ae25b.asset/AssetData/The Desert.heic    105    1       27           3
+   28                                                                                                                                                      3    106   20       28           3
+   27                 /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/df1a67fbca0d20c34f9ed7d3508d549faa9ae25b.asset/AssetData/The Desert.heic    107    1       27           4
+   28                                                                                                                                                      3    108   20       28           4
+   27                 /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/df1a67fbca0d20c34f9ed7d3508d549faa9ae25b.asset/AssetData/The Desert.heic    109    1       27           2
+   28                                                                                                                                                      3    110   20       28           2
+   27                 /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/df1a67fbca0d20c34f9ed7d3508d549faa9ae25b.asset/AssetData/The Desert.heic    111    1       27           1
+   28                                                                                                                                                      3    112   20       28           1
+
+
+
+45/100. cliffs-dark:
+
+--------------------------------------------------------------------------- data ---------------------------------------------------------------------------  --------- preferences ---------
+rowid                                                                                                                                                  value  rowid  key  data_id  picture_id
+-----  -----------------------------------------------------------------------------------------------------------------------------------------------------  -----  ---  -------  ----------
+   29                 /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/3f8e02c0678e834abc820fd1d69d2a4b11a3ae84.asset/AssetData/The Cliffs.heic    113    1       29           3
+   30                                                                                                                                                      3    114   20       30           3
+   29                 /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/3f8e02c0678e834abc820fd1d69d2a4b11a3ae84.asset/AssetData/The Cliffs.heic    115    1       29           4
+   30                                                                                                                                                      3    116   20       30           4
+   29                 /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/3f8e02c0678e834abc820fd1d69d2a4b11a3ae84.asset/AssetData/The Cliffs.heic    117    1       29           2
+   30                                                                                                                                                      3    118   20       30           2
+   29                 /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/3f8e02c0678e834abc820fd1d69d2a4b11a3ae84.asset/AssetData/The Cliffs.heic    119    1       29           1
+   30                                                                                                                                                      3    120   20       30           1
+
+
+
+46/100. valley:
+
+--------------------------------------------------------------------------- data ---------------------------------------------------------------------------  --------- preferences ---------
+rowid                                                                                                                                                  value  rowid  key  data_id  picture_id
+-----  -----------------------------------------------------------------------------------------------------------------------------------------------------  -----  ---  -------  ----------
+   31                     /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/b520a8b613c92fd7693d4343aedf17c52f6f9eda.asset/AssetData/Valley.heic    121    1       31           3
+   32                                                                                                                                                      0    122   20       32           3
+   31                     /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/b520a8b613c92fd7693d4343aedf17c52f6f9eda.asset/AssetData/Valley.heic    123    1       31           4
+   32                                                                                                                                                      0    124   20       32           4
+   31                     /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/b520a8b613c92fd7693d4343aedf17c52f6f9eda.asset/AssetData/Valley.heic    125    1       31           2
+   32                                                                                                                                                      0    126   20       32           2
+   31                     /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/b520a8b613c92fd7693d4343aedf17c52f6f9eda.asset/AssetData/Valley.heic    127    1       31           1
+   32                                                                                                                                                      0    128   20       32           1
+
+
+
+47/100. /System/Library/Desktop Pictures/Solid Colors/Plum.png:
+
+--------------------------------------------------------------------------- data ---------------------------------------------------------------------------  --------- preferences ---------
+rowid                                                                                                                                                  value  rowid  key  data_id  picture_id
+-----  -----------------------------------------------------------------------------------------------------------------------------------------------------  -----  ---  -------  ----------
+   33                                                                                                 /System/Library/Desktop Pictures/Solid Colors/Plum.png    129    1       33           3
+   33                                                                                                 /System/Library/Desktop Pictures/Solid Colors/Plum.png    130    1       33           4
+   33                                                                                                 /System/Library/Desktop Pictures/Solid Colors/Plum.png    131    1       33           2
+   33                                                                                                 /System/Library/Desktop Pictures/Solid Colors/Plum.png    132    1       33           1
+
+
+
+48/100. iridescence:
+
+--------------------------------------------------------------------------- data ---------------------------------------------------------------------------  --------- preferences ---------
+rowid                                                                                                                                                  value  rowid  key  data_id  picture_id
+-----  -----------------------------------------------------------------------------------------------------------------------------------------------------  -----  ---  -------  ----------
+   34                /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/37ac5562f90c0888a9c35ece6def29a53c0ddd55.asset/AssetData/Iridescence.heic    133    1       34           3
+   35                                                                                                                                                      0    134   20       35           3
+   34                /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/37ac5562f90c0888a9c35ece6def29a53c0ddd55.asset/AssetData/Iridescence.heic    135    1       34           4
+   35                                                                                                                                                      0    136   20       35           4
+   34                /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/37ac5562f90c0888a9c35ece6def29a53c0ddd55.asset/AssetData/Iridescence.heic    137    1       34           2
+   35                                                                                                                                                      0    138   20       35           2
+   34                /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/37ac5562f90c0888a9c35ece6def29a53c0ddd55.asset/AssetData/Iridescence.heic    139    1       34           1
+   35                                                                                                                                                      0    140   20       35           1
+
+
+
+49/100. /System/Library/Desktop Pictures/Solid Colors/Rose Gold.png:
+
+--------------------------------------------------------------------------- data ---------------------------------------------------------------------------  --------- preferences ---------
+rowid                                                                                                                                                  value  rowid  key  data_id  picture_id
+-----  -----------------------------------------------------------------------------------------------------------------------------------------------------  -----  ---  -------  ----------
+   36                                                                                            /System/Library/Desktop Pictures/Solid Colors/Rose Gold.png    141    1       36           3
+   36                                                                                            /System/Library/Desktop Pictures/Solid Colors/Rose Gold.png    142    1       36           4
+   36                                                                                            /System/Library/Desktop Pictures/Solid Colors/Rose Gold.png    143    1       36           2
+   36                                                                                            /System/Library/Desktop Pictures/Solid Colors/Rose Gold.png    144    1       36           1
+
+
+
+50/100. catalina-dark:
+
+--------------------------------------------------------------------------- data ---------------------------------------------------------------------------  --------- preferences ---------
+rowid                                                                                                                                                  value  rowid  key  data_id  picture_id
+-----  -----------------------------------------------------------------------------------------------------------------------------------------------------  -----  ---  -------  ----------
+   37                   /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/28e590448a1795ffd7d8ae9c9f826ceedd9696a2.asset/AssetData/Catalina.heic    145    1       37           3
+   38                                                                                                                                                      3    146   20       38           3
+   37                   /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/28e590448a1795ffd7d8ae9c9f826ceedd9696a2.asset/AssetData/Catalina.heic    147    1       37           4
+   38                                                                                                                                                      3    148   20       38           4
+   37                   /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/28e590448a1795ffd7d8ae9c9f826ceedd9696a2.asset/AssetData/Catalina.heic    149    1       37           2
+   38                                                                                                                                                      3    150   20       38           2
+   37                   /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/28e590448a1795ffd7d8ae9c9f826ceedd9696a2.asset/AssetData/Catalina.heic    151    1       37           1
+   38                                                                                                                                                      3    152   20       38           1
+
+
+
+51/100. /System/Library/Desktop Pictures/Solid Colors/Silver.png:
+
+--------------------------------------------------------------------------- data ---------------------------------------------------------------------------  --------- preferences ---------
+rowid                                                                                                                                                  value  rowid  key  data_id  picture_id
+-----  -----------------------------------------------------------------------------------------------------------------------------------------------------  -----  ---  -------  ----------
+   39                                                                                               /System/Library/Desktop Pictures/Solid Colors/Silver.png    153    1       39           3
+   39                                                                                               /System/Library/Desktop Pictures/Solid Colors/Silver.png    154    1       39           4
+   39                                                                                               /System/Library/Desktop Pictures/Solid Colors/Silver.png    155    1       39           2
+   39                                                                                               /System/Library/Desktop Pictures/Solid Colors/Silver.png    156    1       39           1
+
+
+
+52/100. big-sur-graphic:
+
+--------------------------------------------------------------------------- data ---------------------------------------------------------------------------  --------- preferences ---------
+rowid                                                                                                                                                  value  rowid  key  data_id  picture_id
+-----  -----------------------------------------------------------------------------------------------------------------------------------------------------  -----  ---  -------  ----------
+   40                                                                                                  /System/Library/Desktop Pictures/Big Sur Graphic.heic    157    1       40           3
+   41                                                                                                                                                      0    158   20       41           3
+   40                                                                                                  /System/Library/Desktop Pictures/Big Sur Graphic.heic    159    1       40           4
+   41                                                                                                                                                      0    160   20       41           4
+   40                                                                                                  /System/Library/Desktop Pictures/Big Sur Graphic.heic    161    1       40           2
+   41                                                                                                                                                      0    162   20       41           2
+   40                                                                                                  /System/Library/Desktop Pictures/Big Sur Graphic.heic    163    1       40           1
+   41                                                                                                                                                      0    164   20       41           1
+
+
+
+53/100. cliffs-dark:
+
+--------------------------------------------------------------------------- data ---------------------------------------------------------------------------  --------- preferences ---------
+rowid                                                                                                                                                  value  rowid  key  data_id  picture_id
+-----  -----------------------------------------------------------------------------------------------------------------------------------------------------  -----  ---  -------  ----------
+   42                 /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/3f8e02c0678e834abc820fd1d69d2a4b11a3ae84.asset/AssetData/The Cliffs.heic    165    1       42           3
+   43                                                                                                                                                      3    166   20       43           3
+   42                 /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/3f8e02c0678e834abc820fd1d69d2a4b11a3ae84.asset/AssetData/The Cliffs.heic    167    1       42           4
+   43                                                                                                                                                      3    168   20       43           4
+   42                 /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/3f8e02c0678e834abc820fd1d69d2a4b11a3ae84.asset/AssetData/The Cliffs.heic    169    1       42           2
+   43                                                                                                                                                      3    170   20       43           2
+   42                 /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/3f8e02c0678e834abc820fd1d69d2a4b11a3ae84.asset/AssetData/The Cliffs.heic    171    1       42           1
+   43                                                                                                                                                      3    172   20       43           1
+
+
+
+54/100. cliffs-dark:
+
+--------------------------------------------------------------------------- data ---------------------------------------------------------------------------  --------- preferences ---------
+rowid                                                                                                                                                  value  rowid  key  data_id  picture_id
+-----  -----------------------------------------------------------------------------------------------------------------------------------------------------  -----  ---  -------  ----------
+   44                 /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/3f8e02c0678e834abc820fd1d69d2a4b11a3ae84.asset/AssetData/The Cliffs.heic    173    1       44           3
+   45                                                                                                                                                      3    174   20       45           3
+   44                 /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/3f8e02c0678e834abc820fd1d69d2a4b11a3ae84.asset/AssetData/The Cliffs.heic    175    1       44           4
+   45                                                                                                                                                      3    176   20       45           4
+   44                 /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/3f8e02c0678e834abc820fd1d69d2a4b11a3ae84.asset/AssetData/The Cliffs.heic    177    1       44           2
+   45                                                                                                                                                      3    178   20       45           2
+   44                 /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/3f8e02c0678e834abc820fd1d69d2a4b11a3ae84.asset/AssetData/The Cliffs.heic    179    1       44           1
+   45                                                                                                                                                      3    180   20       45           1
+
+
+
+55/100. /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/cf8e4fef996d7b6e9b7d223a7a732a9dc96e908f.asset/AssetData/Big Sur Coastline.heic:
+
+--------------------------------------------------------------------------- data ---------------------------------------------------------------------------  --------- preferences ---------
+rowid                                                                                                                                                  value  rowid  key  data_id  picture_id
+-----  -----------------------------------------------------------------------------------------------------------------------------------------------------  -----  ---  -------  ----------
+   46          /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/cf8e4fef996d7b6e9b7d223a7a732a9dc96e908f.asset/AssetData/Big Sur Coastline.heic    181    1       46           3
+   46          /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/cf8e4fef996d7b6e9b7d223a7a732a9dc96e908f.asset/AssetData/Big Sur Coastline.heic    182    1       46           4
+   46          /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/cf8e4fef996d7b6e9b7d223a7a732a9dc96e908f.asset/AssetData/Big Sur Coastline.heic    183    1       46           2
+   46          /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/cf8e4fef996d7b6e9b7d223a7a732a9dc96e908f.asset/AssetData/Big Sur Coastline.heic    184    1       46           1
+
+
+
+56/100. /System/Library/Desktop Pictures/Solid Colors/Blue Violet.png:
+
+--------------------------------------------------------------------------- data ---------------------------------------------------------------------------  --------- preferences ---------
+rowid                                                                                                                                                  value  rowid  key  data_id  picture_id
+-----  -----------------------------------------------------------------------------------------------------------------------------------------------------  -----  ---  -------  ----------
+   47                                                                                          /System/Library/Desktop Pictures/Solid Colors/Blue Violet.png    185    1       47           3
+   47                                                                                          /System/Library/Desktop Pictures/Solid Colors/Blue Violet.png    186    1       47           4
+   47                                                                                          /System/Library/Desktop Pictures/Solid Colors/Blue Violet.png    187    1       47           2
+   47                                                                                          /System/Library/Desktop Pictures/Solid Colors/Blue Violet.png    188    1       47           1
+
+
+
+57/100. /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/5b040b5fecb84d2766a94ef5a14bd5efa2fbcde3.asset/AssetData/Big Sur Night Grasses.heic:
+
+--------------------------------------------------------------------------- data ---------------------------------------------------------------------------  --------- preferences ---------
+rowid                                                                                                                                                  value  rowid  key  data_id  picture_id
+-----  -----------------------------------------------------------------------------------------------------------------------------------------------------  -----  ---  -------  ----------
+   48      /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/5b040b5fecb84d2766a94ef5a14bd5efa2fbcde3.asset/AssetData/Big Sur Night Grasses.heic    189    1       48           3
+   48      /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/5b040b5fecb84d2766a94ef5a14bd5efa2fbcde3.asset/AssetData/Big Sur Night Grasses.heic    190    1       48           4
+   48      /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/5b040b5fecb84d2766a94ef5a14bd5efa2fbcde3.asset/AssetData/Big Sur Night Grasses.heic    191    1       48           2
+   48      /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/5b040b5fecb84d2766a94ef5a14bd5efa2fbcde3.asset/AssetData/Big Sur Night Grasses.heic    192    1       48           1
+
+
+
+58/100. desert-light:
+
+--------------------------------------------------------------------------- data ---------------------------------------------------------------------------  --------- preferences ---------
+rowid                                                                                                                                                  value  rowid  key  data_id  picture_id
+-----  -----------------------------------------------------------------------------------------------------------------------------------------------------  -----  ---  -------  ----------
+   49                 /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/df1a67fbca0d20c34f9ed7d3508d549faa9ae25b.asset/AssetData/The Desert.heic    193    1       49           3
+   50                                                                                                                                                      2    194   20       50           3
+   49                 /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/df1a67fbca0d20c34f9ed7d3508d549faa9ae25b.asset/AssetData/The Desert.heic    195    1       49           4
+   50                                                                                                                                                      2    196   20       50           4
+   49                 /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/df1a67fbca0d20c34f9ed7d3508d549faa9ae25b.asset/AssetData/The Desert.heic    197    1       49           2
+   50                                                                                                                                                      2    198   20       50           2
+   49                 /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/df1a67fbca0d20c34f9ed7d3508d549faa9ae25b.asset/AssetData/The Desert.heic    199    1       49           1
+   50                                                                                                                                                      2    200   20       50           1
+
+
+
+59/100. cliffs-dark:
+
+--------------------------------------------------------------------------- data ---------------------------------------------------------------------------  --------- preferences ---------
+rowid                                                                                                                                                  value  rowid  key  data_id  picture_id
+-----  -----------------------------------------------------------------------------------------------------------------------------------------------------  -----  ---  -------  ----------
+   51                 /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/3f8e02c0678e834abc820fd1d69d2a4b11a3ae84.asset/AssetData/The Cliffs.heic    201    1       51           3
+   52                                                                                                                                                      3    202   20       52           3
+   51                 /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/3f8e02c0678e834abc820fd1d69d2a4b11a3ae84.asset/AssetData/The Cliffs.heic    203    1       51           4
+   52                                                                                                                                                      3    204   20       52           4
+   51                 /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/3f8e02c0678e834abc820fd1d69d2a4b11a3ae84.asset/AssetData/The Cliffs.heic    205    1       51           2
+   52                                                                                                                                                      3    206   20       52           2
+   51                 /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/3f8e02c0678e834abc820fd1d69d2a4b11a3ae84.asset/AssetData/The Cliffs.heic    207    1       51           1
+   52                                                                                                                                                      3    208   20       52           1
+
+
+
+60/100. lake:
+
+--------------------------------------------------------------------------- data ---------------------------------------------------------------------------  --------- preferences ---------
+rowid                                                                                                                                                  value  rowid  key  data_id  picture_id
+-----  -----------------------------------------------------------------------------------------------------------------------------------------------------  -----  ---  -------  ----------
+   53                   /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/f1bdab95fdb69bf6278bf963cbc182dc052d9792.asset/AssetData/The Lake.heic    209    1       53           3
+   54                                                                                                                                                      0    210   20       54           3
+   53                   /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/f1bdab95fdb69bf6278bf963cbc182dc052d9792.asset/AssetData/The Lake.heic    211    1       53           4
+   54                                                                                                                                                      0    212   20       54           4
+   53                   /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/f1bdab95fdb69bf6278bf963cbc182dc052d9792.asset/AssetData/The Lake.heic    213    1       53           2
+   54                                                                                                                                                      0    214   20       54           2
+   53                   /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/f1bdab95fdb69bf6278bf963cbc182dc052d9792.asset/AssetData/The Lake.heic    215    1       53           1
+   54                                                                                                                                                      0    216   20       54           1
+
+
+
+61/100. big-sur-graphic:
+
+--------------------------------------------------------------------------- data ---------------------------------------------------------------------------  --------- preferences ---------
+rowid                                                                                                                                                  value  rowid  key  data_id  picture_id
+-----  -----------------------------------------------------------------------------------------------------------------------------------------------------  -----  ---  -------  ----------
+   55                                                                                                  /System/Library/Desktop Pictures/Big Sur Graphic.heic    217    1       55           3
+   56                                                                                                                                                      0    218   20       56           3
+   55                                                                                                  /System/Library/Desktop Pictures/Big Sur Graphic.heic    219    1       55           4
+   56                                                                                                                                                      0    220   20       56           4
+   55                                                                                                  /System/Library/Desktop Pictures/Big Sur Graphic.heic    221    1       55           2
+   56                                                                                                                                                      0    222   20       56           2
+   55                                                                                                  /System/Library/Desktop Pictures/Big Sur Graphic.heic    223    1       55           1
+   56                                                                                                                                                      0    224   20       56           1
+
+
+
+62/100. peak:
+
+--------------------------------------------------------------------------- data ---------------------------------------------------------------------------  --------- preferences ---------
+rowid                                                                                                                                                  value  rowid  key  data_id  picture_id
+-----  -----------------------------------------------------------------------------------------------------------------------------------------------------  -----  ---  -------  ----------
+   57                       /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/3cc38432b076d2f0401e1c9dbad145af9b9b5f0f.asset/AssetData/Peak.heic    225    1       57           3
+   58                                                                                                                                                      0    226   20       58           3
+   57                       /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/3cc38432b076d2f0401e1c9dbad145af9b9b5f0f.asset/AssetData/Peak.heic    227    1       57           4
+   58                                                                                                                                                      0    228   20       58           4
+   57                       /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/3cc38432b076d2f0401e1c9dbad145af9b9b5f0f.asset/AssetData/Peak.heic    229    1       57           2
+   58                                                                                                                                                      0    230   20       58           2
+   57                       /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/3cc38432b076d2f0401e1c9dbad145af9b9b5f0f.asset/AssetData/Peak.heic    231    1       57           1
+   58                                                                                                                                                      0    232   20       58           1
+
+
+
+63/100. dome-light:
+
+--------------------------------------------------------------------------- data ---------------------------------------------------------------------------  --------- preferences ---------
+rowid                                                                                                                                                  value  rowid  key  data_id  picture_id
+-----  -----------------------------------------------------------------------------------------------------------------------------------------------------  -----  ---  -------  ----------
+   59                       /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/0147cb729255506b6649aae14e8805b248f6f99f.asset/AssetData/Dome.heic    233    1       59           3
+   60                                                                                                                                                      2    234   20       60           3
+   59                       /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/0147cb729255506b6649aae14e8805b248f6f99f.asset/AssetData/Dome.heic    235    1       59           4
+   60                                                                                                                                                      2    236   20       60           4
+   59                       /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/0147cb729255506b6649aae14e8805b248f6f99f.asset/AssetData/Dome.heic    237    1       59           2
+   60                                                                                                                                                      2    238   20       60           2
+   59                       /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/0147cb729255506b6649aae14e8805b248f6f99f.asset/AssetData/Dome.heic    239    1       59           1
+   60                                                                                                                                                      2    240   20       60           1
+
+
+
+64/100. /System/Library/Desktop Pictures/Solid Colors/Silver.png:
+
+--------------------------------------------------------------------------- data ---------------------------------------------------------------------------  --------- preferences ---------
+rowid                                                                                                                                                  value  rowid  key  data_id  picture_id
+-----  -----------------------------------------------------------------------------------------------------------------------------------------------------  -----  ---  -------  ----------
+   61                                                                                               /System/Library/Desktop Pictures/Solid Colors/Silver.png    241    1       61           3
+   61                                                                                               /System/Library/Desktop Pictures/Solid Colors/Silver.png    242    1       61           4
+   61                                                                                               /System/Library/Desktop Pictures/Solid Colors/Silver.png    243    1       61           2
+   61                                                                                               /System/Library/Desktop Pictures/Solid Colors/Silver.png    244    1       61           1
+
+
+
+65/100. tree:
+
+--------------------------------------------------------------------------- data ---------------------------------------------------------------------------  --------- preferences ---------
+rowid                                                                                                                                                  value  rowid  key  data_id  picture_id
+-----  -----------------------------------------------------------------------------------------------------------------------------------------------------  -----  ---  -------  ----------
+   62                       /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/5e8a9e5a102140a4dc5e651e04567d3d7cefd52a.asset/AssetData/Tree.heic    245    1       62           3
+   63                                                                                                                                                      0    246   20       63           3
+   62                       /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/5e8a9e5a102140a4dc5e651e04567d3d7cefd52a.asset/AssetData/Tree.heic    247    1       62           4
+   63                                                                                                                                                      0    248   20       63           4
+   62                       /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/5e8a9e5a102140a4dc5e651e04567d3d7cefd52a.asset/AssetData/Tree.heic    249    1       62           2
+   63                                                                                                                                                      0    250   20       63           2
+   62                       /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/5e8a9e5a102140a4dc5e651e04567d3d7cefd52a.asset/AssetData/Tree.heic    251    1       62           1
+   63                                                                                                                                                      0    252   20       63           1
+
+
+
+66/100. big-sur-graphic-dark:
+
+--------------------------------------------------------------------------- data ---------------------------------------------------------------------------  --------- preferences ---------
+rowid                                                                                                                                                  value  rowid  key  data_id  picture_id
+-----  -----------------------------------------------------------------------------------------------------------------------------------------------------  -----  ---  -------  ----------
+   64                                                                                                  /System/Library/Desktop Pictures/Big Sur Graphic.heic    253    1       64           3
+   65                                                                                                                                                      3    254   20       65           3
+   64                                                                                                  /System/Library/Desktop Pictures/Big Sur Graphic.heic    255    1       64           4
+   65                                                                                                                                                      3    256   20       65           4
+   64                                                                                                  /System/Library/Desktop Pictures/Big Sur Graphic.heic    257    1       64           2
+   65                                                                                                                                                      3    258   20       65           2
+   64                                                                                                  /System/Library/Desktop Pictures/Big Sur Graphic.heic    259    1       64           1
+   65                                                                                                                                                      3    260   20       65           1
+
+
+
+67/100. big-sur-graphic-light:
+
+--------------------------------------------------------------------------- data ---------------------------------------------------------------------------  --------- preferences ---------
+rowid                                                                                                                                                  value  rowid  key  data_id  picture_id
+-----  -----------------------------------------------------------------------------------------------------------------------------------------------------  -----  ---  -------  ----------
+   66                                                                                                  /System/Library/Desktop Pictures/Big Sur Graphic.heic    261    1       66           3
+   67                                                                                                                                                      2    262   20       67           3
+   66                                                                                                  /System/Library/Desktop Pictures/Big Sur Graphic.heic    263    1       66           4
+   67                                                                                                                                                      2    264   20       67           4
+   66                                                                                                  /System/Library/Desktop Pictures/Big Sur Graphic.heic    265    1       66           2
+   67                                                                                                                                                      2    266   20       67           2
+   66                                                                                                  /System/Library/Desktop Pictures/Big Sur Graphic.heic    267    1       66           1
+   67                                                                                                                                                      2    268   20       67           1
+
+
+
+68/100. lake:
+
+--------------------------------------------------------------------------- data ---------------------------------------------------------------------------  --------- preferences ---------
+rowid                                                                                                                                                  value  rowid  key  data_id  picture_id
+-----  -----------------------------------------------------------------------------------------------------------------------------------------------------  -----  ---  -------  ----------
+   68                   /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/f1bdab95fdb69bf6278bf963cbc182dc052d9792.asset/AssetData/The Lake.heic    269    1       68           3
+   69                                                                                                                                                      0    270   20       69           3
+   68                   /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/f1bdab95fdb69bf6278bf963cbc182dc052d9792.asset/AssetData/The Lake.heic    271    1       68           4
+   69                                                                                                                                                      0    272   20       69           4
+   68                   /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/f1bdab95fdb69bf6278bf963cbc182dc052d9792.asset/AssetData/The Lake.heic    273    1       68           2
+   69                                                                                                                                                      0    274   20       69           2
+   68                   /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/f1bdab95fdb69bf6278bf963cbc182dc052d9792.asset/AssetData/The Lake.heic    275    1       68           1
+   69                                                                                                                                                      0    276   20       69           1
+
+
+
+69/100. cliffs-light:
+
+--------------------------------------------------------------------------- data ---------------------------------------------------------------------------  --------- preferences ---------
+rowid                                                                                                                                                  value  rowid  key  data_id  picture_id
+-----  -----------------------------------------------------------------------------------------------------------------------------------------------------  -----  ---  -------  ----------
+   70                 /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/3f8e02c0678e834abc820fd1d69d2a4b11a3ae84.asset/AssetData/The Cliffs.heic    277    1       70           3
+   71                                                                                                                                                      2    278   20       71           3
+   70                 /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/3f8e02c0678e834abc820fd1d69d2a4b11a3ae84.asset/AssetData/The Cliffs.heic    279    1       70           4
+   71                                                                                                                                                      2    280   20       71           4
+   70                 /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/3f8e02c0678e834abc820fd1d69d2a4b11a3ae84.asset/AssetData/The Cliffs.heic    281    1       70           2
+   71                                                                                                                                                      2    282   20       71           2
+   70                 /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/3f8e02c0678e834abc820fd1d69d2a4b11a3ae84.asset/AssetData/The Cliffs.heic    283    1       70           1
+   71                                                                                                                                                      2    284   20       71           1
+
+
+
+70/100. cliffs:
+
+--------------------------------------------------------------------------- data ---------------------------------------------------------------------------  --------- preferences ---------
+rowid                                                                                                                                                  value  rowid  key  data_id  picture_id
+-----  -----------------------------------------------------------------------------------------------------------------------------------------------------  -----  ---  -------  ----------
+   72                 /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/3f8e02c0678e834abc820fd1d69d2a4b11a3ae84.asset/AssetData/The Cliffs.heic    285    1       72           3
+   73                                                                                                                                                      0    286   20       73           3
+   72                 /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/3f8e02c0678e834abc820fd1d69d2a4b11a3ae84.asset/AssetData/The Cliffs.heic    287    1       72           4
+   73                                                                                                                                                      0    288   20       73           4
+   72                 /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/3f8e02c0678e834abc820fd1d69d2a4b11a3ae84.asset/AssetData/The Cliffs.heic    289    1       72           2
+   73                                                                                                                                                      0    290   20       73           2
+   72                 /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/3f8e02c0678e834abc820fd1d69d2a4b11a3ae84.asset/AssetData/The Cliffs.heic    291    1       72           1
+   73                                                                                                                                                      0    292   20       73           1
+
+
+
+71/100. /System/Library/Desktop Pictures/Solid Colors/Turquoise Green.png:
+
+--------------------------------------------------------------------------- data ---------------------------------------------------------------------------  --------- preferences ---------
+rowid                                                                                                                                                  value  rowid  key  data_id  picture_id
+-----  -----------------------------------------------------------------------------------------------------------------------------------------------------  -----  ---  -------  ----------
+   74                                                                                      /System/Library/Desktop Pictures/Solid Colors/Turquoise Green.png    293    1       74           3
+   74                                                                                      /System/Library/Desktop Pictures/Solid Colors/Turquoise Green.png    294    1       74           4
+   74                                                                                      /System/Library/Desktop Pictures/Solid Colors/Turquoise Green.png    295    1       74           2
+   74                                                                                      /System/Library/Desktop Pictures/Solid Colors/Turquoise Green.png    296    1       74           1
+
+
+
+72/100. catalina-light:
+
+--------------------------------------------------------------------------- data ---------------------------------------------------------------------------  --------- preferences ---------
+rowid                                                                                                                                                  value  rowid  key  data_id  picture_id
+-----  -----------------------------------------------------------------------------------------------------------------------------------------------------  -----  ---  -------  ----------
+   75                   /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/28e590448a1795ffd7d8ae9c9f826ceedd9696a2.asset/AssetData/Catalina.heic    297    1       75           3
+   76                                                                                                                                                      2    298   20       76           3
+   75                   /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/28e590448a1795ffd7d8ae9c9f826ceedd9696a2.asset/AssetData/Catalina.heic    299    1       75           4
+   76                                                                                                                                                      2    300   20       76           4
+   75                   /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/28e590448a1795ffd7d8ae9c9f826ceedd9696a2.asset/AssetData/Catalina.heic    301    1       75           2
+   76                                                                                                                                                      2    302   20       76           2
+   75                   /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/28e590448a1795ffd7d8ae9c9f826ceedd9696a2.asset/AssetData/Catalina.heic    303    1       75           1
+   76                                                                                                                                                      2    304   20       76           1
+
+
+
+73/100. dome-light:
+
+--------------------------------------------------------------------------- data ---------------------------------------------------------------------------  --------- preferences ---------
+rowid                                                                                                                                                  value  rowid  key  data_id  picture_id
+-----  -----------------------------------------------------------------------------------------------------------------------------------------------------  -----  ---  -------  ----------
+   77                       /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/0147cb729255506b6649aae14e8805b248f6f99f.asset/AssetData/Dome.heic    305    1       77           3
+   78                                                                                                                                                      2    306   20       78           3
+   77                       /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/0147cb729255506b6649aae14e8805b248f6f99f.asset/AssetData/Dome.heic    307    1       77           4
+   78                                                                                                                                                      2    308   20       78           4
+   77                       /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/0147cb729255506b6649aae14e8805b248f6f99f.asset/AssetData/Dome.heic    309    1       77           2
+   78                                                                                                                                                      2    310   20       78           2
+   77                       /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/0147cb729255506b6649aae14e8805b248f6f99f.asset/AssetData/Dome.heic    311    1       77           1
+   78                                                                                                                                                      2    312   20       78           1
+
+
+
+74/100. big-sur-graphic-dark:
+
+--------------------------------------------------------------------------- data ---------------------------------------------------------------------------  --------- preferences ---------
+rowid                                                                                                                                                  value  rowid  key  data_id  picture_id
+-----  -----------------------------------------------------------------------------------------------------------------------------------------------------  -----  ---  -------  ----------
+   79                                                                                                  /System/Library/Desktop Pictures/Big Sur Graphic.heic    313    1       79           3
+   80                                                                                                                                                      3    314   20       80           3
+   79                                                                                                  /System/Library/Desktop Pictures/Big Sur Graphic.heic    315    1       79           4
+   80                                                                                                                                                      3    316   20       80           4
+   79                                                                                                  /System/Library/Desktop Pictures/Big Sur Graphic.heic    317    1       79           2
+   80                                                                                                                                                      3    318   20       80           2
+   79                                                                                                  /System/Library/Desktop Pictures/Big Sur Graphic.heic    319    1       79           1
+   80                                                                                                                                                      3    320   20       80           1
+
+
+
+75/100. desert:
+
+--------------------------------------------------------------------------- data ---------------------------------------------------------------------------  --------- preferences ---------
+rowid                                                                                                                                                  value  rowid  key  data_id  picture_id
+-----  -----------------------------------------------------------------------------------------------------------------------------------------------------  -----  ---  -------  ----------
+   81                 /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/df1a67fbca0d20c34f9ed7d3508d549faa9ae25b.asset/AssetData/The Desert.heic    321    1       81           3
+   82                                                                                                                                                      0    322   20       82           3
+   81                 /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/df1a67fbca0d20c34f9ed7d3508d549faa9ae25b.asset/AssetData/The Desert.heic    323    1       81           4
+   82                                                                                                                                                      0    324   20       82           4
+   81                 /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/df1a67fbca0d20c34f9ed7d3508d549faa9ae25b.asset/AssetData/The Desert.heic    325    1       81           2
+   82                                                                                                                                                      0    326   20       82           2
+   81                 /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/df1a67fbca0d20c34f9ed7d3508d549faa9ae25b.asset/AssetData/The Desert.heic    327    1       81           1
+   82                                                                                                                                                      0    328   20       82           1
+
+
+
+76/100. /System/Library/Desktop Pictures/hello Grey.heic:
+
+--------------------------------------------------------------------------- data ---------------------------------------------------------------------------  --------- preferences ---------
+rowid                                                                                                                                                  value  rowid  key  data_id  picture_id
+-----  -----------------------------------------------------------------------------------------------------------------------------------------------------  -----  ---  -------  ----------
+   83                                                                                                       /System/Library/Desktop Pictures/hello Grey.heic    329    1       83           3
+   83                                                                                                       /System/Library/Desktop Pictures/hello Grey.heic    330    1       83           4
+   83                                                                                                       /System/Library/Desktop Pictures/hello Grey.heic    331    1       83           2
+   83                                                                                                       /System/Library/Desktop Pictures/hello Grey.heic    332    1       83           1
+
+
+
+77/100. /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/c8db91583c4eeffd413c3069f021f95df64d0e4e.asset/AssetData/Catalina Sunset.heic:
+
+--------------------------------------------------------------------------- data ---------------------------------------------------------------------------  --------- preferences ---------
+rowid                                                                                                                                                  value  rowid  key  data_id  picture_id
+-----  -----------------------------------------------------------------------------------------------------------------------------------------------------  -----  ---  -------  ----------
+   84            /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/c8db91583c4eeffd413c3069f021f95df64d0e4e.asset/AssetData/Catalina Sunset.heic    333    1       84           3
+   84            /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/c8db91583c4eeffd413c3069f021f95df64d0e4e.asset/AssetData/Catalina Sunset.heic    334    1       84           4
+   84            /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/c8db91583c4eeffd413c3069f021f95df64d0e4e.asset/AssetData/Catalina Sunset.heic    335    1       84           2
+   84            /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/c8db91583c4eeffd413c3069f021f95df64d0e4e.asset/AssetData/Catalina Sunset.heic    336    1       84           1
+
+
+
+78/100. dome-dark:
+
+--------------------------------------------------------------------------- data ---------------------------------------------------------------------------  --------- preferences ---------
+rowid                                                                                                                                                  value  rowid  key  data_id  picture_id
+-----  -----------------------------------------------------------------------------------------------------------------------------------------------------  -----  ---  -------  ----------
+   85                       /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/0147cb729255506b6649aae14e8805b248f6f99f.asset/AssetData/Dome.heic    337    1       85           3
+   86                                                                                                                                                      3    338   20       86           3
+   85                       /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/0147cb729255506b6649aae14e8805b248f6f99f.asset/AssetData/Dome.heic    339    1       85           4
+   86                                                                                                                                                      3    340   20       86           4
+   85                       /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/0147cb729255506b6649aae14e8805b248f6f99f.asset/AssetData/Dome.heic    341    1       85           2
+   86                                                                                                                                                      3    342   20       86           2
+   85                       /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/0147cb729255506b6649aae14e8805b248f6f99f.asset/AssetData/Dome.heic    343    1       85           1
+   86                                                                                                                                                      3    344   20       86           1
+
+
+
+79/100. beach:
+
+--------------------------------------------------------------------------- data ---------------------------------------------------------------------------  --------- preferences ---------
+rowid                                                                                                                                                  value  rowid  key  data_id  picture_id
+-----  -----------------------------------------------------------------------------------------------------------------------------------------------------  -----  ---  -------  ----------
+   87                  /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/b91ec140f7d34cfdd77304c8e72c570ccdf8d814.asset/AssetData/The Beach.heic    345    1       87           3
+   88                                                                                                                                                      0    346   20       88           3
+   87                  /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/b91ec140f7d34cfdd77304c8e72c570ccdf8d814.asset/AssetData/The Beach.heic    347    1       87           4
+   88                                                                                                                                                      0    348   20       88           4
+   87                  /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/b91ec140f7d34cfdd77304c8e72c570ccdf8d814.asset/AssetData/The Beach.heic    349    1       87           2
+   88                                                                                                                                                      0    350   20       88           2
+   87                  /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/b91ec140f7d34cfdd77304c8e72c570ccdf8d814.asset/AssetData/The Beach.heic    351    1       87           1
+   88                                                                                                                                                      0    352   20       88           1
+
+
+
+80/100. tree:
+
+--------------------------------------------------------------------------- data ---------------------------------------------------------------------------  --------- preferences ---------
+rowid                                                                                                                                                  value  rowid  key  data_id  picture_id
+-----  -----------------------------------------------------------------------------------------------------------------------------------------------------  -----  ---  -------  ----------
+   89                       /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/5e8a9e5a102140a4dc5e651e04567d3d7cefd52a.asset/AssetData/Tree.heic    353    1       89           3
+   90                                                                                                                                                      0    354   20       90           3
+   89                       /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/5e8a9e5a102140a4dc5e651e04567d3d7cefd52a.asset/AssetData/Tree.heic    355    1       89           4
+   90                                                                                                                                                      0    356   20       90           4
+   89                       /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/5e8a9e5a102140a4dc5e651e04567d3d7cefd52a.asset/AssetData/Tree.heic    357    1       89           2
+   90                                                                                                                                                      0    358   20       90           2
+   89                       /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/5e8a9e5a102140a4dc5e651e04567d3d7cefd52a.asset/AssetData/Tree.heic    359    1       89           1
+   90                                                                                                                                                      0    360   20       90           1
+
+
+
+81/100. big-sur-dark:
+
+--------------------------------------------------------------------------- data ---------------------------------------------------------------------------  --------- preferences ---------
+rowid                                                                                                                                                  value  rowid  key  data_id  picture_id
+-----  -----------------------------------------------------------------------------------------------------------------------------------------------------  -----  ---  -------  ----------
+   91                    /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/98b5bd24c8bb188ec6101ea415ec049fdd03de84.asset/AssetData/Big Sur.heic    361    1       91           3
+   92                                                                                                                                                      3    362   20       92           3
+   91                    /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/98b5bd24c8bb188ec6101ea415ec049fdd03de84.asset/AssetData/Big Sur.heic    363    1       91           4
+   92                                                                                                                                                      3    364   20       92           4
+   91                    /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/98b5bd24c8bb188ec6101ea415ec049fdd03de84.asset/AssetData/Big Sur.heic    365    1       91           2
+   92                                                                                                                                                      3    366   20       92           2
+   91                    /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/98b5bd24c8bb188ec6101ea415ec049fdd03de84.asset/AssetData/Big Sur.heic    367    1       91           1
+   92                                                                                                                                                      3    368   20       92           1
+
+
+
+82/100. peak-light:
+
+--------------------------------------------------------------------------- data ---------------------------------------------------------------------------  --------- preferences ---------
+rowid                                                                                                                                                  value  rowid  key  data_id  picture_id
+-----  -----------------------------------------------------------------------------------------------------------------------------------------------------  -----  ---  -------  ----------
+   93                       /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/3cc38432b076d2f0401e1c9dbad145af9b9b5f0f.asset/AssetData/Peak.heic    369    1       93           3
+   94                                                                                                                                                      2    370   20       94           3
+   93                       /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/3cc38432b076d2f0401e1c9dbad145af9b9b5f0f.asset/AssetData/Peak.heic    371    1       93           4
+   94                                                                                                                                                      2    372   20       94           4
+   93                       /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/3cc38432b076d2f0401e1c9dbad145af9b9b5f0f.asset/AssetData/Peak.heic    373    1       93           2
+   94                                                                                                                                                      2    374   20       94           2
+   93                       /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/3cc38432b076d2f0401e1c9dbad145af9b9b5f0f.asset/AssetData/Peak.heic    375    1       93           1
+   94                                                                                                                                                      2    376   20       94           1
+
+
+
+83/100. big-sur-graphic:
+
+--------------------------------------------------------------------------- data ---------------------------------------------------------------------------  --------- preferences ---------
+rowid                                                                                                                                                  value  rowid  key  data_id  picture_id
+-----  -----------------------------------------------------------------------------------------------------------------------------------------------------  -----  ---  -------  ----------
+   95                                                                                                  /System/Library/Desktop Pictures/Big Sur Graphic.heic    377    1       95           3
+   96                                                                                                                                                      0    378   20       96           3
+   95                                                                                                  /System/Library/Desktop Pictures/Big Sur Graphic.heic    379    1       95           4
+   96                                                                                                                                                      0    380   20       96           4
+   95                                                                                                  /System/Library/Desktop Pictures/Big Sur Graphic.heic    381    1       95           2
+   96                                                                                                                                                      0    382   20       96           2
+   95                                                                                                  /System/Library/Desktop Pictures/Big Sur Graphic.heic    383    1       95           1
+   96                                                                                                                                                      0    384   20       96           1
+
+
+
+84/100. iridescence:
+
+--------------------------------------------------------------------------- data ---------------------------------------------------------------------------  --------- preferences ---------
+rowid                                                                                                                                                  value  rowid  key  data_id  picture_id
+-----  -----------------------------------------------------------------------------------------------------------------------------------------------------  -----  ---  -------  ----------
+   97                /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/37ac5562f90c0888a9c35ece6def29a53c0ddd55.asset/AssetData/Iridescence.heic    385    1       97           3
+   98                                                                                                                                                      0    386   20       98           3
+   97                /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/37ac5562f90c0888a9c35ece6def29a53c0ddd55.asset/AssetData/Iridescence.heic    387    1       97           4
+   98                                                                                                                                                      0    388   20       98           4
+   97                /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/37ac5562f90c0888a9c35ece6def29a53c0ddd55.asset/AssetData/Iridescence.heic    389    1       97           2
+   98                                                                                                                                                      0    390   20       98           2
+   97                /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/37ac5562f90c0888a9c35ece6def29a53c0ddd55.asset/AssetData/Iridescence.heic    391    1       97           1
+   98                                                                                                                                                      0    392   20       98           1
+
+
+
+85/100. peak:
+
+--------------------------------------------------------------------------- data ---------------------------------------------------------------------------  --------- preferences ---------
+rowid                                                                                                                                                  value  rowid  key  data_id  picture_id
+-----  -----------------------------------------------------------------------------------------------------------------------------------------------------  -----  ---  -------  ----------
+   99                       /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/3cc38432b076d2f0401e1c9dbad145af9b9b5f0f.asset/AssetData/Peak.heic    393    1       99           3
+  100                                                                                                                                                      0    394   20      100           3
+   99                       /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/3cc38432b076d2f0401e1c9dbad145af9b9b5f0f.asset/AssetData/Peak.heic    395    1       99           4
+  100                                                                                                                                                      0    396   20      100           4
+   99                       /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/3cc38432b076d2f0401e1c9dbad145af9b9b5f0f.asset/AssetData/Peak.heic    397    1       99           2
+  100                                                                                                                                                      0    398   20      100           2
+   99                       /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/3cc38432b076d2f0401e1c9dbad145af9b9b5f0f.asset/AssetData/Peak.heic    399    1       99           1
+  100                                                                                                                                                      0    400   20      100           1
+
+
+
+86/100. big-sur-graphic:
+
+--------------------------------------------------------------------------- data ---------------------------------------------------------------------------  --------- preferences ---------
+rowid                                                                                                                                                  value  rowid  key  data_id  picture_id
+-----  -----------------------------------------------------------------------------------------------------------------------------------------------------  -----  ---  -------  ----------
+  101                                                                                                  /System/Library/Desktop Pictures/Big Sur Graphic.heic    401    1      101           3
+  102                                                                                                                                                      0    402   20      102           3
+  101                                                                                                  /System/Library/Desktop Pictures/Big Sur Graphic.heic    403    1      101           4
+  102                                                                                                                                                      0    404   20      102           4
+  101                                                                                                  /System/Library/Desktop Pictures/Big Sur Graphic.heic    405    1      101           2
+  102                                                                                                                                                      0    406   20      102           2
+  101                                                                                                  /System/Library/Desktop Pictures/Big Sur Graphic.heic    407    1      101           1
+  102                                                                                                                                                      0    408   20      102           1
+
+
+
+87/100. lake-light:
+
+--------------------------------------------------------------------------- data ---------------------------------------------------------------------------  --------- preferences ---------
+rowid                                                                                                                                                  value  rowid  key  data_id  picture_id
+-----  -----------------------------------------------------------------------------------------------------------------------------------------------------  -----  ---  -------  ----------
+  103                   /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/f1bdab95fdb69bf6278bf963cbc182dc052d9792.asset/AssetData/The Lake.heic    409    1      103           3
+  104                                                                                                                                                      2    410   20      104           3
+  103                   /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/f1bdab95fdb69bf6278bf963cbc182dc052d9792.asset/AssetData/The Lake.heic    411    1      103           4
+  104                                                                                                                                                      2    412   20      104           4
+  103                   /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/f1bdab95fdb69bf6278bf963cbc182dc052d9792.asset/AssetData/The Lake.heic    413    1      103           2
+  104                                                                                                                                                      2    414   20      104           2
+  103                   /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/f1bdab95fdb69bf6278bf963cbc182dc052d9792.asset/AssetData/The Lake.heic    415    1      103           1
+  104                                                                                                                                                      2    416   20      104           1
+
+
+
+88/100. catalina:
+
+--------------------------------------------------------------------------- data ---------------------------------------------------------------------------  --------- preferences ---------
+rowid                                                                                                                                                  value  rowid  key  data_id  picture_id
+-----  -----------------------------------------------------------------------------------------------------------------------------------------------------  -----  ---  -------  ----------
+  105                   /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/28e590448a1795ffd7d8ae9c9f826ceedd9696a2.asset/AssetData/Catalina.heic    417    1      105           3
+  106                                                                                                                                                      0    418   20      106           3
+  105                   /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/28e590448a1795ffd7d8ae9c9f826ceedd9696a2.asset/AssetData/Catalina.heic    419    1      105           4
+  106                                                                                                                                                      0    420   20      106           4
+  105                   /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/28e590448a1795ffd7d8ae9c9f826ceedd9696a2.asset/AssetData/Catalina.heic    421    1      105           2
+  106                                                                                                                                                      0    422   20      106           2
+  105                   /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/28e590448a1795ffd7d8ae9c9f826ceedd9696a2.asset/AssetData/Catalina.heic    423    1      105           1
+  106                                                                                                                                                      0    424   20      106           1
+
+
+
+89/100. /System/Library/Desktop Pictures/Solid Colors/Dusty Rose.png:
+
+--------------------------------------------------------------------------- data ---------------------------------------------------------------------------  --------- preferences ---------
+rowid                                                                                                                                                  value  rowid  key  data_id  picture_id
+-----  -----------------------------------------------------------------------------------------------------------------------------------------------------  -----  ---  -------  ----------
+  107                                                                                           /System/Library/Desktop Pictures/Solid Colors/Dusty Rose.png    425    1      107           3
+  107                                                                                           /System/Library/Desktop Pictures/Solid Colors/Dusty Rose.png    426    1      107           4
+  107                                                                                           /System/Library/Desktop Pictures/Solid Colors/Dusty Rose.png    427    1      107           2
+  107                                                                                           /System/Library/Desktop Pictures/Solid Colors/Dusty Rose.png    428    1      107           1
+
+
+
+90/100. big-sur-graphic-dark:
+
+--------------------------------------------------------------------------- data ---------------------------------------------------------------------------  --------- preferences ---------
+rowid                                                                                                                                                  value  rowid  key  data_id  picture_id
+-----  -----------------------------------------------------------------------------------------------------------------------------------------------------  -----  ---  -------  ----------
+  108                                                                                                  /System/Library/Desktop Pictures/Big Sur Graphic.heic    429    1      108           3
+  109                                                                                                                                                      3    430   20      109           3
+  108                                                                                                  /System/Library/Desktop Pictures/Big Sur Graphic.heic    431    1      108           4
+  109                                                                                                                                                      3    432   20      109           4
+  108                                                                                                  /System/Library/Desktop Pictures/Big Sur Graphic.heic    433    1      108           2
+  109                                                                                                                                                      3    434   20      109           2
+  108                                                                                                  /System/Library/Desktop Pictures/Big Sur Graphic.heic    435    1      108           1
+  109                                                                                                                                                      3    436   20      109           1
+
+
+
+91/100. desert:
+
+--------------------------------------------------------------------------- data ---------------------------------------------------------------------------  --------- preferences ---------
+rowid                                                                                                                                                  value  rowid  key  data_id  picture_id
+-----  -----------------------------------------------------------------------------------------------------------------------------------------------------  -----  ---  -------  ----------
+  110                 /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/df1a67fbca0d20c34f9ed7d3508d549faa9ae25b.asset/AssetData/The Desert.heic    437    1      110           3
+  111                                                                                                                                                      0    438   20      111           3
+  110                 /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/df1a67fbca0d20c34f9ed7d3508d549faa9ae25b.asset/AssetData/The Desert.heic    439    1      110           4
+  111                                                                                                                                                      0    440   20      111           4
+  110                 /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/df1a67fbca0d20c34f9ed7d3508d549faa9ae25b.asset/AssetData/The Desert.heic    441    1      110           2
+  111                                                                                                                                                      0    442   20      111           2
+  110                 /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/df1a67fbca0d20c34f9ed7d3508d549faa9ae25b.asset/AssetData/The Desert.heic    443    1      110           1
+  111                                                                                                                                                      0    444   20      111           1
+
+
+
+92/100. beach:
+
+--------------------------------------------------------------------------- data ---------------------------------------------------------------------------  --------- preferences ---------
+rowid                                                                                                                                                  value  rowid  key  data_id  picture_id
+-----  -----------------------------------------------------------------------------------------------------------------------------------------------------  -----  ---  -------  ----------
+  112                  /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/b91ec140f7d34cfdd77304c8e72c570ccdf8d814.asset/AssetData/The Beach.heic    445    1      112           3
+  113                                                                                                                                                      0    446   20      113           3
+  112                  /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/b91ec140f7d34cfdd77304c8e72c570ccdf8d814.asset/AssetData/The Beach.heic    447    1      112           4
+  113                                                                                                                                                      0    448   20      113           4
+  112                  /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/b91ec140f7d34cfdd77304c8e72c570ccdf8d814.asset/AssetData/The Beach.heic    449    1      112           2
+  113                                                                                                                                                      0    450   20      113           2
+  112                  /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/b91ec140f7d34cfdd77304c8e72c570ccdf8d814.asset/AssetData/The Beach.heic    451    1      112           1
+  113                                                                                                                                                      0    452   20      113           1
+
+
+
+93/100. /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/0b55533c35ad0c1c5ff89e983539a44faf859c07.asset/AssetData/Big Sur Mountains.heic:
+
+--------------------------------------------------------------------------- data ---------------------------------------------------------------------------  --------- preferences ---------
+rowid                                                                                                                                                  value  rowid  key  data_id  picture_id
+-----  -----------------------------------------------------------------------------------------------------------------------------------------------------  -----  ---  -------  ----------
+  114          /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/0b55533c35ad0c1c5ff89e983539a44faf859c07.asset/AssetData/Big Sur Mountains.heic    453    1      114           3
+  114          /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/0b55533c35ad0c1c5ff89e983539a44faf859c07.asset/AssetData/Big Sur Mountains.heic    454    1      114           4
+  114          /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/0b55533c35ad0c1c5ff89e983539a44faf859c07.asset/AssetData/Big Sur Mountains.heic    455    1      114           2
+  114          /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/0b55533c35ad0c1c5ff89e983539a44faf859c07.asset/AssetData/Big Sur Mountains.heic    456    1      114           1
+
+
+
+94/100. valley-dark:
+
+--------------------------------------------------------------------------- data ---------------------------------------------------------------------------  --------- preferences ---------
+rowid                                                                                                                                                  value  rowid  key  data_id  picture_id
+-----  -----------------------------------------------------------------------------------------------------------------------------------------------------  -----  ---  -------  ----------
+  115                     /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/b520a8b613c92fd7693d4343aedf17c52f6f9eda.asset/AssetData/Valley.heic    457    1      115           3
+  116                                                                                                                                                      3    458   20      116           3
+  115                     /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/b520a8b613c92fd7693d4343aedf17c52f6f9eda.asset/AssetData/Valley.heic    459    1      115           4
+  116                                                                                                                                                      3    460   20      116           4
+  115                     /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/b520a8b613c92fd7693d4343aedf17c52f6f9eda.asset/AssetData/Valley.heic    461    1      115           2
+  116                                                                                                                                                      3    462   20      116           2
+  115                     /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/b520a8b613c92fd7693d4343aedf17c52f6f9eda.asset/AssetData/Valley.heic    463    1      115           1
+  116                                                                                                                                                      3    464   20      116           1
+
+
+
+95/100. beach-light:
+
+--------------------------------------------------------------------------- data ---------------------------------------------------------------------------  --------- preferences ---------
+rowid                                                                                                                                                  value  rowid  key  data_id  picture_id
+-----  -----------------------------------------------------------------------------------------------------------------------------------------------------  -----  ---  -------  ----------
+  117                  /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/b91ec140f7d34cfdd77304c8e72c570ccdf8d814.asset/AssetData/The Beach.heic    465    1      117           3
+  118                                                                                                                                                      2    466   20      118           3
+  117                  /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/b91ec140f7d34cfdd77304c8e72c570ccdf8d814.asset/AssetData/The Beach.heic    467    1      117           4
+  118                                                                                                                                                      2    468   20      118           4
+  117                  /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/b91ec140f7d34cfdd77304c8e72c570ccdf8d814.asset/AssetData/The Beach.heic    469    1      117           2
+  118                                                                                                                                                      2    470   20      118           2
+  117                  /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/b91ec140f7d34cfdd77304c8e72c570ccdf8d814.asset/AssetData/The Beach.heic    471    1      117           1
+  118                                                                                                                                                      2    472   20      118           1
+
+
+
+96/100. beach-light:
+
+--------------------------------------------------------------------------- data ---------------------------------------------------------------------------  --------- preferences ---------
+rowid                                                                                                                                                  value  rowid  key  data_id  picture_id
+-----  -----------------------------------------------------------------------------------------------------------------------------------------------------  -----  ---  -------  ----------
+  119                  /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/b91ec140f7d34cfdd77304c8e72c570ccdf8d814.asset/AssetData/The Beach.heic    473    1      119           3
+  120                                                                                                                                                      2    474   20      120           3
+  119                  /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/b91ec140f7d34cfdd77304c8e72c570ccdf8d814.asset/AssetData/The Beach.heic    475    1      119           4
+  120                                                                                                                                                      2    476   20      120           4
+  119                  /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/b91ec140f7d34cfdd77304c8e72c570ccdf8d814.asset/AssetData/The Beach.heic    477    1      119           2
+  120                                                                                                                                                      2    478   20      120           2
+  119                  /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/b91ec140f7d34cfdd77304c8e72c570ccdf8d814.asset/AssetData/The Beach.heic    479    1      119           1
+  120                                                                                                                                                      2    480   20      120           1
+
+
+
+97/100. big-sur-graphic-light:
+
+--------------------------------------------------------------------------- data ---------------------------------------------------------------------------  --------- preferences ---------
+rowid                                                                                                                                                  value  rowid  key  data_id  picture_id
+-----  -----------------------------------------------------------------------------------------------------------------------------------------------------  -----  ---  -------  ----------
+  121                                                                                                  /System/Library/Desktop Pictures/Big Sur Graphic.heic    481    1      121           3
+  122                                                                                                                                                      2    482   20      122           3
+  121                                                                                                  /System/Library/Desktop Pictures/Big Sur Graphic.heic    483    1      121           4
+  122                                                                                                                                                      2    484   20      122           4
+  121                                                                                                  /System/Library/Desktop Pictures/Big Sur Graphic.heic    485    1      121           2
+  122                                                                                                                                                      2    486   20      122           2
+  121                                                                                                  /System/Library/Desktop Pictures/Big Sur Graphic.heic    487    1      121           1
+  122                                                                                                                                                      2    488   20      122           1
+
+
+
+98/100. dome-dark:
+
+--------------------------------------------------------------------------- data ---------------------------------------------------------------------------  --------- preferences ---------
+rowid                                                                                                                                                  value  rowid  key  data_id  picture_id
+-----  -----------------------------------------------------------------------------------------------------------------------------------------------------  -----  ---  -------  ----------
+  123                       /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/0147cb729255506b6649aae14e8805b248f6f99f.asset/AssetData/Dome.heic    489    1      123           3
+  124                                                                                                                                                      3    490   20      124           3
+  123                       /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/0147cb729255506b6649aae14e8805b248f6f99f.asset/AssetData/Dome.heic    491    1      123           4
+  124                                                                                                                                                      3    492   20      124           4
+  123                       /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/0147cb729255506b6649aae14e8805b248f6f99f.asset/AssetData/Dome.heic    493    1      123           2
+  124                                                                                                                                                      3    494   20      124           2
+  123                       /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/0147cb729255506b6649aae14e8805b248f6f99f.asset/AssetData/Dome.heic    495    1      123           1
+  124                                                                                                                                                      3    496   20      124           1
+
+
+
+99/100. /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/6b9eee9947acbe5c4b04aac87ac375602fce8ca3.asset/AssetData/Big Sur Waters Edge.heic:
+
+--------------------------------------------------------------------------- data ---------------------------------------------------------------------------  --------- preferences ---------
+rowid                                                                                                                                                  value  rowid  key  data_id  picture_id
+-----  -----------------------------------------------------------------------------------------------------------------------------------------------------  -----  ---  -------  ----------
+  125        /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/6b9eee9947acbe5c4b04aac87ac375602fce8ca3.asset/AssetData/Big Sur Waters Edge.heic    497    1      125           3
+  125        /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/6b9eee9947acbe5c4b04aac87ac375602fce8ca3.asset/AssetData/Big Sur Waters Edge.heic    498    1      125           4
+  125        /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/6b9eee9947acbe5c4b04aac87ac375602fce8ca3.asset/AssetData/Big Sur Waters Edge.heic    499    1      125           2
+  125        /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/6b9eee9947acbe5c4b04aac87ac375602fce8ca3.asset/AssetData/Big Sur Waters Edge.heic    500    1      125           1
+
+
+
+100/100. cliffs-dark:
+
+--------------------------------------------------------------------------- data ---------------------------------------------------------------------------  --------- preferences ---------
+rowid                                                                                                                                                  value  rowid  key  data_id  picture_id
+-----  -----------------------------------------------------------------------------------------------------------------------------------------------------  -----  ---  -------  ----------
+  126                 /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/3f8e02c0678e834abc820fd1d69d2a4b11a3ae84.asset/AssetData/The Cliffs.heic    501    1      126           3
+  127                                                                                                                                                      3    502   20      127           3
+  126                 /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/3f8e02c0678e834abc820fd1d69d2a4b11a3ae84.asset/AssetData/The Cliffs.heic    503    1      126           4
+  127                                                                                                                                                      3    504   20      127           4
+  126                 /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/3f8e02c0678e834abc820fd1d69d2a4b11a3ae84.asset/AssetData/The Cliffs.heic    505    1      126           2
+  127                                                                                                                                                      3    506   20      127           2
+  126                 /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/3f8e02c0678e834abc820fd1d69d2a4b11a3ae84.asset/AssetData/The Cliffs.heic    507    1      126           1
+  127                                                                                                                                                      3    508   20      127           1
+
+
+
