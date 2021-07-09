@@ -367,11 +367,11 @@ If the `set-desktop.sh` script is used to set the Desktop picture to say *Catali
 
 The options for the script are:
 
-1. Disable SIP first. It is enabled by default and disabling it is not a trivial matter. Not something that the script can do nor perhaps is desirable. N.B. This is how the current version of the script works.
+1. Disable SIP first. It is enabled by default and disabling it is not a trivial matter. Not something that the script can do nor perhaps is desirable. ~~N.B. This is how the current version of the script works.~~
 
 2. Have the script use existing Desktop picture image files in the `/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/` and download and place missing Desktop picture image files in a newley-created writable directory say `~/Library/Application Support/AssetsV2/com_apple_MobileAsset_DesktopPicture/Dock`. This is the location of `desktoppicture.db`, the database that stores the current Desktop picture. 
 
-3. Have the script use existing Desktop picture image files in the `/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/` and prompt the user to download any missing image file via System Preferences > Desktop & Screensaver > Desktop.
+3. Have the script use existing Desktop picture image files in the `/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/` and prompt the user to download any missing image file via System Preferences > Desktop & Screensaver > Desktop. N.B. This is how the current version of the script works.
 
 ---
 
