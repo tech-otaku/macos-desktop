@@ -2,7 +2,7 @@
 
 [ -z $1 ] && TIMES=5 || TIMES=$1
 
-rm set-desktop-monterey-tests.txt
+rm -f set-desktop-monterey-tests.txt
 
 echo -e "Randomly generated $(date '+on %Y-%m-%d at %H:%M:%S') by $0 using Monterey Developer Beta 1 build $(system_profiler SPSoftwareDataType | awk '/System Version/ {print $5}')\n" >> set-desktop-monterey-tests.txt 
 
@@ -23,7 +23,7 @@ for (( i=1;i<=$TIMES;i++ )); do
 	sleep 3
 
 	echo -e "$i/$TIMES. $SELECTION:\n" >> set-desktop-monterey-tests.txt
-	echo -e "--------------------------------- data ---------------------------------  --------- preferences ---------" >> set-desktop-monterey-tests.txt
+	echo -e "--------------------------------------------------------------------------- data ---------------------------------------------------------------------------  --------- preferences ---------" >> set-desktop-monterey-tests.txt
 	sqlite3 ${HOME}/Library/Application\ Support/Dock/desktoppicture.db < execute.sql >> set-desktop-monterey-tests.txt
 	echo -e "\n\n" >> set-desktop-monterey-tests.txt
 done
