@@ -150,64 +150,64 @@ Setting the image to *Automatic* (e.g. Peak Automatic) ensures it conforms to th
 ##### HEIF (.heic) images
 
 ###### Big Sur Aerial
-`[bash] ./set-desktop.sh "/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/972d7a8db8ba601e496e1294aae04124046c1908.asset/Big Sur Aerial.heic"`
+`[bash] ./set-desktop.sh "/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/972d7a8db8ba601e496e1294aae04124046c1908.asset/AssetData/Big Sur Aerial.heic"`
 
 ###### Big Sur Coastline
-`[bash] ./set-desktop.sh "/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/cf8e4fef996d7b6e9b7d223a7a732a9dc96e908f.asset/Big Sur Coastline.heic"`
+`[bash] ./set-desktop.sh "/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/cf8e4fef996d7b6e9b7d223a7a732a9dc96e908f.asset/AssetData/Big Sur Coastline.heic"`
 
 ###### Big Sur Horizon
-`[bash] ./set-desktop.sh "/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/237a25a78324e57274dd0ea40d8bd895481a1613.asset/Big Sur Horizon.heic"`
+`[bash] ./set-desktop.sh "/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/237a25a78324e57274dd0ea40d8bd895481a1613.asset/AssetData/Big Sur Horizon.heic"`
 
 ###### Big Sur Mountains
-`[bash] ./set-desktop.sh "/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/0b55533c35ad0c1c5ff89e983539a44faf859c07.asset/Big Sur Mountains.heic"`
+`[bash] ./set-desktop.sh "/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/0b55533c35ad0c1c5ff89e983539a44faf859c07.asset/AssetData/Big Sur Mountains.heic"`
 
 ###### Big Sur Night Grasses
-`[bash] ./set-desktop.sh "/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/5b040b5fecb84d2766a94ef5a14bd5efa2fbcde3.asset/Big Sur Night Grasses.heic"`
+`[bash] ./set-desktop.sh "/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/5b040b5fecb84d2766a94ef5a14bd5efa2fbcde3.asset/AssetData/Big Sur Night Grasses.heic"`
 
 ###### Big Sur Night Succulents
-`[bash] ./set-desktop.sh "/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/0ffac9759762068a7ab8dfb650a1a19ef7093b46.asset/Big Sur Night Succulents.heic"`
+`[bash] ./set-desktop.sh "/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/0ffac9759762068a7ab8dfb650a1a19ef7093b46.asset/AssetData/Big Sur Night Succulents.heic"`
 
 ###### Big Sur Road
-`[bash] ./set-desktop.sh "/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/15709d3247a0ceaf9d309339950487b47f9b44bb.asset/Big Sur Road.heic"`
+`[bash] ./set-desktop.sh "/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/15709d3247a0ceaf9d309339950487b47f9b44bb.asset/AssetData/Big Sur Road.heic"`
 
 ###### Big Sur Shore Rocks
-`[bash] ./set-desktop.sh "/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/17b0ec7a80a6547175ce3acd4c8abbb8615f7f03.asset/Big Sur Shore Rocks.heic"`
+`[bash] ./set-desktop.sh "/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/17b0ec7a80a6547175ce3acd4c8abbb8615f7f03.asset/AssetData/Big Sur Shore Rocks.heic"`
 
 ###### Big Sur Water's Edge
-`[bash] ./set-desktop.sh "/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/6b9eee9947acbe5c4b04aac87ac375602fce8ca3.asset/Big Sur Waters Edge.heic"`
+`[bash] ./set-desktop.sh "/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/6b9eee9947acbe5c4b04aac87ac375602fce8ca3.asset/AssetData/Big Sur Waters Edge.heic"`
 
 ###### Catalina Clouds
-`[bash] ./set-desktop.sh "/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/f72f29b3fd3625a6b61bc672d35a32f464640a64.asset/Catalina Clouds.heic"`
+`[bash] ./set-desktop.sh "/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/f72f29b3fd3625a6b61bc672d35a32f464640a64.asset/AssetData/Catalina Clouds.heic"`
 
 ###### Catalina Coast
-`[bash] ./set-desktop.sh "/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/b783f7498e002b0aa3a2759a5df26f8f428b649d.asset/Catalina Coast.heic"`
+`[bash] ./set-desktop.sh "/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/b783f7498e002b0aa3a2759a5df26f8f428b649d.asset/AssetData/Catalina Coast.heic"`
 
 ###### Catalina Evening
-`[bash] ./set-desktop.sh "/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/1479b2d222bc2ebe51fc4d73b06e4fa8c1ce0e5c.asset/Catalina Evening.heic"`
+`[bash] ./set-desktop.sh "/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/1479b2d222bc2ebe51fc4d73b06e4fa8c1ce0e5c.asset/AssetData/Catalina Evening.heic"`
 
 ###### Catalina Rock
-`[bash] ./set-desktop.sh "/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/1a56f27cffc35c1c0d6332e586ee48d68aaaebd9.asset/Catalina Rock.heic"`
+`[bash] ./set-desktop.sh "/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/1a56f27cffc35c1c0d6332e586ee48d68aaaebd9.asset/AssetData/Catalina Rock.heic"`
 
 ###### Catalina Shoreline
-`[bash] ./set-desktop.sh "/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/d9e5318549521fb59354b96d0b2dd9ec123597a9.asset/Catalina Shoreline.heic"`
+`[bash] ./set-desktop.sh "/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/d9e5318549521fb59354b96d0b2dd9ec123597a9.asset/AssetData/Catalina Shoreline.heic"`
 
 ###### Catalina Silhouette
-`[bash] ./set-desktop.sh "/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/aa4f359601cb1a549369ae5c40cb23826af4dd40.asset/Catalina Silhouette.heic"`
+`[bash] ./set-desktop.sh "/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/aa4f359601cb1a549369ae5c40cb23826af4dd40.asset/AssetData/Catalina Silhouette.heic"`
 
 ###### Catalina Sunset
-`[bash] ./set-desktop.sh "/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/c8db91583c4eeffd413c3069f021f95df64d0e4e.asset/Catalina Sunset.heic"`
+`[bash] ./set-desktop.sh "/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/c8db91583c4eeffd413c3069f021f95df64d0e4e.asset/AssetData/Catalina Sunset.heic"`
 
 ###### Light Stream Blue
-`[bash] ./set-desktop.sh "/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/11a3d5c273194adc64529578ce3edb5c55aa20bd.asset/Light Stream Blue.heic"`
+`[bash] ./set-desktop.sh "/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/11a3d5c273194adc64529578ce3edb5c55aa20bd.asset/AssetData/Light Stream Blue.heic"`
 
 ###### Light Stream Green
-`[bash] ./set-desktop.sh "/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/a29e422ecde57671ce8bab2a61587cb01211fa07.asset/Light Stream Green.heic"`
+`[bash] ./set-desktop.sh "/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/a29e422ecde57671ce8bab2a61587cb01211fa07.asset/AssetData/Light Stream Green.heic"`
 
 ###### Light Stream Pink
-`[bash] ./set-desktop.sh "/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/06413a4489c03a522ff78f78248bfd3975eaa45c.asset/Light Stream Pink.heic"`
+`[bash] ./set-desktop.sh "/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/06413a4489c03a522ff78f78248bfd3975eaa45c.asset/AssetData/Light Stream Pink.heic"`
 
 ###### Light Stream Red
-`[bash] ./set-desktop.sh "/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/9f458f803afa5a5349aabc6581e2ab155bcc7677.asset/Light Stream Red.heic"`
+`[bash] ./set-desktop.sh "/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/9f458f803afa5a5349aabc6581e2ab155bcc7677.asset/AssetData/Light Stream Red.heic"`
 
 #### Other
 
@@ -354,7 +354,7 @@ macOS Monterey has introduced some fundamental changes to where Desktop pictures
         |-- AssetsV2/
             |-- com_apple_MobileAsset_DesktopPicture/
                 |-- 28e590448a1795ffd7d8ae9c9f826ceedd9696a2/ <--- Created when zip file expanded
-                    |-- AssetData/
+                    |-- AssetData//
                         |-- Catalina.heic                     <--- Desktop picture
                     |-- Info.plist
                     |-- META-INF/
