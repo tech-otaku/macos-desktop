@@ -8,8 +8,34 @@ Set a user's Desktop image in macOS 12 Monterey from the command line. See [Limi
 ## Background
 An explanation of how Desktop images appear to be managed by macOS since Mojave (10.14) can be found at [Setting the Desktop Image in macOS Mojave From the Command Line](https://www.tech-otaku.com/mac/setting-desktop-image-macos-mojave-from-command-line). While this article was written before the release of the Monterey Beta, the majority is still relevant to 12. 
 
+## Instructions 
+
+1. Download [macos-desktop-monterey.zip](https://github.com/tech-otaku/macos-desktop/archive/refs/heads/monterey.zip) <sup>**1**</sup>
+
+1. Double-click `~/Downloads/macos-desktop-monterey.zip` in the Finder to unzip it (Safari may do this automatically)
+
+1. Open the Terminal application in macOS
+
+1. At a Terminal prompt:
+
+    - type `cd ~/Downloads/macos-desktop-monterey` and press enter
+
+    - type `chmod +x set-desktop.sh` and press enter to make the script executable
+
+    - type `chmod +x options.py` and press enter to make the script executable
+
+    - type `chmod +x Monterey\ Tests/set-desktop-monterey-tests.sh` and press enter to make the script executable
+
+1. See the [Examples](#examples) section for using the `set-desktop.sh` script
+
+1. See the [Valid Options](#valid-options) for using the `options.py` script
+
+1. See the [Tests](#tests) for using the `set-desktop-monterey-tests.sh` script
+
+<sup>**1**</sup> **IMPORTANT** This is a development version compatible with macOS 10.15 Catalina, macOS 11 Big Sur and macOS 12 Monterey and is currently undergoing testing. For a stable version that is **not** compatible with macOS 12 Monterey use [macos-desktop-master.zip](https://github.com/tech-otaku/macos-desktop/archive/refs/heads/master.zip) instead.
+
 ## Usage
-`[bash] ./set-desktop.sh <desktop image>`
+`./set-desktop.sh <desktop image>`
 
 ## Examples
 
@@ -20,61 +46,61 @@ Setting the image to *Dynamic* (e.g. The Beach Dynamic) ensures it changes throu
 ##### HEIF (.heic) images
 
 ###### The Beach Dynamic
-`[bash] ./set-desktop.sh beach`
+`./set-desktop.sh beach`
 
 ###### The Beach Dark (Still)
-`[bash] ./set-desktop.sh beach-dark`
+`./set-desktop.sh beach-dark`
 
 ###### The Beach Light (Still)
-`[bash] ./set-desktop.sh beach-light`
+`./set-desktop.sh beach-light`
 
 ###### Big Sur Dynamic
-`[bash] ./set-desktop.sh big-sur`
+`./set-desktop.sh big-sur`
 
 ###### Big Sur Dark (Still)
-`[bash] ./set-desktop.sh big-sur-dark`
+`./set-desktop.sh big-sur-dark`
 
 ###### Big Sur Light (Still)
-`[bash] ./set-desktop.sh big-sur-light`
+`./set-desktop.sh big-sur-light`
 
 ###### Catalina Dynamic
-`[bash] ./set-desktop.sh catalina`
+`./set-desktop.sh catalina`
 
 ###### Catalina Dark (Still)
-`[bash] ./set-desktop.sh catalina-dark`
+`./set-desktop.sh catalina-dark`
 
 ###### Catalina Light (Still)
-`[bash] ./set-desktop.sh catalina-light`
+`./set-desktop.sh catalina-light`
 
 ###### The Cliffs Dynamic
-`[bash] ./set-desktop.sh cliffs`
+`./set-desktop.sh cliffs`
 
 ###### The Cliffs Dark (Still)
-`[bash] ./set-desktop.sh cliffs-dark`
+`./set-desktop.sh cliffs-dark`
 
 ###### The Cliffs Light (Still)
-`[bash] ./set-desktop.sh cliffs-light`
+`./set-desktop.sh cliffs-light`
 
 ###### The Desert Dynamic
-`[bash] ./set-desktop.sh desert`
+`./set-desktop.sh desert`
 
 ###### The Desert Dark (Still)
-`[bash] ./set-desktop.sh desert-dark`
+`./set-desktop.sh desert-dark`
 
 ###### The Desert Light (Still)
-`[bash] ./set-desktop.sh desert-light`
+`./set-desktop.sh desert-light`
 
 ###### The Lake Dynamic
-`[bash] ./set-desktop.sh lake`
+`./set-desktop.sh lake`
 
 ###### The Lake Dark (Still)
-`[bash] ./set-desktop.sh lake-dark`
+`./set-desktop.sh lake-dark`
 
 ###### The Lake Light (Still)
-`[bash] ./set-desktop.sh lake-light`
+`./set-desktop.sh lake-light`
 
 ###### Solar Gradients
-`[bash] ./set-desktop.sh solar`
+`./set-desktop.sh solar`
 
 #### Light and Dark Desktop
 
@@ -83,209 +109,205 @@ Setting the image to *Automatic* (e.g. Peak Automatic) ensures it conforms to th
 ##### HEIF (.heic) images
 
 ###### Big Sur Graphic Automatic
-`[bash] ./set-desktop.sh big-sur-graphic`
+`./set-desktop.sh big-sur-graphic`
 
 ###### Big Sur Graphic Dark (Still)
-`[bash] ./set-desktop.sh big-sur-graphic-dark`
+`./set-desktop.sh big-sur-graphic-dark`
 
 ###### Big Sur Graphic Light (Still)
-`[bash] ./set-desktop.sh big-sur-graphic-light`
+`./set-desktop.sh big-sur-graphic-light`
 
 ###### Dome Automatic
-`[bash] ./set-desktop.sh dome`
+`./set-desktop.sh dome`
 
 ###### Dome Dark (Still)
-`[bash] ./set-desktop.sh dome-dark`
+`./set-desktop.sh dome-dark`
 
 ###### Dome Light (Still)
-`[bash] ./set-desktop.sh dome-light`
+`./set-desktop.sh dome-light`
 
 ###### Hello Blue Automatic
-`[bash] ./set-desktop.sh blue`
+`./set-desktop.sh blue`
 
 ###### Hello Blue Dark (Still)
-`[bash] ./set-desktop.sh blue-dark`
+`./set-desktop.sh blue-dark`
 
 ###### Hello Blue Light (Still)
-`[bash] ./set-desktop.sh blue-light`
+`./set-desktop.sh blue-light`
 
 ###### Hello Green Automatic
-`[bash] ./set-desktop.sh green`
+`./set-desktop.sh green`
 
 ###### Hello Green Dark (Still)
-`[bash] ./set-desktop.sh green-dark`
+`./set-desktop.sh green-dark`
 
 ###### Hello Green Light (Still)
-`[bash] ./set-desktop.sh green-light`
+`./set-desktop.sh green-light`
 
 ###### Hello Orange Automatic
-`[bash] ./set-desktop.sh orange`
+`./set-desktop.sh orange`
 
 ###### Hello Orange Dark (Still)
-`[bash] ./set-desktop.sh orange-dark`
+`./set-desktop.sh orange-dark`
 
 ###### Hello Orange Light (Still)
-`[bash] ./set-desktop.sh orange-light`
+`./set-desktop.sh orange-light`
 
 ###### Hello Pink Automatic
-`[bash] ./set-desktop.sh pink`
+`./set-desktop.sh pink`
 
 ###### Hello Pink Dark (Still)
-`[bash] ./set-desktop.sh pink-dark`
+`./set-desktop.sh pink-dark`
 
 ###### Hello Pink Light (Still)
-`[bash] ./set-desktop.sh pink-light`
+`./set-desktop.sh pink-light`
 
 ###### Hello Purple Automatic
-`[bash] ./set-desktop.sh purple`
+`./set-desktop.sh purple`
 
 ###### Hello Purple Dark (Still)
-`[bash] ./set-desktop.sh purple-dark`
+`./set-desktop.sh purple-dark`
 
 ###### Hello Purple Light (Still)
-`[bash] ./set-desktop.sh purple-light`
+`./set-desktop.sh purple-light`
 
 ###### Hello Silver Automatic
-`[bash] ./set-desktop.sh silver`
+`./set-desktop.sh silver`
 
 ###### Hello Silver Dark (Still)
-`[bash] ./set-desktop.sh silver-dark`
+`./set-desktop.sh silver-dark`
 
 ###### Hello Silver Light (Still)
-`[bash] ./set-desktop.sh silver-light`
+`./set-desktop.sh silver-light`
 
 ###### Hello Yellow Automatic
-`[bash] ./set-desktop.sh yellow`
+`./set-desktop.sh yellow`
 
 ###### Hello Yellow Dark (Still)
-`[bash] ./set-desktop.sh yellow-dark`
+`./set-desktop.sh yellow-dark`
 
 ###### Hello Yellow Light (Still)
-`[bash] ./set-desktop.sh yellow-light`
+`./set-desktop.sh yellow-light`
 
 
 
 ###### Iridescence Automatic
-`[bash] ./set-desktop.sh iridescence`
+`./set-desktop.sh iridescence`
 
 ###### Iridescence Dark (Still)
-`[bash] ./set-desktop.sh iridescence-dark`
+`./set-desktop.sh iridescence-dark`
 
 ###### Iridescence Light (Still)
-`[bash] ./set-desktop.sh iridescence-light`
+`./set-desktop.sh iridescence-light`
 
 ###### macOS Graphic Automatic
-`[bash] ./set-desktop.sh graphic`
+`./set-desktop.sh graphic`
 
 ###### macOS Graphic Dark (Still)
-`[bash] ./set-desktop.sh dark`
+`./set-desktop.sh dark`
 
 ###### macOS Graphic Light (Still)
-`[bash] ./set-desktop.sh light`
+`./set-desktop.sh light`
 
 ###### Peak Automatic
-`[bash] ./set-desktop.sh peak`
+`./set-desktop.sh peak`
 
 ###### Peak Dark (Still)
-`[bash] ./set-desktop.sh peak-dark`
+`./set-desktop.sh peak-dark`
 
 ###### Peak Light (Still)
-`[bash] ./set-desktop.sh peak-light`
+`./set-desktop.sh peak-light`
 
 ###### Tree Automatic
-`[bash] ./set-desktop.sh tree`
+`./set-desktop.sh tree`
 
 ###### Tree Dark (Still)
-`[bash] ./set-desktop.sh tree-dark`
+`./set-desktop.sh tree-dark`
 
 ###### Tree Light (Still)
-`[bash] ./set-desktop.sh tree-light`
+`./set-desktop.sh tree-light`
 
 ###### Valley Automatic
-`[bash] ./set-desktop.sh valley`
+`./set-desktop.sh valley`
 
 ###### Valley Dark (Still)
-`[bash] ./set-desktop.sh valley-dark`
+`./set-desktop.sh valley-dark`
 
 ###### Valley Light (Still)
-`[bash] ./set-desktop.sh valley-light`
+`./set-desktop.sh valley-light`
 
 #### Desktop Pictures
 
 ##### HEIF (.heic) images
 
 ###### Big Sur Aerial
-`[bash] ./set-desktop.sh "/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/972d7a8db8ba601e496e1294aae04124046c1908.asset/AssetData/Big Sur Aerial.heic"`
+`./set-desktop.sh "/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/972d7a8db8ba601e496e1294aae04124046c1908.asset/AssetData/Big Sur Aerial.heic"`
 
 ###### Big Sur Coastline
-`[bash] ./set-desktop.sh "/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/cf8e4fef996d7b6e9b7d223a7a732a9dc96e908f.asset/AssetData/Big Sur Coastline.heic"`
+`./set-desktop.sh "/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/cf8e4fef996d7b6e9b7d223a7a732a9dc96e908f.asset/AssetData/Big Sur Coastline.heic"`
 
 ###### Big Sur Horizon
-`[bash] ./set-desktop.sh "/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/237a25a78324e57274dd0ea40d8bd895481a1613.asset/AssetData/Big Sur Horizon.heic"`
+`./set-desktop.sh "/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/237a25a78324e57274dd0ea40d8bd895481a1613.asset/AssetData/Big Sur Horizon.heic"`
 
 ###### Big Sur Mountains
-`[bash] ./set-desktop.sh "/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/0b55533c35ad0c1c5ff89e983539a44faf859c07.asset/AssetData/Big Sur Mountains.heic"`
+`./set-desktop.sh "/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/0b55533c35ad0c1c5ff89e983539a44faf859c07.asset/AssetData/Big Sur Mountains.heic"`
 
 ###### Big Sur Night Grasses
-`[bash] ./set-desktop.sh "/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/5b040b5fecb84d2766a94ef5a14bd5efa2fbcde3.asset/AssetData/Big Sur Night Grasses.heic"`
+`./set-desktop.sh "/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/5b040b5fecb84d2766a94ef5a14bd5efa2fbcde3.asset/AssetData/Big Sur Night Grasses.heic"`
 
 ###### Big Sur Night Succulents
-`[bash] ./set-desktop.sh "/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/0ffac9759762068a7ab8dfb650a1a19ef7093b46.asset/AssetData/Big Sur Night Succulents.heic"`
+`./set-desktop.sh "/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/0ffac9759762068a7ab8dfb650a1a19ef7093b46.asset/AssetData/Big Sur Night Succulents.heic"`
 
 ###### Big Sur Road
-`[bash] ./set-desktop.sh "/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/15709d3247a0ceaf9d309339950487b47f9b44bb.asset/AssetData/Big Sur Road.heic"`
+`./set-desktop.sh "/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/15709d3247a0ceaf9d309339950487b47f9b44bb.asset/AssetData/Big Sur Road.heic"`
 
 ###### Big Sur Shore Rocks
-`[bash] ./set-desktop.sh "/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/17b0ec7a80a6547175ce3acd4c8abbb8615f7f03.asset/AssetData/Big Sur Shore Rocks.heic"`
+`./set-desktop.sh "/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/17b0ec7a80a6547175ce3acd4c8abbb8615f7f03.asset/AssetData/Big Sur Shore Rocks.heic"`
 
 ###### Big Sur Water's Edge
-`[bash] ./set-desktop.sh "/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/6b9eee9947acbe5c4b04aac87ac375602fce8ca3.asset/AssetData/Big Sur Waters Edge.heic"`
+`./set-desktop.sh "/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/6b9eee9947acbe5c4b04aac87ac375602fce8ca3.asset/AssetData/Big Sur Waters Edge.heic"`
 
 ###### Catalina Clouds
-`[bash] ./set-desktop.sh "/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/f72f29b3fd3625a6b61bc672d35a32f464640a64.asset/AssetData/Catalina Clouds.heic"`
+`./set-desktop.sh "/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/f72f29b3fd3625a6b61bc672d35a32f464640a64.asset/AssetData/Catalina Clouds.heic"`
 
 ###### Catalina Coast
-`[bash] ./set-desktop.sh "/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/b783f7498e002b0aa3a2759a5df26f8f428b649d.asset/AssetData/Catalina Coast.heic"`
+`./set-desktop.sh "/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/b783f7498e002b0aa3a2759a5df26f8f428b649d.asset/AssetData/Catalina Coast.heic"`
 
 ###### Catalina Evening
-`[bash] ./set-desktop.sh "/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/1479b2d222bc2ebe51fc4d73b06e4fa8c1ce0e5c.asset/AssetData/Catalina Evening.heic"`
+`./set-desktop.sh "/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/1479b2d222bc2ebe51fc4d73b06e4fa8c1ce0e5c.asset/AssetData/Catalina Evening.heic"`
 
 ###### Catalina Rock
-`[bash] ./set-desktop.sh "/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/1a56f27cffc35c1c0d6332e586ee48d68aaaebd9.asset/AssetData/Catalina Rock.heic"`
+`./set-desktop.sh "/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/1a56f27cffc35c1c0d6332e586ee48d68aaaebd9.asset/AssetData/Catalina Rock.heic"`
 
 ###### Catalina Shoreline
-`[bash] ./set-desktop.sh "/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/d9e5318549521fb59354b96d0b2dd9ec123597a9.asset/AssetData/Catalina Shoreline.heic"`
+`./set-desktop.sh "/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/d9e5318549521fb59354b96d0b2dd9ec123597a9.asset/AssetData/Catalina Shoreline.heic"`
 
 ###### Catalina Silhouette
-`[bash] ./set-desktop.sh "/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/aa4f359601cb1a549369ae5c40cb23826af4dd40.asset/AssetData/Catalina Silhouette.heic"`
+`./set-desktop.sh "/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/aa4f359601cb1a549369ae5c40cb23826af4dd40.asset/AssetData/Catalina Silhouette.heic"`
 
 ###### Catalina Sunset
-`[bash] ./set-desktop.sh "/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/c8db91583c4eeffd413c3069f021f95df64d0e4e.asset/AssetData/Catalina Sunset.heic"`
+`./set-desktop.sh "/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/c8db91583c4eeffd413c3069f021f95df64d0e4e.asset/AssetData/Catalina Sunset.heic"`
 
 ###### Light Stream Blue
-`[bash] ./set-desktop.sh "/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/11a3d5c273194adc64529578ce3edb5c55aa20bd.asset/AssetData/Light Stream Blue.heic"`
+`./set-desktop.sh "/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/11a3d5c273194adc64529578ce3edb5c55aa20bd.asset/AssetData/Light Stream Blue.heic"`
 
 ###### Light Stream Green
-`[bash] ./set-desktop.sh "/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/a29e422ecde57671ce8bab2a61587cb01211fa07.asset/AssetData/Light Stream Green.heic"`
+`./set-desktop.sh "/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/a29e422ecde57671ce8bab2a61587cb01211fa07.asset/AssetData/Light Stream Green.heic"`
 
 ###### Light Stream Pink
-`[bash] ./set-desktop.sh "/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/06413a4489c03a522ff78f78248bfd3975eaa45c.asset/AssetData/Light Stream Pink.heic"`
+`./set-desktop.sh "/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/06413a4489c03a522ff78f78248bfd3975eaa45c.asset/AssetData/Light Stream Pink.heic"`
 
 ###### Light Stream Red
-`[bash] ./set-desktop.sh "/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/9f458f803afa5a5349aabc6581e2ab155bcc7677.asset/AssetData/Light Stream Red.heic"`
+`./set-desktop.sh "/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/9f458f803afa5a5349aabc6581e2ab155bcc7677.asset/AssetData/Light Stream Red.heic"`
 
 #### Other
 
 ###### Default
-`[bash] ./set-desktop.sh default`
-
-##### HEIF (.heic) images
-###### hello Green
-`[bash] ./set-desktop.sh "/System/Library/Desktop Pictures/hello Green.heic"`
+`./set-desktop.sh default`
 
 ##### non-HEIF (.heic) images
 ###### Electric Blue
-`[bash] ./set-desktop.sh "/System/Library/Desktop Pictures/Solid Colors/Electric Blue.png"`
+`./set-desktop.sh "/System/Library/Desktop Pictures/Solid Colors/Electric Blue.png"`
 
 ## Error Messages
 
@@ -324,13 +346,13 @@ __Not for use with multiple Desktops (Spaces) or in a dual-display environment._
 
 All valid options and their corresponding data are stored in the file `options.json`. To list these options for Monterey use the following:
 
-- unsorted in the order they appear in `options.json` use `[python] ./options.py --version monterey`
+- unsorted in the order they appear in `options.json` use `./options.py --version monterey`
 
-- sorted by `category` use `[python] ./options.py --sort category --version monterey`
+- sorted by `category` use `./options.py --sort category --version monterey`
 
-- sorted by `name` use `[python] ./options.py --sort name --version monterey`
+- sorted by `name` use `./options.py --sort name --version monterey`
 
-- sorted by `option` use `[python] ./options.py --sort option --version monterey`
+- sorted by `option` use `./options.py --sort option --version monterey`
 
 ## Tests
 
@@ -338,7 +360,7 @@ The `set-desktop-monterey-tests.sh` script in the `Monterey Tests` directory exe
 
 The intention is to document the state of the `data` and `preferences` tables in the `desktoppicture.db` database after each iteration. Output is written to `set-desktop-monterey-tests.txt`
 
-To change the Desktop picture 100 times, `cd` into the `Monterey Tests` directory and type `[bash] ./set-desktop-monterey-tests.sh 100`
+To change the Desktop picture 100 times, `cd` into the `Monterey Tests` directory and type `./set-desktop-monterey-tests.sh 100`
 
 ## Changes Since macOS 11.4 Big Sur
 
