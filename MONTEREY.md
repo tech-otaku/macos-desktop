@@ -28,9 +28,9 @@ An explanation of how Desktop images appear to be managed by macOS since Mojave 
 
 1. See the [Examples](#examples) section for using the `set-desktop.sh` script
 
-1. See the [Valid Options](#valid-options) for using the `options.py` script
+1. See the [Valid Options](#valid-options) section for using the `options.py` script
 
-1. See the [Tests](#tests) for using the `set-desktop-monterey-tests.sh` script
+1. See the [Tests](#tests) section for using the `set-desktop-monterey-tests.sh` script
 
 <sup>**1**</sup> **IMPORTANT** This is a development version compatible with macOS 10.15 Catalina, macOS 11 Big Sur and macOS 12 Monterey and is currently undergoing testing. For a stable version that is **not** compatible with macOS 12 Monterey use [macos-desktop-master.zip](https://github.com/tech-otaku/macos-desktop/archive/refs/heads/master.zip) instead.
 
@@ -478,7 +478,7 @@ The options for the script are:
     
 * Like other Desktop pictures in the Light and Dark Desktop category, there are options for *Automatic*, *Light (Still)* and *Dark* (Still).
 
-* The image files are located in the `/System/Library/Desktop Pictures/` directory and do not need to be downloaded via System Preferences. These files have existed in this directory in Big Sur since the release of the new 24" iMac, but this is the first time thay've been included in System Preferences > Desktop & Screensaver > Desktop.
+* The image files are located in the `/System/Library/Desktop Pictures/` directory and do not need to be downloaded via System Preferences. These files have existed in this directory since Big Sur and the release of the new 24" iMac, but this is the first time thay've been included as options in System Preferences.
 
 ---
 
