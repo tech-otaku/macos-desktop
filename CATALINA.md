@@ -94,17 +94,17 @@ An explanation of how Desktop images appear to be managed by macOS since Mojave 
 
 ## Error Messages
 
-###### Not running macOS Catalina
-`ERROR: For use with macOS Catalina 10.15.x only.`
+###### Not running macOS 10.15 Catalina or later
+`ERROR: For use with macOS 10.15 Catalina or later.`
 
 ###### No Desktop image passed on the command line
 `ERROR: No image was specified.`
 
 ###### Supplied Desktop image is a file that doesn't exist
-`ERROR: './desktop/image.jpg' doesn't exist.`
+`ERROR: </path/to/desktop/image.jpg> doesn't exist.`
 
 ###### Invalid option passed on the command line
-`ERROR: 'option' is not a valid option.`
+`ERROR: <option> is not a valid option.`
 
 ###### Attempt to reset a database other than desktoppicture.db to the default
 `ERROR: The 'default' option is only appropriate when the database is ~/Library/Application Support/Dock/desktoppicture.db`

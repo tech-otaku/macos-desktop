@@ -212,17 +212,17 @@ Setting the image to *Automatic* (e.g. Peak Automatic) ensures it conforms to th
 
 ## Error Messages
 
-###### Not running macOS Big Sur
-`ERROR: For use with macOS Big Sur 11.0.x only.`
+###### Not running macOS 10.15 Catalina or later
+`ERROR: For use with macOS 10.15 Catalina or later.`
 
 ###### No Desktop image passed on the command line
 `ERROR: No image was specified.`
 
 ###### Supplied Desktop image is a file that doesn't exist
-`ERROR: './desktop/image.jpg' doesn't exist.`
+`ERROR: </path/to/desktop/image.jpg> doesn't exist.`
 
 ###### Invalid option passed on the command line
-`ERROR: 'option' is not a valid option.`
+`ERROR: <option> is not a valid option.`
 
 ###### Attempt to reset a database other than desktoppicture.db to the default
 `ERROR: The 'default' option is only appropriate when the database is ~/Library/Application Support/Dock/desktoppicture.db`
