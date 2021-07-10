@@ -82,15 +82,6 @@ Setting the image to *Automatic* (e.g. Peak Automatic) ensures it conforms to th
 
 ##### HEIF (.heic) images
 
-###### macOS Graphic Automatic
-`[bash] ./set-desktop.sh graphic`
-
-###### macOS Graphic Dark (Still)
-`[bash] ./set-desktop.sh dark`
-
-###### macOS Graphic Light (Still)
-`[bash] ./set-desktop.sh light`
-
 ###### Big Sur Graphic Automatic
 `[bash] ./set-desktop.sh big-sur-graphic`
 
@@ -98,7 +89,7 @@ Setting the image to *Automatic* (e.g. Peak Automatic) ensures it conforms to th
 `[bash] ./set-desktop.sh big-sur-graphic-dark`
 
 ###### Big Sur Graphic Light (Still)
-`[bash] ./set-desktop.sh big-sur-graphic-light `
+`[bash] ./set-desktop.sh big-sur-graphic-light`
 
 ###### Dome Automatic
 `[bash] ./set-desktop.sh dome`
@@ -109,6 +100,71 @@ Setting the image to *Automatic* (e.g. Peak Automatic) ensures it conforms to th
 ###### Dome Light (Still)
 `[bash] ./set-desktop.sh dome-light`
 
+###### Hello Blue Automatic
+`[bash] ./set-desktop.sh blue`
+
+###### Hello Blue Dark (Still)
+`[bash] ./set-desktop.sh blue-dark`
+
+###### Hello Blue Light (Still)
+`[bash] ./set-desktop.sh blue-light`
+
+###### Hello Green Automatic
+`[bash] ./set-desktop.sh green`
+
+###### Hello Green Dark (Still)
+`[bash] ./set-desktop.sh green-dark`
+
+###### Hello Green Light (Still)
+`[bash] ./set-desktop.sh green-light`
+
+###### Hello Orange Automatic
+`[bash] ./set-desktop.sh orange`
+
+###### Hello Orange Dark (Still)
+`[bash] ./set-desktop.sh orange-dark`
+
+###### Hello Orange Light (Still)
+`[bash] ./set-desktop.sh orange-light`
+
+###### Hello Pink Automatic
+`[bash] ./set-desktop.sh pink`
+
+###### Hello Pink Dark (Still)
+`[bash] ./set-desktop.sh pink-dark`
+
+###### Hello Pink Light (Still)
+`[bash] ./set-desktop.sh pink-light`
+
+###### Hello Purple Automatic
+`[bash] ./set-desktop.sh purple`
+
+###### Hello Purple Dark (Still)
+`[bash] ./set-desktop.sh purple-dark`
+
+###### Hello Purple Light (Still)
+`[bash] ./set-desktop.sh purple-light`
+
+###### Hello Silver Automatic
+`[bash] ./set-desktop.sh silver`
+
+###### Hello Silver Dark (Still)
+`[bash] ./set-desktop.sh silver-dark`
+
+###### Hello Silver Light (Still)
+`[bash] ./set-desktop.sh silver-light`
+
+###### Hello Yellow Automatic
+`[bash] ./set-desktop.sh yellow`
+
+###### Hello Yellow Dark (Still)
+`[bash] ./set-desktop.sh yellow-dark`
+
+###### Hello Yellow Light (Still)
+`[bash] ./set-desktop.sh yellow-light`
+
+
+
 ###### Iridescence Automatic
 `[bash] ./set-desktop.sh iridescence`
 
@@ -117,6 +173,15 @@ Setting the image to *Automatic* (e.g. Peak Automatic) ensures it conforms to th
 
 ###### Iridescence Light (Still)
 `[bash] ./set-desktop.sh iridescence-light`
+
+###### macOS Graphic Automatic
+`[bash] ./set-desktop.sh graphic`
+
+###### macOS Graphic Dark (Still)
+`[bash] ./set-desktop.sh dark`
+
+###### macOS Graphic Light (Still)
+`[bash] ./set-desktop.sh light`
 
 ###### Peak Automatic
 `[bash] ./set-desktop.sh peak`
@@ -285,18 +350,18 @@ macOS Monterey has introduced some fundamental changes to where Desktop pictures
 
 * Only one new Desktop picture named **macOS Graphic** is included and is now the default.
 
-    * In System Preferences > Desktop & Screensaver > Desktop it is the first thumbnail in the Light and Dark Desktop category. 
+* In System Preferences > Desktop & Screensaver > Desktop it is the first thumbnail in the Light and Dark Desktop category. 
     
-    * There are options for *Automatic*, *Light (Still)* and *Dark* (Still).
+* There are options for *Automatic*, *Light (Still)* and *Dark* (Still).
 
-    * The image file is `/System/Library/Desktop Pictures/macOS Graphic.heic`
+* The image file is `/System/Library/Desktop Pictures/macOS Graphic.heic`
 
 
 #### New `.madesktop` Files
 
 * With the exception of `macOS Graphic.heic` and  `Big Sur Graphic.heic` all images with a `.heic` extension in `/System/Library/Desktop Pictures/` that existed in Big Sur and earlier releases of macOS have been replaced by files with a  `.madesktop` extension e.g. `Catalina.heic` is now `Catalina.madesktop`.
 
-    * Each file with a `.madesktop` extension is an XML file containing amongst other data the path to a thumbnail image that is displayed in System Preferences > Desktop & Screensaver > Desktop.
+* Each file with a `.madesktop` extension is an XML file containing amongst other data the path to a thumbnail image that is displayed in System Preferences > Desktop & Screensaver > Desktop.
 
 ```
 <?xml version="1.0" encoding="UTF-8"?>
@@ -325,11 +390,11 @@ macOS Monterey has introduced some fundamental changes to where Desktop pictures
 
 * With the exception of `macOS Graphic.heic` and  `Big Sur Graphic.heic` the full size images used for the Desktop pictures no longer exist on a fresh install of macOS Monterey. This is evident from the download icon on each of the Desktop picture thumbnails in System Preferences > Desktop & Screensaver > Desktop. 
 
-    * The Desktop picture can only be set to the selected `.heic` image after it has been explicitly downloaded by clicking the download icon.
+* The Desktop picture can only be set to the selected `.heic` image after it has been explicitly downloaded by clicking the download icon.
 
-    * The image is no longer located in the `/System/Library/Desktop Pictures/` directory as in previous macOS versions, but a zip file containing the image is downloaded to the `/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/` directory. 
+* The image is no longer located in the `/System/Library/Desktop Pictures/` directory as in previous macOS versions, but a zip file containing the image is downloaded to the `/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/` directory. 
 
-    * The URL of the zip file and the name and location of the directory created when it's expanded are stored in  `/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/com_apple_MobileAsset_DesktopPicture.xml`. 
+* The URL of the zip file and the name and location of the directory created when it's expanded are stored in  `/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/com_apple_MobileAsset_DesktopPicture.xml`. 
 
 ```
 <dict>
@@ -375,6 +440,23 @@ The options for the script are:
 2. Have the script use existing Desktop picture image files in the `/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/` and download and place missing Desktop picture image files in a newley-created writable directory say `~/Library/Application Support/AssetsV2/com_apple_MobileAsset_DesktopPicture/Dock`. This is the location of `desktoppicture.db`, the database that stores the current Desktop picture. 
 
 3. Have the script use existing Desktop picture image files in the `/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/` and prompt the user to download any missing image file via System Preferences > Desktop & Screensaver > Desktop. N.B. This is how the current version of the script works.
+
+### Changes in macOS Monterey Developer Beta 2 [21A5268h]
+
+#### New Desktop Picture Images
+
+* New Desktop pictures included in the Light and Dark Desktop Category in System Preferences > Desktop & Screensaver > Desktop:
+    * Hello Green (hello Green.heic)
+    * Hello Yellow (hello Yellow.heic)
+    * Hello Orange (hello Orange.heic)
+    * Hello Pink (hello Red.heic)
+    * Hello Purple (hello Purple.heic)
+    * Hello Blue (hello Blue.heic)
+    * Hello Silver (hello Grey.heic)
+    
+* Like other Desktop pictures in the Light and Dark Desktop category, there are options for *Automatic*, *Light (Still)* and *Dark* (Still).
+
+* The image files are located in the `/System/Library/Desktop Pictures/` directory and do not need to be downloaded via System Preferences. These files have existed in this directory in Big Sur since the release of the new 24" iMac, but this is the first time thay've been included in System Preferences > Desktop & Screensaver > Desktop.
 
 ---
 

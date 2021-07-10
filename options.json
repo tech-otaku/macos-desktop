@@ -194,6 +194,195 @@
                     "category": "Light and Dark Desktop"
                 },
                 {
+                    "option": "green",
+                    "name": "Hello Green",
+                    "value": "0",
+                    "key": "20",
+                    "file": "'/System/Library/Desktop Pictures/Hello Green.heic'",
+                    "additional": true,
+                    "category": "Light and Dark Desktop"
+                },
+                {
+                    "option": "green-light",
+                    "name": "Hello Green Light (Still)",
+                    "value": "2",
+                    "key": "20",
+                    "file": "'/System/Library/Desktop Pictures/Hello Green.heic'",
+                    "additional": true,
+                    "category": "Light and Dark Desktop"
+                },
+                {
+                    "option": "green-dark",
+                    "name": "Hello Green Dark (Still)",
+                    "value": "3",
+                    "key": "20",
+                    "file": "'/System/Library/Desktop Pictures/Hello Green.heic'",
+                    "additional": true,
+                    "category": "Light and Dark Desktop"
+                },               
+                {
+                    "option": "yellow",
+                    "name": "Hello Yellow",
+                    "value": "0",
+                    "key": "20",
+                    "file": "'/System/Library/Desktop Pictures/Hello Yellow.heic'",
+                    "additional": true,
+                    "category": "Light and Dark Desktop"
+                },
+                {
+                    "option": "yellow-light",
+                    "name": "Hello Yellow Light (Still)",
+                    "value": "2",
+                    "key": "20",
+                    "file": "'/System/Library/Desktop Pictures/Hello Yellow.heic'",
+                    "additional": true,
+                    "category": "Light and Dark Desktop"
+                },
+                {
+                    "option": "yellow-dark",
+                    "name": "Hello Yellow Dark (Still)",
+                    "value": "3",
+                    "key": "20",
+                    "file": "'/System/Library/Desktop Pictures/Hello Yellow.heic'",
+                    "additional": true,
+                    "category": "Light and Dark Desktop"
+                },                
+                {
+                    "option": "orange",
+                    "name": "Hello Orange",
+                    "value": "0",
+                    "key": "20",
+                    "file": "'/System/Library/Desktop Pictures/Hello Orange.heic'",
+                    "additional": true,
+                    "category": "Light and Dark Desktop"
+                },
+                {
+                    "option": "orange-light",
+                    "name": "Hello Orange Light (Still)",
+                    "value": "2",
+                    "key": "20",
+                    "file": "'/System/Library/Desktop Pictures/Hello Orange.heic'",
+                    "additional": true,
+                    "category": "Light and Dark Desktop"
+                },
+                {
+                    "option": "orange-dark",
+                    "name": "Hello Orange Dark (Still)",
+                    "value": "3",
+                    "key": "20",
+                    "file": "'/System/Library/Desktop Pictures/Hello Orange.heic'",
+                    "additional": true,
+                    "category": "Light and Dark Desktop"
+                },                
+                {
+                    "option": "pink",
+                    "name": "Hello Pink",
+                    "value": "0",
+                    "key": "20",
+                    "file": "'/System/Library/Desktop Pictures/Hello Red.heic'",
+                    "additional": true,
+                    "category": "Light and Dark Desktop"
+                },
+                {
+                    "option": "pink-light",
+                    "name": "Hello Pink Light (Still)",
+                    "value": "2",
+                    "key": "20",
+                    "file": "'/System/Library/Desktop Pictures/Hello Red.heic'",
+                    "additional": true,
+                    "category": "Light and Dark Desktop"
+                },
+                {
+                    "option": "pink-dark",
+                    "name": "Hello Pink Dark (Still)",
+                    "value": "3",
+                    "key": "20",
+                    "file": "'/System/Library/Desktop Pictures/Hello Red.heic'",
+                    "additional": true,
+                    "category": "Light and Dark Desktop"
+                },                
+                {
+                    "option": "purple",
+                    "name": "Hello Purple",
+                    "value": "0",
+                    "key": "20",
+                    "file": "'/System/Library/Desktop Pictures/Hello Purple.heic'",
+                    "additional": true,
+                    "category": "Light and Dark Desktop"
+                },
+                {
+                    "option": "purple-light",
+                    "name": "Hello Purple Light (Still)",
+                    "value": "2",
+                    "key": "20",
+                    "file": "'/System/Library/Desktop Pictures/Hello Purple.heic'",
+                    "additional": true,
+                    "category": "Light and Dark Desktop"
+                },
+                {
+                    "option": "purple-dark",
+                    "name": "Hello Purple Dark (Still)",
+                    "value": "3",
+                    "key": "20",
+                    "file": "'/System/Library/Desktop Pictures/Hello Purple.heic'",
+                    "additional": true,
+                    "category": "Light and Dark Desktop"
+                },                
+                {
+                    "option": "blue",
+                    "name": "Hello Blue",
+                    "value": "0",
+                    "key": "20",
+                    "file": "'/System/Library/Desktop Pictures/Hello Blue.heic'",
+                    "additional": true,
+                    "category": "Light and Dark Desktop"
+                },
+                {
+                    "option": "blue-light",
+                    "name": "Hello Blue Light (Still)",
+                    "value": "2",
+                    "key": "20",
+                    "file": "'/System/Library/Desktop Pictures/Hello Blue.heic'",
+                    "additional": true,
+                    "category": "Light and Dark Desktop"
+                },
+                {
+                    "option": "blue-dark",
+                    "name": "Hello Blue Dark (Still)",
+                    "value": "3",
+                    "key": "20",
+                    "file": "'/System/Library/Desktop Pictures/Hello Blue.heic'",
+                    "additional": true,
+                    "category": "Light and Dark Desktop"
+                },                
+                {
+                    "option": "silver",
+                    "name": "Hello Silver",
+                    "value": "0",
+                    "key": "20",
+                    "file": "'/System/Library/Desktop Pictures/Hello Grey.heic'",
+                    "additional": true,
+                    "category": "Light and Dark Desktop"
+                },
+                {
+                    "option": "silver-light",
+                    "name": "Hello Silver Light (Still)",
+                    "value": "2",
+                    "key": "20",
+                    "file": "'/System/Library/Desktop Pictures/Hello Grey.heic'",
+                    "additional": true,
+                    "category": "Light and Dark Desktop"
+                },
+                {
+                    "option": "silver-dark",
+                    "name": "Hello Silver Dark (Still)",
+                    "value": "3",
+                    "key": "20",
+                    "file": "'/System/Library/Desktop Pictures/Hello Grey.heic'",
+                    "additional": true,
+                    "category": "Light and Dark Desktop"
+                },
+                {
                     "option": "dark",
                     "name": "macOS Graphic Dark (Still)",
                     "value": "3",
