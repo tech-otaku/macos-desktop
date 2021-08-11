@@ -25,6 +25,15 @@ big-sur-graphic-light
 big-sur-light
 big-sur-light
 big-sur-light
+blue
+blue
+blue
+blue-dark
+blue-dark
+blue-dark
+blue-light
+blue-light
+blue-light
 catalina
 catalina
 catalina
@@ -70,6 +79,15 @@ dome-light
 graphic
 graphic
 graphic
+green
+green
+green
+green-dark
+green-dark
+green-dark
+green-light
+green-light
+green-light
 iridescence
 iridescence
 iridescence
@@ -91,6 +109,15 @@ lake-light
 light
 light
 light
+orange
+orange
+orange
+orange-dark
+orange-dark
+orange-dark
+orange-light
+orange-light
+orange-light
 peak
 peak
 peak
@@ -100,9 +127,36 @@ peak-dark
 peak-light
 peak-light
 peak-light
+pink
+pink
+pink
+pink-dark
+pink-dark
+pink-dark
+pink-light
+pink-light
+pink-light
+purple
+purple
+purple
+purple-dark
+purple-dark
+purple-dark
+purple-light
+purple-light
+purple-light
 solar
 solar
 solar
+silver
+silver
+silver
+silver-dark
+silver-dark
+silver-dark
+silver-light
+silver-light
+silver-light
 tree
 tree
 tree
@@ -121,6 +175,15 @@ valley-dark
 valley-light
 valley-light
 valley-light
+yellow
+yellow
+yellow
+yellow-dark
+yellow-dark
+yellow-dark
+yellow-light
+yellow-light
+yellow-light
 /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/972d7a8db8ba601e496e1294aae04124046c1908.asset/AssetData/Big Sur Aerial.heic
 /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/cf8e4fef996d7b6e9b7d223a7a732a9dc96e908f.asset/AssetData/Big Sur Coastline.heic
 /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/237a25a78324e57274dd0ea40d8bd895481a1613.asset/AssetData/Big Sur Horizon.heic
@@ -137,13 +200,6 @@ valley-light
 /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/d9e5318549521fb59354b96d0b2dd9ec123597a9.asset/AssetData/Catalina Shoreline.heic
 /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/aa4f359601cb1a549369ae5c40cb23826af4dd40.asset/AssetData/Catalina Silhouette.heic
 /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/c8db91583c4eeffd413c3069f021f95df64d0e4e.asset/AssetData/Catalina Sunset.heic
-/System/Library/Desktop Pictures/hello Blue.heic
-/System/Library/Desktop Pictures/hello Green.heic
-/System/Library/Desktop Pictures/hello Grey.heic
-/System/Library/Desktop Pictures/hello Orange.heic
-/System/Library/Desktop Pictures/hello Purple.heic
-/System/Library/Desktop Pictures/hello Red.heic
-/System/Library/Desktop Pictures/hello Yellow.heic
 /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/11a3d5c273194adc64529578ce3edb5c55aa20bd.asset/AssetData/Light Stream Blue.heic
 /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/a29e422ecde57671ce8bab2a61587cb01211fa07.asset/AssetData/Light Stream Green.heic
 /System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/06413a4489c03a522ff78f78248bfd3975eaa45c.asset/AssetData/Light Stream Pink.heic
