@@ -204,7 +204,7 @@
                 },
                 {
                     "option": "green",
-                    "name": "Hello Green",
+                    "name": "Hello Green Automatic",
                     "value": "0",
                     "key": "20",
                     "file": "'/System/Library/Desktop Pictures/Hello Green.heic'",
@@ -231,7 +231,7 @@
                 },               
                 {
                     "option": "yellow",
-                    "name": "Hello Yellow",
+                    "name": "Hello Yellow Automatic",
                     "value": "0",
                     "key": "20",
                     "file": "'/System/Library/Desktop Pictures/Hello Yellow.heic'",
@@ -258,7 +258,7 @@
                 },                
                 {
                     "option": "orange",
-                    "name": "Hello Orange",
+                    "name": "Hello Orange Automatic",
                     "value": "0",
                     "key": "20",
                     "file": "'/System/Library/Desktop Pictures/Hello Orange.heic'",
@@ -285,7 +285,7 @@
                 },                
                 {
                     "option": "pink",
-                    "name": "Hello Pink",
+                    "name": "Hello Pink Automatic",
                     "value": "0",
                     "key": "20",
                     "file": "'/System/Library/Desktop Pictures/Hello Red.heic'",
@@ -312,7 +312,7 @@
                 },                
                 {
                     "option": "purple",
-                    "name": "Hello Purple",
+                    "name": "Hello Purple Automatic",
                     "value": "0",
                     "key": "20",
                     "file": "'/System/Library/Desktop Pictures/Hello Purple.heic'",
@@ -339,7 +339,7 @@
                 },                
                 {
                     "option": "blue",
-                    "name": "Hello Blue",
+                    "name": "Hello Blue Automatic",
                     "value": "0",
                     "key": "20",
                     "file": "'/System/Library/Desktop Pictures/Hello Blue.heic'",
@@ -366,7 +366,7 @@
                 },                
                 {
                     "option": "silver",
-                    "name": "Hello Silver",
+                    "name": "Hello Silver Automatic",
                     "value": "0",
                     "key": "20",
                     "file": "'/System/Library/Desktop Pictures/Hello Grey.heic'",
