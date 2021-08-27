@@ -23,21 +23,21 @@ try:
     for _version in data["versions"]:
         if _version["name"] == version: 
             if args.sort == "category":
-                print("CATEGORY".ljust(30, ' '), "OPTION".ljust(30, ' '), "NAME")
+                print("CATEGORY".ljust(30, ' '), "OPTION".ljust(30, ' '), "NAME".ljust(30, ' '), "COMMAND")
                 for _option in sorted(_version["options"], key=itemgetter(args.sort, 'option')):
-                    print(_option["category"].ljust(30,' '), _option["option"].ljust(30,' '), _option["name"])
+                    print(_option["category"].ljust(30,' '), _option["option"].ljust(30,' '), _option["name"].ljust(30,' '), "./set-desktop.sh " + _option["option"])
             elif args.sort == "name":
-                print("NAME".ljust(30, ' '), "OPTION".ljust(30, ' '), "CATEGORY")
+                print("NAME".ljust(30, ' '), "OPTION".ljust(30, ' '), "CATEGORY".ljust(30, ' '), "COMMAND")
                 for _option in sorted(_version["options"], key=itemgetter(args.sort)):
-                    print(_option["name"].ljust(30,' '), _option["option"].ljust(30,' '), _option["category"])
+                    print(_option["name"].ljust(30,' '), _option["option"].ljust(30,' '), _option["category"].ljust(30,' '), "./set-desktop.sh " + _option["option"])
             elif args.sort == "option":
-                print("OPTION".ljust(30, ' '), "NAME".ljust(30, ' '), "CATEGORY")
+                print("OPTION".ljust(30, ' '), "NAME".ljust(30, ' '), "CATEGORY".ljust(30, ' '), "COMMAND")
                 for _option in sorted(_version["options"], key=itemgetter(args.sort)):
-                    print(_option["option"].ljust(30,' '), _option["name"].ljust(30,' '), _option["category"])
+                    print(_option["option"].ljust(30,' '), _option["name"].ljust(30,' '), _option["category"].ljust(30,' '), "./set-desktop.sh " + _option["option"])
             else:
-                print("OPTION".ljust(30, ' '), "NAME".ljust(30, ' '), "CATEGORY")
+                print("OPTION".ljust(30, ' '), "NAME".ljust(30, ' '), "CATEGORY".ljust(30, ' '), "COMMAND")
                 for _option in _version["options"]:
-                    print(_option["option"].ljust(30,' '), _option["name"].ljust(30,' '), _option["category"])
+                    print(_option["option"].ljust(30,' '), _option["name"].ljust(30,' '), _option["category"].ljust(30,' '), "./set-desktop.sh " + _option["option"])
 
 except EnvironmentError as e:
     print(os.strerror(e.errno))
