@@ -88,8 +88,6 @@
     export option_arg=$1
     option_config=options.json
 
-    unset additional category data_id file key lastrow name option option_data timestamp value
-
 
 
 # # # # # # # # # # # # # # # # 
