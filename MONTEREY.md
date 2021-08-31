@@ -1,6 +1,8 @@
 # macOS 12 Monterey
 
-Read [Changes Since macOS 11.4 Big Sur](#changes-since-macos-114-big-sur) first.
+macOS 12 Monterey includes fundamental changes on how Apple-supplied Desktop images are sourced and where they are located<sup>**1**</sup>. This has limited the scripts effectiveness. A Desktop image now needs to be downloaded manually before the script can set it as the Desktop picture. For more details read [Changes Since macOS 11 Big Sur](#changes-since-macos-11-big-sur).
+
+<sup>**1**</sup> This is true up to and including macOS 12 Monterey Beta 5 (21A5304g).
 
 ## Purpose
 Set a user's Desktop image in macOS 12 Monterey from the command line. See [Limitations](#limitations)
@@ -362,7 +364,7 @@ The intention is to document the state of the `data` and `preferences` tables in
 
 To change the Desktop picture 100 times, `cd` into the `Monterey Tests` directory and type `./set-desktop-monterey-tests.sh 100`
 
-## Changes Since macOS 11.4 Big Sur
+## Changes Since macOS 11 Big Sur
 
 macOS Monterey has introduced some fundamental changes to where Desktop pictures are located and how they are initially created. This has provided some [challenges](#challenges) in changing the `set-desktop.sh` script to support these changes.
 
@@ -457,11 +459,23 @@ If the `set-desktop.sh` script is used to set the Desktop picture to say *Catali
 
 The options for the script are:
 
-1. Disable SIP first. It is enabled by default and disabling it is not a trivial matter. Not something that the script can do nor perhaps is desirable. ~~N.B. This is how the current version of the script works.~~
+1. Disable SIP before running the script. 
 
-2. Have the script use existing Desktop picture image files in the `/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/` and download and place missing Desktop picture image files in a newley-created writable directory say `~/Library/Application Support/AssetsV2/com_apple_MobileAsset_DesktopPicture/Dock`. This is the location of `desktoppicture.db`, the database that stores the current Desktop picture. 
+    **Rejected**: SIP is enabled by default and disabling it is not a trivial matter nor perhaps desirable. Even if it were, disabling SIP is not something the script would be able to do as it requires considerable user intervention.
 
-3. Have the script use existing Desktop picture image files in the `/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/` and prompt the user to download any missing image file via System Preferences > Desktop & Screensaver > Desktop. N.B. This is how the current version of the script works.
+2. Have the script download and place missing Desktop picture image files in a writable directory.
+
+    The script can use existing Desktop picture image files in the `/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/` directory and download and place missing Desktop picture image files in a newley-created writable directory say `~/Library/Application Support/AssetsV2/com_apple_MobileAsset_DesktopPicture/Dock`. This is the location of `desktoppicture.db`, the database that stores the current Desktop picture. 
+
+    **Rejected**: This *does* work, but with one big caveat. After the script has set the Desktop picture to an `.heic` image in a location other than the `/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/` directory the dropdown menu for the selected image in System Preferences > Desktop & Screensaver > Desktop shows...
+
+    <img src="dropdown-1.png" width="175">
+
+    However, for Desktop pictures in the *Dynamic Desktop* category the options should be *Dynamic*, *Light (Still)* and *Dark (Still)*. For the *Light and Dark Desktop* category, the *Dynamic* option is replaced by *Automatic*.   
+
+3. Have the script use existing Desktop picture image files in the `/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/` and prompt the user to download any missing image file via System Preferences > Desktop & Screensaver > Desktop.
+
+    **This is how the current version of the script functions.**
 
 ### Changes in macOS Monterey Developer Beta 2 [21A5268h]
 
