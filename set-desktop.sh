@@ -24,7 +24,7 @@
 # Ensure 'restore_sqliterc' is executed every time the script exits regardless of exit status
     trap restore_sqliterc EXIT
 
-# If the path to an image file contains 'com_apple_MobileAsset_DesktopPicture', check that it exists having previously been downloaded via System Preferences
+# If the path to an image file contains 'com_apple_MobileAsset_DesktopPicture', check that it exists having previously been downloaded via System Preferences. This function is called regardless of the installed version of macOS, but is currently only relevant for macOS 12 Monterey. 
     function check_file_downloaded {
         # The function is passed the value of either the $value variable or $file variable which is received as $1
         if [[ "$1" == *"com_apple_MobileAsset_DesktopPicture"* ]]; then
@@ -56,8 +56,8 @@
 #   key = value of the 'key' column for new rows in the 'preferences' table (populated from match in the 'option_config' file unless a filename was passed to the script)
 #   lastrow[0] = highest row id in the 'data' table 
 #   lastrow[1] = highest row id in the 'preferences' table 
-#   major =
-#   minor = 
+#   major = the major version number of the installed release of macOS i.e. 10 (Catalina), 11 (Big Sur), 12 (Monterey)
+#   minor = the minor version number of the installed release of macOS. Only used for Catalina and earlier i.e. .14, (10.14), .15 (10.15) etc
 #   name = the title or filename of the Desktop image (populated from match in the 'option_config' file unless a filename was passed to the script)
 #   option = the option name (populated from match in the 'option_config' file)
 #   option_arg = value of the 'option' argument passed to the script (variable needs to be exported so its value is available to the Python code)
@@ -66,6 +66,8 @@
 #   timestamp = temporary filename suffix added to '.sqliterc' 
 #   value = value of the 'value' column for new rows in the 'data' table (populated from match in the 'option_config' file unless a filename was passed to the script)
 #   version = the installed version of macOS (variable needs to be exported so its value is available to the Python code)
+
+    unset additional category data_id file key lastrow major minor name option option_arg option_data timestamp value
 
     db="$HOME/Library/Application Support/Dock/desktoppicture.db"
     backup="$HOME/Library/Application Support/Dock/backup"
