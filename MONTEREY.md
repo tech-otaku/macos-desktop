@@ -12,15 +12,15 @@ An explanation of how Desktop images appear to be managed by macOS since Mojave 
 
 ## Instructions 
 
-1. Download [macos-desktop-monterey.zip](https://github.com/tech-otaku/macos-desktop/archive/refs/heads/monterey.zip) <sup>**1**</sup>
+1. Download [macos-desktop-main.zip](https://github.com/tech-otaku/macos-desktop/archive/refs/heads/main.zip) <sup>**1**</sup>
 
-1. Double-click `~/Downloads/macos-desktop-monterey.zip` in the Finder to unzip it (Safari may do this automatically)
+1. Double-click `~/Downloads/macos-desktop-main.zip` in the Finder to unzip it (Safari may do this automatically)
 
 1. Open the Terminal application in macOS
 
 1. At a Terminal prompt:
 
-    - type `cd ~/Downloads/macos-desktop-monterey` and press enter
+    - type `cd ~/Downloads/macos-desktop-main` and press enter
 
     - type `chmod +x set-desktop.sh` and press enter to make the script executable
 
@@ -33,8 +33,6 @@ An explanation of how Desktop images appear to be managed by macOS since Mojave 
 1. See the [Valid Options](#valid-options) section for using the `options.py` script
 
 1. See the [Tests](#tests) section for using the `set-desktop-monterey-tests.sh` script
-
-<sup>**1**</sup> **IMPORTANT** This is a development version compatible with macOS 10.15 Catalina, macOS 11 Big Sur and macOS 12 Monterey and is currently undergoing testing. For a stable version that is **not** compatible with macOS 12 Monterey use [macos-desktop-master.zip](https://github.com/tech-otaku/macos-desktop/archive/refs/heads/master.zip) instead.
 
 ## Usage
 `./set-desktop.sh <desktop image>`
