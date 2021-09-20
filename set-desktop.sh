@@ -26,7 +26,7 @@
 
 # If the path to an image file contains 'com_apple_MobileAsset_DesktopPicture', check that it exists having previously been downloaded via System Preferences. This function is called regardless of the installed version of macOS, but is currently only relevant for macOS 12 Monterey. 
     function check_file_downloaded {
-        # The function is passed the value of either the $value variable or $file variable which is received as $1
+        # The function is passed the value of the $value variable which is received as $1
         if [[ "$1" == *"com_apple_MobileAsset_DesktopPicture"* ]]; then
             if ! [ -f  "$(echo "$1" | tr -d "'")" ]; then
                 filename=$(echo "$(basename "$1")" | tr -d "'")     # e.g. Big Sur Shore Rocks.heic
@@ -46,13 +46,11 @@
 # VARIABLES
 #
 
-#   additional = true if additional rows are required in the 'data' and 'preferences' tables (populated from match in the 'option_config' file)
 #   backup = location for backups when re-setting 'desktoppicture.db' to the default
 #   category = how the image is categorised in System Preferences (populated from match in the 'option_config' file)
-#   data_id[0] = the 'data' table row id to be used in the 'preferences' table 
-#   data_id[1] = he 'data' table row id to be used in the 'preferences' table (for additional rows only)
+#   data_id = the 'data' table row id to be used in the 'preferences' table 
 #   db = database name including path
-#   file = filename of the Desktop image (populated from match in the 'option_config' file)
+#   is_file = only set if the argument passed to the script is a filename
 #   key = value of the 'key' column for new rows in the 'preferences' table (populated from match in the 'option_config' file unless a filename was passed to the script)
 #   lastrow[0] = highest row id in the 'data' table 
 #   lastrow[1] = highest row id in the 'preferences' table 
@@ -63,11 +61,13 @@
 #   option_arg = value of the 'option' argument passed to the script (variable needs to be exported so its value is available to the Python code)
 #   option_config = file containing option configuration data 
 #   option_data = string representing JSON-encoded data for a given option ($option_arg)
+#   row_count = the number of rows to be added to the 'data' table (populated from match in the 'option_config' file)
+#   rows = an array where each element represents the values of the 'value' column for new rows in the 'data' table and the value of the 'key' column for new rows in the 'preferences' table (populated from match in the 'option_config' file unless a filename was passed to the script in which case it is populated using the filename for the 'value' and '1' for the 'key')
 #   timestamp = temporary filename suffix added to '.sqliterc' 
 #   value = value of the 'value' column for new rows in the 'data' table (populated from match in the 'option_config' file unless a filename was passed to the script)
 #   version = the installed version of macOS (variable needs to be exported so its value is available to the Python code)
 
-    unset additional category data_id file key lastrow major minor name option option_arg option_data timestamp value
+    unset rows category data_id key lastrow major minor name option option_arg option_data stop timestamp value
 
     db="$HOME/Library/Application Support/Dock/desktoppicture.db"
     backup="$HOME/Library/Application Support/Dock/backup"
@@ -106,9 +106,9 @@
 # USAGE CHECKS
 #
 
-# Exit with error if OS version is not 10.15 or later
-    if ! ( ( [ $major -eq 10 ] && [ $minor -eq 15 ] ) || [ $major -ge 11 ] ); then
-        printf "ERROR: For use with macOS 10.15 Catalina or later.\n"
+# Exit with error if OS version is not 10.14 or later
+    if ! ( ( [ $major -eq 10 ] && [ $minor -ge 14 ] ) || [ $major -ge 11 ] ); then
+        printf "ERROR: For use with macOS 10.14 Mojave or later.\n"
         exit 1
     fi
 
@@ -200,25 +200,37 @@
             name="$option_arg"
             key=1
 
-            # If the image file path contains 'com_apple_MobileAsset_DesktopPicture', check it has been downloaded via System Preferences 
+        # If the image file path contains 'com_apple_MobileAsset_DesktopPicture', check it has been downloaded via System Preferences 
             if ! check_file_downloaded "$value"; then
                 exit 1
-            fi 
+            fi
+
+            rows[0]=$value:$key
+            unset value key
 
         fi
     else    # 3. ...a valid option 
         option=$(echo $option_data | python -c $'from __future__ import print_function\nimport sys, json; data=json.loads(sys.stdin.read())\nprint(data["option"])')
-        value=$(echo $option_data | python -c $'from __future__ import print_function\nimport sys, json; data=json.loads(sys.stdin.read())\nprint(data["value"])')
-        key=$(echo $option_data | python -c $'from __future__ import print_function\nimport sys, json; data=json.loads(sys.stdin.read())\nprint(data["key"])')
         name=$(echo $option_data | python -c $'from __future__ import print_function\nimport sys, json; data=json.loads(sys.stdin.read())\nprint(data["name"])')
-        file=$(echo $option_data | python -c $'from __future__ import print_function\nimport sys, json; data=json.loads(sys.stdin.read())\nif data["file"]: print(data["file"])')
-        additional=$(echo $option_data | python -c $'from __future__ import print_function\nimport sys, json; data=json.loads(sys.stdin.read())\nif data["additional"]: print(data["additional"])')
         category=$(echo $option_data | python -c $'from __future__ import print_function\nimport sys, json; data=json.loads(sys.stdin.read())\nprint(data["category"])')
 
+        # The row_count variable stores the number of Python dictionaries (JSON objects) in the Python list (JSON array) whose key is "rows". This is a minimum of 1 and a maximum of 2. 
+        row_count=$(echo $option_data | python -c $'from __future__ import print_function\nimport sys, json; data=json.loads(sys.stdin.read())\nprint(len(data["rows"]))')
+
+        stop=$(expr $row_count - 1)
+        for i in $(seq 0 $stop); do 
+            export i 
+            value=$(echo $option_data | python -c $'from __future__ import print_function\nimport os, sys, json; data=json.loads(sys.stdin.read())\ne=int(os.environ["i"])\nprint(data["rows"][int(os.environ["i"])]["value"])')
+            key=$(echo $option_data | python -c $'from __future__ import print_function\nimport os, sys, json; data=json.loads(sys.stdin.read())\ne=int(os.environ["i"])\nprint(data["rows"][int(os.environ["i"])]["key"])')
+
         # If the image file path contains 'com_apple_MobileAsset_DesktopPicture', check it has been downloaded via System Preferences 
-        if ! check_file_downloaded "$file"; then
-            exit 1
-        fi 
+            if ! check_file_downloaded "$value"; then
+                exit 1
+            fi 
+
+            rows[$i]=$value:$key
+            unset value key
+        done
 
     fi
 
@@ -259,27 +271,29 @@
 #
 
 # Images typically require 1 row in the 'data' table and 4 corresponding rows in the 'preferences' table. Most images categorised by 
-# System Preferences as 'Dynamic' or 'Light and Dark Desktop' and a few categorised as 'Desktop Pictures' require a total of 2 rows 
-# in the 'data' table and 8 corresponding rows in the 'preferences' table. Images requiring these additional rows are identified in 
-# the 'option_config' file with the key/value pair of 'additional/true'.
+# System Preferences as 'Dynamic Desktop' or 'Light and Dark Desktop' and a few categorised as 'Desktop Pictures' require a total of 2 rows 
+# in the 'data' table and 8 corresponding rows in the 'preferences' table. 
 
-# Insert a new row into the 'data' table.
-	[ ! -z $additional ] && sqlite3 "$db" "INSERT INTO data(rowid,value) VALUES( $((++lastrow[0])), $file );"
-    sqlite3 "$db" "INSERT INTO data(rowid,value) VALUES( $((++lastrow[0])), $value );"
-    
-# Insert new rows into the 'preferences' table.
-    data_id[0]=$(sqlite3 "$db" "SELECT rowid FROM data WHERE value=$value;")
-    [ ! -z $additional ] && data_id[1]=$(sqlite3 "$db" "SELECT rowid FROM data WHERE value=$file")
+    for i in "${rows[@]}"; do
 
-    [ ! -z $additional ] && sqlite3 "$db" "INSERT INTO preferences(rowid,key,data_id,picture_id) VALUES( $((++lastrow[1])),1,${data_id[1]},3);"
-    sqlite3 "$db" "INSERT INTO preferences(rowid,key,data_id,picture_id) VALUES( $((++lastrow[1])),$key,${data_id[0]},3);"
-    [ ! -z $additional ] && sqlite3 "$db" "INSERT INTO preferences(rowid,key,data_id,picture_id) VALUES( $((++lastrow[1])),1,${data_id[1]},4);"
-    sqlite3 "$db" "INSERT INTO preferences(rowid,key,data_id,picture_id) VALUES( $((++lastrow[1])),$key,${data_id[0]},4);"
-    [ ! -z $additional ] && sqlite3 "$db" "INSERT INTO preferences(rowid,key,data_id,picture_id) VALUES( $((++lastrow[1])),1,${data_id[1]},2);"
-    sqlite3 "$db" "INSERT INTO preferences(rowid,key,data_id,picture_id) VALUES( $((++lastrow[1])),$key,${data_id[0]},2);"
-    [ ! -z $additional ] && sqlite3 "$db" "INSERT INTO preferences(rowid,key,data_id,picture_id) VALUES( $((++lastrow[1])),1,${data_id[1]},1);"
-    sqlite3 "$db" "INSERT INTO preferences(rowid,key,data_id,picture_id) VALUES( $((++lastrow[1])),$key,${data_id[0]},1);"
-    
+        value=$(echo $i | cut -d ':' -f1)
+        key=$(echo $i | cut -d ':' -f2)
+
+    # Insert a new row into the 'data' table.
+        sqlite3 "$db" "INSERT INTO data(rowid,value) VALUES( $((++lastrow[0])), $value );"
+
+    # Insert new rows into the 'preferences' table.
+        data_id=$(sqlite3 "$db" "SELECT rowid FROM data WHERE value=$value;")
+
+        sqlite3 "$db" "INSERT INTO preferences(rowid,key,data_id,picture_id) VALUES( $((++lastrow[1])),$key,${data_id},3);"
+        sqlite3 "$db" "INSERT INTO preferences(rowid,key,data_id,picture_id) VALUES( $((++lastrow[1])),$key,${data_id},4);"
+        sqlite3 "$db" "INSERT INTO preferences(rowid,key,data_id,picture_id) VALUES( $((++lastrow[1])),$key,${data_id},2);"
+        sqlite3 "$db" "INSERT INTO preferences(rowid,key,data_id,picture_id) VALUES( $((++lastrow[1])),$key,${data_id},1);"
+
+        unset value key
+
+    done
+
     printf "The Desktop image has been set to '%s'\n" "$name"
 
 
