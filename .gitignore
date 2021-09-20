@@ -1,11 +1,15 @@
 .DS_Store
 command-line-tests.sh
 delete-images.sh
+Documentation
 images.sh
 options-big-sur.json
 options-catalina.json
+set-desktop-big-sur.sh
 set-desktop-big-sur-new.sh
+set-desktop-catalina.sh
 set-desktop-catalina-new.sh
+set-desktop-mojave.sh
 set-desktop-sip.sh
 set-desktop-writable-folder.sh
 info.sh
