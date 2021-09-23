@@ -1,6 +1,6 @@
 # Set macOS Desktop Image
 
-The scripts `set-desktop-catalina.sh` and `set-desktop-big-sur.sh` have been replaced by `set-desktop.sh` which can be used for macOS Catalina, macOS Big Sur and macOS Monterey. For macOS Mojave, the script `set-desktop-mojave.sh` should continue to be used.
+The scripts `set-desktop-mojave.sh`, `set-desktop-catalina.sh` and `set-desktop-big-sur.sh` have been removed from the repo in favour of `set-desktop.sh` which can be used for all macOS versions since macOS 10.14 Mojave.
 
 ### Table of Contents [TOC]
 
