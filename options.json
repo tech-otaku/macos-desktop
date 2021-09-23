@@ -592,7 +592,7 @@
                 },
                 {
                     "option": "edge",
-                    "name": "Big Sur Waters Edge",
+                    "name": "Big Sur Water's Edge",
                     "category": "Desktop Pictures",
                     "rows": [
                         { "value": "'/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/6b9eee9947acbe5c4b04aac87ac375602fce8ca3.asset/AssetData/Big Sur Waters Edge.heic'", "key": "1" }
@@ -1088,7 +1088,7 @@
                 },
                 {
                     "option": "edge",
-                    "name": "Big Sur Waters Edge",
+                    "name": "Big Sur Water's Edge",
                     "category": "Desktop Pictures",
                     "rows": [
                         { "value": "'/System/Library/Desktop Pictures/Big Sur Waters Edge.heic'", "key": "1" }
