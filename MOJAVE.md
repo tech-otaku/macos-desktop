@@ -1,47 +1,254 @@
 # macOS 10.14 Mojave
 
+The script `set-desktop-mojave.sh` has been replaced by `set-desktop.sh`.
+
 ## Purpose
-Set a user's Desktop image in macOS Mojave 10.14 from the command line. See [Limitations](#limitations)
+Set a user's Desktop image in macOS 10.14 Mojave from the command line. See [Limitations](#limitations)
+
+## Minimum Requirements
+
+- macos 10.14 Mojave
+- Bash 3.2 (Mojave ships with 3.2.57)
+- Python 2.7 (Mojave ships with 2.7.10)
 
 ## Background
 An explanation for why this script does what it does can be found at [Setting the Desktop Image in macOS Mojave From the Command Line](https://www.tech-otaku.com/mac/setting-desktop-image-macos-mojave-from-command-line)
 
 ## Usage
-`[bash] ./set-desktop-mojave.sh <desktop image>`
+`./set-desktop.sh IMAGE`
+
+`IMAGE` can be either 
+
+- a pre-defined named option
+- the path to an image file
+
+See the [Valid Options](#valid-options) and [Examples](#examples) sections for more information.
 
 ## Examples
 
-#### HEIF (.heic) images
+These examples use the Apple-supplied Deskop pictures that could otherwise be set via System Preferences. They are categorised and listed as they appear in the Desktop & Screensaver pane as of macOS 10.14.6 Mojave.  
+
+### Desktop Pictures
+
+#### Dynamic Desktop
+
+Setting the image to *Dynamic* (e.g. Mojave Dynamic) ensures it changes throughout the day, based on your location.
 
 ###### Mojave Dynamic
-`[bash] ./set-desktop-mojave.sh mojave`
+`./set-desktop.sh mojave`
 
 ###### Mojave Light (Still)
-`[bash] ./set-desktop-mojave.sh light`
+`./set-desktop.sh mojave-light`
 
 ###### Mojave Dark (Still)
-`[bash] ./set-desktop-mojave.sh dark`
+`./set-desktop.sh mojave-dark`
 
 ###### Solar Gradients
-`[bash] ./set-desktop-mojave.sh solar`
+`./set-desktop.sh solar`
 
-#### non-HEIF (.heic) images
+#### Desktop Pictures
+
+###### Mojave Day
+`./set-desktop.sh "/Library/Desktop Pictures/Mojave Day.jpg"`
+
+###### Mojave Night
+`./set-desktop.sh "/Library/Desktop Pictures/Mojave Night.jpg"`
+
+###### Desert 1
+`./set-desktop.sh "/Library/Desktop Pictures/Desert 1.jpg"`
+
+###### Desert 2
+`./set-desktop.sh "/Library/Desktop Pictures/Desert 2.jpg"`
+
+###### Desert 3
+`./set-desktop.sh "/Library/Desktop Pictures/Desert 3.jpg"`
+
+###### Desert 4
+`./set-desktop.sh "/Library/Desktop Pictures/Desert 4.jpg"`
+
+###### Desert 5
+`./set-desktop.sh "/Library/Desktop Pictures/Desert 5.jpg"`
+
+###### Desert 6
+`./set-desktop.sh "/Library/Desktop Pictures/Desert 6.jpg"`
+
+###### Desert 7
+`./set-desktop.sh "/Library/Desktop Pictures/Desert 7.jpg"`
 
 ###### High Sierra
-`[bash] ./set-desktop-mojave.sh "/Library/Desktop Pictures/High Sierra.jpg"`
+`./set-desktop.sh "/Library/Desktop Pictures/High Sierra.jpg"`
+
+###### Sierra
+`./set-desktop.sh "/Library/Desktop Pictures/Sierra.jpg"`
+
+###### Sierra 2
+`./set-desktop.sh "/Library/Desktop Pictures/Sierra 2.jpg"`
+
+###### El Capitan
+`./set-desktop.sh "/Library/Desktop Pictures/El Capitan.jpg"`
+
+###### El Capitan 2
+`./set-desktop.sh "/Library/Desktop Pictures/El Capitan 2.jpg"`
+
+###### Yosemite
+`./set-desktop.sh "/Library/Desktop Pictures/Yosemite.jpg"`
+
+###### Yosemite 3
+`./set-desktop.sh "/Library/Desktop Pictures/Yosemite 3.jpg"`
+
+###### Yosemite 4
+`./set-desktop.sh "/Library/Desktop Pictures/Yosemite 4.jpg"`
+
+###### Color Burst 1
+`./set-desktop.sh "/Library/Desktop Pictures/Color Burst 1.jpg"`
+
+###### Color Burst 2
+`./set-desktop.sh "/Library/Desktop Pictures/Color Burst 2.jpg"`
+
+###### Color Burst 3
+`./set-desktop.sh "/Library/Desktop Pictures/Color Burst 3.jpg"`
+
+###### Abstract 1
+`./set-desktop.sh "/Library/Desktop Pictures/Abstract 1.jpg"`
+
+###### Abstract 2
+`./set-desktop.sh "/Library/Desktop Pictures/Abstract 2.jpg"`
+
+###### Abstract 3
+`./set-desktop.sh "/Library/Desktop Pictures/Abstract 3.jpg"`
+
+###### Abstract 4
+`./set-desktop.sh "/Library/Desktop Pictures/Abstract 4.jpg"`
+
+###### Flower 1
+`./set-desktop.sh "/Library/Desktop Pictures/Flower 1.jpg"`
+
+###### Flower 2
+`./set-desktop.sh "/Library/Desktop Pictures/Flower 2.jpg"`
+
+###### Flower 3
+`./set-desktop.sh "/Library/Desktop Pictures/Flower 3.jpg"`
+
+###### Flower 4
+`./set-desktop.sh "/Library/Desktop Pictures/Flower 4.jpg"`
+
+###### Chroma 1
+`./set-desktop.sh "/Library/Desktop Pictures/Chroma 1.jpg"`
+
+###### Chroma 2
+`./set-desktop.sh "/Library/Desktop Pictures/Chroma 2.jpg"`
+
+###### Abstract Shapes
+`./set-desktop.sh "/Library/Desktop Pictures/Abstract Shapes.jpg"`
+
+###### Abstract Shapes 2
+`./set-desktop.sh "/Library/Desktop Pictures/Abstract Shapes 2.jpg"`
+
+###### Reflection 1
+`./set-desktop.sh "/Library/Desktop Pictures/Reflection 1.jpg"`
+
+###### Reflection 2
+`./set-desktop.sh "/Library/Desktop Pictures/Reflection 2.jpg"`
+
+###### Reflection 3
+`./set-desktop.sh "/Library/Desktop Pictures/Reflection 3.jpg"`
+
+###### Reflection 4
+`./set-desktop.sh "/Library/Desktop Pictures/Reflection 4.jpg"`
+
+###### Flower 5
+`./set-desktop.sh "/Library/Desktop Pictures/Flower 5.jpg"`
+
+###### Flower 6
+`./set-desktop.sh "/Library/Desktop Pictures/Flower 6.jpg"`
+
+###### Flower 7
+`./set-desktop.sh "/Library/Desktop Pictures/Flower 7.jpg"`
+
+###### Flower 8
+`./set-desktop.sh "/Library/Desktop Pictures/Flower 8.jpg"`
+
+###### Flower 9
+`./set-desktop.sh "/Library/Desktop Pictures/Flower 9.jpg"`
+
+###### Flower 10
+`./set-desktop.sh "/Library/Desktop Pictures/Flower 10.jpg"`
 
 ###### Ink Cloud
-`[bash] ./set-desktop-mojave.sh "/Library/Desktop Pictures/Ink Cloud.jpg"`
+`./set-desktop.sh "/Library/Desktop Pictures/Ink Cloud.jpg"`
+
+### Colours
+
+###### Black
+`./set-desktop.sh "/Library/Desktop Pictures/Solid Colors/Black.png"`
+
+###### Turquoise Green
+`./set-desktop.sh "/Library/Desktop Pictures/Solid Colors/Turquoise Green.png"`
+
+###### Cyan
+`./set-desktop.sh "/Library/Desktop Pictures/Solid Colors/Cyan.png"`
+
+###### Blue Violet
+`./set-desktop.sh "/Library/Desktop Pictures/Solid Colors/Blue Violet.png"`
+
+###### Yellow
+`./set-desktop.sh "/Library/Desktop Pictures/Solid Colors/Yellow.png"`
+
+###### Plum
+`./set-desktop.sh "/Library/Desktop Pictures/Solid Colors/Plum.png"`
+
+###### Soft Pink
+`./set-desktop.sh "/Library/Desktop Pictures/Solid Colors/Soft Pink.png"`
+
+###### Red Orange
+`./set-desktop.sh "/Library/Desktop Pictures/Solid Colors/Red Orange.png"`
+
+###### Ocher
+`./set-desktop.sh "/Library/Desktop Pictures/Solid Colors/Ocher.png"`
+
+###### Dusty Rose
+`./set-desktop.sh "/Library/Desktop Pictures/Solid Colors/Dusty Rose.png"`
+
+###### Electric Blue
+`./set-desktop.sh "/Library/Desktop Pictures/Solid Colors/Electric Blue.png"`
+
+###### Teal
+`./set-desktop.sh "/Library/Desktop Pictures/Solid Colors/Teal.png"`
+
+###### Stone
+`./set-desktop.sh "/Library/Desktop Pictures/Solid Colors/Stone.png"`
+
+###### Silver
+`./set-desktop.sh "/Library/Desktop Pictures/Solid Colors/Silver.png"`
+
+###### Space Grey
+`./set-desktop.sh "/Library/Desktop Pictures/Solid Colors/Space Gray.png"`
+
+###### Space Grey Pro
+`./set-desktop.sh "/Library/Desktop Pictures/Solid Colors/Space Gray Pro.png"`
+
+###### Gold
+`./set-desktop.sh "/Library/Desktop Pictures/Solid Colors/Gold.png"`
+
+###### Gold 2
+`./set-desktop.sh "/Library/Desktop Pictures/Solid Colors/Gold 2.png"`
+
+###### Rose Gold
+`./set-desktop.sh "/Library/Desktop Pictures/Solid Colors/Rose Gold.png"`
+
 
 #### Other
 
 ###### Default
-`[bash] ./set-desktop-mojave.sh default`
+`./set-desktop.sh default`
+
+###### General
+`./set-desktop.sh "/path/to/desktop/image.jpg"`
 
 ## Error Messages
 
-###### Not running macOS Mojave
-`ERROR: For use with macOS Mojave 10.14.x only.`
+###### Not running macOS Mojave or later
+`ERROR: For use with macOS 10.14 Mojave or later.`
 
 ###### No Desktop image passed on the command line
 `ERROR: No image was specified.`
@@ -66,6 +273,18 @@ An explanation for why this script does what it does can be found at [Setting th
 Works only with a single Desktop (Space) in a single-display environment.
 
 __Not for use with multiple Desktops (Spaces) or in a dual-display environment.__
+
+## Valid Options
+
+All valid options and their corresponding data are stored in the file `options.json`. To list these options for Mojave use the following:
+
+- unsorted in the order they appear in `options.json` use `./options.py --version mojave`
+
+- sorted by `category` use `./options.py --version mojave --sort category`
+
+- sorted by `name` use `./options.py --version mojave --sort name`
+
+- sorted by `option` use `./options.py --version mojave --sort option`
 
 ---
 

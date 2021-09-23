@@ -3,217 +3,305 @@
 The script `set-desktop-big-sur.sh` has been replaced by `set-desktop.sh`.
 
 ## Purpose
-Set a user's Desktop image in macOS Big Sur 11.0 from the command line. See [Limitations](#limitations)
+Set a user's Desktop image in macOS 11 Big Sur from the command line. See [Limitations](#limitations)
+
+## Minimum Requirements
+
+- macos 10.14 Mojave (macOS 11 Big Sur required for the examples below to work)
+- Bash 3.2 (Big Sur ships with 3.2.57)
+- Python 2.7 (Big Sur ships with 2.7.16)
 
 ## Background
-An explanation of how Desktop images appear to be managed by macOS since Mojave (10.14) can be found at [Setting the Desktop Image in macOS Mojave From the Command Line](https://www.tech-otaku.com/mac/setting-desktop-image-macos-mojave-from-command-line). While this article was written before the release of the Big Sur Beta, the majority is still relevant to 11.0. 
+An explanation of how Desktop images appear to be managed by macOS since Mojave (10.14) can be found at [Setting the Desktop Image in macOS Mojave From the Command Line](https://www.tech-otaku.com/mac/setting-desktop-image-macos-mojave-from-command-line). While this article was written before the release of Big Sur, the majority of the information is still relevant. 
 
 ## Usage
-`[bash] ./set-desktop.sh <desktop image>`
+`./set-desktop.sh IMAGE`
+
+`IMAGE` can be either 
+
+- a pre-defined named option
+- the path to an image file
+
+See the [Valid Options](#valid-options) and [Examples](#examples) sections for more information.
 
 ## Examples
+
+These examples use the Apple-supplied Deskop pictures that could otherwise be set via System Preferences. They are categorised and listed as they appear in the Desktop & Screensaver pane as of macOS 11.5.2 Big Sur.
+
+### Desktop Pictures
 
 #### Dynamic Desktop
 
 Setting the image to *Dynamic* (e.g. The Beach Dynamic) ensures it changes throughout the day, based on your location.
 
-##### HEIF (.heic) images
-
-###### The Beach Dynamic
-`[bash] ./set-desktop.sh beach`
-
-###### The Beach Dark (Still)
-`[bash] ./set-desktop.sh beach-dark`
-
-###### The Beach Light (Still)
-`[bash] ./set-desktop.sh beach-light`
-
 ###### Big Sur Dynamic
-`[bash] ./set-desktop.sh big-sur`
-
-###### Big Sur Dark (Still)
-`[bash] ./set-desktop.sh big-sur-dark`
+`./set-desktop.sh big-sur`
 
 ###### Big Sur Light (Still)
-`[bash] ./set-desktop.sh big-sur-light`
+`./set-desktop.sh big-sur-light`
+
+###### Big Sur Dark (Still)
+`./set-desktop.sh big-sur-dark`
 
 ###### Catalina Dynamic
-`[bash] ./set-desktop.sh catalina`
-
-###### Catalina Dark (Still)
-`[bash] ./set-desktop.sh catalina-dark`
+`./set-desktop.sh catalina`
 
 ###### Catalina Light (Still)
-`[bash] ./set-desktop.sh catalina-light`
+`./set-desktop.sh catalina-light`
+
+###### Catalina Dark (Still)
+`./set-desktop.sh catalina-dark`
 
 ###### The Cliffs Dynamic
-`[bash] ./set-desktop.sh cliffs`
-
-###### The Cliffs Dark (Still)
-`[bash] ./set-desktop.sh cliffs-dark`
+`./set-desktop.sh cliffs`
 
 ###### The Cliffs Light (Still)
-`[bash] ./set-desktop.sh cliffs-light`
+`./set-desktop.sh cliffs-light`
 
-###### The Desert Dynamic
-`[bash] ./set-desktop.sh desert`
-
-###### The Desert Dark (Still)
-`[bash] ./set-desktop.sh desert-dark`
-
-###### The Desert Light (Still)
-`[bash] ./set-desktop.sh desert-light`
+###### The Cliffs Dark (Still)
+`./set-desktop.sh cliffs-dark`
 
 ###### The Lake Dynamic
-`[bash] ./set-desktop.sh lake`
-
-###### The Lake Dark (Still)
-`[bash] ./set-desktop.sh lake-dark`
+`./set-desktop.sh lake`
 
 ###### The Lake Light (Still)
-`[bash] ./set-desktop.sh lake-light`
+`./set-desktop.sh lake-light`
+
+###### The Lake Dark (Still)
+`./set-desktop.sh lake-dark`
+
+###### The Desert Dynamic
+`./set-desktop.sh desert`
+
+###### The Desert Light (Still)
+`./set-desktop.sh desert-light`
+
+###### The Desert Dark (Still)
+`./set-desktop.sh desert-dark`
+
+###### The Beach Dynamic
+`./set-desktop.sh beach`
+
+###### The Beach Light (Still)
+`./set-desktop.sh beach-light`
+
+###### The Beach Dark (Still)
+`./set-desktop.sh beach-dark`
 
 ###### Solar Gradients
-`[bash] ./set-desktop.sh solar`
+`./set-desktop.sh solar`
 
-#### Light and Dark Desktop
+##### Light and Dark Desktop
 
 Setting the image to *Automatic* (e.g. Peak Automatic) ensures it conforms to the *Light*, *Dark* or *Auto* setting in **System Preferences** > **General** > **Appearance**.
 
-##### HEIF (.heic) images
-
 ###### Big Sur Graphic Automatic
-`[bash] ./set-desktop.sh graphic`
-
-###### Big Sur Graphic Dark (Still)
-`[bash] ./set-desktop.sh dark`
+`./set-desktop.sh graphic`
 
 ###### Big Sur Graphic Light (Still)
-`[bash] ./set-desktop.sh light`
+`./set-desktop.sh light`
 
-###### Dome Automatic
-`[bash] ./set-desktop.sh dome`
-
-###### Dome Dark (Still)
-`[bash] ./set-desktop.sh dome-dark`
-
-###### Dome Light (Still)
-`[bash] ./set-desktop.sh dome-light`
-
-###### Iridescence Automatic
-`[bash] ./set-desktop.sh iridescence`
-
-###### Iridescence Dark (Still)
-`[bash] ./set-desktop.sh iridescence-dark`
-
-###### Iridescence Light (Still)
-`[bash] ./set-desktop.sh iridescence-light`
+###### Big Sur Graphic Dark (Still)
+`./set-desktop.sh dark`
 
 ###### Peak Automatic
-`[bash] ./set-desktop.sh peak`
-
-###### Peak Dark (Still)
-`[bash] ./set-desktop.sh peak-dark`
+`./set-desktop.sh peak`
 
 ###### Peak Light (Still)
-`[bash] ./set-desktop.sh peak-light`
+`./set-desktop.sh peak-light`
+
+###### Peak Dark (Still)
+`./set-desktop.sh peak-dark`
 
 ###### Tree Automatic
-`[bash] ./set-desktop.sh tree`
-
-###### Tree Dark (Still)
-`[bash] ./set-desktop.sh tree-dark`
+`./set-desktop.sh tree`
 
 ###### Tree Light (Still)
-`[bash] ./set-desktop.sh tree-light`
+`./set-desktop.sh tree-light`
+
+###### Tree Dark (Still)
+`./set-desktop.sh tree-dark`
 
 ###### Valley Automatic
-`[bash] ./set-desktop.sh valley`
-
-###### Valley Dark (Still)
-`[bash] ./set-desktop.sh valley-dark`
+`./set-desktop.sh valley`
 
 ###### Valley Light (Still)
-`[bash] ./set-desktop.sh valley-light`
+`./set-desktop.sh valley-light`
 
-#### Desktop Pictures
+###### Valley Dark (Still)
+`./set-desktop.sh valley-dark`
 
-##### HEIF (.heic) images
+###### Dome Automatic
+`./set-desktop.sh dome`
 
-###### Big Sur Aerial
-`[bash] ./set-desktop.sh "/System/Library/Desktop Pictures/Big Sur Aerial.heic"`
+###### Dome Light (Still)
+`./set-desktop.sh dome-light`
 
-###### Big Sur Coastline
-`[bash] ./set-desktop.sh "/System/Library/Desktop Pictures/Big Sur Coastline.heic"`
+###### Dome Dark (Still)
+`./set-desktop.sh dome-dark`
 
-###### Big Sur Horizon
-`[bash] ./set-desktop.sh "/System/Library/Desktop Pictures/Big Sur Horizon.heic"`
+###### Iridescence Automatic
+`./set-desktop.sh iridescence`
+
+###### Iridescence Light (Still)
+`./set-desktop.sh iridescence-light`
+
+###### Iridescence Dark (Still)
+`./set-desktop.sh iridescence-dark`
+
+##### Desktop Pictures
 
 ###### Big Sur Mountains
-`[bash] ./set-desktop.sh "/System/Library/Desktop Pictures/Big Sur Mountains.heic"`
+`./set-desktop.sh mountains`<br />
+`./set-desktop.sh "/System/Library/Desktop Pictures/Big Sur Mountains.heic"`
 
-###### Big Sur Night Grasses
-`[bash] ./set-desktop.sh "/System/Library/Desktop Pictures/Big Sur Night Grasses.heic"`
+###### Big Sur Aerial
+`./set-desktop.sh aerial`<br />
+`./set-desktop.sh "/System/Library/Desktop Pictures/Big Sur Aerial.heic"`
 
-###### Big Sur Night Succulents
-`[bash] ./set-desktop.sh "/System/Library/Desktop Pictures/Big Sur Night Succulents.heic"`
+###### Big Sur Horizon
+`./set-desktop.sh horizon`<br />
+`./set-desktop.sh "/System/Library/Desktop Pictures/Big Sur Horizon.heic"`
 
-###### Big Sur Road
-`[bash] ./set-desktop.sh "/System/Library/Desktop Pictures/Big Sur Road.heic"`
+###### Big Sur Coastline
+`./set-desktop.sh coastline`<br />
+`./set-desktop.sh "/System/Library/Desktop Pictures/Big Sur Coastline.heic"`
 
 ###### Big Sur Shore Rocks
-`[bash] ./set-desktop.sh "/System/Library/Desktop Pictures/Big Sur Shore Rocks.heic"`
+`./set-desktop.sh shore`<br />
+`./set-desktop.sh "/System/Library/Desktop Pictures/Big Sur Shore Rocks.heic"`
 
 ###### Big Sur Water's Edge
-`[bash] ./set-desktop.sh "/System/Library/Desktop Pictures/Big Sur Waters Edge.heic"`
+`./set-desktop.sh edge`<br />
+`./set-desktop.sh "/System/Library/Desktop Pictures/Big Sur Waters Edge.heic"`
 
-###### Catalina Clouds
-`[bash] ./set-desktop.sh "/System/Library/Desktop Pictures/Catalina Clouds.heic"`
+###### Big Sur Road
+`./set-desktop.sh road`<br />
+`./set-desktop.sh "/System/Library/Desktop Pictures/Big Sur Road.heic"`
+
+###### Big Sur Night Succulents
+`./set-desktop.sh succulents`<br />
+`./set-desktop.sh "/System/Library/Desktop Pictures/Big Sur Night Succulents.heic"`
+
+###### Big Sur Night Grasses
+`./set-desktop.sh grasses`<br />
+`./set-desktop.sh "/System/Library/Desktop Pictures/Big Sur Night Grasses.heic"`
 
 ###### Catalina Coast
-`[bash] ./set-desktop.sh "/System/Library/Desktop Pictures/Catalina Coast.heic"`
+`./set-desktop.sh coast`<br />
+`./set-desktop.sh "/System/Library/Desktop Pictures/Catalina Coast.heic"`
 
 ###### Catalina Evening
-`[bash] ./set-desktop.sh "/System/Library/Desktop Pictures/Catalina Evening.heic"`
+`./set-desktop.sh evening`<br />
+`./set-desktop.sh "/System/Library/Desktop Pictures/Catalina Evening.heic"`
 
 ###### Catalina Rock
-`[bash] ./set-desktop.sh "/System/Library/Desktop Pictures/Catalina Rock.heic"`
+`./set-desktop.sh rock`<br />
+`./set-desktop.sh "/System/Library/Desktop Pictures/Catalina Rock.heic"`
 
 ###### Catalina Shoreline
-`[bash] ./set-desktop.sh "/System/Library/Desktop Pictures/Catalina Shoreline.heic"`
+`./set-desktop.sh shoreline`<br />
+`./set-desktop.sh "/System/Library/Desktop Pictures/Catalina Shoreline.heic"`
+
+###### Catalina Clouds
+`./set-desktop.sh clouds`<br />
+`./set-desktop.sh "/System/Library/Desktop Pictures/Catalina Clouds.heic"`
 
 ###### Catalina Silhouette
-`[bash] ./set-desktop.sh "/System/Library/Desktop Pictures/Catalina Silhouette.heic"`
+`./set-desktop.sh silhouette`<br />
+`./set-desktop.sh "/System/Library/Desktop Pictures/Catalina Silhouette.heic"`
 
 ###### Catalina Sunset
-`[bash] ./set-desktop.sh "/System/Library/Desktop Pictures/Catalina Sunset.heic"`
-
-###### Light Stream Blue
-`[bash] ./set-desktop.sh "/System/Library/Desktop Pictures/Light Stream Blue.heic"`
-
-###### Light Stream Green
-`[bash] ./set-desktop.sh "/System/Library/Desktop Pictures/Light Stream Green.heic"`
-
-###### Light Stream Pink
-`[bash] ./set-desktop.sh "/System/Library/Desktop Pictures/Light Stream Pink.heic"`
+`./set-desktop.sh sunset`<br />
+`./set-desktop.sh "/System/Library/Desktop Pictures/Catalina Sunset.heic"`
 
 ###### Light Stream Red
-`[bash] ./set-desktop.sh "/System/Library/Desktop Pictures/Light Stream Red.heic"`
+`./set-desktop.sh stream-red`<br />
+`./set-desktop.sh "/System/Library/Desktop Pictures/Light Stream Red.heic"`
+
+###### Light Stream Blue
+`./set-desktop.sh stream-blue`<br />
+`./set-desktop.sh "/System/Library/Desktop Pictures/Light Stream Blue.heic"`
+
+###### Light Stream Pink
+`./set-desktop.sh stream-pink`<br />
+`./set-desktop.sh "/System/Library/Desktop Pictures/Light Stream Pink.heic"`
+
+###### Light Stream Green
+`./set-desktop.sh stream-green`<br />
+`./set-desktop.sh "/System/Library/Desktop Pictures/Light Stream Green.heic"`
+
+#### Colours
+
+###### Turquoise Green
+`./set-desktop.sh "/System/Library/Desktop Pictures/Solid Colors/Turquoise Green.png"`
+
+###### Cyan
+`./set-desktop.sh "/System/Library/Desktop Pictures/Solid Colors/Cyan.png"`
+
+###### Blue Violet
+`./set-desktop.sh "/System/Library/Desktop Pictures/Solid Colors/Blue Violet.png"`
+
+###### Yellow
+`./set-desktop.sh "/System/Library/Desktop Pictures/Solid Colors/Yellow.png"`
+
+###### Plum
+`./set-desktop.sh "/System/Library/Desktop Pictures/Solid Colors/Plum.png"`
+
+###### Soft Pink
+`./set-desktop.sh "/System/Library/Desktop Pictures/Solid Colors/Soft Pink.png"`
+
+###### Red Orange
+`./set-desktop.sh "/System/Library/Desktop Pictures/Solid Colors/Red Orange.png"`
+
+###### Ocher
+`./set-desktop.sh "/System/Library/Desktop Pictures/Solid Colors/Ocher.png"`
+
+###### Dusty Rose
+`./set-desktop.sh "/System/Library/Desktop Pictures/Solid Colors/Dusty Rose.png"`
+
+###### Electric Blue
+`./set-desktop.sh "/System/Library/Desktop Pictures/Solid Colors/Electric Blue.png"`
+
+###### Teal
+`./set-desktop.sh "/System/Library/Desktop Pictures/Solid Colors/Teal.png"`
+
+###### Stone
+`./set-desktop.sh "/System/Library/Desktop Pictures/Solid Colors/Stone.png"`
+
+###### Silver
+`./set-desktop.sh "/System/Library/Desktop Pictures/Solid Colors/Silver.png"`
+
+###### Space Grey
+`./set-desktop.sh "/System/Library/Desktop Pictures/Solid Colors/Space Gray.png"`
+
+###### Space Grey Pro
+`./set-desktop.sh "/System/Library/Desktop Pictures/Solid Colors/Space Gray Pro.png"`
+
+###### Gold
+`./set-desktop.sh "/System/Library/Desktop Pictures/Solid Colors/Gold.png"`
+
+###### Gold 2
+`./set-desktop.sh "/System/Library/Desktop Pictures/Solid Colors/Gold 2.png"`
+
+###### Rose Gold
+`./set-desktop.sh "/System/Library/Desktop Pictures/Solid Colors/Rose Gold.png"`
+
+###### Black
+`./set-desktop.sh "/System/Library/Desktop Pictures/Solid Colors/Black.png"`
 
 #### Other
 
 ###### Default
-`[bash] ./set-desktop.sh default`
+`./set-desktop.sh default`
 
-##### non-HEIF (.heic) images
-
-###### Electric Blue
-`[bash] ./set-desktop.sh "/System/Library/Desktop Pictures/Solid Colors/Electric Blue.png"`
+###### General
+`./set-desktop.sh "/path/to/desktop/image.jpg"`
 
 ## Error Messages
 
-###### Not running macOS 10.15 Catalina or later
-`ERROR: For use with macOS 10.15 Catalina or later.`
+###### Not running macOS 10.14 Mojave or later
+`ERROR: For use with macOS 10.14 Mojave or later.`
 
 ###### No Desktop image passed on the command line
 `ERROR: No image was specified.`
@@ -244,13 +332,13 @@ __Not for use with multiple Desktops (Spaces) or in a dual-display environment._
 
 All valid options and their corresponding data are stored in the file `options.json`. To list these options for Big Sur use the following:
 
-- unsorted in the order they appear in `options.json` use `[python] ./options.py --version big-sur`
+- unsorted in the order they appear in `options.json` use `./options.py --version big-sur`
 
-- sorted by `category` use `[python] ./options.py --sort category --version big-sur`
+- sorted by `category` use `./options.py --version big-sur --sort category`
 
-- sorted by `name` use `[python] ./options.py --sort name --version big-sur`
+- sorted by `name` use `./options.py --version big-sur --sort name`
 
-- sorted by `option` use `[python] ./options.py --sort option --version big-sur`
+- sorted by `option` use `./options.py --version big-sur --sort option`
 
 ## Tests
 
@@ -258,7 +346,7 @@ The `set-desktop-big-sur-tests.sh` script in the `Big Sur Tests` directory execu
 
 The intention is to document the state of the `data` and `preferences` tables in the `desktoppicture.db` database after each iteration. Output is written to `set-desktop-big-sur-tests.txt`
 
-To change the Desktop picture 100 times, `cd` into the `Big Sur Tests` directory and type `[bash] ./set-desktop-big-sur-tests.sh 100`
+To change the Desktop picture 100 times, `cd` into the `Big Sur Tests` directory and type `./set-desktop-big-sur-tests.sh 100`
 
 ---
 
