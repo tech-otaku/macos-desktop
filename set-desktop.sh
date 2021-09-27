@@ -2,10 +2,10 @@
 
 # AUTHOR: Steve Ward [steve at tech-otaku dot com]
 # URL: https://github.com/tech-otaku/macos-desktop.git
-# README: https://github.com/tech-otaku/macos-desktop/blob/master/README.md
+# README: https://github.com/tech-otaku/macos-desktop/blob/main/README.md
 
-# USAGE: [bash] ./set-desktop.sh <desktop image>
-# EXAMPLE: [bash] ./set-desktop.sh desert
+# USAGE: ./set-desktop.sh IMAGE
+# EXAMPLE: ./set-desktop.sh desert
 #   See the README for more examples
 
 
