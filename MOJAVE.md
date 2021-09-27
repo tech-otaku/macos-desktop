@@ -26,7 +26,9 @@ See the [Valid Options](#valid-options) and [Examples](#examples) sections for m
 
 ## Examples
 
-These examples use the Apple-supplied Deskop pictures that could otherwise be set via System Preferences. They are categorised and listed as they appear in the Desktop & Screensaver pane as of macOS 10.14.6 Mojave.  
+These examples use the Apple-supplied Deskop pictures that could otherwise be set via System Preferences. They are categorised and listed as they appear in the Desktop & Screensaver pane as of macOS 10.14.6 Mojave.
+
+See [A Comparison of Apple-supplied Desktop Images Since macOS 10.14 Mojave](https://desktop.tech-otaku.com/)
 
 ### Desktop Pictures
 

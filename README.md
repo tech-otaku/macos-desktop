@@ -2,6 +2,8 @@
 
 The scripts `set-desktop-mojave.sh`, `set-desktop-catalina.sh` and `set-desktop-big-sur.sh` have been removed from the repo in favour of `set-desktop.sh` which can be used for all macOS versions since macOS 10.14 Mojave.
 
+See [A Comparison of Apple-supplied Desktop Images Since macOS 10.14 Mojave](https://desktop.tech-otaku.com/)
+
 ### Table of Contents [TOC]
 
 Information on [macOS 12 Monterey](MONTEREY.md#macos-12-monterey) version.
