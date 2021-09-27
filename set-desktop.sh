@@ -59,7 +59,7 @@
 #   name = the title or filename of the Desktop image (populated from match in the 'option_config' file unless a filename was passed to the script)
 #   option = the option name (populated from match in the 'option_config' file)
 #   option_arg = value of the 'option' argument passed to the script (variable needs to be exported so its value is available to the Python code)
-#   option_config = file containing option configuration data 
+#   option_config = file containing option configuration data (variable needs to be exported so its value is available to the Python code)
 #   option_data = string representing JSON-encoded data for a given option ($option_arg)
 #   row_count = the number of rows to be added to the 'data' table (populated from match in the 'option_config' file)
 #   rows = an array where each element represents the values of the 'value' column for new rows in the 'data' table and the value of the 'key' column for new rows in the 'preferences' table (populated from match in the 'option_config' file unless a filename was passed to the script in which case it is populated using the filename for the 'value' and '1' for the 'key')
@@ -86,7 +86,7 @@
     fi
 
     export option_arg=$1
-    option_config=options.json
+    export option_config=options.json
 
 
 
@@ -136,7 +136,7 @@
     if [ "$option_arg" != "default" ]; then
 
     # Look in the configuration file for the value of the 'option' argument that was passed to the script. 
-        option_data=$(cat "$option_config" | python -c $'from __future__ import print_function\nimport os,sys,json\ndata=json.loads(sys.stdin.read())\nfor _version in data["versions"]:\n\tif _version["version"]==os.environ["version"]:\n\t\tfor _option in _version["options"]:\n\t\t\tif _option["option"]==os.environ["option_arg"]:print(json.dumps(_option))')
+        option_data=$(python -c $'from __future__ import print_function\nimport os,sys,json\nwith open(os.environ["option_config"],"r") as f:\n\tdata = json.load(f)\nfor _version in data["versions"]:\n\tif _version["version"]==os.environ["version"]:\n\t\tfor _option in _version["options"]:\n\t\t\tif _option["option"]==os.environ["option_arg"]:print(json.dumps(_option))')
 
         if [ -z "$option_data" ]; then  # the option that was passed to the script was not found in the configuration file
             re='\.'
