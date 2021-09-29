@@ -2,7 +2,7 @@
 
 from __future__ import print_function
 
-import argparse, errno, json, os
+import argparse, errno, json, os, plistlib
 from operator import itemgetter
 
 parser = argparse.ArgumentParser(description='List valid options for set-desktop.sh')
@@ -17,8 +17,10 @@ else:
 
 try:
 
-    with open("options.json") as f:
-        data = json.load(f)
+    with open("options.bin.plist", "rb") as f:
+        data = plistlib.load(f)
+
+    print("* * * This version uses the option configuration file: {} * * *".format(os.path.basename(f.name)))
     
     for _version in data["versions"]:
         if _version["name"] == version: 

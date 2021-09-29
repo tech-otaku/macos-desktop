@@ -86,7 +86,9 @@
     fi
 
     export option_arg=$1
-    export option_config=options.json
+    export option_config=options.bin.plist
+
+    printf "* * * This version uses the option configuration file: %s * * *\n" $option_config
 
 
 
@@ -136,7 +138,7 @@
     if [ "$option_arg" != "default" ]; then
 
     # Look in the configuration file for the value of the 'option' argument that was passed to the script. 
-        option_data=$(python -c $'from __future__ import print_function\nimport os,sys,json\nwith open(os.environ["option_config"],"r") as f:\n\tdata = json.load(f)\nfor _version in data["versions"]:\n\tif _version["version"]==os.environ["version"]:\n\t\tfor _option in _version["options"]:\n\t\t\tif _option["option"]==os.environ["option_arg"]:print(json.dumps(_option))')
+        option_data=$(python -c $'from __future__ import print_function\nimport os,json,plistlib\nwith open(os.environ["option_config"],"rb") as f:\n\tdata = plistlib.load(f)\nfor _version in data["versions"]:\n\tif _version["version"]==os.environ["version"]:\n\t\tfor _option in _version["options"]:\n\t\t\tif _option["option"]==os.environ["option_arg"]:print(json.dumps(_option))')
 
         if [ -z "$option_data" ]; then  # the option that was passed to the script was not found in the configuration file
             re='\.'
