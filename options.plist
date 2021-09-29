@@ -1,0 +1,3253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!-- Created online at https://wtools.io/convert-json-to-plist using options.json 2021-09-27 -->
+<plist version="1.0">
+    <dict>
+        <key>versions</key>
+        <array>
+            <dict>
+                <key>version</key>
+                <string>12</string>
+                <key>name</key>
+                <string>Monterey</string>
+                <key>options</key>
+                <array>
+                    <dict>
+                        <key>option</key>
+                        <string>big-sur</string>
+                        <key>name</key>
+                        <string>Big Sur Dynamic</string>
+                        <key>category</key>
+                        <string>Dynamic Desktop</string>
+                        <key>rows</key>
+                        <array>
+                            <dict>
+                                <key>value</key>
+                                <integer>0</integer>
+                                <key>key</key>
+                                <integer>20</integer>
+                            </dict>
+                            <dict>
+                                <key>value</key>
+                                <string>'/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/98b5bd24c8bb188ec6101ea415ec049fdd03de84.asset/AssetData/Big Sur.heic'</string>
+                                <key>key</key>
+                                <integer>1</integer>
+                            </dict>
+                        </array>
+                    </dict>
+                    <dict>
+                        <key>option</key>
+                        <string>big-sur-light</string>
+                        <key>name</key>
+                        <string>Big Sur Light (Still)</string>
+                        <key>category</key>
+                        <string>Dynamic Desktop</string>
+                        <key>rows</key>
+                        <array>
+                            <dict>
+                                <key>value</key>
+                                <integer>2</integer>
+                                <key>key</key>
+                                <integer>20</integer>
+                            </dict>
+                            <dict>
+                                <key>value</key>
+                                <string>'/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/98b5bd24c8bb188ec6101ea415ec049fdd03de84.asset/AssetData/Big Sur.heic'</string>
+                                <key>key</key>
+                                <integer>1</integer>
+                            </dict>
+                        </array>
+                    </dict>
+                    <dict>
+                        <key>option</key>
+                        <string>big-sur-dark</string>
+                        <key>name</key>
+                        <string>Big Sur Dark (Still)</string>
+                        <key>category</key>
+                        <string>Dynamic Desktop</string>
+                        <key>rows</key>
+                        <array>
+                            <dict>
+                                <key>value</key>
+                                <integer>3</integer>
+                                <key>key</key>
+                                <integer>20</integer>
+                            </dict>
+                            <dict>
+                                <key>value</key>
+                                <string>'/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/98b5bd24c8bb188ec6101ea415ec049fdd03de84.asset/AssetData/Big Sur.heic'</string>
+                                <key>key</key>
+                                <integer>1</integer>
+                            </dict>
+                        </array>
+                    </dict>
+                    <dict>
+                        <key>option</key>
+                        <string>catalina</string>
+                        <key>name</key>
+                        <string>Catalina Dynamic</string>
+                        <key>category</key>
+                        <string>Dynamic Desktop</string>
+                        <key>rows</key>
+                        <array>
+                            <dict>
+                                <key>value</key>
+                                <integer>0</integer>
+                                <key>key</key>
+                                <integer>20</integer>
+                            </dict>
+                            <dict>
+                                <key>value</key>
+                                <string>'/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/28e590448a1795ffd7d8ae9c9f826ceedd9696a2.asset/AssetData/Catalina.heic'</string>
+                                <key>key</key>
+                                <integer>1</integer>
+                            </dict>
+                        </array>
+                    </dict>
+                    <dict>
+                        <key>option</key>
+                        <string>catalina-light</string>
+                        <key>name</key>
+                        <string>Catalina Light (Still)</string>
+                        <key>category</key>
+                        <string>Dynamic Desktop</string>
+                        <key>rows</key>
+                        <array>
+                            <dict>
+                                <key>value</key>
+                                <integer>2</integer>
+                                <key>key</key>
+                                <integer>20</integer>
+                            </dict>
+                            <dict>
+                                <key>value</key>
+                                <string>'/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/28e590448a1795ffd7d8ae9c9f826ceedd9696a2.asset/AssetData/Catalina.heic'</string>
+                                <key>key</key>
+                                <integer>1</integer>
+                            </dict>
+                        </array>
+                    </dict>
+                    <dict>
+                        <key>option</key>
+                        <string>catalina-dark</string>
+                        <key>name</key>
+                        <string>Catalina Dark (Still)</string>
+                        <key>category</key>
+                        <string>Dynamic Desktop</string>
+                        <key>rows</key>
+                        <array>
+                            <dict>
+                                <key>value</key>
+                                <integer>3</integer>
+                                <key>key</key>
+                                <integer>20</integer>
+                            </dict>
+                            <dict>
+                                <key>value</key>
+                                <string>'/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/28e590448a1795ffd7d8ae9c9f826ceedd9696a2.asset/AssetData/Catalina.heic'</string>
+                                <key>key</key>
+                                <integer>1</integer>
+                            </dict>
+                        </array>
+                    </dict>
+                    <dict>
+                        <key>option</key>
+                        <string>cliffs</string>
+                        <key>name</key>
+                        <string>The Cliffs Dynamic</string>
+                        <key>category</key>
+                        <string>Dynamic Desktop</string>
+                        <key>rows</key>
+                        <array>
+                            <dict>
+                                <key>value</key>
+                                <integer>0</integer>
+                                <key>key</key>
+                                <integer>20</integer>
+                            </dict>
+                            <dict>
+                                <key>value</key>
+                                <string>'/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/3f8e02c0678e834abc820fd1d69d2a4b11a3ae84.asset/AssetData/The Cliffs.heic'</string>
+                                <key>key</key>
+                                <integer>1</integer>
+                            </dict>
+                        </array>
+                    </dict>
+                    <dict>
+                        <key>option</key>
+                        <string>cliffs-light</string>
+                        <key>name</key>
+                        <string>The Cliffs Light (Still)</string>
+                        <key>category</key>
+                        <string>Dynamic Desktop</string>
+                        <key>rows</key>
+                        <array>
+                            <dict>
+                                <key>value</key>
+                                <integer>2</integer>
+                                <key>key</key>
+                                <integer>20</integer>
+                            </dict>
+                            <dict>
+                                <key>value</key>
+                                <string>'/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/3f8e02c0678e834abc820fd1d69d2a4b11a3ae84.asset/AssetData/The Cliffs.heic'</string>
+                                <key>key</key>
+                                <integer>1</integer>
+                            </dict>
+                        </array>
+                    </dict>
+                    <dict>
+                        <key>option</key>
+                        <string>cliffs-dark</string>
+                        <key>name</key>
+                        <string>The Cliffs Dark (Still)</string>
+                        <key>category</key>
+                        <string>Dynamic Desktop</string>
+                        <key>rows</key>
+                        <array>
+                            <dict>
+                                <key>value</key>
+                                <integer>3</integer>
+                                <key>key</key>
+                                <integer>20</integer>
+                            </dict>
+                            <dict>
+                                <key>value</key>
+                                <string>'/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/3f8e02c0678e834abc820fd1d69d2a4b11a3ae84.asset/AssetData/The Cliffs.heic'</string>
+                                <key>key</key>
+                                <integer>1</integer>
+                            </dict>
+                        </array>
+                    </dict>
+                    <dict>
+                        <key>option</key>
+                        <string>lake</string>
+                        <key>name</key>
+                        <string>The Lake Dynamic</string>
+                        <key>category</key>
+                        <string>Dynamic Desktop</string>
+                        <key>rows</key>
+                        <array>
+                            <dict>
+                                <key>value</key>
+                                <integer>0</integer>
+                                <key>key</key>
+                                <integer>20</integer>
+                            </dict>
+                            <dict>
+                                <key>value</key>
+                                <string>'/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/f1bdab95fdb69bf6278bf963cbc182dc052d9792.asset/AssetData/The Lake.heic'</string>
+                                <key>key</key>
+                                <integer>1</integer>
+                            </dict>
+                        </array>
+                    </dict>
+                    <dict>
+                        <key>option</key>
+                        <string>lake-light</string>
+                        <key>name</key>
+                        <string>The Lake Light (Still)</string>
+                        <key>category</key>
+                        <string>Dynamic Desktop</string>
+                        <key>rows</key>
+                        <array>
+                            <dict>
+                                <key>value</key>
+                                <integer>2</integer>
+                                <key>key</key>
+                                <integer>20</integer>
+                            </dict>
+                            <dict>
+                                <key>value</key>
+                                <string>'/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/f1bdab95fdb69bf6278bf963cbc182dc052d9792.asset/AssetData/The Lake.heic'</string>
+                                <key>key</key>
+                                <integer>1</integer>
+                            </dict>
+                        </array>
+                    </dict>
+                    <dict>
+                        <key>option</key>
+                        <string>lake-dark</string>
+                        <key>name</key>
+                        <string>The Lake Dark (Still)</string>
+                        <key>category</key>
+                        <string>Dynamic Desktop</string>
+                        <key>rows</key>
+                        <array>
+                            <dict>
+                                <key>value</key>
+                                <integer>3</integer>
+                                <key>key</key>
+                                <integer>20</integer>
+                            </dict>
+                            <dict>
+                                <key>value</key>
+                                <string>'/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/f1bdab95fdb69bf6278bf963cbc182dc052d9792.asset/AssetData/The Lake.heic'</string>
+                                <key>key</key>
+                                <integer>1</integer>
+                            </dict>
+                        </array>
+                    </dict>
+                    <dict>
+                        <key>option</key>
+                        <string>desert</string>
+                        <key>name</key>
+                        <string>The Desert Dynamic</string>
+                        <key>category</key>
+                        <string>Dynamic Desktop</string>
+                        <key>rows</key>
+                        <array>
+                            <dict>
+                                <key>value</key>
+                                <integer>0</integer>
+                                <key>key</key>
+                                <integer>20</integer>
+                            </dict>
+                            <dict>
+                                <key>value</key>
+                                <string>'/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/df1a67fbca0d20c34f9ed7d3508d549faa9ae25b.asset/AssetData/The Desert.heic'</string>
+                                <key>key</key>
+                                <integer>1</integer>
+                            </dict>
+                        </array>
+                    </dict>
+                    <dict>
+                        <key>option</key>
+                        <string>desert-light</string>
+                        <key>name</key>
+                        <string>The Desert Light (Still)</string>
+                        <key>category</key>
+                        <string>Dynamic Desktop</string>
+                        <key>rows</key>
+                        <array>
+                            <dict>
+                                <key>value</key>
+                                <integer>2</integer>
+                                <key>key</key>
+                                <integer>20</integer>
+                            </dict>
+                            <dict>
+                                <key>value</key>
+                                <string>'/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/df1a67fbca0d20c34f9ed7d3508d549faa9ae25b.asset/AssetData/The Desert.heic'</string>
+                                <key>key</key>
+                                <integer>1</integer>
+                            </dict>
+                        </array>
+                    </dict>
+                    <dict>
+                        <key>option</key>
+                        <string>desert-dark</string>
+                        <key>name</key>
+                        <string>The Desert Dark (Still)</string>
+                        <key>category</key>
+                        <string>Dynamic Desktop</string>
+                        <key>rows</key>
+                        <array>
+                            <dict>
+                                <key>value</key>
+                                <integer>3</integer>
+                                <key>key</key>
+                                <integer>20</integer>
+                            </dict>
+                            <dict>
+                                <key>value</key>
+                                <string>'/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/df1a67fbca0d20c34f9ed7d3508d549faa9ae25b.asset/AssetData/The Desert.heic'</string>
+                                <key>key</key>
+                                <integer>1</integer>
+                            </dict>
+                        </array>
+                    </dict>
+                    <dict>
+                        <key>option</key>
+                        <string>beach</string>
+                        <key>name</key>
+                        <string>The Beach Dynamic</string>
+                        <key>category</key>
+                        <string>Dynamic Desktop</string>
+                        <key>rows</key>
+                        <array>
+                            <dict>
+                                <key>value</key>
+                                <integer>0</integer>
+                                <key>key</key>
+                                <integer>20</integer>
+                            </dict>
+                            <dict>
+                                <key>value</key>
+                                <string>'/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/b91ec140f7d34cfdd77304c8e72c570ccdf8d814.asset/AssetData/The Beach.heic'</string>
+                                <key>key</key>
+                                <integer>1</integer>
+                            </dict>
+                        </array>
+                    </dict>
+                    <dict>
+                        <key>option</key>
+                        <string>beach-light</string>
+                        <key>name</key>
+                        <string>The Beach Light (Still)</string>
+                        <key>category</key>
+                        <string>Dynamic Desktop</string>
+                        <key>rows</key>
+                        <array>
+                            <dict>
+                                <key>value</key>
+                                <integer>2</integer>
+                                <key>key</key>
+                                <integer>20</integer>
+                            </dict>
+                            <dict>
+                                <key>value</key>
+                                <string>'/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/b91ec140f7d34cfdd77304c8e72c570ccdf8d814.asset/AssetData/The Beach.heic'</string>
+                                <key>key</key>
+                                <integer>1</integer>
+                            </dict>
+                        </array>
+                    </dict>
+                    <dict>
+                        <key>option</key>
+                        <string>beach-dark</string>
+                        <key>name</key>
+                        <string>The Beach Dark (Still)</string>
+                        <key>category</key>
+                        <string>Dynamic Desktop</string>
+                        <key>rows</key>
+                        <array>
+                            <dict>
+                                <key>value</key>
+                                <integer>3</integer>
+                                <key>key</key>
+                                <integer>20</integer>
+                            </dict>
+                            <dict>
+                                <key>value</key>
+                                <string>'/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/b91ec140f7d34cfdd77304c8e72c570ccdf8d814.asset/AssetData/The Beach.heic'</string>
+                                <key>key</key>
+                                <integer>1</integer>
+                            </dict>
+                        </array>
+                    </dict>
+                    <dict>
+                        <key>option</key>
+                        <string>solar</string>
+                        <key>name</key>
+                        <string>Solar Gradients</string>
+                        <key>category</key>
+                        <string>Dynamic Desktop</string>
+                        <key>rows</key>
+                        <array>
+                            <dict>
+                                <key>value</key>
+                                <integer>0</integer>
+                                <key>key</key>
+                                <integer>20</integer>
+                            </dict>
+                            <dict>
+                                <key>value</key>
+                                <string>'/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/0df344f8b4cf558225c378c8c4b0e343ce8bd6d2.asset/AssetData/Solar Gradients.heic'</string>
+                                <key>key</key>
+                                <integer>1</integer>
+                            </dict>
+                        </array>
+                    </dict>
+                    <dict>
+                        <key>option</key>
+                        <string>graphic</string>
+                        <key>name</key>
+                        <string>macOS Graphic Automatic</string>
+                        <key>category</key>
+                        <string>Light and Dark Desktop</string>
+                        <key>rows</key>
+                        <array>
+                            <dict>
+                                <key>value</key>
+                                <integer>0</integer>
+                                <key>key</key>
+                                <integer>20</integer>
+                            </dict>
+                        </array>
+                    </dict>
+                    <dict>
+                        <key>option</key>
+                        <string>light</string>
+                        <key>name</key>
+                        <string>macOS Graphic Light (Still)</string>
+                        <key>category</key>
+                        <string>Light and Dark Desktop</string>
+                        <key>rows</key>
+                        <array>
+                            <dict>
+                                <key>value</key>
+                                <integer>2</integer>
+                                <key>key</key>
+                                <integer>20</integer>
+                            </dict>
+                        </array>
+                    </dict>
+                    <dict>
+                        <key>option</key>
+                        <string>dark</string>
+                        <key>name</key>
+                        <string>macOS Graphic Dark (Still)</string>
+                        <key>category</key>
+                        <string>Light and Dark Desktop</string>
+                        <key>rows</key>
+                        <array>
+                            <dict>
+                                <key>value</key>
+                                <integer>3</integer>
+                                <key>key</key>
+                                <integer>20</integer>
+                            </dict>
+                        </array>
+                    </dict>
+                    <dict>
+                        <key>option</key>
+                        <string>green</string>
+                        <key>name</key>
+                        <string>Hello Green Automatic</string>
+                        <key>category</key>
+                        <string>Light and Dark Desktop</string>
+                        <key>rows</key>
+                        <array>
+                            <dict>
+                                <key>value</key>
+                                <integer>0</integer>
+                                <key>key</key>
+                                <integer>20</integer>
+                            </dict>
+                            <dict>
+                                <key>value</key>
+                                <string>'/System/Library/Desktop Pictures/hello Green.heic'</string>
+                                <key>key</key>
+                                <integer>1</integer>
+                            </dict>
+                        </array>
+                    </dict>
+                    <dict>
+                        <key>option</key>
+                        <string>green-light</string>
+                        <key>name</key>
+                        <string>Hello Green Light (Still)</string>
+                        <key>category</key>
+                        <string>Light and Dark Desktop</string>
+                        <key>rows</key>
+                        <array>
+                            <dict>
+                                <key>value</key>
+                                <integer>2</integer>
+                                <key>key</key>
+                                <integer>20</integer>
+                            </dict>
+                            <dict>
+                                <key>value</key>
+                                <string>'/System/Library/Desktop Pictures/hello Green.heic'</string>
+                                <key>key</key>
+                                <integer>1</integer>
+                            </dict>
+                        </array>
+                    </dict>
+                    <dict>
+                        <key>option</key>
+                        <string>green-dark</string>
+                        <key>name</key>
+                        <string>Hello Green Dark (Still)</string>
+                        <key>category</key>
+                        <string>Light and Dark Desktop</string>
+                        <key>rows</key>
+                        <array>
+                            <dict>
+                                <key>value</key>
+                                <integer>3</integer>
+                                <key>key</key>
+                                <integer>20</integer>
+                            </dict>
+                            <dict>
+                                <key>value</key>
+                                <string>'/System/Library/Desktop Pictures/hello Green.heic'</string>
+                                <key>key</key>
+                                <integer>1</integer>
+                            </dict>
+                        </array>
+                    </dict>
+                    <dict>
+                        <key>option</key>
+                        <string>yellow</string>
+                        <key>name</key>
+                        <string>Hello Yellow Automatic</string>
+                        <key>category</key>
+                        <string>Light and Dark Desktop</string>
+                        <key>rows</key>
+                        <array>
+                            <dict>
+                                <key>value</key>
+                                <integer>0</integer>
+                                <key>key</key>
+                                <integer>20</integer>
+                            </dict>
+                            <dict>
+                                <key>value</key>
+                                <string>'/System/Library/Desktop Pictures/hello Yellow.heic'</string>
+                                <key>key</key>
+                                <integer>1</integer>
+                            </dict>
+                        </array>
+                    </dict>
+                    <dict>
+                        <key>option</key>
+                        <string>yellow-light</string>
+                        <key>name</key>
+                        <string>Hello Yellow Light (Still)</string>
+                        <key>category</key>
+                        <string>Light and Dark Desktop</string>
+                        <key>rows</key>
+                        <array>
+                            <dict>
+                                <key>value</key>
+                                <integer>2</integer>
+                                <key>key</key>
+                                <integer>20</integer>
+                            </dict>
+                            <dict>
+                                <key>value</key>
+                                <string>'/System/Library/Desktop Pictures/hello Yellow.heic'</string>
+                                <key>key</key>
+                                <integer>1</integer>
+                            </dict>
+                        </array>
+                    </dict>
+                    <dict>
+                        <key>option</key>
+                        <string>yellow-dark</string>
+                        <key>name</key>
+                        <string>Hello Yellow Dark (Still)</string>
+                        <key>category</key>
+                        <string>Light and Dark Desktop</string>
+                        <key>rows</key>
+                        <array>
+                            <dict>
+                                <key>value</key>
+                                <integer>3</integer>
+                                <key>key</key>
+                                <integer>20</integer>
+                            </dict>
+                            <dict>
+                                <key>value</key>
+                                <string>'/System/Library/Desktop Pictures/hello Yellow.heic'</string>
+                                <key>key</key>
+                                <integer>1</integer>
+                            </dict>
+                        </array>
+                    </dict>
+                    <dict>
+                        <key>option</key>
+                        <string>orange</string>
+                        <key>name</key>
+                        <string>Hello Orange Automatic</string>
+                        <key>category</key>
+                        <string>Light and Dark Desktop</string>
+                        <key>rows</key>
+                        <array>
+                            <dict>
+                                <key>value</key>
+                                <integer>0</integer>
+                                <key>key</key>
+                                <integer>20</integer>
+                            </dict>
+                            <dict>
+                                <key>value</key>
+                                <string>'/System/Library/Desktop Pictures/hello Orange.heic'</string>
+                                <key>key</key>
+                                <integer>1</integer>
+                            </dict>
+                        </array>
+                    </dict>
+                    <dict>
+                        <key>option</key>
+                        <string>orange-light</string>
+                        <key>name</key>
+                        <string>Hello Orange Light (Still)</string>
+                        <key>category</key>
+                        <string>Light and Dark Desktop</string>
+                        <key>rows</key>
+                        <array>
+                            <dict>
+                                <key>value</key>
+                                <integer>2</integer>
+                                <key>key</key>
+                                <integer>20</integer>
+                            </dict>
+                            <dict>
+                                <key>value</key>
+                                <string>'/System/Library/Desktop Pictures/hello Orange.heic'</string>
+                                <key>key</key>
+                                <integer>1</integer>
+                            </dict>
+                        </array>
+                    </dict>
+                    <dict>
+                        <key>option</key>
+                        <string>orange-dark</string>
+                        <key>name</key>
+                        <string>Hello Orange Dark (Still)</string>
+                        <key>category</key>
+                        <string>Light and Dark Desktop</string>
+                        <key>rows</key>
+                        <array>
+                            <dict>
+                                <key>value</key>
+                                <integer>3</integer>
+                                <key>key</key>
+                                <integer>20</integer>
+                            </dict>
+                            <dict>
+                                <key>value</key>
+                                <string>'/System/Library/Desktop Pictures/hello Orange.heic'</string>
+                                <key>key</key>
+                                <integer>1</integer>
+                            </dict>
+                        </array>
+                    </dict>
+                    <dict>
+                        <key>option</key>
+                        <string>pink</string>
+                        <key>name</key>
+                        <string>Hello Pink Automatic</string>
+                        <key>category</key>
+                        <string>Light and Dark Desktop</string>
+                        <key>rows</key>
+                        <array>
+                            <dict>
+                                <key>value</key>
+                                <integer>0</integer>
+                                <key>key</key>
+                                <integer>20</integer>
+                            </dict>
+                            <dict>
+                                <key>value</key>
+                                <string>'/System/Library/Desktop Pictures/hello Red.heic'</string>
+                                <key>key</key>
+                                <integer>1</integer>
+                            </dict>
+                        </array>
+                    </dict>
+                    <dict>
+                        <key>option</key>
+                        <string>pink-light</string>
+                        <key>name</key>
+                        <string>Hello Pink Light (Still)</string>
+                        <key>category</key>
+                        <string>Light and Dark Desktop</string>
+                        <key>rows</key>
+                        <array>
+                            <dict>
+                                <key>value</key>
+                                <integer>2</integer>
+                                <key>key</key>
+                                <integer>20</integer>
+                            </dict>
+                            <dict>
+                                <key>value</key>
+                                <string>'/System/Library/Desktop Pictures/hello Red.heic'</string>
+                                <key>key</key>
+                                <integer>1</integer>
+                            </dict>
+                        </array>
+                    </dict>
+                    <dict>
+                        <key>option</key>
+                        <string>pink-dark</string>
+                        <key>name</key>
+                        <string>Hello Pink Dark (Still)</string>
+                        <key>category</key>
+                        <string>Light and Dark Desktop</string>
+                        <key>rows</key>
+                        <array>
+                            <dict>
+                                <key>value</key>
+                                <integer>3</integer>
+                                <key>key</key>
+                                <integer>20</integer>
+                            </dict>
+                            <dict>
+                                <key>value</key>
+                                <string>'/System/Library/Desktop Pictures/hello Red.heic'</string>
+                                <key>key</key>
+                                <integer>1</integer>
+                            </dict>
+                        </array>
+                    </dict>
+                    <dict>
+                        <key>option</key>
+                        <string>purple</string>
+                        <key>name</key>
+                        <string>Hello Purple Automatic</string>
+                        <key>category</key>
+                        <string>Light and Dark Desktop</string>
+                        <key>rows</key>
+                        <array>
+                            <dict>
+                                <key>value</key>
+                                <integer>0</integer>
+                                <key>key</key>
+                                <integer>20</integer>
+                            </dict>
+                            <dict>
+                                <key>value</key>
+                                <string>'/System/Library/Desktop Pictures/hello Purple.heic'</string>
+                                <key>key</key>
+                                <integer>1</integer>
+                            </dict>
+                        </array>
+                    </dict>
+                    <dict>
+                        <key>option</key>
+                        <string>purple-light</string>
+                        <key>name</key>
+                        <string>Hello Purple Light (Still)</string>
+                        <key>category</key>
+                        <string>Light and Dark Desktop</string>
+                        <key>rows</key>
+                        <array>
+                            <dict>
+                                <key>value</key>
+                                <integer>2</integer>
+                                <key>key</key>
+                                <integer>20</integer>
+                            </dict>
+                            <dict>
+                                <key>value</key>
+                                <string>'/System/Library/Desktop Pictures/hello Purple.heic'</string>
+                                <key>key</key>
+                                <integer>1</integer>
+                            </dict>
+                        </array>
+                    </dict>
+                    <dict>
+                        <key>option</key>
+                        <string>purple-dark</string>
+                        <key>name</key>
+                        <string>Hello Purple Dark (Still)</string>
+                        <key>category</key>
+                        <string>Light and Dark Desktop</string>
+                        <key>rows</key>
+                        <array>
+                            <dict>
+                                <key>value</key>
+                                <integer>3</integer>
+                                <key>key</key>
+                                <integer>20</integer>
+                            </dict>
+                            <dict>
+                                <key>value</key>
+                                <string>'/System/Library/Desktop Pictures/hello Purple.heic'</string>
+                                <key>key</key>
+                                <integer>1</integer>
+                            </dict>
+                        </array>
+                    </dict>
+                    <dict>
+                        <key>option</key>
+                        <string>blue</string>
+                        <key>name</key>
+                        <string>Hello Blue Automatic</string>
+                        <key>category</key>
+                        <string>Light and Dark Desktop</string>
+                        <key>rows</key>
+                        <array>
+                            <dict>
+                                <key>value</key>
+                                <integer>0</integer>
+                                <key>key</key>
+                                <integer>20</integer>
+                            </dict>
+                            <dict>
+                                <key>value</key>
+                                <string>'/System/Library/Desktop Pictures/hello Blue.heic'</string>
+                                <key>key</key>
+                                <integer>1</integer>
+                            </dict>
+                        </array>
+                    </dict>
+                    <dict>
+                        <key>option</key>
+                        <string>blue-light</string>
+                        <key>name</key>
+                        <string>Hello Blue Light (Still)</string>
+                        <key>category</key>
+                        <string>Light and Dark Desktop</string>
+                        <key>rows</key>
+                        <array>
+                            <dict>
+                                <key>value</key>
+                                <integer>2</integer>
+                                <key>key</key>
+                                <integer>20</integer>
+                            </dict>
+                            <dict>
+                                <key>value</key>
+                                <string>'/System/Library/Desktop Pictures/hello Blue.heic'</string>
+                                <key>key</key>
+                                <integer>1</integer>
+                            </dict>
+                        </array>
+                    </dict>
+                    <dict>
+                        <key>option</key>
+                        <string>blue-dark</string>
+                        <key>name</key>
+                        <string>Hello Blue Dark (Still)</string>
+                        <key>category</key>
+                        <string>Light and Dark Desktop</string>
+                        <key>rows</key>
+                        <array>
+                            <dict>
+                                <key>value</key>
+                                <integer>3</integer>
+                                <key>key</key>
+                                <integer>20</integer>
+                            </dict>
+                            <dict>
+                                <key>value</key>
+                                <string>'/System/Library/Desktop Pictures/hello Blue.heic'</string>
+                                <key>key</key>
+                                <integer>1</integer>
+                            </dict>
+                        </array>
+                    </dict>
+                    <dict>
+                        <key>option</key>
+                        <string>silver</string>
+                        <key>name</key>
+                        <string>Hello Silver Automatic</string>
+                        <key>category</key>
+                        <string>Light and Dark Desktop</string>
+                        <key>rows</key>
+                        <array>
+                            <dict>
+                                <key>value</key>
+                                <integer>0</integer>
+                                <key>key</key>
+                                <integer>20</integer>
+                            </dict>
+                            <dict>
+                                <key>value</key>
+                                <string>'/System/Library/Desktop Pictures/hello Grey.heic'</string>
+                                <key>key</key>
+                                <integer>1</integer>
+                            </dict>
+                        </array>
+                    </dict>
+                    <dict>
+                        <key>option</key>
+                        <string>silver-light</string>
+                        <key>name</key>
+                        <string>Hello Silver Light (Still)</string>
+                        <key>category</key>
+                        <string>Light and Dark Desktop</string>
+                        <key>rows</key>
+                        <array>
+                            <dict>
+                                <key>value</key>
+                                <integer>2</integer>
+                                <key>key</key>
+                                <integer>20</integer>
+                            </dict>
+                            <dict>
+                                <key>value</key>
+                                <string>'/System/Library/Desktop Pictures/hello Grey.heic'</string>
+                                <key>key</key>
+                                <integer>1</integer>
+                            </dict>
+                        </array>
+                    </dict>
+                    <dict>
+                        <key>option</key>
+                        <string>silver-dark</string>
+                        <key>name</key>
+                        <string>Hello Silver Dark (Still)</string>
+                        <key>category</key>
+                        <string>Light and Dark Desktop</string>
+                        <key>rows</key>
+                        <array>
+                            <dict>
+                                <key>value</key>
+                                <integer>3</integer>
+                                <key>key</key>
+                                <integer>20</integer>
+                            </dict>
+                            <dict>
+                                <key>value</key>
+                                <string>'/System/Library/Desktop Pictures/hello Grey.heic'</string>
+                                <key>key</key>
+                                <integer>1</integer>
+                            </dict>
+                        </array>
+                    </dict>
+                    <dict>
+                        <key>option</key>
+                        <string>big-sur-graphic</string>
+                        <key>name</key>
+                        <string>Big Sur Graphic Automatic</string>
+                        <key>category</key>
+                        <string>Light and Dark Desktop</string>
+                        <key>rows</key>
+                        <array>
+                            <dict>
+                                <key>value</key>
+                                <integer>0</integer>
+                                <key>key</key>
+                                <integer>20</integer>
+                            </dict>
+                            <dict>
+                                <key>value</key>
+                                <string>'/System/Library/Desktop Pictures/Big Sur Graphic.heic'</string>
+                                <key>key</key>
+                                <integer>1</integer>
+                            </dict>
+                        </array>
+                    </dict>
+                    <dict>
+                        <key>option</key>
+                        <string>big-sur-graphic-light</string>
+                        <key>name</key>
+                        <string>Big Sur Graphic Light (Still)</string>
+                        <key>category</key>
+                        <string>Light and Dark Desktop</string>
+                        <key>rows</key>
+                        <array>
+                            <dict>
+                                <key>value</key>
+                                <integer>2</integer>
+                                <key>key</key>
+                                <integer>20</integer>
+                            </dict>
+                            <dict>
+                                <key>value</key>
+                                <string>'/System/Library/Desktop Pictures/Big Sur Graphic.heic'</string>
+                                <key>key</key>
+                                <integer>1</integer>
+                            </dict>
+                        </array>
+                    </dict>
+                    <dict>
+                        <key>option</key>
+                        <string>big-sur-graphic-dark</string>
+                        <key>name</key>
+                        <string>Big Sur Graphic Dark (Still)</string>
+                        <key>category</key>
+                        <string>Light and Dark Desktop</string>
+                        <key>rows</key>
+                        <array>
+                            <dict>
+                                <key>value</key>
+                                <integer>3</integer>
+                                <key>key</key>
+                                <integer>20</integer>
+                            </dict>
+                            <dict>
+                                <key>value</key>
+                                <string>'/System/Library/Desktop Pictures/Big Sur Graphic.heic'</string>
+                                <key>key</key>
+                                <integer>1</integer>
+                            </dict>
+                        </array>
+                    </dict>
+                    <dict>
+                        <key>option</key>
+                        <string>peak</string>
+                        <key>name</key>
+                        <string>Peak Automatic</string>
+                        <key>category</key>
+                        <string>Light and Dark Desktop</string>
+                        <key>rows</key>
+                        <array>
+                            <dict>
+                                <key>value</key>
+                                <integer>0</integer>
+                                <key>key</key>
+                                <integer>20</integer>
+                            </dict>
+                            <dict>
+                                <key>value</key>
+                                <string>'/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/3cc38432b076d2f0401e1c9dbad145af9b9b5f0f.asset/AssetData/Peak.heic'</string>
+                                <key>key</key>
+                                <integer>1</integer>
+                            </dict>
+                        </array>
+                    </dict>
+                    <dict>
+                        <key>option</key>
+                        <string>peak-light</string>
+                        <key>name</key>
+                        <string>Peak Light (Still)</string>
+                        <key>category</key>
+                        <string>Light and Dark Desktop</string>
+                        <key>rows</key>
+                        <array>
+                            <dict>
+                                <key>value</key>
+                                <integer>2</integer>
+                                <key>key</key>
+                                <integer>20</integer>
+                            </dict>
+                            <dict>
+                                <key>value</key>
+                                <string>'/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/3cc38432b076d2f0401e1c9dbad145af9b9b5f0f.asset/AssetData/Peak.heic'</string>
+                                <key>key</key>
+                                <integer>1</integer>
+                            </dict>
+                        </array>
+                    </dict>
+                    <dict>
+                        <key>option</key>
+                        <string>peak-dark</string>
+                        <key>name</key>
+                        <string>Peak Dark (Still)</string>
+                        <key>category</key>
+                        <string>Light and Dark Desktop</string>
+                        <key>rows</key>
+                        <array>
+                            <dict>
+                                <key>value</key>
+                                <integer>3</integer>
+                                <key>key</key>
+                                <integer>20</integer>
+                            </dict>
+                            <dict>
+                                <key>value</key>
+                                <string>'/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/3cc38432b076d2f0401e1c9dbad145af9b9b5f0f.asset/AssetData/Peak.heic'</string>
+                                <key>key</key>
+                                <integer>1</integer>
+                            </dict>
+                        </array>
+                    </dict>
+                    <dict>
+                        <key>option</key>
+                        <string>tree</string>
+                        <key>name</key>
+                        <string>Tree Automatic</string>
+                        <key>category</key>
+                        <string>Light and Dark Desktop</string>
+                        <key>rows</key>
+                        <array>
+                            <dict>
+                                <key>value</key>
+                                <integer>0</integer>
+                                <key>key</key>
+                                <integer>20</integer>
+                            </dict>
+                            <dict>
+                                <key>value</key>
+                                <string>'/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/5e8a9e5a102140a4dc5e651e04567d3d7cefd52a.asset/AssetData/Tree.heic'</string>
+                                <key>key</key>
+                                <integer>1</integer>
+                            </dict>
+                        </array>
+                    </dict>
+                    <dict>
+                        <key>option</key>
+                        <string>tree-light</string>
+                        <key>name</key>
+                        <string>Tree Light (Still)</string>
+                        <key>category</key>
+                        <string>Light and Dark Desktop</string>
+                        <key>rows</key>
+                        <array>
+                            <dict>
+                                <key>value</key>
+                                <integer>2</integer>
+                                <key>key</key>
+                                <integer>20</integer>
+                            </dict>
+                            <dict>
+                                <key>value</key>
+                                <string>'/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/5e8a9e5a102140a4dc5e651e04567d3d7cefd52a.asset/AssetData/Tree.heic'</string>
+                                <key>key</key>
+                                <integer>1</integer>
+                            </dict>
+                        </array>
+                    </dict>
+                    <dict>
+                        <key>option</key>
+                        <string>tree-dark</string>
+                        <key>name</key>
+                        <string>Tree Dark (Still)</string>
+                        <key>category</key>
+                        <string>Light and Dark Desktop</string>
+                        <key>rows</key>
+                        <array>
+                            <dict>
+                                <key>value</key>
+                                <integer>3</integer>
+                                <key>key</key>
+                                <integer>20</integer>
+                            </dict>
+                            <dict>
+                                <key>value</key>
+                                <string>'/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/5e8a9e5a102140a4dc5e651e04567d3d7cefd52a.asset/AssetData/Tree.heic'</string>
+                                <key>key</key>
+                                <integer>1</integer>
+                            </dict>
+                        </array>
+                    </dict>
+                    <dict>
+                        <key>option</key>
+                        <string>valley</string>
+                        <key>name</key>
+                        <string>Valley Automatic</string>
+                        <key>category</key>
+                        <string>Light and Dark Desktop</string>
+                        <key>rows</key>
+                        <array>
+                            <dict>
+                                <key>value</key>
+                                <integer>0</integer>
+                                <key>key</key>
+                                <integer>20</integer>
+                            </dict>
+                            <dict>
+                                <key>value</key>
+                                <string>'/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/b520a8b613c92fd7693d4343aedf17c52f6f9eda.asset/AssetData/Valley.heic'</string>
+                                <key>key</key>
+                                <integer>1</integer>
+                            </dict>
+                        </array>
+                    </dict>
+                    <dict>
+                        <key>option</key>
+                        <string>valley-light</string>
+                        <key>name</key>
+                        <string>Valley Light (Still)</string>
+                        <key>category</key>
+                        <string>Light and Dark Desktop</string>
+                        <key>rows</key>
+                        <array>
+                            <dict>
+                                <key>value</key>
+                                <integer>2</integer>
+                                <key>key</key>
+                                <integer>20</integer>
+                            </dict>
+                            <dict>
+                                <key>value</key>
+                                <string>'/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/b520a8b613c92fd7693d4343aedf17c52f6f9eda.asset/AssetData/Valley.heic'</string>
+                                <key>key</key>
+                                <integer>1</integer>
+                            </dict>
+                        </array>
+                    </dict>
+                    <dict>
+                        <key>option</key>
+                        <string>valley-dark</string>
+                        <key>name</key>
+                        <string>Valley Dark (Still)</string>
+                        <key>category</key>
+                        <string>Light and Dark Desktop</string>
+                        <key>rows</key>
+                        <array>
+                            <dict>
+                                <key>value</key>
+                                <integer>3</integer>
+                                <key>key</key>
+                                <integer>20</integer>
+                            </dict>
+                            <dict>
+                                <key>value</key>
+                                <string>'/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/b520a8b613c92fd7693d4343aedf17c52f6f9eda.asset/AssetData/Valley.heic'</string>
+                                <key>key</key>
+                                <integer>1</integer>
+                            </dict>
+                        </array>
+                    </dict>
+                    <dict>
+                        <key>option</key>
+                        <string>dome</string>
+                        <key>name</key>
+                        <string>Dome Automatic</string>
+                        <key>category</key>
+                        <string>Light and Dark Desktop</string>
+                        <key>rows</key>
+                        <array>
+                            <dict>
+                                <key>value</key>
+                                <integer>0</integer>
+                                <key>key</key>
+                                <integer>20</integer>
+                            </dict>
+                            <dict>
+                                <key>value</key>
+                                <string>'/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/0147cb729255506b6649aae14e8805b248f6f99f.asset/AssetData/Dome.heic'</string>
+                                <key>key</key>
+                                <integer>1</integer>
+                            </dict>
+                        </array>
+                    </dict>
+                    <dict>
+                        <key>option</key>
+                        <string>dome-light</string>
+                        <key>name</key>
+                        <string>Dome Light (Still)</string>
+                        <key>category</key>
+                        <string>Light and Dark Desktop</string>
+                        <key>rows</key>
+                        <array>
+                            <dict>
+                                <key>value</key>
+                                <integer>2</integer>
+                                <key>key</key>
+                                <integer>20</integer>
+                            </dict>
+                            <dict>
+                                <key>value</key>
+                                <string>'/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/0147cb729255506b6649aae14e8805b248f6f99f.asset/AssetData/Dome.heic'</string>
+                                <key>key</key>
+                                <integer>1</integer>
+                            </dict>
+                        </array>
+                    </dict>
+                    <dict>
+                        <key>option</key>
+                        <string>dome-dark</string>
+                        <key>name</key>
+                        <string>Dome Dark (Still)</string>
+                        <key>category</key>
+                        <string>Light and Dark Desktop</string>
+                        <key>rows</key>
+                        <array>
+                            <dict>
+                                <key>value</key>
+                                <integer>3</integer>
+                                <key>key</key>
+                                <integer>20</integer>
+                            </dict>
+                            <dict>
+                                <key>value</key>
+                                <string>'/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/0147cb729255506b6649aae14e8805b248f6f99f.asset/AssetData/Dome.heic'</string>
+                                <key>key</key>
+                                <integer>1</integer>
+                            </dict>
+                        </array>
+                    </dict>
+                    <dict>
+                        <key>option</key>
+                        <string>iridescence</string>
+                        <key>name</key>
+                        <string>Iridescence Automatic</string>
+                        <key>category</key>
+                        <string>Light and Dark Desktop</string>
+                        <key>rows</key>
+                        <array>
+                            <dict>
+                                <key>value</key>
+                                <integer>0</integer>
+                                <key>key</key>
+                                <integer>20</integer>
+                            </dict>
+                            <dict>
+                                <key>value</key>
+                                <string>'/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/37ac5562f90c0888a9c35ece6def29a53c0ddd55.asset/AssetData/Iridescence.heic'</string>
+                                <key>key</key>
+                                <integer>1</integer>
+                            </dict>
+                        </array>
+                    </dict>
+                    <dict>
+                        <key>option</key>
+                        <string>iridescence-light</string>
+                        <key>name</key>
+                        <string>Iridescence Light (Still)</string>
+                        <key>category</key>
+                        <string>Light and Dark Desktop</string>
+                        <key>rows</key>
+                        <array>
+                            <dict>
+                                <key>value</key>
+                                <integer>2</integer>
+                                <key>key</key>
+                                <integer>20</integer>
+                            </dict>
+                            <dict>
+                                <key>value</key>
+                                <string>'/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/37ac5562f90c0888a9c35ece6def29a53c0ddd55.asset/AssetData/Iridescence.heic'</string>
+                                <key>key</key>
+                                <integer>1</integer>
+                            </dict>
+                        </array>
+                    </dict>
+                    <dict>
+                        <key>option</key>
+                        <string>iridescence-dark</string>
+                        <key>name</key>
+                        <string>Iridescence Dark (Still)</string>
+                        <key>category</key>
+                        <string>Light and Dark Desktop</string>
+                        <key>rows</key>
+                        <array>
+                            <dict>
+                                <key>value</key>
+                                <integer>3</integer>
+                                <key>key</key>
+                                <integer>20</integer>
+                            </dict>
+                            <dict>
+                                <key>value</key>
+                                <string>'/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/37ac5562f90c0888a9c35ece6def29a53c0ddd55.asset/AssetData/Iridescence.heic'</string>
+                                <key>key</key>
+                                <integer>1</integer>
+                            </dict>
+                        </array>
+                    </dict>
+                    <dict>
+                        <key>option</key>
+                        <string>mountains</string>
+                        <key>name</key>
+                        <string>Big Sur Mountains</string>
+                        <key>category</key>
+                        <string>Desktop Pictures</string>
+                        <key>rows</key>
+                        <array>
+                            <dict>
+                                <key>value</key>
+                                <string>'/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/0b55533c35ad0c1c5ff89e983539a44faf859c07.asset/AssetData/Big Sur Mountains.heic'</string>
+                                <key>key</key>
+                                <integer>1</integer>
+                            </dict>
+                        </array>
+                    </dict>
+                    <dict>
+                        <key>option</key>
+                        <string>aerial</string>
+                        <key>name</key>
+                        <string>Big Sur Aerial</string>
+                        <key>category</key>
+                        <string>Desktop Pictures</string>
+                        <key>rows</key>
+                        <array>
+                            <dict>
+                                <key>value</key>
+                                <string>'/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/972d7a8db8ba601e496e1294aae04124046c1908.asset/AssetData/Big Sur Aerial.heic'</string>
+                                <key>key</key>
+                                <integer>1</integer>
+                            </dict>
+                        </array>
+                    </dict>
+                    <dict>
+                        <key>option</key>
+                        <string>horizon</string>
+                        <key>name</key>
+                        <string>Big Sur Horizon</string>
+                        <key>category</key>
+                        <string>Desktop Pictures</string>
+                        <key>rows</key>
+                        <array>
+                            <dict>
+                                <key>value</key>
+                                <string>'/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/237a25a78324e57274dd0ea40d8bd895481a1613.asset/AssetData/Big Sur Horizon.heic'</string>
+                                <key>key</key>
+                                <integer>1</integer>
+                            </dict>
+                        </array>
+                    </dict>
+                    <dict>
+                        <key>option</key>
+                        <string>coastline</string>
+                        <key>name</key>
+                        <string>Big Sur Coastline</string>
+                        <key>category</key>
+                        <string>Desktop Pictures</string>
+                        <key>rows</key>
+                        <array>
+                            <dict>
+                                <key>value</key>
+                                <string>'/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/cf8e4fef996d7b6e9b7d223a7a732a9dc96e908f.asset/AssetData/Big Sur Coastline.heic'</string>
+                                <key>key</key>
+                                <integer>1</integer>
+                            </dict>
+                        </array>
+                    </dict>
+                    <dict>
+                        <key>option</key>
+                        <string>shore</string>
+                        <key>name</key>
+                        <string>Big Sur Shore Rocks</string>
+                        <key>category</key>
+                        <string>Desktop Pictures</string>
+                        <key>rows</key>
+                        <array>
+                            <dict>
+                                <key>value</key>
+                                <string>'/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/17b0ec7a80a6547175ce3acd4c8abbb8615f7f03.asset/AssetData/Big Sur Shore Rocks.heic'</string>
+                                <key>key</key>
+                                <integer>1</integer>
+                            </dict>
+                        </array>
+                    </dict>
+                    <dict>
+                        <key>option</key>
+                        <string>edge</string>
+                        <key>name</key>
+                        <string>Big Sur Water's Edge</string>
+                        <key>category</key>
+                        <string>Desktop Pictures</string>
+                        <key>rows</key>
+                        <array>
+                            <dict>
+                                <key>value</key>
+                                <string>'/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/6b9eee9947acbe5c4b04aac87ac375602fce8ca3.asset/AssetData/Big Sur Waters Edge.heic'</string>
+                                <key>key</key>
+                                <integer>1</integer>
+                            </dict>
+                        </array>
+                    </dict>
+                    <dict>
+                        <key>option</key>
+                        <string>road</string>
+                        <key>name</key>
+                        <string>Big Sur Road</string>
+                        <key>category</key>
+                        <string>Desktop Pictures</string>
+                        <key>rows</key>
+                        <array>
+                            <dict>
+                                <key>value</key>
+                                <string>'/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/15709d3247a0ceaf9d309339950487b47f9b44bb.asset/AssetData/Big Sur Road.heic'</string>
+                                <key>key</key>
+                                <integer>1</integer>
+                            </dict>
+                        </array>
+                    </dict>
+                    <dict>
+                        <key>option</key>
+                        <string>succulents</string>
+                        <key>name</key>
+                        <string>Big Sur Night Succulents</string>
+                        <key>category</key>
+                        <string>Desktop Pictures</string>
+                        <key>rows</key>
+                        <array>
+                            <dict>
+                                <key>value</key>
+                                <string>'/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/0ffac9759762068a7ab8dfb650a1a19ef7093b46.asset/AssetData/Big Sur Night Succulents.heic'</string>
+                                <key>key</key>
+                                <integer>1</integer>
+                            </dict>
+                        </array>
+                    </dict>
+                    <dict>
+                        <key>option</key>
+                        <string>grasses</string>
+                        <key>name</key>
+                        <string>Big Sur Night Grasses</string>
+                        <key>category</key>
+                        <string>Desktop Pictures</string>
+                        <key>rows</key>
+                        <array>
+                            <dict>
+                                <key>value</key>
+                                <string>'/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/5b040b5fecb84d2766a94ef5a14bd5efa2fbcde3.asset/AssetData/Big Sur Night Grasses.heic'</string>
+                                <key>key</key>
+                                <integer>1</integer>
+                            </dict>
+                        </array>
+                    </dict>
+                    <dict>
+                        <key>option</key>
+                        <string>coast</string>
+                        <key>name</key>
+                        <string>Catalina Coast</string>
+                        <key>category</key>
+                        <string>Desktop Pictures</string>
+                        <key>rows</key>
+                        <array>
+                            <dict>
+                                <key>value</key>
+                                <string>'/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/b783f7498e002b0aa3a2759a5df26f8f428b649d.asset/AssetData/Catalina Coast.heic'</string>
+                                <key>key</key>
+                                <integer>1</integer>
+                            </dict>
+                        </array>
+                    </dict>
+                    <dict>
+                        <key>option</key>
+                        <string>evening</string>
+                        <key>name</key>
+                        <string>Catalina Evening</string>
+                        <key>category</key>
+                        <string>Desktop Pictures</string>
+                        <key>rows</key>
+                        <array>
+                            <dict>
+                                <key>value</key>
+                                <string>'/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/1479b2d222bc2ebe51fc4d73b06e4fa8c1ce0e5c.asset/AssetData/Catalina Evening.heic'</string>
+                                <key>key</key>
+                                <integer>1</integer>
+                            </dict>
+                        </array>
+                    </dict>
+                    <dict>
+                        <key>option</key>
+                        <string>rock</string>
+                        <key>name</key>
+                        <string>Catalina Rock</string>
+                        <key>category</key>
+                        <string>Desktop Pictures</string>
+                        <key>rows</key>
+                        <array>
+                            <dict>
+                                <key>value</key>
+                                <string>'/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/1a56f27cffc35c1c0d6332e586ee48d68aaaebd9.asset/AssetData/Catalina Rock.heic'</string>
+                                <key>key</key>
+                                <integer>1</integer>
+                            </dict>
+                        </array>
+                    </dict>
+                    <dict>
+                        <key>option</key>
+                        <string>shoreline</string>
+                        <key>name</key>
+                        <string>Catalina Shoreline</string>
+                        <key>category</key>
+                        <string>Desktop Pictures</string>
+                        <key>rows</key>
+                        <array>
+                            <dict>
+                                <key>value</key>
+                                <string>'/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/d9e5318549521fb59354b96d0b2dd9ec123597a9.asset/AssetData/Catalina Shoreline.heic'</string>
+                                <key>key</key>
+                                <integer>1</integer>
+                            </dict>
+                        </array>
+                    </dict>
+                    <dict>
+                        <key>option</key>
+                        <string>clouds</string>
+                        <key>name</key>
+                        <string>Catalina Clouds</string>
+                        <key>category</key>
+                        <string>Desktop Pictures</string>
+                        <key>rows</key>
+                        <array>
+                            <dict>
+                                <key>value</key>
+                                <string>'/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/f72f29b3fd3625a6b61bc672d35a32f464640a64.asset/AssetData/Catalina Clouds.heic'</string>
+                                <key>key</key>
+                                <integer>1</integer>
+                            </dict>
+                        </array>
+                    </dict>
+                    <dict>
+                        <key>option</key>
+                        <string>silhouette</string>
+                        <key>name</key>
+                        <string>Catalina Silhouette</string>
+                        <key>category</key>
+                        <string>Desktop Pictures</string>
+                        <key>rows</key>
+                        <array>
+                            <dict>
+                                <key>value</key>
+                                <string>'/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/aa4f359601cb1a549369ae5c40cb23826af4dd40.asset/AssetData/Catalina Silhouette.heic'</string>
+                                <key>key</key>
+                                <integer>1</integer>
+                            </dict>
+                        </array>
+                    </dict>
+                    <dict>
+                        <key>option</key>
+                        <string>sunset</string>
+                        <key>name</key>
+                        <string>Catalina Sunset</string>
+                        <key>category</key>
+                        <string>Desktop Pictures</string>
+                        <key>rows</key>
+                        <array>
+                            <dict>
+                                <key>value</key>
+                                <string>'/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/c8db91583c4eeffd413c3069f021f95df64d0e4e.asset/AssetData/Catalina Sunset.heic'</string>
+                                <key>key</key>
+                                <integer>1</integer>
+                            </dict>
+                        </array>
+                    </dict>
+                    <dict>
+                        <key>option</key>
+                        <string>stream-red</string>
+                        <key>name</key>
+                        <string>Light Stream Red</string>
+                        <key>category</key>
+                        <string>Desktop Pictures</string>
+                        <key>rows</key>
+                        <array>
+                            <dict>
+                                <key>value</key>
+                                <string>'/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/9f458f803afa5a5349aabc6581e2ab155bcc7677.asset/AssetData/Light Stream Red.heic'</string>
+                                <key>key</key>
+                                <integer>1</integer>
+                            </dict>
+                        </array>
+                    </dict>
+                    <dict>
+                        <key>option</key>
+                        <string>stream-blue</string>
+                        <key>name</key>
+                        <string>Light Stream Blue</string>
+                        <key>category</key>
+                        <string>Desktop Pictures</string>
+                        <key>rows</key>
+                        <array>
+                            <dict>
+                                <key>value</key>
+                                <string>'/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/11a3d5c273194adc64529578ce3edb5c55aa20bd.asset/AssetData/Light Stream Blue.heic'</string>
+                                <key>key</key>
+                                <integer>1</integer>
+                            </dict>
+                        </array>
+                    </dict>
+                    <dict>
+                        <key>option</key>
+                        <string>stream-pink</string>
+                        <key>name</key>
+                        <string>Light Stream Pink</string>
+                        <key>category</key>
+                        <string>Desktop Pictures</string>
+                        <key>rows</key>
+                        <array>
+                            <dict>
+                                <key>value</key>
+                                <string>'/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/06413a4489c03a522ff78f78248bfd3975eaa45c.asset/AssetData/Light Stream Pink.heic'</string>
+                                <key>key</key>
+                                <integer>1</integer>
+                            </dict>
+                        </array>
+                    </dict>
+                    <dict>
+                        <key>option</key>
+                        <string>stream-green</string>
+                        <key>name</key>
+                        <string>Light Stream Green</string>
+                        <key>category</key>
+                        <string>Desktop Pictures</string>
+                        <key>rows</key>
+                        <array>
+                            <dict>
+                                <key>value</key>
+                                <string>'/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/a29e422ecde57671ce8bab2a61587cb01211fa07.asset/AssetData/Light Stream Green.heic'</string>
+                                <key>key</key>
+                                <integer>1</integer>
+                            </dict>
+                        </array>
+                    </dict>
+                </array>
+            </dict>
+            <dict>
+                <key>version</key>
+                <string>11</string>
+                <key>name</key>
+                <string>Big Sur</string>
+                <key>options</key>
+                <array>
+                    <dict>
+                        <key>option</key>
+                        <string>big-sur</string>
+                        <key>name</key>
+                        <string>Big Sur Dynamic</string>
+                        <key>category</key>
+                        <string>Dynamic Desktop</string>
+                        <key>rows</key>
+                        <array>
+                            <dict>
+                                <key>value</key>
+                                <integer>0</integer>
+                                <key>key</key>
+                                <integer>20</integer>
+                            </dict>
+                            <dict>
+                                <key>value</key>
+                                <string>'/System/Library/Desktop Pictures/Big Sur.heic'</string>
+                                <key>key</key>
+                                <integer>1</integer>
+                            </dict>
+                        </array>
+                    </dict>
+                    <dict>
+                        <key>option</key>
+                        <string>big-sur-light</string>
+                        <key>name</key>
+                        <string>Big Sur Light (Still)</string>
+                        <key>category</key>
+                        <string>Dynamic Desktop</string>
+                        <key>rows</key>
+                        <array>
+                            <dict>
+                                <key>value</key>
+                                <integer>2</integer>
+                                <key>key</key>
+                                <integer>20</integer>
+                            </dict>
+                            <dict>
+                                <key>value</key>
+                                <string>'/System/Library/Desktop Pictures/Big Sur.heic'</string>
+                                <key>key</key>
+                                <integer>1</integer>
+                            </dict>
+                        </array>
+                    </dict>
+                    <dict>
+                        <key>option</key>
+                        <string>big-sur-dark</string>
+                        <key>name</key>
+                        <string>Big Sur Dark (Still)</string>
+                        <key>category</key>
+                        <string>Dynamic Desktop</string>
+                        <key>rows</key>
+                        <array>
+                            <dict>
+                                <key>value</key>
+                                <integer>3</integer>
+                                <key>key</key>
+                                <integer>20</integer>
+                            </dict>
+                            <dict>
+                                <key>value</key>
+                                <string>'/System/Library/Desktop Pictures/Big Sur.heic'</string>
+                                <key>key</key>
+                                <integer>1</integer>
+                            </dict>
+                        </array>
+                    </dict>
+                    <dict>
+                        <key>option</key>
+                        <string>catalina</string>
+                        <key>name</key>
+                        <string>Catalina Dynamic</string>
+                        <key>category</key>
+                        <string>Dynamic Desktop</string>
+                        <key>rows</key>
+                        <array>
+                            <dict>
+                                <key>value</key>
+                                <integer>0</integer>
+                                <key>key</key>
+                                <integer>20</integer>
+                            </dict>
+                            <dict>
+                                <key>value</key>
+                                <string>'/System/Library/Desktop Pictures/Catalina.heic'</string>
+                                <key>key</key>
+                                <integer>1</integer>
+                            </dict>
+                        </array>
+                    </dict>
+                    <dict>
+                        <key>option</key>
+                        <string>catalina-light</string>
+                        <key>name</key>
+                        <string>Catalina Light (Still)</string>
+                        <key>category</key>
+                        <string>Dynamic Desktop</string>
+                        <key>rows</key>
+                        <array>
+                            <dict>
+                                <key>value</key>
+                                <integer>2</integer>
+                                <key>key</key>
+                                <integer>20</integer>
+                            </dict>
+                            <dict>
+                                <key>value</key>
+                                <string>'/System/Library/Desktop Pictures/Catalina.heic'</string>
+                                <key>key</key>
+                                <integer>1</integer>
+                            </dict>
+                        </array>
+                    </dict>
+                    <dict>
+                        <key>option</key>
+                        <string>catalina-dark</string>
+                        <key>name</key>
+                        <string>Catalina Dark (Still)</string>
+                        <key>category</key>
+                        <string>Dynamic Desktop</string>
+                        <key>rows</key>
+                        <array>
+                            <dict>
+                                <key>value</key>
+                                <integer>3</integer>
+                                <key>key</key>
+                                <integer>20</integer>
+                            </dict>
+                            <dict>
+                                <key>value</key>
+                                <string>'/System/Library/Desktop Pictures/Catalina.heic'</string>
+                                <key>key</key>
+                                <integer>1</integer>
+                            </dict>
+                        </array>
+                    </dict>
+                    <dict>
+                        <key>option</key>
+                        <string>cliffs</string>
+                        <key>name</key>
+                        <string>The Cliffs Dynamic</string>
+                        <key>category</key>
+                        <string>Dynamic Desktop</string>
+                        <key>rows</key>
+                        <array>
+                            <dict>
+                                <key>value</key>
+                                <integer>0</integer>
+                                <key>key</key>
+                                <integer>20</integer>
+                            </dict>
+                            <dict>
+                                <key>value</key>
+                                <string>'/System/Library/Desktop Pictures/The Cliffs.heic'</string>
+                                <key>key</key>
+                                <integer>1</integer>
+                            </dict>
+                        </array>
+                    </dict>
+                    <dict>
+                        <key>option</key>
+                        <string>cliffs-light</string>
+                        <key>name</key>
+                        <string>The Cliffs Light (Still)</string>
+                        <key>category</key>
+                        <string>Dynamic Desktop</string>
+                        <key>rows</key>
+                        <array>
+                            <dict>
+                                <key>value</key>
+                                <integer>2</integer>
+                                <key>key</key>
+                                <integer>20</integer>
+                            </dict>
+                            <dict>
+                                <key>value</key>
+                                <string>'/System/Library/Desktop Pictures/The Cliffs.heic'</string>
+                                <key>key</key>
+                                <integer>1</integer>
+                            </dict>
+                        </array>
+                    </dict>
+                    <dict>
+                        <key>option</key>
+                        <string>cliffs-dark</string>
+                        <key>name</key>
+                        <string>The Cliffs Dark (Still)</string>
+                        <key>category</key>
+                        <string>Dynamic Desktop</string>
+                        <key>rows</key>
+                        <array>
+                            <dict>
+                                <key>value</key>
+                                <integer>3</integer>
+                                <key>key</key>
+                                <integer>20</integer>
+                            </dict>
+                            <dict>
+                                <key>value</key>
+                                <string>'/System/Library/Desktop Pictures/The Cliffs.heic'</string>
+                                <key>key</key>
+                                <integer>1</integer>
+                            </dict>
+                        </array>
+                    </dict>
+                    <dict>
+                        <key>option</key>
+                        <string>lake</string>
+                        <key>name</key>
+                        <string>The Lake Dynamic</string>
+                        <key>category</key>
+                        <string>Dynamic Desktop</string>
+                        <key>rows</key>
+                        <array>
+                            <dict>
+                                <key>value</key>
+                                <integer>0</integer>
+                                <key>key</key>
+                                <integer>20</integer>
+                            </dict>
+                            <dict>
+                                <key>value</key>
+                                <string>'/System/Library/Desktop Pictures/The Lake.heic'</string>
+                                <key>key</key>
+                                <integer>1</integer>
+                            </dict>
+                        </array>
+                    </dict>
+                    <dict>
+                        <key>option</key>
+                        <string>lake-light</string>
+                        <key>name</key>
+                        <string>The Lake Light (Still)</string>
+                        <key>category</key>
+                        <string>Dynamic Desktop</string>
+                        <key>rows</key>
+                        <array>
+                            <dict>
+                                <key>value</key>
+                                <integer>2</integer>
+                                <key>key</key>
+                                <integer>20</integer>
+                            </dict>
+                            <dict>
+                                <key>value</key>
+                                <string>'/System/Library/Desktop Pictures/The Lake.heic'</string>
+                                <key>key</key>
+                                <integer>1</integer>
+                            </dict>
+                        </array>
+                    </dict>
+                    <dict>
+                        <key>option</key>
+                        <string>lake-dark</string>
+                        <key>name</key>
+                        <string>The Lake Dark (Still)</string>
+                        <key>category</key>
+                        <string>Dynamic Desktop</string>
+                        <key>rows</key>
+                        <array>
+                            <dict>
+                                <key>value</key>
+                                <integer>3</integer>
+                                <key>key</key>
+                                <integer>20</integer>
+                            </dict>
+                            <dict>
+                                <key>value</key>
+                                <string>'/System/Library/Desktop Pictures/The Lake.heic'</string>
+                                <key>key</key>
+                                <integer>1</integer>
+                            </dict>
+                        </array>
+                    </dict>
+                    <dict>
+                        <key>option</key>
+                        <string>desert</string>
+                        <key>name</key>
+                        <string>The Desert Dynamic</string>
+                        <key>category</key>
+                        <string>Dynamic Desktop</string>
+                        <key>rows</key>
+                        <array>
+                            <dict>
+                                <key>value</key>
+                                <integer>0</integer>
+                                <key>key</key>
+                                <integer>20</integer>
+                            </dict>
+                            <dict>
+                                <key>value</key>
+                                <string>'/System/Library/Desktop Pictures/The Desert.heic'</string>
+                                <key>key</key>
+                                <integer>1</integer>
+                            </dict>
+                        </array>
+                    </dict>
+                    <dict>
+                        <key>option</key>
+                        <string>desert-light</string>
+                        <key>name</key>
+                        <string>The Desert Light (Still)</string>
+                        <key>category</key>
+                        <string>Dynamic Desktop</string>
+                        <key>rows</key>
+                        <array>
+                            <dict>
+                                <key>value</key>
+                                <integer>2</integer>
+                                <key>key</key>
+                                <integer>20</integer>
+                            </dict>
+                            <dict>
+                                <key>value</key>
+                                <string>'/System/Library/Desktop Pictures/The Desert.heic'</string>
+                                <key>key</key>
+                                <integer>1</integer>
+                            </dict>
+                        </array>
+                    </dict>
+                    <dict>
+                        <key>option</key>
+                        <string>desert-dark</string>
+                        <key>name</key>
+                        <string>The Desert Dark (Still)</string>
+                        <key>category</key>
+                        <string>Dynamic Desktop</string>
+                        <key>rows</key>
+                        <array>
+                            <dict>
+                                <key>value</key>
+                                <integer>3</integer>
+                                <key>key</key>
+                                <integer>20</integer>
+                            </dict>
+                            <dict>
+                                <key>value</key>
+                                <string>'/System/Library/Desktop Pictures/The Desert.heic'</string>
+                                <key>key</key>
+                                <integer>1</integer>
+                            </dict>
+                        </array>
+                    </dict>
+                    <dict>
+                        <key>option</key>
+                        <string>beach</string>
+                        <key>name</key>
+                        <string>The Beach Dynamic</string>
+                        <key>category</key>
+                        <string>Dynamic Desktop</string>
+                        <key>rows</key>
+                        <array>
+                            <dict>
+                                <key>value</key>
+                                <integer>0</integer>
+                                <key>key</key>
+                                <integer>20</integer>
+                            </dict>
+                            <dict>
+                                <key>value</key>
+                                <string>'/System/Library/Desktop Pictures/The Beach.heic'</string>
+                                <key>key</key>
+                                <integer>1</integer>
+                            </dict>
+                        </array>
+                    </dict>
+                    <dict>
+                        <key>option</key>
+                        <string>beach-light</string>
+                        <key>name</key>
+                        <string>The Beach Light (Still)</string>
+                        <key>category</key>
+                        <string>Dynamic Desktop</string>
+                        <key>rows</key>
+                        <array>
+                            <dict>
+                                <key>value</key>
+                                <integer>2</integer>
+                                <key>key</key>
+                                <integer>20</integer>
+                            </dict>
+                            <dict>
+                                <key>value</key>
+                                <string>'/System/Library/Desktop Pictures/The Beach.heic'</string>
+                                <key>key</key>
+                                <integer>1</integer>
+                            </dict>
+                        </array>
+                    </dict>
+                    <dict>
+                        <key>option</key>
+                        <string>beach-dark</string>
+                        <key>name</key>
+                        <string>The Beach Dark (Still)</string>
+                        <key>category</key>
+                        <string>Dynamic Desktop</string>
+                        <key>rows</key>
+                        <array>
+                            <dict>
+                                <key>value</key>
+                                <integer>3</integer>
+                                <key>key</key>
+                                <integer>20</integer>
+                            </dict>
+                            <dict>
+                                <key>value</key>
+                                <string>'/System/Library/Desktop Pictures/The Beach.heic'</string>
+                                <key>key</key>
+                                <integer>1</integer>
+                            </dict>
+                        </array>
+                    </dict>
+                    <dict>
+                        <key>option</key>
+                        <string>solar</string>
+                        <key>name</key>
+                        <string>Solar Gradients</string>
+                        <key>category</key>
+                        <string>Dynamic Desktop</string>
+                        <key>rows</key>
+                        <array>
+                            <dict>
+                                <key>value</key>
+                                <integer>0</integer>
+                                <key>key</key>
+                                <integer>20</integer>
+                            </dict>
+                            <dict>
+                                <key>value</key>
+                                <string>'/System/Library/Desktop Pictures/Solar Gradients.heic'</string>
+                                <key>key</key>
+                                <integer>1</integer>
+                            </dict>
+                        </array>
+                    </dict>
+                    <dict>
+                        <key>option</key>
+                        <string>graphic</string>
+                        <key>name</key>
+                        <string>Big Sur Graphic Automatic</string>
+                        <key>category</key>
+                        <string>Light and Dark Desktop</string>
+                        <key>rows</key>
+                        <array>
+                            <dict>
+                                <key>value</key>
+                                <integer>0</integer>
+                                <key>key</key>
+                                <integer>20</integer>
+                            </dict>
+                        </array>
+                    </dict>
+                    <dict>
+                        <key>option</key>
+                        <string>light</string>
+                        <key>name</key>
+                        <string>Big Sur Graphic Light (Still)</string>
+                        <key>category</key>
+                        <string>Light and Dark Desktop</string>
+                        <key>rows</key>
+                        <array>
+                            <dict>
+                                <key>value</key>
+                                <integer>2</integer>
+                                <key>key</key>
+                                <integer>20</integer>
+                            </dict>
+                        </array>
+                    </dict>
+                    <dict>
+                        <key>option</key>
+                        <string>dark</string>
+                        <key>name</key>
+                        <string>Big Sur Graphic Dark (Still)</string>
+                        <key>category</key>
+                        <string>Light and Dark Desktop</string>
+                        <key>rows</key>
+                        <array>
+                            <dict>
+                                <key>value</key>
+                                <integer>3</integer>
+                                <key>key</key>
+                                <integer>20</integer>
+                            </dict>
+                        </array>
+                    </dict>
+                    <dict>
+                        <key>option</key>
+                        <string>peak</string>
+                        <key>name</key>
+                        <string>Peak Automatic</string>
+                        <key>category</key>
+                        <string>Light and Dark Desktop</string>
+                        <key>rows</key>
+                        <array>
+                            <dict>
+                                <key>value</key>
+                                <integer>0</integer>
+                                <key>key</key>
+                                <integer>20</integer>
+                            </dict>
+                            <dict>
+                                <key>value</key>
+                                <string>'/System/Library/Desktop Pictures/Peak.heic'</string>
+                                <key>key</key>
+                                <integer>1</integer>
+                            </dict>
+                        </array>
+                    </dict>
+                    <dict>
+                        <key>option</key>
+                        <string>peak-light</string>
+                        <key>name</key>
+                        <string>Peak Light (Still)</string>
+                        <key>category</key>
+                        <string>Light and Dark Desktop</string>
+                        <key>rows</key>
+                        <array>
+                            <dict>
+                                <key>value</key>
+                                <integer>2</integer>
+                                <key>key</key>
+                                <integer>20</integer>
+                            </dict>
+                            <dict>
+                                <key>value</key>
+                                <string>'/System/Library/Desktop Pictures/Peak.heic'</string>
+                                <key>key</key>
+                                <integer>1</integer>
+                            </dict>
+                        </array>
+                    </dict>
+                    <dict>
+                        <key>option</key>
+                        <string>peak-dark</string>
+                        <key>name</key>
+                        <string>Peak Dark (Still)</string>
+                        <key>category</key>
+                        <string>Light and Dark Desktop</string>
+                        <key>rows</key>
+                        <array>
+                            <dict>
+                                <key>value</key>
+                                <integer>3</integer>
+                                <key>key</key>
+                                <integer>20</integer>
+                            </dict>
+                            <dict>
+                                <key>value</key>
+                                <string>'/System/Library/Desktop Pictures/Peak.heic'</string>
+                                <key>key</key>
+                                <integer>1</integer>
+                            </dict>
+                        </array>
+                    </dict>
+                    <dict>
+                        <key>option</key>
+                        <string>tree</string>
+                        <key>name</key>
+                        <string>Tree Automatic</string>
+                        <key>category</key>
+                        <string>Light and Dark Desktop</string>
+                        <key>rows</key>
+                        <array>
+                            <dict>
+                                <key>value</key>
+                                <integer>0</integer>
+                                <key>key</key>
+                                <integer>20</integer>
+                            </dict>
+                            <dict>
+                                <key>value</key>
+                                <string>'/System/Library/Desktop Pictures/Tree.heic'</string>
+                                <key>key</key>
+                                <integer>1</integer>
+                            </dict>
+                        </array>
+                    </dict>
+                    <dict>
+                        <key>option</key>
+                        <string>tree-light</string>
+                        <key>name</key>
+                        <string>Tree Light (Still)</string>
+                        <key>category</key>
+                        <string>Light and Dark Desktop</string>
+                        <key>rows</key>
+                        <array>
+                            <dict>
+                                <key>value</key>
+                                <integer>2</integer>
+                                <key>key</key>
+                                <integer>20</integer>
+                            </dict>
+                            <dict>
+                                <key>value</key>
+                                <string>'/System/Library/Desktop Pictures/Tree.heic'</string>
+                                <key>key</key>
+                                <integer>1</integer>
+                            </dict>
+                        </array>
+                    </dict>
+                    <dict>
+                        <key>option</key>
+                        <string>tree-dark</string>
+                        <key>name</key>
+                        <string>Tree Dark (Still)</string>
+                        <key>category</key>
+                        <string>Light and Dark Desktop</string>
+                        <key>rows</key>
+                        <array>
+                            <dict>
+                                <key>value</key>
+                                <integer>3</integer>
+                                <key>key</key>
+                                <integer>20</integer>
+                            </dict>
+                            <dict>
+                                <key>value</key>
+                                <string>'/System/Library/Desktop Pictures/Tree.heic'</string>
+                                <key>key</key>
+                                <integer>1</integer>
+                            </dict>
+                        </array>
+                    </dict>
+                    <dict>
+                        <key>option</key>
+                        <string>valley</string>
+                        <key>name</key>
+                        <string>Valley Automatic</string>
+                        <key>category</key>
+                        <string>Light and Dark Desktop</string>
+                        <key>rows</key>
+                        <array>
+                            <dict>
+                                <key>value</key>
+                                <integer>0</integer>
+                                <key>key</key>
+                                <integer>20</integer>
+                            </dict>
+                            <dict>
+                                <key>value</key>
+                                <string>'/System/Library/Desktop Pictures/Valley.heic'</string>
+                                <key>key</key>
+                                <integer>1</integer>
+                            </dict>
+                        </array>
+                    </dict>
+                    <dict>
+                        <key>option</key>
+                        <string>valley-light</string>
+                        <key>name</key>
+                        <string>Valley Light (Still)</string>
+                        <key>category</key>
+                        <string>Light and Dark Desktop</string>
+                        <key>rows</key>
+                        <array>
+                            <dict>
+                                <key>value</key>
+                                <integer>2</integer>
+                                <key>key</key>
+                                <integer>20</integer>
+                            </dict>
+                            <dict>
+                                <key>value</key>
+                                <string>'/System/Library/Desktop Pictures/Valley.heic'</string>
+                                <key>key</key>
+                                <integer>1</integer>
+                            </dict>
+                        </array>
+                    </dict>
+                    <dict>
+                        <key>option</key>
+                        <string>valley-dark</string>
+                        <key>name</key>
+                        <string>Valley Dark (Still)</string>
+                        <key>category</key>
+                        <string>Light and Dark Desktop</string>
+                        <key>rows</key>
+                        <array>
+                            <dict>
+                                <key>value</key>
+                                <integer>3</integer>
+                                <key>key</key>
+                                <integer>20</integer>
+                            </dict>
+                            <dict>
+                                <key>value</key>
+                                <string>'/System/Library/Desktop Pictures/Valley.heic'</string>
+                                <key>key</key>
+                                <integer>1</integer>
+                            </dict>
+                        </array>
+                    </dict>
+                    <dict>
+                        <key>option</key>
+                        <string>dome</string>
+                        <key>name</key>
+                        <string>Dome Automatic</string>
+                        <key>category</key>
+                        <string>Light and Dark Desktop</string>
+                        <key>rows</key>
+                        <array>
+                            <dict>
+                                <key>value</key>
+                                <integer>0</integer>
+                                <key>key</key>
+                                <integer>20</integer>
+                            </dict>
+                            <dict>
+                                <key>value</key>
+                                <string>'/System/Library/Desktop Pictures/Dome.heic'</string>
+                                <key>key</key>
+                                <integer>1</integer>
+                            </dict>
+                        </array>
+                    </dict>
+                    <dict>
+                        <key>option</key>
+                        <string>dome-light</string>
+                        <key>name</key>
+                        <string>Dome Light (Still)</string>
+                        <key>category</key>
+                        <string>Light and Dark Desktop</string>
+                        <key>rows</key>
+                        <array>
+                            <dict>
+                                <key>value</key>
+                                <integer>2</integer>
+                                <key>key</key>
+                                <integer>20</integer>
+                            </dict>
+                            <dict>
+                                <key>value</key>
+                                <string>'/System/Library/Desktop Pictures/Dome.heic'</string>
+                                <key>key</key>
+                                <integer>1</integer>
+                            </dict>
+                        </array>
+                    </dict>
+                    <dict>
+                        <key>option</key>
+                        <string>dome-dark</string>
+                        <key>name</key>
+                        <string>Dome Dark (Still)</string>
+                        <key>category</key>
+                        <string>Light and Dark Desktop</string>
+                        <key>rows</key>
+                        <array>
+                            <dict>
+                                <key>value</key>
+                                <integer>3</integer>
+                                <key>key</key>
+                                <integer>20</integer>
+                            </dict>
+                            <dict>
+                                <key>value</key>
+                                <string>'/System/Library/Desktop Pictures/Dome.heic'</string>
+                                <key>key</key>
+                                <integer>1</integer>
+                            </dict>
+                        </array>
+                    </dict>
+                    <dict>
+                        <key>option</key>
+                        <string>iridescence</string>
+                        <key>name</key>
+                        <string>Iridescence Automatic</string>
+                        <key>category</key>
+                        <string>Light and Dark Desktop</string>
+                        <key>rows</key>
+                        <array>
+                            <dict>
+                                <key>value</key>
+                                <integer>0</integer>
+                                <key>key</key>
+                                <integer>20</integer>
+                            </dict>
+                            <dict>
+                                <key>value</key>
+                                <string>'/System/Library/Desktop Pictures/Iridescence.heic'</string>
+                                <key>key</key>
+                                <integer>1</integer>
+                            </dict>
+                        </array>
+                    </dict>
+                    <dict>
+                        <key>option</key>
+                        <string>iridescence-light</string>
+                        <key>name</key>
+                        <string>Iridescence Light (Still)</string>
+                        <key>category</key>
+                        <string>Light and Dark Desktop</string>
+                        <key>rows</key>
+                        <array>
+                            <dict>
+                                <key>value</key>
+                                <integer>2</integer>
+                                <key>key</key>
+                                <integer>20</integer>
+                            </dict>
+                            <dict>
+                                <key>value</key>
+                                <string>'/System/Library/Desktop Pictures/Iridescence.heic'</string>
+                                <key>key</key>
+                                <integer>1</integer>
+                            </dict>
+                        </array>
+                    </dict>
+                    <dict>
+                        <key>option</key>
+                        <string>iridescence-dark</string>
+                        <key>name</key>
+                        <string>Iridescence Dark (Still)</string>
+                        <key>category</key>
+                        <string>Light and Dark Desktop</string>
+                        <key>rows</key>
+                        <array>
+                            <dict>
+                                <key>value</key>
+                                <integer>3</integer>
+                                <key>key</key>
+                                <integer>20</integer>
+                            </dict>
+                            <dict>
+                                <key>value</key>
+                                <string>'/System/Library/Desktop Pictures/Iridescence.heic'</string>
+                                <key>key</key>
+                                <integer>1</integer>
+                            </dict>
+                        </array>
+                    </dict>
+                    <dict>
+                        <key>option</key>
+                        <string>mountains</string>
+                        <key>name</key>
+                        <string>Big Sur Mountains</string>
+                        <key>category</key>
+                        <string>Desktop Pictures</string>
+                        <key>rows</key>
+                        <array>
+                            <dict>
+                                <key>value</key>
+                                <string>'/System/Library/Desktop Pictures/Big Sur Mountains.heic'</string>
+                                <key>key</key>
+                                <integer>1</integer>
+                            </dict>
+                        </array>
+                    </dict>
+                    <dict>
+                        <key>option</key>
+                        <string>aerial</string>
+                        <key>name</key>
+                        <string>Big Sur Aerial</string>
+                        <key>category</key>
+                        <string>Desktop Pictures</string>
+                        <key>rows</key>
+                        <array>
+                            <dict>
+                                <key>value</key>
+                                <string>'/System/Library/Desktop Pictures/Big Sur Aerial.heic'</string>
+                                <key>key</key>
+                                <integer>1</integer>
+                            </dict>
+                        </array>
+                    </dict>
+                    <dict>
+                        <key>option</key>
+                        <string>horizon</string>
+                        <key>name</key>
+                        <string>Big Sur Horizon</string>
+                        <key>category</key>
+                        <string>Desktop Pictures</string>
+                        <key>rows</key>
+                        <array>
+                            <dict>
+                                <key>value</key>
+                                <string>'/System/Library/Desktop Pictures/Big Sur Horizon.heic'</string>
+                                <key>key</key>
+                                <integer>1</integer>
+                            </dict>
+                        </array>
+                    </dict>
+                    <dict>
+                        <key>option</key>
+                        <string>coastline</string>
+                        <key>name</key>
+                        <string>Big Sur Coastline</string>
+                        <key>category</key>
+                        <string>Desktop Pictures</string>
+                        <key>rows</key>
+                        <array>
+                            <dict>
+                                <key>value</key>
+                                <string>'/System/Library/Desktop Pictures/Big Sur Coastline.heic'</string>
+                                <key>key</key>
+                                <integer>1</integer>
+                            </dict>
+                        </array>
+                    </dict>
+                    <dict>
+                        <key>option</key>
+                        <string>shore</string>
+                        <key>name</key>
+                        <string>Big Sur Shore Rocks</string>
+                        <key>category</key>
+                        <string>Desktop Pictures</string>
+                        <key>rows</key>
+                        <array>
+                            <dict>
+                                <key>value</key>
+                                <string>'/System/Library/Desktop Pictures/Big Sur Shore Rocks.heic'</string>
+                                <key>key</key>
+                                <integer>1</integer>
+                            </dict>
+                        </array>
+                    </dict>
+                    <dict>
+                        <key>option</key>
+                        <string>edge</string>
+                        <key>name</key>
+                        <string>Big Sur Water's Edge</string>
+                        <key>category</key>
+                        <string>Desktop Pictures</string>
+                        <key>rows</key>
+                        <array>
+                            <dict>
+                                <key>value</key>
+                                <string>'/System/Library/Desktop Pictures/Big Sur Waters Edge.heic'</string>
+                                <key>key</key>
+                                <integer>1</integer>
+                            </dict>
+                        </array>
+                    </dict>
+                    <dict>
+                        <key>option</key>
+                        <string>road</string>
+                        <key>name</key>
+                        <string>Big Sur Road</string>
+                        <key>category</key>
+                        <string>Desktop Pictures</string>
+                        <key>rows</key>
+                        <array>
+                            <dict>
+                                <key>value</key>
+                                <string>'/System/Library/Desktop Pictures/Big Sur Road.heic'</string>
+                                <key>key</key>
+                                <integer>1</integer>
+                            </dict>
+                        </array>
+                    </dict>
+                    <dict>
+                        <key>option</key>
+                        <string>succulents</string>
+                        <key>name</key>
+                        <string>Big Sur Night Succulents</string>
+                        <key>category</key>
+                        <string>Desktop Pictures</string>
+                        <key>rows</key>
+                        <array>
+                            <dict>
+                                <key>value</key>
+                                <string>'/System/Library/Desktop Pictures/Big Sur Night Succulents.heic'</string>
+                                <key>key</key>
+                                <integer>1</integer>
+                            </dict>
+                        </array>
+                    </dict>
+                    <dict>
+                        <key>option</key>
+                        <string>grasses</string>
+                        <key>name</key>
+                        <string>Big Sur Night Grasses</string>
+                        <key>category</key>
+                        <string>Desktop Pictures</string>
+                        <key>rows</key>
+                        <array>
+                            <dict>
+                                <key>value</key>
+                                <string>'/System/Library/Desktop Pictures/Big Sur Night Grasses.heic'</string>
+                                <key>key</key>
+                                <integer>1</integer>
+                            </dict>
+                        </array>
+                    </dict>
+                    <dict>
+                        <key>option</key>
+                        <string>coast</string>
+                        <key>name</key>
+                        <string>Catalina Coast</string>
+                        <key>category</key>
+                        <string>Desktop Pictures</string>
+                        <key>rows</key>
+                        <array>
+                            <dict>
+                                <key>value</key>
+                                <string>'/System/Library/Desktop Pictures/Catalina Coast.heic'</string>
+                                <key>key</key>
+                                <integer>1</integer>
+                            </dict>
+                        </array>
+                    </dict>
+                    <dict>
+                        <key>option</key>
+                        <string>evening</string>
+                        <key>name</key>
+                        <string>Catalina Evening</string>
+                        <key>category</key>
+                        <string>Desktop Pictures</string>
+                        <key>rows</key>
+                        <array>
+                            <dict>
+                                <key>value</key>
+                                <string>'/System/Library/Desktop Pictures/Catalina Evening.heic'</string>
+                                <key>key</key>
+                                <integer>1</integer>
+                            </dict>
+                        </array>
+                    </dict>
+                    <dict>
+                        <key>option</key>
+                        <string>rock</string>
+                        <key>name</key>
+                        <string>Catalina Rock</string>
+                        <key>category</key>
+                        <string>Desktop Pictures</string>
+                        <key>rows</key>
+                        <array>
+                            <dict>
+                                <key>value</key>
+                                <string>'/System/Library/Desktop Pictures/Catalina Rock.heic'</string>
+                                <key>key</key>
+                                <integer>1</integer>
+                            </dict>
+                        </array>
+                    </dict>
+                    <dict>
+                        <key>option</key>
+                        <string>shoreline</string>
+                        <key>name</key>
+                        <string>Catalina Shoreline</string>
+                        <key>category</key>
+                        <string>Desktop Pictures</string>
+                        <key>rows</key>
+                        <array>
+                            <dict>
+                                <key>value</key>
+                                <string>'/System/Library/Desktop Pictures/Catalina Shoreline.heic'</string>
+                                <key>key</key>
+                                <integer>1</integer>
+                            </dict>
+                        </array>
+                    </dict>
+                    <dict>
+                        <key>option</key>
+                        <string>clouds</string>
+                        <key>name</key>
+                        <string>Catalina Clouds</string>
+                        <key>category</key>
+                        <string>Desktop Pictures</string>
+                        <key>rows</key>
+                        <array>
+                            <dict>
+                                <key>value</key>
+                                <string>'/System/Library/Desktop Pictures/Catalina Clouds.heic'</string>
+                                <key>key</key>
+                                <integer>1</integer>
+                            </dict>
+                        </array>
+                    </dict>
+                    <dict>
+                        <key>option</key>
+                        <string>silhouette</string>
+                        <key>name</key>
+                        <string>Catalina Silhouette</string>
+                        <key>category</key>
+                        <string>Desktop Pictures</string>
+                        <key>rows</key>
+                        <array>
+                            <dict>
+                                <key>value</key>
+                                <string>'/System/Library/Desktop Pictures/Catalina Silhouette.heic'</string>
+                                <key>key</key>
+                                <integer>1</integer>
+                            </dict>
+                        </array>
+                    </dict>
+                    <dict>
+                        <key>option</key>
+                        <string>sunset</string>
+                        <key>name</key>
+                        <string>Catalina Sunset</string>
+                        <key>category</key>
+                        <string>Desktop Pictures</string>
+                        <key>rows</key>
+                        <array>
+                            <dict>
+                                <key>value</key>
+                                <string>'/System/Library/Desktop Pictures/Catalina Sunset.heic'</string>
+                                <key>key</key>
+                                <integer>1</integer>
+                            </dict>
+                        </array>
+                    </dict>
+                    <dict>
+                        <key>option</key>
+                        <string>stream-red</string>
+                        <key>name</key>
+                        <string>Light Stream Red</string>
+                        <key>category</key>
+                        <string>Desktop Pictures</string>
+                        <key>rows</key>
+                        <array>
+                            <dict>
+                                <key>value</key>
+                                <string>'/System/Library/Desktop Pictures/Light Stream Red.heic'</string>
+                                <key>key</key>
+                                <integer>1</integer>
+                            </dict>
+                        </array>
+                    </dict>
+                    <dict>
+                        <key>option</key>
+                        <string>stream-blue</string>
+                        <key>name</key>
+                        <string>Light Stream Blue</string>
+                        <key>category</key>
+                        <string>Desktop Pictures</string>
+                        <key>rows</key>
+                        <array>
+                            <dict>
+                                <key>value</key>
+                                <string>'/System/Library/Desktop Pictures/Light Stream Blue.heic'</string>
+                                <key>key</key>
+                                <integer>1</integer>
+                            </dict>
+                        </array>
+                    </dict>
+                    <dict>
+                        <key>option</key>
+                        <string>stream-pink</string>
+                        <key>name</key>
+                        <string>Light Stream Pink</string>
+                        <key>category</key>
+                        <string>Desktop Pictures</string>
+                        <key>rows</key>
+                        <array>
+                            <dict>
+                                <key>value</key>
+                                <string>'/System/Library/Desktop Pictures/Light Stream Pink.heic'</string>
+                                <key>key</key>
+                                <integer>1</integer>
+                            </dict>
+                        </array>
+                    </dict>
+                    <dict>
+                        <key>option</key>
+                        <string>stream-green</string>
+                        <key>name</key>
+                        <string>Light Stream Green</string>
+                        <key>category</key>
+                        <string>Desktop Pictures</string>
+                        <key>rows</key>
+                        <array>
+                            <dict>
+                                <key>value</key>
+                                <string>'/System/Library/Desktop Pictures/Light Stream Green.heic'</string>
+                                <key>key</key>
+                                <integer>1</integer>
+                            </dict>
+                        </array>
+                    </dict>
+                </array>
+            </dict>
+            <dict>
+                <key>version</key>
+                <string>10.15</string>
+                <key>name</key>
+                <string>Catalina</string>
+                <key>options</key>
+                <array>
+                    <dict>
+                        <key>option</key>
+                        <string>catalina</string>
+                        <key>name</key>
+                        <string>Catalina Dynamic</string>
+                        <key>category</key>
+                        <string>Dynamic Desktop</string>
+                        <key>rows</key>
+                        <array>
+                            <dict>
+                                <key>value</key>
+                                <integer>0</integer>
+                                <key>key</key>
+                                <integer>20</integer>
+                            </dict>
+                        </array>
+                    </dict>
+                    <dict>
+                        <key>option</key>
+                        <string>catalina-light</string>
+                        <key>name</key>
+                        <string>Catalina Light (Still)</string>
+                        <key>category</key>
+                        <string>Dynamic Desktop</string>
+                        <key>rows</key>
+                        <array>
+                            <dict>
+                                <key>value</key>
+                                <integer>2</integer>
+                                <key>key</key>
+                                <integer>20</integer>
+                            </dict>
+                        </array>
+                    </dict>
+                    <dict>
+                        <key>option</key>
+                        <string>catalina-dark</string>
+                        <key>name</key>
+                        <string>Catalina Dark (Still)</string>
+                        <key>category</key>
+                        <string>Dynamic Desktop</string>
+                        <key>rows</key>
+                        <array>
+                            <dict>
+                                <key>value</key>
+                                <integer>3</integer>
+                                <key>key</key>
+                                <integer>20</integer>
+                            </dict>
+                        </array>
+                    </dict>
+                    <dict>
+                        <key>option</key>
+                        <string>mojave</string>
+                        <key>name</key>
+                        <string>Mojave Dynamic</string>
+                        <key>category</key>
+                        <string>Dynamic Desktop</string>
+                        <key>rows</key>
+                        <array>
+                            <dict>
+                                <key>value</key>
+                                <integer>0</integer>
+                                <key>key</key>
+                                <integer>20</integer>
+                            </dict>
+                            <dict>
+                                <key>value</key>
+                                <string>'/System/Library/Desktop Pictures/Mojave.heic'</string>
+                                <key>key</key>
+                                <integer>1</integer>
+                            </dict>
+                        </array>
+                    </dict>
+                    <dict>
+                        <key>option</key>
+                        <string>mojave-light</string>
+                        <key>name</key>
+                        <string>Mojave Light (Still)</string>
+                        <key>category</key>
+                        <string>Dynamic Desktop</string>
+                        <key>rows</key>
+                        <array>
+                            <dict>
+                                <key>value</key>
+                                <integer>2</integer>
+                                <key>key</key>
+                                <integer>20</integer>
+                            </dict>
+                            <dict>
+                                <key>value</key>
+                                <string>'/System/Library/Desktop Pictures/Mojave.heic'</string>
+                                <key>key</key>
+                                <integer>1</integer>
+                            </dict>
+                        </array>
+                    </dict>
+                    <dict>
+                        <key>option</key>
+                        <string>mojave-dark</string>
+                        <key>name</key>
+                        <string>Mojave Dark (Still)</string>
+                        <key>category</key>
+                        <string>Dynamic Desktop</string>
+                        <key>rows</key>
+                        <array>
+                            <dict>
+                                <key>value</key>
+                                <integer>3</integer>
+                                <key>key</key>
+                                <integer>20</integer>
+                            </dict>
+                            <dict>
+                                <key>value</key>
+                                <string>'/System/Library/Desktop Pictures/Mojave.heic'</string>
+                                <key>key</key>
+                                <integer>1</integer>
+                            </dict>
+                        </array>
+                    </dict>
+                    <dict>
+                        <key>option</key>
+                        <string>solar</string>
+                        <key>name</key>
+                        <string>Solar Gradients</string>
+                        <key>category</key>
+                        <string>Dynamic Desktop</string>
+                        <key>rows</key>
+                        <array>
+                            <dict>
+                                <key>value</key>
+                                <integer>0</integer>
+                                <key>key</key>
+                                <integer>20</integer>
+                            </dict>
+                            <dict>
+                                <key>value</key>
+                                <string>'/System/Library/Desktop Pictures/Solar Gradients.heic'</string>
+                                <key>key</key>
+                                <integer>1</integer>
+                            </dict>
+                        </array>
+                    </dict>
+                    <dict>
+                        <key>option</key>
+                        <string>catalina-day</string>
+                        <key>name</key>
+                        <string>Catalina Day</string>
+                        <key>category</key>
+                        <string>Desktop Pictures</string>
+                        <key>rows</key>
+                        <array>
+                            <dict>
+                                <key>value</key>
+                                <integer>2</integer>
+                                <key>key</key>
+                                <integer>20</integer>
+                            </dict>
+                            <dict>
+                                <key>value</key>
+                                <string>'/System/Library/Desktop Pictures/Catalina Day.heic'</string>
+                                <key>key</key>
+                                <integer>1</integer>
+                            </dict>
+                        </array>
+                    </dict>
+                    <dict>
+                        <key>option</key>
+                        <string>catalina-night</string>
+                        <key>name</key>
+                        <string>Catalina Night</string>
+                        <key>category</key>
+                        <string>Desktop Pictures</string>
+                        <key>rows</key>
+                        <array>
+                            <dict>
+                                <key>value</key>
+                                <integer>3</integer>
+                                <key>key</key>
+                                <integer>20</integer>
+                            </dict>
+                            <dict>
+                                <key>value</key>
+                                <string>'/System/Library/Desktop Pictures/Catalina Night.heic'</string>
+                                <key>key</key>
+                                <integer>1</integer>
+                            </dict>
+                        </array>
+                    </dict>
+                    <dict>
+                        <key>option</key>
+                        <string>mojave-day</string>
+                        <key>name</key>
+                        <string>Mojave Day</string>
+                        <key>category</key>
+                        <string>Desktop Pictures</string>
+                        <key>rows</key>
+                        <array>
+                            <dict>
+                                <key>value</key>
+                                <integer>2</integer>
+                                <key>key</key>
+                                <integer>20</integer>
+                            </dict>
+                            <dict>
+                                <key>value</key>
+                                <string>'/System/Library/Desktop Pictures/Mojave Day.heic'</string>
+                                <key>key</key>
+                                <integer>1</integer>
+                            </dict>
+                        </array>
+                    </dict>
+                    <dict>
+                        <key>option</key>
+                        <string>mojave-night</string>
+                        <key>name</key>
+                        <string>Mojave Night</string>
+                        <key>category</key>
+                        <string>Desktop Pictures</string>
+                        <key>rows</key>
+                        <array>
+                            <dict>
+                                <key>value</key>
+                                <integer>3</integer>
+                                <key>key</key>
+                                <integer>20</integer>
+                            </dict>
+                            <dict>
+                                <key>value</key>
+                                <string>'/System/Library/Desktop Pictures/Mojave Night.heic'</string>
+                                <key>key</key>
+                                <integer>1</integer>
+                            </dict>
+                        </array>
+                    </dict>
+                </array>
+            </dict>
+            <dict>
+                <key>version</key>
+                <string>10.14</string>
+                <key>name</key>
+                <string>Mojave</string>
+                <key>options</key>
+                <array>
+                    <dict>
+                        <key>option</key>
+                        <string>mojave</string>
+                        <key>name</key>
+                        <string>Mojave Dynamic</string>
+                        <key>category</key>
+                        <string>Dynamic Desktop</string>
+                        <key>rows</key>
+                        <array>
+                            <dict>
+                                <key>value</key>
+                                <integer>0</integer>
+                                <key>key</key>
+                                <integer>20</integer>
+                            </dict>
+                        </array>
+                    </dict>
+                    <dict>
+                        <key>option</key>
+                        <string>mojave-light</string>
+                        <key>name</key>
+                        <string>Mojave Light (Still)</string>
+                        <key>category</key>
+                        <string>Dynamic Desktop</string>
+                        <key>rows</key>
+                        <array>
+                            <dict>
+                                <key>value</key>
+                                <integer>2</integer>
+                                <key>key</key>
+                                <integer>20</integer>
+                            </dict>
+                        </array>
+                    </dict>
+                    <dict>
+                        <key>option</key>
+                        <string>mojave-dark</string>
+                        <key>name</key>
+                        <string>Mojave Dark (Still)</string>
+                        <key>category</key>
+                        <string>Dynamic Desktop</string>
+                        <key>rows</key>
+                        <array>
+                            <dict>
+                                <key>value</key>
+                                <integer>3</integer>
+                                <key>key</key>
+                                <integer>20</integer>
+                            </dict>
+                        </array>
+                    </dict>
+                    <dict>
+                        <key>option</key>
+                        <string>solar</string>
+                        <key>name</key>
+                        <string>Solar Gradients</string>
+                        <key>category</key>
+                        <string>Dynamic Desktop</string>
+                        <key>rows</key>
+                        <array>
+                            <dict>
+                                <key>value</key>
+                                <integer>0</integer>
+                                <key>key</key>
+                                <integer>20</integer>
+                            </dict>
+                            <dict>
+                                <key>value</key>
+                                <string>'/Library/Desktop Pictures/Solar Gradients.heic'</string>
+                                <key>key</key>
+                                <integer>1</integer>
+                            </dict>
+                        </array>
+                    </dict>
+                </array>
+            </dict>
+        </array>
+    </dict>
+</plist>
