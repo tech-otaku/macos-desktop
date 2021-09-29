@@ -2,7 +2,7 @@
 
 from __future__ import print_function
 
-import argparse, errno, json, os, plistlib
+import argparse, errno, json, os, plistlib, sys
 from operator import itemgetter
 
 parser = argparse.ArgumentParser(description='List valid options for set-desktop.sh')
@@ -17,8 +17,14 @@ else:
 
 try:
 
-    with open("options.bin.plist", "rb") as f:
-        data = plistlib.load(f)
+    if sys.version_info.major == 2:
+    # plistlib for Python 2.7 can't read binary property list files and has a readPlist() function.
+        with open("options.plist", "r") as f:
+            data = plistlib.readPlist(f)
+    else:
+    # plistlib for Python 3 can read binary property list files. In addition, the readPlist() function has been deprecated in favour of the load() function.
+        with open("options.bin.plist", "rb") as f:
+            data = plistlib.load(f)
 
     print("* * * This version uses the option configuration file: {} * * *".format(os.path.basename(f.name)))
     

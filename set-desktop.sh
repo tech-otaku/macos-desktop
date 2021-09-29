@@ -86,7 +86,14 @@
     fi
 
     export option_arg=$1
-    export option_config=options.bin.plist
+
+    if [ $(python -c $'import sys\nprint(sys.version_info.major)') == 2 ]; then
+    # plistlib for Python 2.7 can't read binary property list files
+        export option_config=options.plist
+    else
+    # plistlib for Python 3 can read binary property list files
+        export option_config=options.bin.plist
+    fi
 
     printf "* * * This version uses the option configuration file: %s * * *\n" $option_config
 
@@ -137,8 +144,10 @@
 
     if [ "$option_arg" != "default" ]; then
 
-    # Look in the configuration file for the value of the 'option' argument that was passed to the script. 
-        option_data=$(python -c $'from __future__ import print_function\nimport os,json,plistlib\nwith open(os.environ["option_config"],"rb") as f:\n\tdata = plistlib.load(f)\nfor _version in data["versions"]:\n\tif _version["version"]==os.environ["version"]:\n\t\tfor _option in _version["options"]:\n\t\t\tif _option["option"]==os.environ["option_arg"]:print(json.dumps(_option))')
+    # Look in the configuration file for the value of the 'option' argument that was passed to the script.
+
+    # plistlib for Python 2.7 can't read binary property list files and has a readPlist() function to parse XML-based property list files. plistlib for Python 3 can read binary property list files. In addition, the readPlist() function has been deprecated in favour of the load() function. 
+        option_data=$(python -c $'from __future__ import print_function\nimport os,json,plistlib,sys\nif sys.version_info.major==2:\n\twith open(os.environ["option_config"], "r") as f:\n\t\tdata=plistlib.readPlist(f)\nelse:\n\twith open(os.environ["option_config"], "rb") as f:\n\t\tdata=plistlib.load(f)\nfor _version in data["versions"]:\n\tif _version["version"]==os.environ["version"]:\n\t\tfor _option in _version["options"]:\n\t\t\tif _option["option"]==os.environ["option_arg"]:print(json.dumps(_option))')
 
         if [ -z "$option_data" ]; then  # the option that was passed to the script was not found in the configuration file
             re='\.'
