@@ -5,6 +5,30 @@
             "name": "Monterey",
             "options": [
                 {
+                    "option": "graphic",
+                    "name": "Monterey Graphic Automatic",
+                    "category": "Dynamic Desktop",
+                    "rows": [
+                        { "value": "0", "key": "20" }
+                    ]
+                },
+                {
+                    "option": "light",
+                    "name": "Monterey Graphic Light (Still)",
+                    "category": "Dynamic Desktop",
+                    "rows": [
+                        { "value": "2", "key": "20" }
+                    ]
+                },                
+                {
+                    "option": "dark",
+                    "name": "Monterey Graphic Dark (Still)",
+                    "category": "Dynamic Desktop",
+                    "rows": [
+                        { "value": "3", "key": "20" }
+                    ]
+                },
+                {
                     "option": "big-sur",
                     "name": "Big Sur Dynamic",
                     "category": "Dynamic Desktop",
@@ -173,30 +197,6 @@
                     "rows": [
                         { "value": "0", "key": "20" },
                         { "value": "'/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/0df344f8b4cf558225c378c8c4b0e343ce8bd6d2.asset/AssetData/Solar Gradients.heic'", "key": "1" }
-                    ]
-                },
-                {
-                    "option": "graphic",
-                    "name": "macOS Graphic Automatic",
-                    "category": "Light and Dark Desktop",
-                    "rows": [
-                        { "value": "0", "key": "20" }
-                    ]
-                },
-                {
-                    "option": "light",
-                    "name": "macOS Graphic Light (Still)",
-                    "category": "Light and Dark Desktop",
-                    "rows": [
-                        { "value": "2", "key": "20" }
-                    ]
-                },                
-                {
-                    "option": "dark",
-                    "name": "macOS Graphic Dark (Still)",
-                    "category": "Light and Dark Desktop",
-                    "rows": [
-                        { "value": "3", "key": "20" }
                     ]
                 },
                 {
@@ -521,6 +521,60 @@
                     "rows": [
                         { "value": "3", "key": "20" },
                         { "value": "'/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/0147cb729255506b6649aae14e8805b248f6f99f.asset/AssetData/Dome.heic'", "key": "1" }
+                    ]
+                },                
+                {
+                    "option": "red",
+                    "name": "Chroma Red Automatic",
+                    "category": "Light and Dark Desktop",
+                    "rows": [
+                        { "value": "0", "key": "20" },
+                        { "value": "'/System/Library/Desktop Pictures/Chroma Red.heic'", "key": "1" }
+                    ]
+                },
+                {
+                    "option": "red-light",
+                    "name": "Chroma Red Light (Still)",
+                    "category": "Light and Dark Desktop",
+                    "rows": [
+                        { "value": "2", "key": "20" },
+                        { "value": "'/System/Library/Desktop Pictures/Chroma Red.heic'", "key": "1" }
+                    ]
+                },
+                {
+                    "option": "red-dark",
+                    "name": "Chroma Red Dark (Still)",
+                    "category": "Light and Dark Desktop",
+                    "rows": [
+                        { "value": "3", "key": "20" },
+                        { "value": "'/System/Library/Desktop Pictures/Chroma Red.heic'", "key": "1" }
+                    ]
+                },
+                {
+                    "option": "blue",
+                    "name": "Chroma Blue Automatic",
+                    "category": "Light and Dark Desktop",
+                    "rows": [
+                        { "value": "0", "key": "20" },
+                        { "value": "'/System/Library/Desktop Pictures/Chroma Blue.heic'", "key": "1" }
+                    ]
+                },
+                {
+                    "option": "blue-light",
+                    "name": "Chroma Blue Light (Still)",
+                    "category": "Light and Dark Desktop",
+                    "rows": [
+                        { "value": "2", "key": "20" },
+                        { "value": "'/System/Library/Desktop Pictures/Chroma Blue.heic'", "key": "1" }
+                    ]
+                },
+                {
+                    "option": "blue-dark",
+                    "name": "Chroma Blue Dark (Still)",
+                    "category": "Light and Dark Desktop",
+                    "rows": [
+                        { "value": "3", "key": "20" },
+                        { "value": "'/System/Library/Desktop Pictures/Chroma Blue.heic'", "key": "1" }
                     ]
                 },
                 {
