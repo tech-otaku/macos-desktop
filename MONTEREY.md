@@ -50,7 +50,7 @@ See the [Valid Options](#valid-options) and [Examples](#examples) sections for m
 
 ## Examples
 
-These examples use the Apple-supplied Deskop pictures that could otherwise be set via System Preferences. They are categorised and listed as they appear in the Desktop & Screensaver pane as of macOS 12.0 Monterey Beta 7 (21A5506j).
+These examples use the Apple-supplied Deskop pictures that could otherwise be set via System Preferences. They are categorised and listed as they appear in the Desktop & Screensaver pane as of macOS 12.0.1 Monterey (21A559).
 
 See [A Comparison of Apple-supplied Desktop Images Since macOS 10.14 Mojave](https://desktop.tech-otaku.com/)
 
@@ -59,6 +59,15 @@ See [A Comparison of Apple-supplied Desktop Images Since macOS 10.14 Mojave](htt
 #### Dynamic Desktop
 
 Setting the image to *Dynamic* (e.g. The Beach Dynamic) ensures it changes throughout the day, based on your location.
+
+###### Monterey Graphic Automatic
+`./set-desktop.sh graphic`
+
+###### Monterey Graphic Light (Still)
+`./set-desktop.sh light`
+
+###### Monterey Graphic Dark (Still)
+`./set-desktop.sh dark`
 
 ###### Big Sur Dynamic <sup>**1**</sup>
 `./set-desktop.sh big-sur`
@@ -120,15 +129,6 @@ Setting the image to *Dynamic* (e.g. The Beach Dynamic) ensures it changes throu
 ##### Light and Dark Desktop
 
 Setting the image to *Automatic* (e.g. Peak Automatic) ensures it conforms to the *Light*, *Dark* or *Auto* setting in **System Preferences** > **General** > **Appearance**.
-
-###### macOS Graphic Automatic
-`./set-desktop.sh graphic`
-
-###### macOS Graphic Light (Still)
-`./set-desktop.sh light`
-
-###### macOS Graphic Dark (Still)
-`./set-desktop.sh dark`
 
 ###### Hello Green Automatic
 `./set-desktop.sh green`
@@ -237,6 +237,24 @@ Setting the image to *Automatic* (e.g. Peak Automatic) ensures it conforms to th
 
 ###### Dome Dark (Still) <sup>**1**</sup>
 `./set-desktop.sh dome-dark`
+
+###### Chroma Red Automatic
+`./set-desktop.sh red`
+
+###### Chroma Red Light (Still)
+`./set-desktop.sh red-light`
+
+###### Chroma Red Dark (Still)
+`./set-desktop.sh red-dark`
+
+###### Chroma Blue Automatic
+`./set-desktop.sh blue`
+
+###### Chroma Blue Light (Still)
+`./set-desktop.sh blue-light`
+
+###### Chroma Blue Dark (Still)
+`./set-desktop.sh blue-dark`
 
 ###### Iridescence Automatic <sup>**1**</sup>
 `./set-desktop.sh iridescence`
