@@ -6,7 +6,7 @@
             "options": [
                 {
                     "option": "graphic",
-                    "name": "Monterey Graphic Automatic",
+                    "name": "Monterey Graphic Dynamic",
                     "category": "Dynamic Desktop",
                     "rows": [
                         { "value": "0", "key": "20" }
