@@ -60,7 +60,7 @@ See [A Comparison of Apple-supplied Desktop Images Since macOS 10.14 Mojave](htt
 
 Setting the image to *Dynamic* (e.g. The Beach Dynamic) ensures it changes throughout the day, based on your location.
 
-###### Monterey Graphic Automatic
+###### Monterey Graphic Dynamic
 `./set-desktop.sh graphic`
 
 ###### Monterey Graphic Light (Still)
