@@ -154,8 +154,8 @@
         fi
     fi
 
-# Exit with error if this is a dual-monitor environment (the 'displays' table will have 2 or more rows).
-    if [ $(sqlite3 "$db" "SELECT COUNT() FROM displays;") -ge 2 ]; then
+# Exit with error if this is a dual-monitor environment (the 'spdisplays_ndrvs' array will have 2 or more objects).
+    if [ $(system_profiler SPDisplaysDataType -json | python -c $'import os,sys,json\ndata=json.loads(sys.stdin.read())\nprint(len(data["SPDisplaysDataType"][0]["spdisplays_ndrvs"]))') -ge 2 ]; then
         echo "ERROR: This script should not be used in a dual-monitor environment."
         exit 1
     fi
