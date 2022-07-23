@@ -34,7 +34,7 @@
                     "category": "Dynamic Desktop",
                     "rows": [
                         { "value": "0", "key": "20" },
-                        { "value": "'/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/98b5bd24c8bb188ec6101ea415ec049fdd03de84.asset/AssetData/Big Sur.heic'", "key": "1" }
+                        { "value": "'~/Library/Application Support/com.apple.mobileAssetDesktop/Big Sur.heic'", "key": "1" }
                     ]
                 },
                 {
@@ -43,7 +43,7 @@
                     "category": "Dynamic Desktop",
                     "rows": [
                         { "value": "2", "key": "20" },
-                        { "value": "'/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/98b5bd24c8bb188ec6101ea415ec049fdd03de84.asset/AssetData/Big Sur.heic'", "key": "1" }
+                        { "value": "'~/Library/Application Support/com.apple.mobileAssetDesktop/Big Sur.heic'", "key": "1" }
                     ]
                 },
                 {
@@ -52,7 +52,7 @@
                     "category": "Dynamic Desktop",
                     "rows": [
                         { "value": "3", "key": "20" },
-                        { "value": "'/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/98b5bd24c8bb188ec6101ea415ec049fdd03de84.asset/AssetData/Big Sur.heic'", "key": "1" }
+                        { "value": "'~/Library/Application Support/com.apple.mobileAssetDesktop/Big Sur.heic'", "key": "1" }
                     ]
                 },
                 {
@@ -61,7 +61,7 @@
                     "category": "Dynamic Desktop",
                     "rows": [
                         { "value": "0", "key": "20" },
-                        { "value": "'/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/28e590448a1795ffd7d8ae9c9f826ceedd9696a2.asset/AssetData/Catalina.heic'", "key": "1" }
+                        { "value": "'~/Library/Application Support/com.apple.mobileAssetDesktop/Catalina.heic'", "key": "1" }
                     ]
                 },
                 {
@@ -70,7 +70,7 @@
                     "category": "Dynamic Desktop",
                     "rows": [
                         { "value": "2", "key": "20" },
-                        { "value": "'/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/28e590448a1795ffd7d8ae9c9f826ceedd9696a2.asset/AssetData/Catalina.heic'", "key": "1" }
+                        { "value": "'~/Library/Application Support/com.apple.mobileAssetDesktop/Catalina.heic'", "key": "1" }
                     ]
                 },
                 {
@@ -79,7 +79,7 @@
                     "category": "Dynamic Desktop",
                     "rows": [
                         { "value": "3", "key": "20" },
-                        { "value": "'/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/28e590448a1795ffd7d8ae9c9f826ceedd9696a2.asset/AssetData/Catalina.heic'", "key": "1" }
+                        { "value": "'~/Library/Application Support/com.apple.mobileAssetDesktop/Catalina.heic'", "key": "1" }
                     ]
                 },
                 {
@@ -88,7 +88,7 @@
                     "category": "Dynamic Desktop",
                     "rows": [
                         { "value": "0", "key": "20" },
-                        { "value": "'/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/3f8e02c0678e834abc820fd1d69d2a4b11a3ae84.asset/AssetData/The Cliffs.heic'", "key": "1" }
+                        { "value": "'~/Library/Application Support/com.apple.mobileAssetDesktop/The Cliffs.heic'", "key": "1" }
                     ]
                 },
                 {
@@ -97,7 +97,7 @@
                     "category": "Dynamic Desktop",
                     "rows": [
                         { "value": "2", "key": "20" },
-                        { "value": "'/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/3f8e02c0678e834abc820fd1d69d2a4b11a3ae84.asset/AssetData/The Cliffs.heic'", "key": "1" }
+                        { "value": "'~/Library/Application Support/com.apple.mobileAssetDesktop/The Cliffs.heic'", "key": "1" }
                     ]
                 },
                 {
@@ -106,7 +106,7 @@
                     "category": "Dynamic Desktop",
                     "rows": [
                         { "value": "3", "key": "20" },
-                        { "value": "'/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/3f8e02c0678e834abc820fd1d69d2a4b11a3ae84.asset/AssetData/The Cliffs.heic'", "key": "1" }
+                        { "value": "'~/Library/Application Support/com.apple.mobileAssetDesktop/The Cliffs.heic'", "key": "1" }
                     ]
                 },
                 {
@@ -115,7 +115,7 @@
                     "category": "Dynamic Desktop",
                     "rows": [
                         { "value": "0", "key": "20" },
-                        { "value": "'/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/f1bdab95fdb69bf6278bf963cbc182dc052d9792.asset/AssetData/The Lake.heic'", "key": "1" }
+                        { "value": "'~/Library/Application Support/com.apple.mobileAssetDesktop/The Lake.heic'", "key": "1" }
                     ]
                 },
                 {
@@ -124,7 +124,7 @@
                     "category": "Dynamic Desktop",
                     "rows": [
                         { "value": "2", "key": "20" },
-                        { "value": "'/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/f1bdab95fdb69bf6278bf963cbc182dc052d9792.asset/AssetData/The Lake.heic'", "key": "1" }
+                        { "value": "'~/Library/Application Support/com.apple.mobileAssetDesktop/The Lake.heic'", "key": "1" }
                     ]
                 },
                 {
@@ -133,7 +133,7 @@
                     "category": "Dynamic Desktop",
                     "rows": [
                         { "value": "3", "key": "20" },
-                        { "value": "'/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/f1bdab95fdb69bf6278bf963cbc182dc052d9792.asset/AssetData/The Lake.heic'", "key": "1" }
+                        { "value": "'~/Library/Application Support/com.apple.mobileAssetDesktop/The Lake.heic'", "key": "1" }
                     ]
                 },
                 {
@@ -142,7 +142,7 @@
                     "category": "Dynamic Desktop",
                     "rows": [
                         { "value": "0", "key": "20" },
-                        { "value": "'/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/df1a67fbca0d20c34f9ed7d3508d549faa9ae25b.asset/AssetData/The Desert.heic'", "key": "1" }
+                        { "value": "'~/Library/Application Support/com.apple.mobileAssetDesktop/The Desert.heic'", "key": "1" }
                     ]
                 },
                 {
@@ -151,7 +151,7 @@
                     "category": "Dynamic Desktop",
                     "rows": [
                         { "value": "2", "key": "20" },
-                        { "value": "'/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/df1a67fbca0d20c34f9ed7d3508d549faa9ae25b.asset/AssetData/The Desert.heic'", "key": "1" }
+                        { "value": "'~/Library/Application Support/com.apple.mobileAssetDesktop/The Desert.heic'", "key": "1" }
                     ]
                 },
                 {
@@ -160,7 +160,7 @@
                     "category": "Dynamic Desktop",
                     "rows": [
                         { "value": "3", "key": "20" },
-                        { "value": "'/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/df1a67fbca0d20c34f9ed7d3508d549faa9ae25b.asset/AssetData/The Desert.heic'", "key": "1" }
+                        { "value": "'~/Library/Application Support/com.apple.mobileAssetDesktop/The Desert.heic'", "key": "1" }
                     ]
                 },
                 {
@@ -169,7 +169,7 @@
                     "category": "Dynamic Desktop",
                     "rows": [
                         { "value": "0", "key": "20" },
-                        { "value": "'/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/b91ec140f7d34cfdd77304c8e72c570ccdf8d814.asset/AssetData/The Beach.heic'", "key": "1" }
+                        { "value": "'~/Library/Application Support/com.apple.mobileAssetDesktop/The Beach.heic'", "key": "1" }
                     ]
                 },
                 {
@@ -178,7 +178,7 @@
                     "category": "Dynamic Desktop",
                     "rows": [
                         { "value": "2", "key": "20" },
-                        { "value": "'/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/b91ec140f7d34cfdd77304c8e72c570ccdf8d814.asset/AssetData/The Beach.heic'", "key": "1" }
+                        { "value": "'~/Library/Application Support/com.apple.mobileAssetDesktop/The Beach.heic'", "key": "1" }
                     ]
                 },
                 {
@@ -187,7 +187,7 @@
                     "category": "Dynamic Desktop",
                     "rows": [
                         { "value": "3", "key": "20" },
-                        { "value": "'/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/b91ec140f7d34cfdd77304c8e72c570ccdf8d814.asset/AssetData/The Beach.heic'", "key": "1" }
+                        { "value": "'~/Library/Application Support/com.apple.mobileAssetDesktop/The Beach.heic'", "key": "1" }
                     ]
                 },
                 {
@@ -196,7 +196,7 @@
                     "category": "Dynamic Desktop",
                     "rows": [
                         { "value": "0", "key": "20" },
-                        { "value": "'/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/0df344f8b4cf558225c378c8c4b0e343ce8bd6d2.asset/AssetData/Solar Gradients.heic'", "key": "1" }
+                        { "value": "'~/Library/Application Support/com.apple.mobileAssetDesktop/Solar Gradients.heic'", "key": "1" }
                     ]
                 },
                 {
@@ -421,7 +421,7 @@
                     "category": "Light and Dark Desktop",
                     "rows": [
                         { "value": "0", "key": "20" },
-                        { "value": "'/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/3cc38432b076d2f0401e1c9dbad145af9b9b5f0f.asset/AssetData/Peak.heic'", "key": "1" }
+                        { "value": "'~/Library/Application Support/com.apple.mobileAssetDesktop/Peak.heic'", "key": "1" }
                     ]
                 },
                 {
@@ -430,7 +430,7 @@
                     "category": "Light and Dark Desktop",
                     "rows": [
                         { "value": "2", "key": "20" },
-                        { "value": "'/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/3cc38432b076d2f0401e1c9dbad145af9b9b5f0f.asset/AssetData/Peak.heic'", "key": "1" }
+                        { "value": "'~/Library/Application Support/com.apple.mobileAssetDesktop/Peak.heic'", "key": "1" }
                     ]
                 },
                 {
@@ -439,7 +439,7 @@
                     "category": "Light and Dark Desktop",
                     "rows": [
                         { "value": "3", "key": "20" },
-                        { "value": "'/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/3cc38432b076d2f0401e1c9dbad145af9b9b5f0f.asset/AssetData/Peak.heic'", "key": "1" }
+                        { "value": "'~/Library/Application Support/com.apple.mobileAssetDesktop/Peak.heic'", "key": "1" }
                     ]
                 },
                 {
@@ -448,7 +448,7 @@
                     "category": "Light and Dark Desktop",
                     "rows": [
                         { "value": "0", "key": "20" },
-                        { "value": "'/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/5e8a9e5a102140a4dc5e651e04567d3d7cefd52a.asset/AssetData/Tree.heic'", "key": "1" }
+                        { "value": "'~/Library/Application Support/com.apple.mobileAssetDesktop/Tree.heic'", "key": "1" }
                     ]
                 },
                 {
@@ -457,7 +457,7 @@
                     "category": "Light and Dark Desktop",
                     "rows": [
                         { "value": "2", "key": "20" },
-                        { "value": "'/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/5e8a9e5a102140a4dc5e651e04567d3d7cefd52a.asset/AssetData/Tree.heic'", "key": "1" }
+                        { "value": "'~/Library/Application Support/com.apple.mobileAssetDesktop/Tree.heic'", "key": "1" }
                     ]
                 },
                 {
@@ -466,7 +466,7 @@
                     "category": "Light and Dark Desktop",
                     "rows": [
                         { "value": "3", "key": "20" },
-                        { "value": "'/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/5e8a9e5a102140a4dc5e651e04567d3d7cefd52a.asset/AssetData/Tree.heic'", "key": "1" }
+                        { "value": "'~/Library/Application Support/com.apple.mobileAssetDesktop/Tree.heic'", "key": "1" }
                     ]
                 },
                 {
@@ -475,7 +475,7 @@
                     "category": "Light and Dark Desktop",
                     "rows": [
                         { "value": "0", "key": "20" },
-                        { "value": "'/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/b520a8b613c92fd7693d4343aedf17c52f6f9eda.asset/AssetData/Valley.heic'", "key": "1" }
+                        { "value": "'~/Library/Application Support/com.apple.mobileAssetDesktop/Valley.heic'", "key": "1" }
                     ]
                 },
                 {
@@ -484,7 +484,7 @@
                     "category": "Light and Dark Desktop",
                     "rows": [
                         { "value": "2", "key": "20" },
-                        { "value": "'/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/b520a8b613c92fd7693d4343aedf17c52f6f9eda.asset/AssetData/Valley.heic'", "key": "1" }
+                        { "value": "'~/Library/Application Support/com.apple.mobileAssetDesktop/Valley.heic'", "key": "1" }
                     ]
                 },
                 {
@@ -493,7 +493,7 @@
                     "category": "Light and Dark Desktop",
                     "rows": [
                         { "value": "3", "key": "20" },
-                        { "value": "'/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/b520a8b613c92fd7693d4343aedf17c52f6f9eda.asset/AssetData/Valley.heic'", "key": "1" }
+                        { "value": "'~/Library/Application Support/com.apple.mobileAssetDesktop/Valley.heic'", "key": "1" }
                     ]
                 },
                 {
@@ -502,7 +502,7 @@
                     "category": "Light and Dark Desktop",
                     "rows": [
                         { "value": "0", "key": "20" },
-                        { "value": "'/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/0147cb729255506b6649aae14e8805b248f6f99f.asset/AssetData/Dome.heic'", "key": "1" }
+                        { "value": "'~/Library/Application Support/com.apple.mobileAssetDesktop/Dome.heic'", "key": "1" }
                     ]
                 },
                 {
@@ -511,7 +511,7 @@
                     "category": "Light and Dark Desktop",
                     "rows": [
                         { "value": "2", "key": "20" },
-                        { "value": "'/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/0147cb729255506b6649aae14e8805b248f6f99f.asset/AssetData/Dome.heic'", "key": "1" }
+                        { "value": "'~/Library/Application Support/com.apple.mobileAssetDesktop/Dome.heic'", "key": "1" }
                     ]
                 },
                 {
@@ -520,11 +520,11 @@
                     "category": "Light and Dark Desktop",
                     "rows": [
                         { "value": "3", "key": "20" },
-                        { "value": "'/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/0147cb729255506b6649aae14e8805b248f6f99f.asset/AssetData/Dome.heic'", "key": "1" }
+                        { "value": "'~/Library/Application Support/com.apple.mobileAssetDesktop/Dome.heic'", "key": "1" }
                     ]
                 },                
                 {
-                    "option": "red",
+                    "option": "chroma-red",
                     "name": "Chroma Red Automatic",
                     "category": "Light and Dark Desktop",
                     "rows": [
@@ -533,7 +533,7 @@
                     ]
                 },
                 {
-                    "option": "red-light",
+                    "option": "chroma-red-light",
                     "name": "Chroma Red Light (Still)",
                     "category": "Light and Dark Desktop",
                     "rows": [
@@ -542,7 +542,7 @@
                     ]
                 },
                 {
-                    "option": "red-dark",
+                    "option": "chroma-red-dark",
                     "name": "Chroma Red Dark (Still)",
                     "category": "Light and Dark Desktop",
                     "rows": [
@@ -551,7 +551,7 @@
                     ]
                 },
                 {
-                    "option": "blue",
+                    "option": "chroma-blue",
                     "name": "Chroma Blue Automatic",
                     "category": "Light and Dark Desktop",
                     "rows": [
@@ -560,7 +560,7 @@
                     ]
                 },
                 {
-                    "option": "blue-light",
+                    "option": "chroma-blue-light",
                     "name": "Chroma Blue Light (Still)",
                     "category": "Light and Dark Desktop",
                     "rows": [
@@ -569,7 +569,7 @@
                     ]
                 },
                 {
-                    "option": "blue-dark",
+                    "option": "chroma-blue-dark",
                     "name": "Chroma Blue Dark (Still)",
                     "category": "Light and Dark Desktop",
                     "rows": [
@@ -583,7 +583,7 @@
                     "category": "Light and Dark Desktop",
                     "rows": [
                         { "value": "0", "key": "20" },
-                        { "value": "'/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/37ac5562f90c0888a9c35ece6def29a53c0ddd55.asset/AssetData/Iridescence.heic'", "key": "1" }
+                        { "value": "'~/Library/Application Support/com.apple.mobileAssetDesktop/Iridescence.heic'", "key": "1" }
                     ]
                 },
                 {
@@ -592,7 +592,7 @@
                     "category": "Light and Dark Desktop",
                     "rows": [
                         { "value": "2", "key": "20" },
-                        { "value": "'/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/37ac5562f90c0888a9c35ece6def29a53c0ddd55.asset/AssetData/Iridescence.heic'", "key": "1" }
+                        { "value": "'~/Library/Application Support/com.apple.mobileAssetDesktop/Iridescence.heic'", "key": "1" }
                     ]
                 },
                 {
@@ -601,7 +601,7 @@
                     "category": "Light and Dark Desktop",
                     "rows": [
                         { "value": "3", "key": "20" },
-                        { "value": "'/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/37ac5562f90c0888a9c35ece6def29a53c0ddd55.asset/AssetData/Iridescence.heic'", "key": "1" }
+                        { "value": "'~/Library/Application Support/com.apple.mobileAssetDesktop/Iridescence.heic'", "key": "1" }
                     ]
                 },
                 {
@@ -609,7 +609,7 @@
                     "name": "Big Sur Mountains",
                     "category": "Desktop Pictures",
                     "rows": [
-                        { "value": "'/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/0b55533c35ad0c1c5ff89e983539a44faf859c07.asset/AssetData/Big Sur Mountains.heic'", "key": "1" }
+                        { "value": "'~/Library/Application Support/com.apple.mobileAssetDesktop/Big Sur Mountains.heic'", "key": "1" }
                     ] 
                 },
                 {
@@ -617,7 +617,7 @@
                     "name": "Big Sur Aerial",
                     "category": "Desktop Pictures",
                     "rows": [
-                        { "value": "'/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/972d7a8db8ba601e496e1294aae04124046c1908.asset/AssetData/Big Sur Aerial.heic'", "key": "1" }
+                        { "value": "'~/Library/Application Support/com.apple.mobileAssetDesktop/Big Sur Aerial.heic'", "key": "1" }
                     ] 
                 },
                 {
@@ -625,7 +625,7 @@
                     "name": "Big Sur Horizon",
                     "category": "Desktop Pictures",
                     "rows": [
-                        { "value": "'/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/237a25a78324e57274dd0ea40d8bd895481a1613.asset/AssetData/Big Sur Horizon.heic'", "key": "1" }
+                        { "value": "'~/Library/Application Support/com.apple.mobileAssetDesktop/Big Sur Horizon.heic'", "key": "1" }
                     ] 
                 },
                 {
@@ -633,7 +633,7 @@
                     "name": "Big Sur Coastline",
                     "category": "Desktop Pictures",
                     "rows": [
-                        { "value": "'/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/cf8e4fef996d7b6e9b7d223a7a732a9dc96e908f.asset/AssetData/Big Sur Coastline.heic'", "key": "1" }
+                        { "value": "'~/Library/Application Support/com.apple.mobileAssetDesktop/Big Sur Coastline.heic'", "key": "1" }
                     ] 
                 },
                 {
@@ -641,7 +641,7 @@
                     "name": "Big Sur Shore Rocks",
                     "category": "Desktop Pictures",
                     "rows": [
-                        { "value": "'/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/17b0ec7a80a6547175ce3acd4c8abbb8615f7f03.asset/AssetData/Big Sur Shore Rocks.heic'", "key": "1" }
+                        { "value": "'~/Library/Application Support/com.apple.mobileAssetDesktop/Big Sur Shore Rocks.heic'", "key": "1" }
                     ] 
                 },
                 {
@@ -649,7 +649,7 @@
                     "name": "Big Sur Water's Edge",
                     "category": "Desktop Pictures",
                     "rows": [
-                        { "value": "'/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/6b9eee9947acbe5c4b04aac87ac375602fce8ca3.asset/AssetData/Big Sur Waters Edge.heic'", "key": "1" }
+                        { "value": "'~/Library/Application Support/com.apple.mobileAssetDesktop/Big Sur Waters Edge.heic'", "key": "1" }
                     ] 
                 },
                 {
@@ -657,7 +657,7 @@
                     "name": "Big Sur Road",
                     "category": "Desktop Pictures",
                     "rows": [
-                        { "value": "'/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/15709d3247a0ceaf9d309339950487b47f9b44bb.asset/AssetData/Big Sur Road.heic'", "key": "1" }
+                        { "value": "'~/Library/Application Support/com.apple.mobileAssetDesktop/Big Sur Road.heic'", "key": "1" }
                     ] 
                 },
                 {
@@ -665,7 +665,7 @@
                     "name": "Big Sur Night Succulents",
                     "category": "Desktop Pictures",
                     "rows": [
-                        { "value": "'/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/0ffac9759762068a7ab8dfb650a1a19ef7093b46.asset/AssetData/Big Sur Night Succulents.heic'", "key": "1" }
+                        { "value": "'~/Library/Application Support/com.apple.mobileAssetDesktop/Big Sur Night Succulents.heic'", "key": "1" }
                     ] 
                 },
                 {
@@ -673,7 +673,7 @@
                     "name": "Big Sur Night Grasses",
                     "category": "Desktop Pictures",
                     "rows": [
-                        { "value": "'/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/5b040b5fecb84d2766a94ef5a14bd5efa2fbcde3.asset/AssetData/Big Sur Night Grasses.heic'", "key": "1" }
+                        { "value": "'~/Library/Application Support/com.apple.mobileAssetDesktop/Big Sur Night Grasses.heic'", "key": "1" }
                     ] 
                 },
                 {
@@ -681,7 +681,7 @@
                     "name": "Catalina Coast",
                     "category": "Desktop Pictures",
                     "rows": [
-                        { "value": "'/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/b783f7498e002b0aa3a2759a5df26f8f428b649d.asset/AssetData/Catalina Coast.heic'", "key": "1" }
+                        { "value": "'~/Library/Application Support/com.apple.mobileAssetDesktop/Catalina Coast.heic'", "key": "1" }
                     ] 
                 },
                 {
@@ -689,7 +689,7 @@
                     "name": "Catalina Evening",
                     "category": "Desktop Pictures",
                     "rows": [
-                        { "value": "'/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/1479b2d222bc2ebe51fc4d73b06e4fa8c1ce0e5c.asset/AssetData/Catalina Evening.heic'", "key": "1" }
+                        { "value": "'~/Library/Application Support/com.apple.mobileAssetDesktop/Catalina Evening.heic'", "key": "1" }
                     ] 
                 },
                 {
@@ -697,7 +697,7 @@
                     "name": "Catalina Rock",
                     "category": "Desktop Pictures",
                     "rows": [
-                        { "value": "'/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/1a56f27cffc35c1c0d6332e586ee48d68aaaebd9.asset/AssetData/Catalina Rock.heic'", "key": "1" }
+                        { "value": "'~/Library/Application Support/com.apple.mobileAssetDesktop/Catalina Rock.heic'", "key": "1" }
                     ] 
                 },
                 {
@@ -705,7 +705,7 @@
                     "name": "Catalina Shoreline",
                     "category": "Desktop Pictures",
                     "rows": [
-                        { "value": "'/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/d9e5318549521fb59354b96d0b2dd9ec123597a9.asset/AssetData/Catalina Shoreline.heic'", "key": "1" }
+                        { "value": "'~/Library/Application Support/com.apple.mobileAssetDesktop/Catalina Shoreline.heic'", "key": "1" }
                     ] 
                 },
                 {
@@ -713,7 +713,7 @@
                     "name": "Catalina Clouds",
                     "category": "Desktop Pictures",
                     "rows": [
-                        { "value": "'/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/f72f29b3fd3625a6b61bc672d35a32f464640a64.asset/AssetData/Catalina Clouds.heic'", "key": "1" }
+                        { "value": "'~/Library/Application Support/com.apple.mobileAssetDesktop/Catalina Clouds.heic'", "key": "1" }
                     ] 
                 },
                 {
@@ -721,7 +721,7 @@
                     "name": "Catalina Silhouette",
                     "category": "Desktop Pictures",
                     "rows": [
-                        { "value": "'/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/aa4f359601cb1a549369ae5c40cb23826af4dd40.asset/AssetData/Catalina Silhouette.heic'", "key": "1" }
+                        { "value": "'~/Library/Application Support/com.apple.mobileAssetDesktop/Catalina Silhouette.heic'", "key": "1" }
                     ] 
                 },
                 {
@@ -729,7 +729,7 @@
                     "name": "Catalina Sunset",
                     "category": "Desktop Pictures",
                     "rows": [
-                        { "value": "'/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/c8db91583c4eeffd413c3069f021f95df64d0e4e.asset/AssetData/Catalina Sunset.heic'", "key": "1" }
+                        { "value": "'~/Library/Application Support/com.apple.mobileAssetDesktop/Catalina Sunset.heic'", "key": "1" }
                     ] 
                 },
                 {
@@ -737,7 +737,7 @@
                     "name": "Light Stream Red",
                     "category": "Desktop Pictures",
                     "rows": [
-                        { "value": "'/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/9f458f803afa5a5349aabc6581e2ab155bcc7677.asset/AssetData/Light Stream Red.heic'", "key": "1" }
+                        { "value": "'~/Library/Application Support/com.apple.mobileAssetDesktop/Light Stream Red.heic'", "key": "1" }
                     ] 
                 },
                 {
@@ -745,7 +745,7 @@
                     "name": "Light Stream Blue",
                     "category": "Desktop Pictures",
                     "rows": [
-                        { "value": "'/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/11a3d5c273194adc64529578ce3edb5c55aa20bd.asset/AssetData/Light Stream Blue.heic'", "key": "1" }
+                        { "value": "'~/Library/Application Support/com.apple.mobileAssetDesktop/Light Stream Blue.heic'", "key": "1" }
                     ] 
                 },
                 {
@@ -753,7 +753,7 @@
                     "name": "Light Stream Pink",
                     "category": "Desktop Pictures",
                     "rows": [
-                        { "value": "'/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/06413a4489c03a522ff78f78248bfd3975eaa45c.asset/AssetData/Light Stream Pink.heic'", "key": "1" }
+                        { "value": "'~/Library/Application Support/com.apple.mobileAssetDesktop/Light Stream Pink.heic'", "key": "1" }
                     ] 
                 },
                 {
@@ -761,9 +761,18 @@
                     "name": "Light Stream Green",
                     "category": "Desktop Pictures",
                     "rows": [
-                        { "value": "'/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/a29e422ecde57671ce8bab2a61587cb01211fa07.asset/AssetData/Light Stream Green.heic'", "key": "1" }
+                        { "value": "'~/Library/Application Support/com.apple.mobileAssetDesktop/Light Stream Green.heic'", "key": "1" }
+                    ] 
+                },
+                {
+                    "option": "studio",
+                    "name": "Studio Colour",
+                    "category": "Desktop Pictures",
+                    "rows": [
+                        { "value": "'/System/Library/Desktop Pictures/Studio Color.heic'", "key": "1" }
                     ] 
                 }
+
             ]
         },
         {
