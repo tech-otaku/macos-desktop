@@ -40,6 +40,74 @@
         fi
     }
 
+    function download_file {
+
+        # VARIABLES
+        #
+        # $1            : String representing the full path to the Desktop image passed to this function. e.g  `'~/Library/Application Support/com.apple.mobileAssetDesktop/Big Sur.heic'`
+        # asset_count   : Total number of Desktop images contained in the `assets` file. [Count of the `DesktopPictureID` key in the `assets` file]
+        # assets        : Full path to the Apple-supplied XML file containing data on downloadable Desktop images.
+        # baseurl       : Base URL for ZIP files containing Desktop images. [`__BaseURL` key from the `assets` file] 
+        # desktop_image : Name of the Desktop image. [Derived from `filename` and correlates to the the `DesktopPictureID` key in the `assets` file] 
+        # filename      : Filename and extension of the Desktop image. [Derived from `$1`]
+        # i             : 
+        # relativepath  : Location and unique filename of the individual ZIP file [`__RelativePath` key from the `assets` file] 
+        # temp          : Full path to the temporary directory where ZIP files are downloaded. Deleted on completion.
+        # zipfile       : Unique filename of the individual ZIP file [Derived from `relativepath`]
+
+    # Only continue if `$1` contains 'com.apple.mobileAssetDesktop'
+        if [[ "$1" == *"com.apple.mobileAssetDesktop"* ]]; then 
+        # Only continue if `$1` doesn't already exist
+            if [ ! -f "$(echo "$1" | sed "s|~/|$HOME/|" | tr -d "'")" ]; then
+                filename=$(echo "$(basename "$1")" | tr -d "'")                                                 # >>> Big Sur.heic
+                desktop_image=$(echo ${filename%.*})                                                            # >>> Big Sur
+                
+                if [ -f "/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/com_apple_MobileAsset_DesktopPicture.xml" ]; then
+                    # This file only exists if any image has previously been downloaded through System Preferences / System Settings
+                    assets="/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/com_apple_MobileAsset_DesktopPicture.xml"
+                else
+                    assets="./com_apple_MobileAsset_DesktopPicture.xml"
+                fi 
+
+                asset_count=$(/usr/libexec/PlistBuddy -x -c "Print Assets" "$assets" | grep DesktopPictureID | wc -l)
+                temp=$(mktemp -d)
+
+                i=0
+                while [ $i -lt $asset_count ]; do
+
+                    if [[  $(/usr/libexec/PlistBuddy -c "Print Assets:$i:DesktopPictureID" "$assets") == $desktop_image ]]; then
+
+                        baseurl=$(/usr/libexec/PlistBuddy -c "Print Assets:$i:__BaseURL" "$assets")             # >>> http://updates-http.cdn-apple.com/2021/mobileassets/071-34545/7E2884C0-2F21-4028-B22E-2EA162B35135/
+
+                        relativepath=$(/usr/libexec/PlistBuddy -c "Print Assets:$i:__RelativePath" "$assets")   # >>> com_apple_MobileAsset_DesktopPicture/98b5bd24c8bb188ec6101ea415ec049fdd03de84.zip
+
+                        zipfile=$(basename $relativepath)                                                       # >>> 98b5bd24c8bb188ec6101ea415ec049fdd03de84.zip
+
+                        printf "Downloading '%s'\n" "$filename"
+
+                        curl -so "$temp/$zipfile" -L "$baseurl$relativepath"
+                        unzip -q "$temp/$zipfile" -d "$temp"
+                        [ ! -d "$HOME/Library/Application Support/com.apple.mobileAssetDesktop" ] && mkdir "$HOME/Library/Application Support/com.apple.mobileAssetDesktop"
+                        mv "$temp/AssetData/$filename" "$HOME/Library/Application Support/com.apple.mobileAssetDesktop"
+                        rm -rf "$temp"
+
+                        return
+
+                    fi
+
+                    i=$(( $i + 1 ))
+                done
+
+#            else
+
+#                printf "%s already exists.\n" "$1"
+
+            fi
+
+        fi
+
+    }
+
 
 
 # # # # # # # # # # # # # # # # 
@@ -154,9 +222,9 @@
         fi
     fi
 
-# Exit with error if this is a dual-monitor environment (the 'spdisplays_ndrvs' array will have 2 or more objects).
+# Exit with error if this is a multi-monitor environment (the 'spdisplays_ndrvs' array will have 2 or more objects).
     if [ $(system_profiler SPDisplaysDataType -json | python -c $'import os,sys,json\ndata=json.loads(sys.stdin.read())\nprint(len(data["SPDisplaysDataType"][0]["spdisplays_ndrvs"]))') -ge 2 ]; then
-        echo "ERROR: This script should not be used in a dual-monitor environment."
+        echo "ERROR: This script should not be used in a multi-monitor environment."
         exit 1
     fi
 
@@ -201,8 +269,13 @@
             key=1
 
         # If the image file path contains 'com_apple_MobileAsset_DesktopPicture', check it has been downloaded via System Preferences 
-            if ! check_file_downloaded "$value"; then
-                exit 1
+#            if ! check_file_downloaded "$value"; then
+#                exit 1
+#            fi
+
+        # If the image file path contains 'com.apple.mobileAssetDesktop', check it has been downloaded via System Preferences (Monterey) or System Settings (Ventura and later). If not, download it. [macOS Monterey 12 and later]
+            if [ $major -ge 12 ]; then
+                download_file "$value"
             fi
 
             rows[0]=$value:$key
@@ -224,9 +297,14 @@
             key=$(echo $option_data | python -c $'from __future__ import print_function\nimport os, sys, json; data=json.loads(sys.stdin.read())\ne=int(os.environ["i"])\nprint(data["rows"][int(os.environ["i"])]["key"])')
 
         # If the image file path contains 'com_apple_MobileAsset_DesktopPicture', check it has been downloaded via System Preferences 
-            if ! check_file_downloaded "$value"; then
-                exit 1
-            fi 
+#            if ! check_file_downloaded "$value"; then
+#                exit 1
+#            fi
+
+        # If the image file path contains 'com.apple.mobileAssetDesktop', check it has been downloaded via System Preferences (Monterey) or System Settings (Ventura and later). If not, download it. [macOS Monterey 12 and later]
+            if [ $major -ge 12 ]; then
+                download_file "$value"
+            fi
 
             rows[$i]=$value:$key
             unset value key
