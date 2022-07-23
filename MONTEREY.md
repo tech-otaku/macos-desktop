@@ -1,6 +1,6 @@
 # macOS 12 Monterey
 
-macOS 12 Monterey includes fundamental changes on how Apple-supplied Desktop images are sourced and where they are located. This has limited the scripts effectiveness. A Desktop image now needs to be downloaded manually before the script can set it as the Desktop picture. For more details read [Changes Since macOS 11 Big Sur](#changes-since-macos-11-big-sur).
+macOS 12 Monterey includes fundamental changes on how Apple-supplied Desktop images are sourced and where they are located. ~~This has limited the scripts effectiveness. A Desktop image now needs to be downloaded manually before the script can set it as the Desktop picture.~~ For more details read [Changes Since macOS 11 Big Sur](#changes-since-macos-11-big-sur).
 
 ## Purpose
 Set a user's Desktop image in macOS 12 Monterey from the command line. See [Limitations](#limitations)
@@ -327,6 +327,9 @@ Setting the image to *Automatic* (e.g. Peak Automatic) ensures it conforms to th
 ###### Light Stream Green <sup>**1**</sup>
 `./set-desktop.sh stream-green`
 
+###### Studio Colour <sup>**1**</sup>
+`./set-desktop.sh studio`
+
 ### Colours
 
 ###### Black
@@ -387,7 +390,7 @@ Setting the image to *Automatic* (e.g. Peak Automatic) ensures it conforms to th
 `./set-desktop.sh "/System/Library/Desktop Pictures/Solid Colors/Yellow.png"`
 <br />
 <br />
-<sup>**1**</sup> Requires the image to be downloaded first via System Preferences.
+<sup>**1**</sup> If the image doesn't exist it will be downloaded to the `$HOME/Library/Application Support/com.apple.mobileAssetDesktop/` directory first.
 
 #### Other
 
@@ -408,8 +411,8 @@ Setting the image to *Automatic* (e.g. Peak Automatic) ensures it conforms to th
 ###### Supplied Desktop image is a file that doesn't exist
 `ERROR: </path/to/desktop/image.jpg> doesn't exist.`
 
-###### Supplied Desktop image file hasn't been downloaded
-`ERROR: Please download <desktop picture> via System Preferences first, then re-run this script.`
+~~###### Supplied Desktop image file hasn't been downloaded
+`ERROR: Please download <desktop picture> via System Preferences first, then re-run this script.`~~
 
 ###### Invalid option passed on the command line
 `ERROR: <option> is not a valid option.`
@@ -502,9 +505,9 @@ macOS Monterey has introduced some fundamental changes to where Desktop pictures
 
 * The Desktop picture can only be set to the selected `.heic` image after it has been explicitly downloaded by clicking the download icon.
 
-* The image is no longer located in the `/System/Library/Desktop Pictures/` directory as in previous macOS versions, but a zip file containing the image is downloaded to the `/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/` directory. 
+* The image is no longer located in the `/System/Library/Desktop Pictures/` directory as in previous macOS versions, but a zip file containing the image is downloaded ~~to the `/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/` directory.~~ and the image placed in the `$HOME/Library/Application Support/com.apple.mobileAssetDesktop/` directory. 
 
-* The URL of the zip file and the name and location of the directory created when it's expanded are stored in  `/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/com_apple_MobileAsset_DesktopPicture.xml`. 
+* The URL of the zip file ~~and the name and location of the directory created when it's expanded~~ is stored in  `/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/com_apple_MobileAsset_DesktopPicture.xml`. 
 
 ```
 <dict>
@@ -541,27 +544,33 @@ macOS Monterey has introduced some fundamental changes to where Desktop pictures
 
 #### Challenges
 
-If the `set-desktop.sh` script is used to set the Desktop picture to say *Catalina Dynamic* and `Catalina.heic` doesn't exist, it first needs to be downloaded and placed in the correct directory (see above). This would be fairly easy to achieve if it weren't for System Integrity Protection (SIP) which prevents the `/System` directory from being written to. 
+All of the macOS Monterey developer betas used to test this script placed images downloaded through System Preferences in the non-writable `/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/` directory. This limited the scripts effectiveness. 
 
-The options for the script are:
+At some stage during the macOS Monterey release cycle this location changed to the writable `$HOME/Library/Application Support/com.apple.mobileAssetDesktop/` directory. I noticed this as of macOS Monterey 12.3.1, but it may have happened as far back as the initial publice release on 25th October 2021 as is evident from this [Apple StackExchange post](https://apple.stackexchange.com/a/430743) back in November 2021.
 
-1. Disable SIP before running the script. 
+The current version of the script can now download the Desktop image if it doesn't already exist.
 
-    **Rejected**: SIP is enabled by default and disabling it is not a trivial matter nor perhaps desirable. Even if it were, disabling SIP is not something the script would be able to do as it requires considerable user intervention.
+~~If the `set-desktop.sh` script is used to set the Desktop picture to say *Catalina Dynamic* and `Catalina.heic` doesn't exist, it first needs to be downloaded and placed in the correct directory (see above). This would be fairly easy to achieve if it weren't for System Integrity Protection (SIP) which prevents the `/System` directory from being written to.~~
 
-2. Have the script download and place missing Desktop picture image files in a writable directory.
+~~The options for the script are:~~
 
-    The script can use existing Desktop picture image files in the `/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/` directory and download and place missing Desktop picture image files in a newley-created writable directory say `~/Library/Application Support/AssetsV2/com_apple_MobileAsset_DesktopPicture/Dock`. This is the location of `desktoppicture.db`, the database that stores the current Desktop picture. 
+~~1. Disable SIP before running the script.~~
 
-    **Rejected**: This *does* work, but with one big caveat. After the script has set the Desktop picture to an `.heic` image in a location other than the `/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/` directory the dropdown menu for the selected image in System Preferences > Desktop & Screensaver > Desktop shows...
+~~**Rejected**: SIP is enabled by default and disabling it is not a trivial matter nor perhaps desirable. Even if it were, disabling SIP is not something the script would be able to do as it requires considerable user intervention.~~
 
-    <img src="dropdown-1.png" width="175">
+~~2. Have the script download and place missing Desktop picture image files in a writable directory.~~
 
-    However, for Desktop pictures in the *Dynamic Desktop* category the options should be *Dynamic*, *Light (Still)* and *Dark (Still)*. For the *Light and Dark Desktop* category, the *Dynamic* option is replaced by *Automatic*.   
+~~The script can use existing Desktop picture image files in the `/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/` directory and download and place missing Desktop picture image files in a newley-created writable directory say `~/Library/Application Support/AssetsV2/com_apple_MobileAsset_DesktopPicture/Dock`. This is the location of `desktoppicture.db`, the database that stores the current Desktop picture.~~ 
 
-3. Have the script use existing Desktop picture image files in the `/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/` and prompt the user to download any missing image file via System Preferences > Desktop & Screensaver > Desktop.
+~~**Rejected**: This *does* work, but with one big caveat. After the script has set the Desktop picture to an `.heic` image in a location other than the `/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/` directory the dropdown menu for the selected image in System Preferences > Desktop & Screensaver > Desktop shows...~~
 
-    **This is how the current version of the script functions.**
+<img src="dropdown-1.png" width="175">
+
+~~However, for Desktop pictures in the *Dynamic Desktop* category the options should be *Dynamic*, *Light (Still)* and *Dark (Still)*. For the *Light and Dark Desktop* category, the *Dynamic* option is replaced by *Automatic*.~~ 
+
+~~3. Have the script use existing Desktop picture image files in the `/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/` and prompt the user to download any missing image file via System Preferences > Desktop & Screensaver > Desktop.~~
+
+~~**This is how the current version of the script functions.**~~
 
 ### Changes in macOS Monterey Developer Beta 2 [21A5268h]
 
