@@ -24,7 +24,7 @@
 # Ensure 'restore_sqliterc' is executed every time the script exits regardless of exit status
     trap restore_sqliterc EXIT
 
-# If the path to an image file contains 'com_apple_MobileAsset_DesktopPicture', check that it exists having previously been downloaded via System Preferences. This function is called regardless of the installed version of macOS, but is currently only relevant for macOS 12 Monterey. 
+# If the path to an image file contains 'com_apple_MobileAsset_DesktopPicture', check that it exists having previously been downloaded via System Preferences. This function is called regardless of the installed version of macOS, but is currently only relevant for macOS 12 Monterey.
     function check_file_downloaded {
         # The function is passed the value of the $value variable which is received as $1
         if [[ "$1" == *"com_apple_MobileAsset_DesktopPicture"* ]]; then
@@ -47,27 +47,27 @@
         # $1            : String representing the full path to the Desktop image passed to this function. e.g  `'~/Library/Application Support/com.apple.mobileAssetDesktop/Big Sur.heic'`
         # asset_count   : Total number of Desktop images contained in the `assets` file. [Count of the `DesktopPictureID` key in the `assets` file]
         # assets        : Full path to the Apple-supplied XML file containing data on downloadable Desktop images.
-        # baseurl       : Base URL for ZIP files containing Desktop images. [`__BaseURL` key from the `assets` file] 
-        # desktop_image : Name of the Desktop image. [Derived from `filename` and correlates to the the `DesktopPictureID` key in the `assets` file] 
+        # baseurl       : Base URL for ZIP files containing Desktop images. [`__BaseURL` key from the `assets` file]
+        # desktop_image : Name of the Desktop image. [Derived from `filename` and correlates to the the `DesktopPictureID` key in the `assets` file]
         # filename      : Filename and extension of the Desktop image. [Derived from `$1`]
-        # i             : 
-        # relativepath  : Location and unique filename of the individual ZIP file [`__RelativePath` key from the `assets` file] 
+        # i             :
+        # relativepath  : Location and unique filename of the individual ZIP file [`__RelativePath` key from the `assets` file]
         # temp          : Full path to the temporary directory where ZIP files are downloaded. Deleted on completion.
         # zipfile       : Unique filename of the individual ZIP file [Derived from `relativepath`]
 
     # Only continue if `$1` contains 'com.apple.mobileAssetDesktop'
-        if [[ "$1" == *"com.apple.mobileAssetDesktop"* ]]; then 
+        if [[ "$1" == *"com.apple.mobileAssetDesktop"* ]]; then
         # Only continue if `$1` doesn't already exist
             if [ ! -f "$(echo "$1" | sed "s|~/|$HOME/|" | tr -d "'")" ]; then
                 filename=$(echo "$(basename "$1")" | tr -d "'")                                                 # >>> Big Sur.heic
                 desktop_image=$(echo ${filename%.*})                                                            # >>> Big Sur
-                
+
                 if [ -f "/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/com_apple_MobileAsset_DesktopPicture.xml" ]; then
                     # This file only exists if any image has previously been downloaded through System Preferences / System Settings
                     assets="/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/com_apple_MobileAsset_DesktopPicture.xml"
                 else
                     assets="./com_apple_MobileAsset_DesktopPicture.xml"
-                fi 
+                fi
 
                 asset_count=$(/usr/libexec/PlistBuddy -x -c "Print Assets" "$assets" | grep DesktopPictureID | wc -l)
                 temp=$(mktemp -d)
@@ -116,12 +116,12 @@
 
 #   backup = location for backups when re-setting 'desktoppicture.db' to the default
 #   category = how the image is categorised in System Preferences (populated from match in the 'option_config' file)
-#   data_id = the 'data' table row id to be used in the 'preferences' table 
+#   data_id = the 'data' table row id to be used in the 'preferences' table
 #   db = database name including path
 #   is_file = only set if the argument passed to the script is a filename
 #   key = value of the 'key' column for new rows in the 'preferences' table (populated from match in the 'option_config' file unless a filename was passed to the script)
-#   lastrow[0] = highest row id in the 'data' table 
-#   lastrow[1] = highest row id in the 'preferences' table 
+#   lastrow[0] = highest row id in the 'data' table
+#   lastrow[1] = highest row id in the 'preferences' table
 #   major = the major version number of the installed release of macOS i.e. 10 (Catalina), 11 (Big Sur), 12 (Monterey)
 #   minor = the minor version number of the installed release of macOS. Only used for Catalina and earlier i.e. .14, (10.14), .15 (10.15) etc
 #   name = the title or filename of the Desktop image (populated from match in the 'option_config' file unless a filename was passed to the script)
@@ -131,7 +131,7 @@
 #   option_data = string representing JSON-encoded data for a given option ($option_arg)
 #   row_count = the number of rows to be added to the 'data' table (populated from match in the 'option_config' file)
 #   rows = an array where each element represents the values of the 'value' column for new rows in the 'data' table and the value of the 'key' column for new rows in the 'preferences' table (populated from match in the 'option_config' file unless a filename was passed to the script in which case it is populated using the filename for the 'value' and '1' for the 'key')
-#   timestamp = temporary filename suffix added to '.sqliterc' 
+#   timestamp = temporary filename suffix added to '.sqliterc'
 #   value = value of the 'value' column for new rows in the 'data' table (populated from match in the 'option_config' file unless a filename was passed to the script)
 #   version = the installed version of macOS (variable needs to be exported so its value is available to the Python code)
 
@@ -140,8 +140,8 @@
     db="$HOME/Library/Application Support/Dock/desktoppicture.db"
     backup="$HOME/Library/Application Support/Dock/backup"
 
-    # The version numbering convention has changed with the release of Big Sur where only the major version number is significant for 
-    # determining if Big Sur is installed i.e. 11.0, 11.1, 11.2 etc are all versions of Big Sur. This is in contrast to earlier macOS 
+    # The version numbering convention has changed with the release of Big Sur where only the major version number is significant for
+    # determining if Big Sur is installed i.e. 11.0, 11.1, 11.2 etc are all versions of Big Sur. This is in contrast to earlier macOS
     # versions where both the major and minor version numbers are significant i.e 10.15 Catalina, 10.14 Mojave etc.
     major=$(system_profiler SPSoftwareDataType | awk '/System Version/ {print $4}' | cut -d . -f 1)
     minor=$(system_profiler SPSoftwareDataType | awk '/System Version/ {print $4}'| cut -d . -f 2)
@@ -182,7 +182,7 @@
 
 # Exit with error if configuration file doesn't exist
     if [ ! -f "$option_config" ]; then
-        printf "ERROR: Can't find configuration file '%s'.\n" "$option_config" 
+        printf "ERROR: Can't find configuration file '%s'.\n" "$option_config"
         exit 1
     fi
 
@@ -203,7 +203,7 @@
 
     if [ "$option_arg" != "default" ]; then
 
-    # Look in the configuration file for the value of the 'option' argument that was passed to the script. 
+    # Look in the configuration file for the value of the 'option' argument that was passed to the script.
         option_data=$(python -c $'from __future__ import print_function\nimport os,sys,json\nwith open(os.environ["option_config"],"r") as f:\n\tdata = json.load(f)\nfor _version in data["versions"]:\n\tif _version["version"]==os.environ["version"]:\n\t\tfor _option in _version["options"]:\n\t\t\tif _option["option"]==os.environ["option_arg"]:print(json.dumps(_option))')
 
         if [ -z "$option_data" ]; then  # the option that was passed to the script was not found in the configuration file
@@ -215,7 +215,7 @@
                         exit 1
                     fi
                 fi
-            else    #   5. ...an invalid option 
+            else    #   5. ...an invalid option
                 printf "ERROR: '%s' is not a valid option.\n" "$option_arg"
                 exit 1
             fi
@@ -223,16 +223,16 @@
     fi
 
 # Exit with error if this is a multi-monitor environment (the 'spdisplays_ndrvs' array will have 2 or more objects).
-    if [ $(system_profiler SPDisplaysDataType -json | python -c $'import os,sys,json\ndata=json.loads(sys.stdin.read())\nprint(len(data["SPDisplaysDataType"][0]["spdisplays_ndrvs"]))') -ge 2 ]; then
-        echo "ERROR: This script should not be used in a multi-monitor environment."
-        exit 1
-    fi
+#    if [ $(system_profiler SPDisplaysDataType -json | python -c $'import os,sys,json\ndata=json.loads(sys.stdin.read())\nprint(len(data["SPDisplaysDataType"][0]["spdisplays_ndrvs"]))') -ge 2 ]; then
+#        echo "ERROR: This script should not be used in a multi-monitor environment."
+#        exit 1
+#    fi
 
 # Exit with error if multiple Desktops are configured (the 'spaces' table will have 2 or more rows).
-    if [ $(sqlite3 "$db" "SELECT COUNT() FROM spaces;") -ge 2 ]; then
-        echo "ERROR: This script should not be used when multiple Desktops (Spaces) are configured."
-        exit 1
-    fi
+#    if [ $(sqlite3 "$db" "SELECT COUNT() FROM spaces;") -ge 2 ]; then
+#        echo "ERROR: This script should not be used when multiple Desktops (Spaces) are configured."
+#        exit 1
+#    fi
 
 
 
@@ -268,7 +268,7 @@
             name="$option_arg"
             key=1
 
-        # If the image file path contains 'com_apple_MobileAsset_DesktopPicture', check it has been downloaded via System Preferences 
+        # If the image file path contains 'com_apple_MobileAsset_DesktopPicture', check it has been downloaded via System Preferences
 #            if ! check_file_downloaded "$value"; then
 #                exit 1
 #            fi
@@ -282,21 +282,21 @@
             unset value key
 
         fi
-    else    # 3. ...a valid option 
+    else    # 3. ...a valid option
         option=$(echo $option_data | python -c $'from __future__ import print_function\nimport sys, json; data=json.loads(sys.stdin.read())\nprint(data["option"])')
         name=$(echo $option_data | python -c $'from __future__ import print_function\nimport sys, json; data=json.loads(sys.stdin.read())\nprint(data["name"])')
         category=$(echo $option_data | python -c $'from __future__ import print_function\nimport sys, json; data=json.loads(sys.stdin.read())\nprint(data["category"])')
 
-        # The row_count variable stores the number of Python dictionaries (JSON objects) in the Python list (JSON array) whose key is "rows". This is a minimum of 1 and a maximum of 2. 
+        # The row_count variable stores the number of Python dictionaries (JSON objects) in the Python list (JSON array) whose key is "rows". This is a minimum of 1 and a maximum of 2.
         row_count=$(echo $option_data | python -c $'from __future__ import print_function\nimport sys, json; data=json.loads(sys.stdin.read())\nprint(len(data["rows"]))')
 
         stop=$(expr $row_count - 1)
-        for i in $(seq 0 $stop); do 
-            export i 
+        for i in $(seq 0 $stop); do
+            export i
             value=$(echo $option_data | python -c $'from __future__ import print_function\nimport os, sys, json; data=json.loads(sys.stdin.read())\ne=int(os.environ["i"])\nprint(data["rows"][int(os.environ["i"])]["value"])')
             key=$(echo $option_data | python -c $'from __future__ import print_function\nimport os, sys, json; data=json.loads(sys.stdin.read())\ne=int(os.environ["i"])\nprint(data["rows"][int(os.environ["i"])]["key"])')
 
-        # If the image file path contains 'com_apple_MobileAsset_DesktopPicture', check it has been downloaded via System Preferences 
+        # If the image file path contains 'com_apple_MobileAsset_DesktopPicture', check it has been downloaded via System Preferences
 #            if ! check_file_downloaded "$value"; then
 #                exit 1
 #            fi
@@ -350,7 +350,7 @@
 
 # Images typically require 1 row in the 'data' table and 4 corresponding rows in the 'preferences' table (one per row in the 'pictures' table).
 # Most images categorised by System Preferences as 'Dynamic Desktop' or 'Light and Dark Desktop' and a few categorised as 'Desktop Pictures' require
-# a total of 2 rows in the 'data' table and 8 corresponding rows in the 'preferences' table. 
+# a total of 2 rows in the 'data' table and 8 corresponding rows in the 'preferences' table.
 
     for i in "${rows[@]}"; do
 
