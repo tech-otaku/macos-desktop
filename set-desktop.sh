@@ -348,25 +348,23 @@
 # INSERT NEW ROWS
 #
 
-# Images typically require 1 row in the 'data' table and 4 corresponding rows in the 'preferences' table. Most images categorised by 
-# System Preferences as 'Dynamic Desktop' or 'Light and Dark Desktop' and a few categorised as 'Desktop Pictures' require a total of 2 rows 
-# in the 'data' table and 8 corresponding rows in the 'preferences' table. 
+# Images typically require 1 row in the 'data' table and 4 corresponding rows in the 'preferences' table (one per row in the 'pictures' table).
+# Most images categorised by System Preferences as 'Dynamic Desktop' or 'Light and Dark Desktop' and a few categorised as 'Desktop Pictures' require
+# a total of 2 rows in the 'data' table and 8 corresponding rows in the 'preferences' table. 
 
     for i in "${rows[@]}"; do
 
         value=$(echo $i | cut -d ':' -f1)
         key=$(echo $i | cut -d ':' -f2)
 
-    # Insert a new row into the 'data' table.
-        sqlite3 "$db" "INSERT INTO data(rowid,value) VALUES( $((++lastrow[0])), $value );"
+    # Insert a new row into the 'data' table. This automatically sets the (hidden) column rowid to a correct value.
+        sqlite3 "$db" "INSERT INTO data(value) VALUES( $value );"
 
-    # Insert new rows into the 'preferences' table.
-        data_id=$(sqlite3 "$db" "SELECT rowid FROM data WHERE value=$value;")
+    # Insert new rows into the 'preferences' table. This automatically sets the (hidden) column rowid to a correct values.
+        data_id=$(sqlite3 "$db" "SELECT rowid FROM data ORDER BY rowid DESC LIMIT 1;")
 
-        sqlite3 "$db" "INSERT INTO preferences(rowid,key,data_id,picture_id) VALUES( $((++lastrow[1])),$key,${data_id},3);"
-        sqlite3 "$db" "INSERT INTO preferences(rowid,key,data_id,picture_id) VALUES( $((++lastrow[1])),$key,${data_id},4);"
-        sqlite3 "$db" "INSERT INTO preferences(rowid,key,data_id,picture_id) VALUES( $((++lastrow[1])),$key,${data_id},2);"
-        sqlite3 "$db" "INSERT INTO preferences(rowid,key,data_id,picture_id) VALUES( $((++lastrow[1])),$key,${data_id},1);"
+        #sqlite3 "$db" "INSERT INTO preferences SELECT $key AS key, (SELECT ROWID FROM data ORDER BY ROWID DESC LIMIT 1) AS data_id, ROWID AS picture_id FROM pictures;"
+        sqlite3 "$db" "INSERT INTO preferences SELECT $key AS key, $data_id AS data_id, ROWID AS picture_id FROM pictures;"
 
         unset value key
 
