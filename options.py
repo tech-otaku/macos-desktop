@@ -7,7 +7,7 @@ from operator import itemgetter
 
 parser = argparse.ArgumentParser(description='List valid options for set-desktop.sh')
 parser.add_argument("-s", "--sort", choices=["category", "name", "option"], help="Sort output using this key. Output is unsorted if omitted.")
-parser.add_argument("-v", "--version", choices=["monterey", "big-sur", "catalina", "mojave"], required=True, help="List valid options for this version of macOS")
+parser.add_argument("-v", "--version", choices=["ventura", "monterey", "big-sur", "catalina", "mojave"], required=True, help="List valid options for this version of macOS")
 args = parser.parse_args()
 
 if args.version == "big-sur":
