@@ -12,6 +12,7 @@ set-desktop-catalina-new.sh
 set-desktop-mojave.sh
 set-desktop-sip.sh
 set-desktop-writable-folder.sh
+test.sh
 info.sh
 version.sh
 
