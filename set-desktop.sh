@@ -30,7 +30,7 @@
         if [[ "$1" == *"com_apple_MobileAsset_DesktopPicture"* ]]; then
             if ! [ -f  "$(echo "$1" | tr -d "'")" ]; then
                 filename=$(echo "$(basename "$1")" | tr -d "'")     # e.g. Big Sur Shore Rocks.heic
-                printf "ERROR: Please download '%s' via System Preferences first, then re-run this script.\n" "${filename%.*}"  >&2
+                printf "ERROR: Please download '%s' via $settings_app first, then re-run this script.\n" "${filename%.*}"  >&2
                 false
             else
                 true
@@ -153,6 +153,11 @@
         export version=$major.$minor
     fi
 
+    settings_app="System Settings"
+    if [[ $major -lt 13 ]]; then
+        settings_app="System Preferences"
+    fi
+
     export option_arg=$1
     export option_config=options.json
 
@@ -236,8 +241,8 @@
 
 
 
-# We've got this far, let's quit System Preferences – if open – before continuing.
-    killall System\ Preferences > /dev/null 2>&1    # Write STDOUT and STDERR to /dev/null to supress messages if process isn't running
+# Quit System Settings (previously System Preferences prior to macOS Ventura 13)
+    killall "$settings_app" 2> /dev/null                        # Write STDERR to /dev/null to supress message if process isn't running
 
 
 
