@@ -1,3 +1,6 @@
+aerial
+aerial
+aerial
 beach
 beach
 beach
@@ -43,6 +46,24 @@ catalina-dark
 catalina-light
 catalina-light
 catalina-light
+chroma-blue
+chroma-blue
+chroma-blue
+chroma-blue-dark
+chroma-blue-dark
+chroma-blue-dark
+chroma-blue-light
+chroma-blue-light
+chroma-blue-light
+chroma-red
+chroma-red
+chroma-red
+chroma-red-dark
+chroma-red-dark
+chroma-red-dark
+chroma-red-light
+chroma-red-light
+chroma-red-light
 cliffs
 cliffs
 cliffs
@@ -52,12 +73,18 @@ cliffs-dark
 cliffs-light
 cliffs-light
 cliffs-light
+clouds
+clouds
+clouds
+coast
+coast
+coast
+coastline
+coastline
+coastline
 dark
 dark
 dark
-default
-default
-default
 desert
 desert
 desert
@@ -76,9 +103,18 @@ dome-dark
 dome-light
 dome-light
 dome-light
+edge
+edge
+edge
+evening
+evening
+evening
 graphic
 graphic
 graphic
+grasses
+grasses
+grasses
 green
 green
 green
@@ -88,6 +124,9 @@ green-dark
 green-light
 green-light
 green-light
+horizon
+horizon
+horizon
 iridescence
 iridescence
 iridescence
@@ -109,6 +148,45 @@ lake-light
 light
 light
 light
+motion-blue
+motion-blue
+motion-blue
+motion-blue-dark
+motion-blue-dark
+motion-blue-dark
+motion-blue-light
+motion-blue-light
+motion-blue-light
+motion-green
+motion-green
+motion-green
+motion-green-dark
+motion-green-dark
+motion-green-dark
+motion-green-light
+motion-green-light
+motion-green-light
+motion-purple
+motion-purple
+motion-purple
+motion-purple-dark
+motion-purple-dark
+motion-purple-dark
+motion-purple-light
+motion-purple-light
+motion-purple-light
+motion-yellow
+motion-yellow
+motion-yellow
+motion-yellow-dark
+motion-yellow-dark
+motion-yellow-dark
+motion-yellow-light
+motion-yellow-light
+motion-yellow-light
+mountains
+mountains
+mountains
 orange
 orange
 orange
@@ -145,9 +223,21 @@ purple-dark
 purple-light
 purple-light
 purple-light
-solar
-solar
-solar
+road
+road
+road
+rock
+rock
+rock
+shore
+shore
+shore
+shoreline
+shoreline
+shoreline
+silhouette
+silhouette
+silhouette
 silver
 silver
 silver
@@ -157,6 +247,30 @@ silver-dark
 silver-light
 silver-light
 silver-light
+solar
+solar
+solar
+stream-blue
+stream-blue
+stream-blue
+stream-green
+stream-green
+stream-green
+stream-pink
+stream-pink
+stream-pink
+stream-red
+stream-red
+stream-red
+studio-color
+studio-color
+studio-color
+succulents
+succulents
+succulents
+sunset
+sunset
+sunset
 tree
 tree
 tree
@@ -184,42 +298,60 @@ yellow-dark
 yellow-light
 yellow-light
 yellow-light
-/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/972d7a8db8ba601e496e1294aae04124046c1908.asset/AssetData/Big Sur Aerial.heic
-/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/cf8e4fef996d7b6e9b7d223a7a732a9dc96e908f.asset/AssetData/Big Sur Coastline.heic
-/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/237a25a78324e57274dd0ea40d8bd895481a1613.asset/AssetData/Big Sur Horizon.heic
-/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/0b55533c35ad0c1c5ff89e983539a44faf859c07.asset/AssetData/Big Sur Mountains.heic
-/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/5b040b5fecb84d2766a94ef5a14bd5efa2fbcde3.asset/AssetData/Big Sur Night Grasses.heic
-/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/0ffac9759762068a7ab8dfb650a1a19ef7093b46.asset/AssetData/Big Sur Night Succulents.heic
-/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/15709d3247a0ceaf9d309339950487b47f9b44bb.asset/AssetData/Big Sur Road.heic
-/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/17b0ec7a80a6547175ce3acd4c8abbb8615f7f03.asset/AssetData/Big Sur Shore Rocks.heic
-/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/6b9eee9947acbe5c4b04aac87ac375602fce8ca3.asset/AssetData/Big Sur Waters Edge.heic
-/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/f72f29b3fd3625a6b61bc672d35a32f464640a64.asset/AssetData/Catalina Clouds.heic
-/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/b783f7498e002b0aa3a2759a5df26f8f428b649d.asset/AssetData/Catalina Coast.heic
-/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/1479b2d222bc2ebe51fc4d73b06e4fa8c1ce0e5c.asset/AssetData/Catalina Evening.heic
-/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/1a56f27cffc35c1c0d6332e586ee48d68aaaebd9.asset/AssetData/Catalina Rock.heic
-/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/d9e5318549521fb59354b96d0b2dd9ec123597a9.asset/AssetData/Catalina Shoreline.heic
-/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/aa4f359601cb1a549369ae5c40cb23826af4dd40.asset/AssetData/Catalina Silhouette.heic
-/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/c8db91583c4eeffd413c3069f021f95df64d0e4e.asset/AssetData/Catalina Sunset.heic
-/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/11a3d5c273194adc64529578ce3edb5c55aa20bd.asset/AssetData/Light Stream Blue.heic
-/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/a29e422ecde57671ce8bab2a61587cb01211fa07.asset/AssetData/Light Stream Green.heic
-/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/06413a4489c03a522ff78f78248bfd3975eaa45c.asset/AssetData/Light Stream Pink.heic
-/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture/9f458f803afa5a5349aabc6581e2ab155bcc7677.asset/AssetData/Light Stream Red.heic
+/System/Library/Desktop Pictures/Solid Colors/Black.png
+/System/Library/Desktop Pictures/Solid Colors/Black.png
 /System/Library/Desktop Pictures/Solid Colors/Black.png
 /System/Library/Desktop Pictures/Solid Colors/Blue Violet.png
+/System/Library/Desktop Pictures/Solid Colors/Blue Violet.png
+/System/Library/Desktop Pictures/Solid Colors/Blue Violet.png
+/System/Library/Desktop Pictures/Solid Colors/Cyan.png
+/System/Library/Desktop Pictures/Solid Colors/Cyan.png
 /System/Library/Desktop Pictures/Solid Colors/Cyan.png
 /System/Library/Desktop Pictures/Solid Colors/Dusty Rose.png
+/System/Library/Desktop Pictures/Solid Colors/Dusty Rose.png
+/System/Library/Desktop Pictures/Solid Colors/Dusty Rose.png
+/System/Library/Desktop Pictures/Solid Colors/Electric Blue.png
+/System/Library/Desktop Pictures/Solid Colors/Electric Blue.png
 /System/Library/Desktop Pictures/Solid Colors/Electric Blue.png
 /System/Library/Desktop Pictures/Solid Colors/Gold 2.png
+/System/Library/Desktop Pictures/Solid Colors/Gold 2.png
+/System/Library/Desktop Pictures/Solid Colors/Gold 2.png
+/System/Library/Desktop Pictures/Solid Colors/Gold.png
+/System/Library/Desktop Pictures/Solid Colors/Gold.png
 /System/Library/Desktop Pictures/Solid Colors/Gold.png
 /System/Library/Desktop Pictures/Solid Colors/Ocher.png
+/System/Library/Desktop Pictures/Solid Colors/Ocher.png
+/System/Library/Desktop Pictures/Solid Colors/Ocher.png
+/System/Library/Desktop Pictures/Solid Colors/Plum.png
+/System/Library/Desktop Pictures/Solid Colors/Plum.png
 /System/Library/Desktop Pictures/Solid Colors/Plum.png
 /System/Library/Desktop Pictures/Solid Colors/Red Orange.png
+/System/Library/Desktop Pictures/Solid Colors/Red Orange.png
+/System/Library/Desktop Pictures/Solid Colors/Red Orange.png
+/System/Library/Desktop Pictures/Solid Colors/Rose Gold.png
+/System/Library/Desktop Pictures/Solid Colors/Rose Gold.png
 /System/Library/Desktop Pictures/Solid Colors/Rose Gold.png
 /System/Library/Desktop Pictures/Solid Colors/Silver.png
+/System/Library/Desktop Pictures/Solid Colors/Silver.png
+/System/Library/Desktop Pictures/Solid Colors/Silver.png
+/System/Library/Desktop Pictures/Solid Colors/Soft Pink.png
+/System/Library/Desktop Pictures/Solid Colors/Soft Pink.png
 /System/Library/Desktop Pictures/Solid Colors/Soft Pink.png
 /System/Library/Desktop Pictures/Solid Colors/Space Gray Pro.png
+/System/Library/Desktop Pictures/Solid Colors/Space Gray Pro.png
+/System/Library/Desktop Pictures/Solid Colors/Space Gray Pro.png
+/System/Library/Desktop Pictures/Solid Colors/Space Gray.png
+/System/Library/Desktop Pictures/Solid Colors/Space Gray.png
 /System/Library/Desktop Pictures/Solid Colors/Space Gray.png
 /System/Library/Desktop Pictures/Solid Colors/Stone.png
+/System/Library/Desktop Pictures/Solid Colors/Stone.png
+/System/Library/Desktop Pictures/Solid Colors/Stone.png
+/System/Library/Desktop Pictures/Solid Colors/Teal.png
+/System/Library/Desktop Pictures/Solid Colors/Teal.png
 /System/Library/Desktop Pictures/Solid Colors/Teal.png
 /System/Library/Desktop Pictures/Solid Colors/Turquoise Green.png
+/System/Library/Desktop Pictures/Solid Colors/Turquoise Green.png
+/System/Library/Desktop Pictures/Solid Colors/Turquoise Green.png
+/System/Library/Desktop Pictures/Solid Colors/Yellow.png
+/System/Library/Desktop Pictures/Solid Colors/Yellow.png
 /System/Library/Desktop Pictures/Solid Colors/Yellow.png

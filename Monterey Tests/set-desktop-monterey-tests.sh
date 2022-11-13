@@ -4,7 +4,7 @@
 
 rm -f set-desktop-monterey-tests.txt
 
-echo -e "Randomly generated $(date '+on %Y-%m-%d at %H:%M:%S') by $0 using Monterey Developer Beta 1 build $(system_profiler SPSoftwareDataType | awk '/System Version/ {print $5}')\n" >> set-desktop-monterey-tests.txt 
+echo -e "Randomly generated $(date '+on %Y-%m-%d at %H:%M:%S') by $0 using $(system_profiler SPSoftwareDataType | awk '/System Version/ {print $3 " " $4 ", build " $5}')\n" >> set-desktop-monterey-tests.txt 
 
 pushd ../ > /dev/null
 bash set-desktop.sh default
