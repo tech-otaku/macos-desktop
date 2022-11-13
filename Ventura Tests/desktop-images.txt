@@ -1,0 +1,369 @@
+aerial
+aerial
+aerial
+beach
+beach
+beach
+beach-dark
+beach-dark
+beach-dark
+beach-light
+beach-light
+beach-light
+big-sur
+big-sur
+big-sur
+big-sur-dark
+big-sur-dark
+big-sur-dark
+big-sur-graphic
+big-sur-graphic
+big-sur-graphic
+big-sur-graphic-dark
+big-sur-graphic-dark
+big-sur-graphic-dark
+big-sur-graphic-light
+big-sur-graphic-light
+big-sur-graphic-light
+big-sur-light
+big-sur-light
+big-sur-light
+blue
+blue
+blue
+blue-dark
+blue-dark
+blue-dark
+blue-light
+blue-light
+blue-light
+catalina
+catalina
+catalina
+catalina-dark
+catalina-dark
+catalina-dark
+catalina-light
+catalina-light
+catalina-light
+chroma-blue
+chroma-blue
+chroma-blue
+chroma-blue-dark
+chroma-blue-dark
+chroma-blue-dark
+chroma-blue-light
+chroma-blue-light
+chroma-blue-light
+chroma-red
+chroma-red
+chroma-red
+chroma-red-dark
+chroma-red-dark
+chroma-red-dark
+chroma-red-light
+chroma-red-light
+chroma-red-light
+cliffs
+cliffs
+cliffs
+cliffs-dark
+cliffs-dark
+cliffs-dark
+cliffs-light
+cliffs-light
+cliffs-light
+clouds
+clouds
+clouds
+coast
+coast
+coast
+coastline
+coastline
+coastline
+dark
+dark
+dark
+default
+default
+default
+desert
+desert
+desert
+desert-dark
+desert-dark
+desert-dark
+desert-light
+desert-light
+desert-light
+dome
+dome
+dome
+dome-dark
+dome-dark
+dome-dark
+dome-light
+dome-light
+dome-light
+edge
+edge
+edge
+evening
+evening
+evening
+graphic
+graphic
+graphic
+grasses
+grasses
+grasses
+green
+green
+green
+green-dark
+green-dark
+green-dark
+green-light
+green-light
+green-light
+horizon
+horizon
+horizon
+iridescence
+iridescence
+iridescence
+iridescence-dark
+iridescence-dark
+iridescence-dark
+iridescence-light
+iridescence-light
+iridescence-light
+lake
+lake
+lake
+lake-dark
+lake-dark
+lake-dark
+lake-light
+lake-light
+lake-light
+light
+light
+light
+monterey-graphic
+monterey-graphic
+monterey-graphic
+monterey-graphic-dark
+monterey-graphic-dark
+monterey-graphic-dark
+monterey-graphic-light
+monterey-graphic-light
+monterey-graphic-light
+motion-blue
+motion-blue
+motion-blue
+motion-blue-dark
+motion-blue-dark
+motion-blue-dark
+motion-blue-light
+motion-blue-light
+motion-blue-light
+motion-green
+motion-green
+motion-green
+motion-green-dark
+motion-green-dark
+motion-green-dark
+motion-green-light
+motion-green-light
+motion-green-light
+motion-purple
+motion-purple
+motion-purple
+motion-purple-dark
+motion-purple-dark
+motion-purple-dark
+motion-purple-light
+motion-purple-light
+motion-purple-light
+motion-yellow
+motion-yellow
+motion-yellow
+motion-yellow-dark
+motion-yellow-dark
+motion-yellow-dark
+motion-yellow-light
+motion-yellow-light
+motion-yellow-light
+mountains
+mountains
+mountains
+orange
+orange
+orange
+orange-dark
+orange-dark
+orange-dark
+orange-light
+orange-light
+orange-light
+peak
+peak
+peak
+peak-dark
+peak-dark
+peak-dark
+peak-light
+peak-light
+peak-light
+pink
+pink
+pink
+pink-dark
+pink-dark
+pink-dark
+pink-light
+pink-light
+pink-light
+purple
+purple
+purple
+purple-dark
+purple-dark
+purple-dark
+purple-light
+purple-light
+purple-light
+road
+road
+road
+rock
+rock
+rock
+shore
+shore
+shore
+shoreline
+shoreline
+shoreline
+silhouette
+silhouette
+silhouette
+silver
+silver
+silver
+silver-dark
+silver-dark
+silver-dark
+silver-light
+silver-light
+silver-light
+solar
+solar
+solar
+stream-blue
+stream-blue
+stream-blue
+stream-green
+stream-green
+stream-green
+stream-pink
+stream-pink
+stream-pink
+stream-red
+stream-red
+stream-red
+studio-color
+studio-color
+studio-color
+succulents
+succulents
+succulents
+sunset
+sunset
+sunset
+tree
+tree
+tree
+tree-dark
+tree-dark
+tree-dark
+tree-light
+tree-light
+tree-light
+valley
+valley
+valley
+valley-dark
+valley-dark
+valley-dark
+valley-light
+valley-light
+valley-light
+yellow
+yellow
+yellow
+yellow-dark
+yellow-dark
+yellow-dark
+yellow-light
+yellow-light
+yellow-light
+/System/Library/Desktop Pictures/Solid Colors/Black.png
+/System/Library/Desktop Pictures/Solid Colors/Black.png
+/System/Library/Desktop Pictures/Solid Colors/Black.png
+/System/Library/Desktop Pictures/Solid Colors/Blue Violet.png
+/System/Library/Desktop Pictures/Solid Colors/Blue Violet.png
+/System/Library/Desktop Pictures/Solid Colors/Blue Violet.png
+/System/Library/Desktop Pictures/Solid Colors/Cyan.png
+/System/Library/Desktop Pictures/Solid Colors/Cyan.png
+/System/Library/Desktop Pictures/Solid Colors/Cyan.png
+/System/Library/Desktop Pictures/Solid Colors/Dusty Rose.png
+/System/Library/Desktop Pictures/Solid Colors/Dusty Rose.png
+/System/Library/Desktop Pictures/Solid Colors/Dusty Rose.png
+/System/Library/Desktop Pictures/Solid Colors/Electric Blue.png
+/System/Library/Desktop Pictures/Solid Colors/Electric Blue.png
+/System/Library/Desktop Pictures/Solid Colors/Electric Blue.png
+/System/Library/Desktop Pictures/Solid Colors/Gold 2.png
+/System/Library/Desktop Pictures/Solid Colors/Gold 2.png
+/System/Library/Desktop Pictures/Solid Colors/Gold 2.png
+/System/Library/Desktop Pictures/Solid Colors/Gold.png
+/System/Library/Desktop Pictures/Solid Colors/Gold.png
+/System/Library/Desktop Pictures/Solid Colors/Gold.png
+/System/Library/Desktop Pictures/Solid Colors/Ocher.png
+/System/Library/Desktop Pictures/Solid Colors/Ocher.png
+/System/Library/Desktop Pictures/Solid Colors/Ocher.png
+/System/Library/Desktop Pictures/Solid Colors/Plum.png
+/System/Library/Desktop Pictures/Solid Colors/Plum.png
+/System/Library/Desktop Pictures/Solid Colors/Plum.png
+/System/Library/Desktop Pictures/Solid Colors/Red Orange.png
+/System/Library/Desktop Pictures/Solid Colors/Red Orange.png
+/System/Library/Desktop Pictures/Solid Colors/Red Orange.png
+/System/Library/Desktop Pictures/Solid Colors/Rose Gold.png
+/System/Library/Desktop Pictures/Solid Colors/Rose Gold.png
+/System/Library/Desktop Pictures/Solid Colors/Rose Gold.png
+/System/Library/Desktop Pictures/Solid Colors/Silver.png
+/System/Library/Desktop Pictures/Solid Colors/Silver.png
+/System/Library/Desktop Pictures/Solid Colors/Silver.png
+/System/Library/Desktop Pictures/Solid Colors/Soft Pink.png
+/System/Library/Desktop Pictures/Solid Colors/Soft Pink.png
+/System/Library/Desktop Pictures/Solid Colors/Soft Pink.png
+/System/Library/Desktop Pictures/Solid Colors/Space Gray Pro.png
+/System/Library/Desktop Pictures/Solid Colors/Space Gray Pro.png
+/System/Library/Desktop Pictures/Solid Colors/Space Gray Pro.png
+/System/Library/Desktop Pictures/Solid Colors/Space Gray.png
+/System/Library/Desktop Pictures/Solid Colors/Space Gray.png
+/System/Library/Desktop Pictures/Solid Colors/Space Gray.png
+/System/Library/Desktop Pictures/Solid Colors/Stone.png
+/System/Library/Desktop Pictures/Solid Colors/Stone.png
+/System/Library/Desktop Pictures/Solid Colors/Stone.png
+/System/Library/Desktop Pictures/Solid Colors/Teal.png
+/System/Library/Desktop Pictures/Solid Colors/Teal.png
+/System/Library/Desktop Pictures/Solid Colors/Teal.png
+/System/Library/Desktop Pictures/Solid Colors/Turquoise Green.png
+/System/Library/Desktop Pictures/Solid Colors/Turquoise Green.png
+/System/Library/Desktop Pictures/Solid Colors/Turquoise Green.png
+/System/Library/Desktop Pictures/Solid Colors/Yellow.png
+/System/Library/Desktop Pictures/Solid Colors/Yellow.png
+/System/Library/Desktop Pictures/Solid Colors/Yellow.png
