@@ -6,6 +6,8 @@ See [A Comparison of Apple-supplied Desktop Images Since macOS 10.14 Mojave](htt
 
 ### Table of Contents [TOC]
 
+Information on [macOS 13 Ventura](VENTURA.md#macos-13-ventura) version.
+
 Information on [macOS 12 Monterey](MONTEREY.md#macos-12-monterey) version.
 
 Information on [macOS 11 Big Sur](BIG-SUR.md#macos-11-big-sur) version.
