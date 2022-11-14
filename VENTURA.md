@@ -1,7 +1,5 @@
 # macOS 13 Ventura
 
-[^1]: If the image doesn't exist it will be downloaded to the `$HOME/Library/Application Support/com.apple.mobileAssetDesktop/` directory first.
-
 ## Purpose
 Set a user's Desktop image in macOS 13 Ventura from the command line. See [Limitations](#limitations)
 
@@ -54,7 +52,7 @@ These examples use the Apple-supplied Deskop pictures that could otherwise be se
 
 See [A Comparison of Apple-supplied Desktop Images Since macOS 10.14 Mojave](https://desktop.tech-otaku.com/)
 
-### Desktop Pictures
+### Wallpaper
 
 #### Dynamic Desktop
 
@@ -64,10 +62,10 @@ Setting the image to *Dynamic* (e.g. The Beach Dynamic) ensures it changes throu
 `./set-desktop.sh graphic`
 
 ###### Ventura Graphic Light (Still)
-`./set-desktop.sh graphic-light`
+`./set-desktop.sh light`
 
 ###### Ventura Graphic Dark (Still)
-`./set-desktop.sh graphic-dark`
+`./set-desktop.sh dark`
 
 ###### Monterey Graphic Dynamic
 `./set-desktop.sh monterey-graphic`
@@ -78,64 +76,64 @@ Setting the image to *Dynamic* (e.g. The Beach Dynamic) ensures it changes throu
 ###### Monterey Graphic Dark (Still)
 `./set-desktop.sh monterey-graphic-dark`
 
-###### Big Sur Dynamic  [^1]
+###### Big Sur Dynamic <sup>**1**</sup>
 `./set-desktop.sh big-sur`
 
-###### Big Sur Light (Still)  [^1]
+###### Big Sur Light (Still) <sup>**1**</sup>
 `./set-desktop.sh big-sur-light`
 
-###### Big Sur Dark (Still)  [^1]
+###### Big Sur Dark (Still) <sup>**1**</sup>
 `./set-desktop.sh big-sur-dark`
 
-###### Catalina Dynamic  [^1]
+###### Catalina Dynamic <sup>**1**</sup>
 `./set-desktop.sh catalina`
 
-###### Catalina Light (Still)  [^1]
+###### Catalina Light (Still) <sup>**1**</sup>
 `./set-desktop.sh catalina-light`
 
-###### Catalina Dark (Still)  [^1]
+###### Catalina Dark (Still) <sup>**1**</sup>
 `./set-desktop.sh catalina-dark`
 
-###### The Cliffs Dynamic  [^1]
+###### The Cliffs Dynamic <sup>**1**</sup>
 `./set-desktop.sh cliffs`
 
-###### The Cliffs Light (Still)  [^1]
+###### The Cliffs Light (Still) <sup>**1**</sup>
 `./set-desktop.sh cliffs-light`
 
-###### The Cliffs Dark (Still)  [^1]
+###### The Cliffs Dark (Still) <sup>**1**</sup>
 `./set-desktop.sh cliffs-dark`
 
-###### The Lake Dynamic  [^1]
+###### The Lake Dynamic <sup>**1**</sup>
 `./set-desktop.sh lake`
 
-###### The Lake Light (Still)  [^1]
+###### The Lake Light (Still) <sup>**1**</sup>
 `./set-desktop.sh lake-light`
 
-###### The Lake Dark (Still)  [^1]
+###### The Lake Dark (Still) <sup>**1**</sup>
 `./set-desktop.sh lake-dark`
 
-###### The Desert Dynamic  [^1]
+###### The Desert Dynamic <sup>**1**</sup>
 `./set-desktop.sh desert`
 
-###### The Desert Light (Still)  [^1]
+###### The Desert Light (Still) <sup>**1**</sup>
 `./set-desktop.sh desert-light`
 
-###### The Desert Dark (Still)  [^1]
+###### The Desert Dark (Still) <sup>**1**</sup>
 `./set-desktop.sh desert-dark`
 
-###### The Beach Dynamic  [^1]
+###### The Beach Dynamic <sup>**1**</sup>
 `./set-desktop.sh beach`
 
-###### The Beach Light (Still)  [^1]
+###### The Beach Light (Still) <sup>**1**</sup>
 `./set-desktop.sh beach-light`
 
-###### The Beach Dark (Still)  [^1]
+###### The Beach Dark (Still) <sup>**1**</sup>
 `./set-desktop.sh beach-dark`
 
-###### Solar Gradients  [^1]
+###### Solar Gradients <sup>**1**</sup>
 `./set-desktop.sh solar`
 
-##### Light and Dark Desktop
+#### Light & Dark Desktop
 
 Setting the image to *Automatic* (e.g. Peak Automatic) ensures it conforms to the *Light*, *Dark* or *Auto* setting in **System Settings** > **Appearance**.
 
@@ -211,40 +209,40 @@ Setting the image to *Automatic* (e.g. Peak Automatic) ensures it conforms to th
 ###### Big Sur Graphic Dark (Still)
 `./set-desktop.sh big-sur-graphic-dark`
 
-###### Peak Automatic  [^1]
+###### Peak Automatic <sup>**1**</sup>
 `./set-desktop.sh peak`
 
-###### Peak Light (Still)  [^1]
+###### Peak Light (Still) <sup>**1**</sup>
 `./set-desktop.sh peak-light`
 
-###### Peak Dark (Still)  [^1]
+###### Peak Dark (Still) <sup>**1**</sup>
 `./set-desktop.sh peak-dark`
 
-###### Tree Automatic  [^1]
+###### Tree Automatic <sup>**1**</sup>
 `./set-desktop.sh tree`
 
-###### Tree Light (Still)  [^1]
+###### Tree Light (Still) <sup>**1**</sup>
 `./set-desktop.sh tree-light`
 
-###### Tree Dark (Still)  [^1]
+###### Tree Dark (Still) <sup>**1**</sup>
 `./set-desktop.sh tree-dark`
 
-###### Valley Automatic  [^1]
+###### Valley Automatic <sup>**1**</sup>
 `./set-desktop.sh valley`
 
-###### Valley Light (Still)  [^1]
+###### Valley Light (Still) <sup>**1**</sup>
 `./set-desktop.sh valley-light`
 
-###### Valley Dark (Still)  [^1]
+###### Valley Dark (Still) <sup>**1**</sup>
 `./set-desktop.sh valley-dark`
 
-###### Dome Automatic  [^1]
+###### Dome Automatic <sup>**1**</sup>
 `./set-desktop.sh dome`
 
-###### Dome Light (Still)  [^1]
+###### Dome Light (Still) <sup>**1**</sup>
 `./set-desktop.sh dome-light`
 
-###### Dome Dark (Still)  [^1]
+###### Dome Dark (Still) <sup>**1**</sup>
 `./set-desktop.sh dome-dark`
 
 ###### Chroma Red Automatic
@@ -265,13 +263,13 @@ Setting the image to *Automatic* (e.g. Peak Automatic) ensures it conforms to th
 ###### Chroma Blue Dark (Still)
 `./set-desktop.sh chroma-blue-dark`
 
-###### Iridescence Automatic  [^1]
+###### Iridescence Automatic <sup>**1**</sup>
 `./set-desktop.sh iridescence`
 
-###### Iridescence Light (Still)  [^1]
+###### Iridescence Light (Still) <sup>**1**</sup>
 `./set-desktop.sh iridescence-light`
 
-###### Iridescence Dark (Still)  [^1]
+###### Iridescence Dark (Still) <sup>**1**</sup>
 `./set-desktop.sh iridescence-dark`
 
 ###### Motion Blue Automatic
@@ -312,70 +310,70 @@ Setting the image to *Automatic* (e.g. Peak Automatic) ensures it conforms to th
 
 ##### Desktop Pictures
 
-###### Big Sur Mountains  [^1]
+###### Big Sur Mountains <sup>**1**</sup>
 `./set-desktop.sh mountains`
 
-###### Big Sur Aerial  [^1]
+###### Big Sur Aerial <sup>**1**</sup>
 `./set-desktop.sh aerial`
 
-###### Big Sur Horizon  [^1]
+###### Big Sur Horizon <sup>**1**</sup>
 `./set-desktop.sh horizon`
 
-###### Big Sur Coastline  [^1]
+###### Big Sur Coastline <sup>**1**</sup>
 `./set-desktop.sh coastline`
 
-###### Big Sur Shore Rocks  [^1]
+###### Big Sur Shore Rocks <sup>**1**</sup>
 `./set-desktop.sh shore`
 
-###### Big Sur Water's Edge  [^1]
+###### Big Sur Water's Edge <sup>**1**</sup>
 `./set-desktop.sh edge`
 
-###### Big Sur Road  [^1]
+###### Big Sur Road <sup>**1**</sup>
 `./set-desktop.sh road`
 
-###### Big Sur Night Succulents  [^1]
+###### Big Sur Night Succulents <sup>**1**</sup>
 `./set-desktop.sh succulents`
 
-###### Big Sur Night Grasses  [^1]
+###### Big Sur Night Grasses <sup>**1**</sup>
 `./set-desktop.sh grasses`
 
-###### Catalina Coast  [^1]
+###### Catalina Coast <sup>**1**</sup>
 `./set-desktop.sh coast`
 
-###### Catalina Evening  [^1]
+###### Catalina Evening <sup>**1**</sup>
 `./set-desktop.sh evening`
 
-###### Catalina Rock  [^1]
+###### Catalina Rock <sup>**1**</sup>
 `./set-desktop.sh rock`
 
-###### Catalina Shoreline  [^1]
+###### Catalina Shoreline <sup>**1**</sup>
 `./set-desktop.sh shoreline`
 
-###### Catalina Clouds  [^1]
+###### Catalina Clouds <sup>**1**</sup>
 `./set-desktop.sh clouds`
 
-###### Catalina Silhouette  [^1]
+###### Catalina Silhouette <sup>**1**</sup>
 `./set-desktop.sh silhouette`
 
-###### Catalina Sunset  [^1]
+###### Catalina Sunset <sup>**1**</sup>
 `./set-desktop.sh sunset`
 
-###### Light Stream Red  [^1]
+###### Light Stream Red <sup>**1**</sup>
 `./set-desktop.sh stream-red`
 
-###### Light Stream Blue  [^1]
+###### Light Stream Blue <sup>**1**</sup>
 `./set-desktop.sh stream-blue`
 
-###### Light Stream Pink  [^1]
+###### Light Stream Pink <sup>**1**</sup>
 `./set-desktop.sh stream-pink`
 
-###### Light Stream Green  [^1]
+###### Light Stream Green <sup>**1**</sup>
 `./set-desktop.sh stream-green`
 
-###### Studio Desktop
+###### Studio Color
 `./set-desktop.sh studio-color`
 
-### Colours
+#### Colors
 
 ###### Black
 `./set-desktop.sh "/System/Library/Desktop Pictures/Solid Colors/Black.png"`
@@ -435,6 +433,7 @@ Setting the image to *Automatic* (e.g. Peak Automatic) ensures it conforms to th
 `./set-desktop.sh "/System/Library/Desktop Pictures/Solid Colors/Yellow.png"`
 <br />
 <br />
+<sup>**1**</sup> If the image doesn't exist it will be downloaded to the `$HOME/Library/Application Support/com.apple.mobileAssetDesktop/` directory first.
 
 #### Other
 
