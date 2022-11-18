@@ -24,24 +24,10 @@
 # Ensure 'restore_sqliterc' is executed every time the script exits regardless of exit status
     trap restore_sqliterc EXIT
 
-# If the path to an image file contains 'com_apple_MobileAsset_DesktopPicture', check that it exists having previously been downloaded via System Preferences. This function is called regardless of the installed version of macOS, but is currently only relevant for macOS 12 Monterey. 
-    function check_file_downloaded {
-        # The function is passed the value of the $value variable which is received as $1
-        if [[ "$1" == *"com_apple_MobileAsset_DesktopPicture"* ]]; then
-            if ! [ -f  "$(echo "$1" | tr -d "'")" ]; then
-                filename=$(echo "$(basename "$1")" | tr -d "'")     # e.g. Big Sur Shore Rocks.heic
-                printf "ERROR: Please download '%s' via $settings_app first, then re-run this script.\n" "${filename%.*}"  >&2
-                false
-            else
-                true
-            fi
-        else
-            true
-        fi
-    }
-
+# If the path to an image file contains 'com.apple.mobileAssetDesktop', check that it exits in the ~/Library/Application Support/com.apple.mobileAssetDesktop/ directory. If it doesn't, download it using information in the Apple-supplied assets file.
     function download_file {
 
+        # # # # # # # # # # # # # # # # 
         # VARIABLES
         #
         # $1            : String representing the full path to the Desktop image passed to this function. e.g  `'~/Library/Application Support/com.apple.mobileAssetDesktop/Big Sur.heic'`
@@ -56,7 +42,7 @@
         # zipfile       : Unique filename of the individual ZIP file [Derived from `relativepath`]
 
     # Only continue if `$1` contains 'com.apple.mobileAssetDesktop'
-        if [[ "$1" == *"com.apple.mobileAssetDesktop"* ]]; then 
+        if [[ "$1" == *"com.apple.mobileAssetDesktop"* ]]; then                                                 # >>> ~/Library/Application Support/com.apple.mobileAssetDesktop/Big Sur.heic
         # Only continue if `$1` doesn't already exist
             if [ ! -f "$(echo "$1" | sed "s|~/|$HOME/|" | tr -d "'")" ]; then
                 filename=$(echo "$(basename "$1")" | tr -d "'")                                                 # >>> Big Sur.heic
@@ -77,11 +63,11 @@
 
                     if [[  $(/usr/libexec/PlistBuddy -c "Print Assets:$i:DesktopPictureID" "$assets") == $desktop_image ]]; then
 
-                        baseurl=$(/usr/libexec/PlistBuddy -c "Print Assets:$i:__BaseURL" "$assets")             # >>> http://updates-http.cdn-apple.com/2021/mobileassets/071-34545/7E2884C0-2F21-4028-B22E-2EA162B35135/
+                        baseurl=$(/usr/libexec/PlistBuddy -c "Print Assets:$i:__BaseURL" "$assets")             # >>> https://updates.cdn-apple.com/2022/mobileassets/071-94709/78F78503-951B-4326-8D17-1DD080D276B6/
 
-                        relativepath=$(/usr/libexec/PlistBuddy -c "Print Assets:$i:__RelativePath" "$assets")   # >>> com_apple_MobileAsset_DesktopPicture/98b5bd24c8bb188ec6101ea415ec049fdd03de84.zip
+                        relativepath=$(/usr/libexec/PlistBuddy -c "Print Assets:$i:__RelativePath" "$assets")   # >>> com_apple_MobileAsset_DesktopPicture/b261c85a4ec6ed6352e07efd33cbcba68b5c724d.zip
 
-                        zipfile=$(basename $relativepath)                                                       # >>> 98b5bd24c8bb188ec6101ea415ec049fdd03de84.zip
+                        zipfile=$(basename $relativepath)                                                       # >>> b261c85a4ec6ed6352e07efd33cbcba68b5c724d.zip
 
                         printf "Downloading '%s'\n" "$filename"
 
@@ -97,10 +83,6 @@
 
                     i=$(( $i + 1 ))
                 done
-
-#            else
-
-#                printf "%s already exists.\n" "$1"
 
             fi
 
@@ -273,11 +255,6 @@
             name="$option_arg"
             key=1
 
-        # If the image file path contains 'com_apple_MobileAsset_DesktopPicture', check it has been downloaded via System Preferences 
-#            if ! check_file_downloaded "$value"; then
-#                exit 1
-#            fi
-
         # If the image file path contains 'com.apple.mobileAssetDesktop', check it has been downloaded via System Preferences (Monterey) or System Settings (Ventura and later). If not, download it. [macOS Monterey 12 and later]
             if [ $major -ge 12 ]; then
                 download_file "$value"
@@ -300,11 +277,6 @@
             export i 
             value=$(echo $option_data | python -c $'from __future__ import print_function\nimport os, sys, json; data=json.loads(sys.stdin.read())\ne=int(os.environ["i"])\nprint(data["rows"][int(os.environ["i"])]["value"])')
             key=$(echo $option_data | python -c $'from __future__ import print_function\nimport os, sys, json; data=json.loads(sys.stdin.read())\ne=int(os.environ["i"])\nprint(data["rows"][int(os.environ["i"])]["key"])')
-
-        # If the image file path contains 'com_apple_MobileAsset_DesktopPicture', check it has been downloaded via System Preferences 
-#            if ! check_file_downloaded "$value"; then
-#                exit 1
-#            fi
 
         # If the image file path contains 'com.apple.mobileAssetDesktop', check it has been downloaded via System Preferences (Monterey) or System Settings (Ventura and later). If not, download it. [macOS Monterey 12 and later]
             if [ $major -ge 12 ]; then
