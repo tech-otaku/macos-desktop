@@ -26,11 +26,7 @@ An explanation of how Desktop images appear to be managed by macOS since Mojave 
 
     - type `cd ~/Downloads/macos-desktop-main` and press enter
 
-    - type `chmod +x set-desktop.sh` and press enter to make the script executable
-
-    - type `chmod +x options.py` and press enter to make the script executable
-
-    - type `chmod +x Monterey\ Tests/set-desktop-monterey-tests.sh` and press enter to make the script executable
+    - type `chmod +x set-desktop.sh options.py Monterey\ Tests/set-desktop-monterey-tests.sh` and press enter to make the scripts executable
 
 1. See the [Examples](#examples) section for using the `set-desktop.sh` script
 
@@ -404,6 +400,9 @@ Setting the image to *Automatic* (e.g. Peak Automatic) ensures it conforms to th
 
 ###### Not running macOS 10.14 Mojave or later
 `ERROR: For use with macOS 10.14 Mojave or later.`
+
+###### The configuration file is missing
+`ERROR: Can't find configuration file 'options.json'.`
 
 ###### No Desktop image passed on the command line
 `ERROR: No image was specified.`

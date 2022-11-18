@@ -1,7 +1,7 @@
 # macOS 13 Ventura
 
 ## Purpose
-Set a user's Desktop image in macOS 13 Ventura from the command line. See [Limitations](#limitations)
+Set a user's Desktop wallpaper in macOS 13 Ventura from the command line. See [Limitations](#limitations)
 
 ## Minimum Requirements
 
@@ -10,7 +10,7 @@ Set a user's Desktop image in macOS 13 Ventura from the command line. See [Limit
 - Python 2.7 (Ventura ships with 3.9.6)
 
 ## Background
-An explanation of how Desktop images appear to be managed by macOS since Mojave (10.14) can be found at [Setting the Desktop Image in macOS Mojave From the Command Line](https://www.tech-otaku.com/mac/setting-desktop-image-macos-mojave-from-command-line). While this article was written before the release of Ventura, the majority of the information is still relevant. 
+An explanation of how Desktop wallpapers appear to be managed by macOS since Mojave (10.14) can be found at [Setting the Desktop Image in macOS Mojave From the Command Line](https://www.tech-otaku.com/mac/setting-desktop-image-macos-mojave-from-command-line). While this article was written before the release of Ventura, the majority of the information is still relevant. 
 
 ## Instructions 
 
@@ -24,22 +24,18 @@ An explanation of how Desktop images appear to be managed by macOS since Mojave 
 
     - type `cd ~/Downloads/macos-desktop-main` and press enter
 
-    - type `chmod +x set-desktop.sh` and press enter to make the script executable
-
-    - type `chmod +x options.py` and press enter to make the script executable
-
-    - type `chmod +x Ventura\ Tests/set-desktop-Ventura-tests.sh` and press enter to make the script executable
+    - type `chmod +x set-desktop.sh options.py Ventura\ Tests/set-desktop-ventura-tests.sh` and press enter to make the scripts executable
 
 1. See the [Examples](#examples) section for using the `set-desktop.sh` script
 
 1. See the [Valid Options](#valid-options) section for using the `options.py` script
 
-1. See the [Tests](#tests) section for using the `set-desktop-Ventura-tests.sh` script
+1. See the [Tests](#tests) section for using the `set-desktop-ventura-tests.sh` script
 
 ## Usage
-`./set-desktop.sh IMAGE`
+`./set-desktop.sh WALLPAPER`
 
-`IMAGE` can be either 
+`WALLPAPER` can be either 
 
 - a pre-defined named option
 - the path to an image file
@@ -50,13 +46,13 @@ See the [Valid Options](#valid-options) and [Examples](#examples) sections for m
 
 These examples use the Apple-supplied Deskop pictures that could otherwise be set via System Settings. They are categorised and listed as they appear in the Wallpaper pane as of macOS 13 Ventura.
 
-See [A Comparison of Apple-supplied Desktop Images Since macOS 10.14 Mojave](https://desktop.tech-otaku.com/)
+See [A Comparison of Apple-supplied Desktop Wallpapers Since macOS 10.14 Mojave](https://desktop.tech-otaku.com/)
 
 ### Wallpaper
 
 #### Dynamic Desktop
 
-Setting the image to *Dynamic* (e.g. The Beach Dynamic) ensures it changes throughout the day, based on your location.
+Setting the wallpaper to *Dynamic* (e.g. The Beach Dynamic) ensures it changes throughout the day, based on your location.
 
 ###### Ventura Graphic Dynamic
 `./set-desktop.sh graphic`
@@ -135,7 +131,7 @@ Setting the image to *Dynamic* (e.g. The Beach Dynamic) ensures it changes throu
 
 #### Light & Dark Desktop
 
-Setting the image to *Automatic* (e.g. Peak Automatic) ensures it conforms to the *Light*, *Dark* or *Auto* setting in **System Settings** > **Appearance**.
+Setting the wallpaper to *Automatic* (e.g. Peak Automatic) ensures it conforms to the *Light*, *Dark* or *Auto* setting in **System Settings** > **Appearance**.
 
 ###### Hello Green Automatic
 `./set-desktop.sh green`
@@ -433,7 +429,7 @@ Setting the image to *Automatic* (e.g. Peak Automatic) ensures it conforms to th
 `./set-desktop.sh "/System/Library/Desktop Pictures/Solid Colors/Yellow.png"`
 <br />
 <br />
-<sup>**1**</sup> If the image doesn't exist it will be downloaded to the `$HOME/Library/Application Support/com.apple.mobileAssetDesktop/` directory first.
+<sup>**1**</sup> If the image file doesn't exist it will be downloaded to the `$HOME/Library/Application Support/com.apple.mobileAssetDesktop/` directory first.
 
 #### Other
 
@@ -441,21 +437,21 @@ Setting the image to *Automatic* (e.g. Peak Automatic) ensures it conforms to th
 `./set-desktop.sh default`
 
 ###### General
-`./set-desktop.sh "/path/to/desktop/image.jpg"`
+`./set-desktop.sh "/path/to/wallpaper/image.jpg"`
 
 ## Error Messages
 
 ###### Not running macOS 10.14 Mojave or later
 `ERROR: For use with macOS 10.14 Mojave or later.`
 
-###### No Desktop image passed on the command line
+###### The configuration file is missing
+`ERROR: Can't find configuration file 'options.json'.`
+
+###### No Desktop wallpaper passed on the command line
 `ERROR: No image was specified.`
 
-###### Supplied Desktop image is a file that doesn't exist
-`ERROR: </path/to/desktop/image.jpg> doesn't exist.`
-
-~~###### Supplied Desktop image file hasn't been downloaded
-`ERROR: Please download <desktop picture> via System Preferences first, then re-run this script.`~~
+###### Supplied Desktop wallpaper is a file that doesn't exist
+`ERROR: </path/to/desktop/wallpaper.jpg> doesn't exist.`
 
 ###### Invalid option passed on the command line
 `ERROR: <option> is not a valid option.`
