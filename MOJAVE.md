@@ -14,6 +14,25 @@ Set a user's Desktop image in macOS 10.14 Mojave from the command line. See [Lim
 ## Background
 An explanation for why this script does what it does can be found at [Setting the Desktop Image in macOS Mojave From the Command Line](https://www.tech-otaku.com/mac/setting-desktop-image-macos-mojave-from-command-line)
 
+## Instructions 
+
+1. Download [macos-desktop-main.zip](https://github.com/tech-otaku/macos-desktop/archive/refs/heads/main.zip) 
+
+1. Double-click `~/Downloads/macos-desktop-main.zip` in the Finder to unzip it (Safari may do this automatically)
+
+1. Open the Terminal application in macOS
+
+1. At a Terminal prompt:
+
+    - type `cd ~/Downloads/macos-desktop-main` and press enter
+
+    - type `chmod +x set-desktop.sh options.py` and press enter to make the scripts executable
+
+1. See the [Examples](#examples) section for using the `set-desktop.sh` script
+
+1. See the [Valid Options](#valid-options) section for using the `options.py` script
+
+
 ## Usage
 `./set-desktop.sh IMAGE`
 
@@ -251,6 +270,9 @@ Setting the image to *Dynamic* (e.g. Mojave Dynamic) ensures it changes througho
 
 ###### Not running macOS Mojave or later
 `ERROR: For use with macOS 10.14 Mojave or later.`
+
+###### The configuration file is missing
+`ERROR: Can't find configuration file 'options.json'.`
 
 ###### No Desktop image passed on the command line
 `ERROR: No image was specified.`

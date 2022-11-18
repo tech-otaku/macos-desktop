@@ -12,7 +12,27 @@ Set a user's Desktop image in macOS 11 Big Sur from the command line. See [Limit
 - Python 2.7 (Big Sur ships with 2.7.16)
 
 ## Background
-An explanation of how Desktop images appear to be managed by macOS since Mojave (10.14) can be found at [Setting the Desktop Image in macOS Mojave From the Command Line](https://www.tech-otaku.com/mac/setting-desktop-image-macos-mojave-from-command-line). While this article was written before the release of Big Sur, the majority of the information is still relevant. 
+An explanation of how Desktop images appear to be managed by macOS since Mojave (10.14) can be found at [Setting the Desktop Image in macOS Mojave From the Command Line](https://www.tech-otaku.com/mac/setting-desktop-image-macos-mojave-from-command-line). While this article was written before the release of Big Sur, the majority of the information is still relevant.
+
+## Instructions 
+
+1. Download [macos-desktop-main.zip](https://github.com/tech-otaku/macos-desktop/archive/refs/heads/main.zip) 
+
+1. Double-click `~/Downloads/macos-desktop-main.zip` in the Finder to unzip it (Safari may do this automatically)
+
+1. Open the Terminal application in macOS
+
+1. At a Terminal prompt:
+
+    - type `cd ~/Downloads/macos-desktop-main` and press enter
+
+    - type `chmod +x set-desktop.sh options.py Big\ Sur\ Tests/set-desktop-big-sur-tests.sh` and press enter to make the scripts executable
+
+1. See the [Examples](#examples) section for using the `set-desktop.sh` script
+
+1. See the [Valid Options](#valid-options) section for using the `options.py` script
+
+1. See the [Tests](#tests) section for using the `set-desktop-big-sur-tests.sh` script
 
 ## Usage
 `./set-desktop.sh IMAGE`
@@ -304,6 +324,9 @@ Setting the image to *Automatic* (e.g. Peak Automatic) ensures it conforms to th
 
 ###### Not running macOS 10.14 Mojave or later
 `ERROR: For use with macOS 10.14 Mojave or later.`
+
+###### The configuration file is missing
+`ERROR: Can't find configuration file 'options.json'.`
 
 ###### No Desktop image passed on the command line
 `ERROR: No image was specified.`
