@@ -302,13 +302,17 @@ __Not for use with multiple Desktops (Spaces) or in a dual-display environment._
 
 All valid options and their corresponding data are stored in the file `options.json`. To list these options for Mojave use the following:
 
-- unsorted in the order they appear in `options.json` use `./options.py --version mojave`
+<ins>NOTE:</ins> The script is parsed by a Python 3 binary, but macOS Mojave only ships with Python 2. To run the script with Python 2 the path to the Python 2 binary - typically `/usr/bin/python` - is included on the command line.
 
-- sorted by `category` use `./options.py --version mojave --sort category`
+- unsorted in the order they appear in `options.json` use `/usr/bin/python options.py --version mojave`
 
-- sorted by `name` use `./options.py --version mojave --sort name`
+- sorted by `category` use `/usr/bin/python options.py --version mojave --sort category`
 
-- sorted by `option` use `./options.py --version mojave --sort option`
+- sorted by `name` use `/usr/bin/python options.py --version mojave --sort name`
+
+- sorted by `option` use `/usr/bin/python options.py --version mojave --sort option`
+
+
 
 ---
 

@@ -1,5 +1,9 @@
 # macOS 10.15 Catalina
 
+[^1]: macOS Catalina ships with what appears to be a Python 3 binary named `/usr/bin/python3`, but this is merely a stub for installing the command line developer tools that include Python 3.
+[^2]: `/usr/bin/python` is a symbolic link to `/System/Library/Frameworks/Python.framework/Versions/2.7/bin/python2.7`.
+
+
 The script `set-desktop-catalina.sh` has been replaced by `set-desktop.sh`.
 
 ## Purpose
@@ -321,13 +325,15 @@ __Not for use with multiple Desktops (Spaces) or in a dual-display environment._
 
 All valid options and their corresponding data are stored in the file `options.json`. To list these options for Catalina use the following:
 
-- unsorted in the order they appear in `options.json` use `./options.py --version catalina`
+<ins>NOTE:</ins> The script is parsed by a Python 3 binary, but macOS Catalina only ships with Python 2[^1]. To run the script with Python 2 the path to the Python 2 binary - typically `/usr/bin/python`[^2] - is included on the command line.
 
-- sorted by `category` use `./options.py --version catalina --sort category`
+- unsorted in the order they appear in `options.json` use `/usr/bin/python options.py --version catalina`
 
-- sorted by `name` use `./options.py --version catalina --sort name`
+- sorted by `category` use `/usr/bin/python options.py --version catalina --sort category`
 
-- sorted by `option` use `./options.py --version catalina --sort option`
+- sorted by `name` use `/usr/bin/python options.py --version catalina --sort name`
+
+- sorted by `option` use `/usr/bin/python options.py --version catalina --sort option`
 
 ## Tests
 
