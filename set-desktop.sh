@@ -1,12 +1,12 @@
 #!/usr/bin/env bash
 
-# AUTHOR: Steve Ward [steve at tech-otaku dot com]
-# URL: https://github.com/tech-otaku/macos-desktop.git
-# README: https://github.com/tech-otaku/macos-desktop/blob/main/README.md
+# AUTHOR:   Steve Ward [steve at tech-otaku dot com]
+# URL:      https://github.com/tech-otaku/macos-desktop.git
+# README:   https://github.com/tech-otaku/macos-desktop/blob/main/README.md
 
-# USAGE: ./set-desktop.sh IMAGE
-# EXAMPLE: ./set-desktop.sh desert
-#   See the README for more examples
+# USAGE:    ./set-desktop.sh IMAGE
+# EXAMPLE:  ./set-desktop.sh desert
+# See the README for more examples
 
 
 
@@ -21,8 +21,26 @@
         fi
     }
 
-# Ensure 'restore_sqliterc' is executed every time the script exits regardless of exit status
+# Ensure 'restore_sqliterc' is executed every time the script exits regardless of exit status.
     trap restore_sqliterc EXIT
+
+# Get major, minor and patch version numbers of the installed OS.
+
+    function os_version { 
+        case $1 in
+            'major')
+                echo $(system_profiler SPSoftwareDataType | awk '/System Version/ {print $4}' | cut -d . -f 1)
+                ;;
+            'minor')
+                echo $(system_profiler SPSoftwareDataType | awk '/System Version/ {print $4}' | cut -d . -f 2)
+                ;;
+            'patch')
+                echo $(system_profiler SPSoftwareDataType | awk '/System Version/ {print $4}' | cut -d . -f 3)
+                ;;
+            *)
+                ;;
+        esac
+    }
 
 # If the path to an image file contains 'com.apple.mobileAssetDesktop', check that it exits in the ~/Library/Application Support/com.apple.mobileAssetDesktop/ directory. If it doesn't, download it using information in the Apple-supplied assets file.
     function download_file {
@@ -36,7 +54,7 @@
         # baseurl       : Base URL for ZIP files containing Desktop images. [`__BaseURL` key from the `assets` file] 
         # desktop_image : Name of the Desktop image. [Derived from `filename` and correlates to the the `DesktopPictureID` key in the `assets` file] 
         # filename      : Filename and extension of the Desktop image. [Derived from `$1`]
-        # i             : 
+        # i             : Loop counter
         # relativepath  : Location and unique filename of the individual ZIP file [`__RelativePath` key from the `assets` file] 
         # temp          : Full path to the temporary directory where ZIP files are downloaded. Deleted on completion.
         # zipfile       : Unique filename of the individual ZIP file [Derived from `relativepath`]
@@ -93,6 +111,31 @@
 
 
 # # # # # # # # # # # # # # # # 
+# PYTHON INSTALLATION
+#
+
+# Check if, and what version of Python is installed
+    if [ $(os_version major) -eq 10 ] && [ $(os_version minor) -eq 15 ]; then
+    # macOS Catalina (10.15) ships with what appears to be a Python 3 binary 
+    # named `/usr/bin/python3`, but this is merely a stub for installing the 
+    # command line developer tools that include Python 3. So default to Python 2
+        _python=python
+    elif [ $(command -v python3) ]; then      # Python 3 installed
+    # Use Python 3 binary
+        _python=python3
+    elif  [ $(command -v python) ]; then    # Python 2 installed
+    # Use Python 2 binary 
+        _python=python
+   else    
+    # Exit with error if Python isn't installed
+        echo "ERROR: Python is required to use this script."
+        exit 1
+    fi
+
+    echo $_python
+
+
+# # # # # # # # # # # # # # # # 
 # VARIABLES
 #
 
@@ -125,8 +168,8 @@
     # The version numbering convention has changed with the release of Big Sur where only the major version number is significant for 
     # determining if Big Sur is installed i.e. 11.0, 11.1, 11.2 etc are all versions of Big Sur. This is in contrast to earlier macOS 
     # versions where both the major and minor version numbers are significant i.e 10.15 Catalina, 10.14 Mojave etc.
-    major=$(system_profiler SPSoftwareDataType | awk '/System Version/ {print $4}' | cut -d . -f 1)
-    minor=$(system_profiler SPSoftwareDataType | awk '/System Version/ {print $4}'| cut -d . -f 2)
+    major=$(os_version major)
+    minor=$(os_version minor)
     if [ $major -ge 11 ]; then
         # Since macOS Big Sur
         export version=$major
@@ -191,7 +234,7 @@
     if [ "$option_arg" != "default" ]; then
 
     # Look in the configuration file for the value of the 'option' argument that was passed to the script. 
-        option_data=$(python -c $'from __future__ import print_function\nimport os,sys,json\nwith open(os.environ["option_config"],"r") as f:\n\tdata = json.load(f)\nfor _version in data["versions"]:\n\tif _version["version"]==os.environ["version"]:\n\t\tfor _option in _version["options"]:\n\t\t\tif _option["option"]==os.environ["option_arg"]:print(json.dumps(_option))')
+        option_data=$($_python -c $'import os,sys,json\nwith open(os.environ["option_config"],"r") as f:\n\tdata = json.load(f)\nfor _version in data["versions"]:\n\tif _version["version"]==os.environ["version"]:\n\t\tfor _option in _version["options"]:\n\t\t\tif _option["option"]==os.environ["option_arg"]:print(json.dumps(_option))')
 
         if [ -z "$option_data" ]; then  # the option that was passed to the script was not found in the configuration file
             re='\.'
@@ -209,10 +252,20 @@
         fi
     fi
 
-# Exit with error if this is a multi-monitor environment (the 'spdisplays_ndrvs' array will have 2 or more objects).
-    if [ $(system_profiler SPDisplaysDataType -json | python -c $'import os,sys,json\ndata=json.loads(sys.stdin.read())\nprint(len(data["SPDisplaysDataType"][0]["spdisplays_ndrvs"]))') -ge 2 ]; then
-        echo "ERROR: This script should not be used in a multi-monitor environment."
-        exit 1
+# Exit with error if this is a dual-monitor environment.
+    if [ $major -eq 10 ] && [ $minor -eq 14 ]; then
+    # The version of system_profiler that ships with macOS Mojave (10.14) can't generate JSON ouput, so use the 'displays' table instead.
+    # The 'displays' table will have 2 or more rows
+        if [ $(sqlite3 "$db" "SELECT COUNT() FROM displays;") -ge 2 ]; then
+            echo "ERROR: This script should not be used in a dual-monitor environment."
+            exit 1
+        fi
+    else
+    # The 'spdisplays_ndrvs' array will have 2 or more objects
+        if [ $(system_profiler SPDisplaysDataType -json | $_python -c $'import os,sys,json\ndata=json.loads(sys.stdin.read())\nprint(len(data["SPDisplaysDataType"][0]["spdisplays_ndrvs"]))') -ge 2 ]; then
+            echo "ERROR: This script should not be used in a multi-monitor environment."
+            exit 1
+        fi
     fi
 
 # Exit with error if multiple Desktops are configured (the 'spaces' table will have 2 or more rows).
@@ -265,18 +318,18 @@
 
         fi
     else    # 3. ...a valid option 
-        option=$(echo $option_data | python -c $'from __future__ import print_function\nimport sys, json; data=json.loads(sys.stdin.read())\nprint(data["option"])')
-        name=$(echo $option_data | python -c $'from __future__ import print_function\nimport sys, json; data=json.loads(sys.stdin.read())\nprint(data["name"])')
-        category=$(echo $option_data | python -c $'from __future__ import print_function\nimport sys, json; data=json.loads(sys.stdin.read())\nprint(data["category"])')
+        option=$(echo $option_data | $_python -c $'import sys, json; data=json.loads(sys.stdin.read())\nprint(data["option"])')
+        name=$(echo $option_data | $_python -c $'import sys, json; data=json.loads(sys.stdin.read())\nprint(data["name"])')
+        category=$(echo $option_data | $_python -c $'import sys, json; data=json.loads(sys.stdin.read())\nprint(data["category"])')
 
         # The row_count variable stores the number of Python dictionaries (JSON objects) in the Python list (JSON array) whose key is "rows". This is a minimum of 1 and a maximum of 2. 
-        row_count=$(echo $option_data | python -c $'from __future__ import print_function\nimport sys, json; data=json.loads(sys.stdin.read())\nprint(len(data["rows"]))')
+        row_count=$(echo $option_data | $_python -c $'import sys, json; data=json.loads(sys.stdin.read())\nprint(len(data["rows"]))')
 
         stop=$(expr $row_count - 1)
         for i in $(seq 0 $stop); do 
             export i 
-            value=$(echo $option_data | python -c $'from __future__ import print_function\nimport os, sys, json; data=json.loads(sys.stdin.read())\ne=int(os.environ["i"])\nprint(data["rows"][int(os.environ["i"])]["value"])')
-            key=$(echo $option_data | python -c $'from __future__ import print_function\nimport os, sys, json; data=json.loads(sys.stdin.read())\ne=int(os.environ["i"])\nprint(data["rows"][int(os.environ["i"])]["key"])')
+            value=$(echo $option_data | $_python -c $'import os, sys, json; data=json.loads(sys.stdin.read())\ne=int(os.environ["i"])\nprint(data["rows"][int(os.environ["i"])]["value"])')
+            key=$(echo $option_data | $_python -c $'import os, sys, json; data=json.loads(sys.stdin.read())\ne=int(os.environ["i"])\nprint(data["rows"][int(os.environ["i"])]["key"])')
 
         # If the image file path contains 'com.apple.mobileAssetDesktop', check it has been downloaded via System Preferences (Monterey) or System Settings (Ventura and later). If not, download it. [macOS Monterey 12 and later]
             if [ $major -ge 12 ]; then
