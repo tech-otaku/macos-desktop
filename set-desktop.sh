@@ -132,7 +132,6 @@
         exit 1
     fi
 
-    echo $_python
 
 
 # # # # # # # # # # # # # # # # 
