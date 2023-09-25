@@ -165,7 +165,7 @@
     backup="$HOME/Library/Application Support/Dock/backup"
 
     # The version numbering convention has changed with the release of Big Sur where only the major version number is significant for 
-    # determining if Big Sur is installed i.e. 11.0, 11.1, 11.2 etc are all versions of Big Sur. This is in contrast to earlier macOS 
+    # determining which version of macOS is installed i.e. 11.0, 11.1, 11.2 etc are all versions of Big Sur. This is in contrast to earlier macOS 
     # versions where both the major and minor version numbers are significant i.e 10.15 Catalina, 10.14 Mojave etc.
     major=$(os_version major)
     minor=$(os_version minor)
@@ -203,9 +203,9 @@
 # USAGE CHECKS
 #
 
-# Exit with error if OS version is not 10.14 or later
-    if ! ( ( [ $major -eq 10 ] && [ $minor -ge 14 ] ) || [ $major -ge 11 ] ); then
-        printf "ERROR: For use with macOS 10.14 Mojave or later.\n"
+# Exit with error if OS version is not 10.14 through 13
+    if ! ( ( ( [ $major -eq 10 ] && [ $minor -ge 14 ] ) || [ $major -ge 11 ] ) && [ $major -le 13 ] ); then
+        printf "ERROR: For use with macOS 10.14 Mojave through macOS 13 Ventura only.\n"
         exit 1
     fi
 
