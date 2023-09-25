@@ -1,5 +1,7 @@
 # Set macOS Desktop Image
 
+**IMPORTANT**: [2023-09-25] This repo has not been updated for macOS 14 Sonoma. The last supported version is macOS 13 Ventura.
+
 The scripts `set-desktop-mojave.sh`, `set-desktop-catalina.sh` and `set-desktop-big-sur.sh` have been removed from the repo in favour of `set-desktop.sh` which can be used for all macOS versions since macOS 10.14 Mojave.
 
 See [A Comparison of Apple-supplied Desktop Images Since macOS 10.14 Mojave](https://desktop.tech-otaku.com/)
